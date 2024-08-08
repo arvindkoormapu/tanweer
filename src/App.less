@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'TAN-AESOP';
+  src: url('./fonts/TAN-AESOP/TAN - AESOP.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk';
+  src: url('./fonts/Aktiv Grotesk/AktivGrotesk-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #BE6F3F;
+}
+
+.main-layout {
+  height: 100vh;
+  background: #BE6F3F url('./images/Tanweer Pattern.png') no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 63px;
+  background: transparent;
+  margin-top: 26px;
+  border-bottom: none;
+  margin-bottom: 100px;
+}
+
+.header-mobile {
+  padding-left: 59px !important;
+}
+
+.header-logo {
+  height: 47px;
+}
+
+.header-logo-mobile {
+  height: 31px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 100px);
+  margin-top: -90px;
+}
+
+.rotating-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0px;
+}
+
+.center-mobile {
+  width: 250px;
+  height: 250px;
+}
+
+.breathe-in {
+  color: #FFF5D9;
+  text-align: center;
+  font-family: TAN-AESOP;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 46.34px;
+}
+
+.breathe-in-mobile {
+  font-size: 24px;
+  line-height: 32.71px;
+}
+
+.journey-text {
+  font-family: TAN-AESOP;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFF5D9;
+  text-transform: uppercase;
+}
+
+.journey-text-mobile {
+  font-size: 14px;
+  line-height: 19.08px;
+}
+
+.number-style {
+  font-family: TAN-AESOP;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 47.71px;
+  color: #FFF5D9;
+}
+
+.number-style-mobile {
+  font-size: 20px;
+  line-height: 27.26px;
+  letter-spacing: -0.01em;
+}
+
+.time-style {
+  font-family: Aktiv Grotesk;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.6px;
+  color: #A2441B;
+  text-transform: uppercase;
+}
+
+.time-style-mobile {
+  font-size: 12px;
+  line-height: 15.36px;
+}
+
+.circle-outline {
+  width: 100%;
+  height: auto;
+}
+
+.logo-icon {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  z-index: 1;
+}
+
+.orbit {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotating-circle {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 50%;
+  left: 50%;
+  margin-top: -223.5px;
+  /* Move to the top edge of the circle outline */
+  margin-left: -26.5px;
+  /* Center horizontally on the outline */
+  transform-origin: center 223.5px;
+  /* Rotate around the center of the circle outline */
+  animation: rotate 20s linear infinite;
+}
+
+.rotating-circle-mobile {
+  width: 43px;
+  height: 43px;
+  margin-top: -145.5px;
+  /* Move to the top edge of the circle outline */
+  margin-left: -21.5px;
+  /* Center horizontally on the outline */
+  transform-origin: center 145.5px;
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bottom-text {
+  text-align: center;
+  color: white;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.countdown-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+
+.countdown-column div:first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.loading-message {
+  font-family: TAN-AESOP;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF5D9;
+  font-size: 24px;
+  text-align: center;
+  background: #BE6F3F;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+.loading-message-mobile {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0px 47px;
+}
+
+.mobile .rotating-container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.mobile .logo-icon {
+  width: 70%;
+}
+
+.colon-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -29px;
+}
+
+.colon-style {
+  color: #FFF5D9;
+  font-family: TAN-AESOP;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 47.71px;
+}
+
+.colon-style-mobile {
+  font-size: 20px;
+  line-height: 27.26px;
+  letter-spacing: -0.01em;
+}
