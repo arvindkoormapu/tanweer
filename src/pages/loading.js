@@ -53,11 +53,11 @@ const Loading = () => {
       const rotationTime = 20; // time in seconds for one rotation
       const totalRotationTime = rotations * rotationTime * 1000; // total time in milliseconds
 
-        const redirectTimeout = setTimeout(() => {
-          navigate("/home"); // Redirect to home page
-        }, totalRotationTime);
+        // const redirectTimeout = setTimeout(() => {
+        //   navigate("/home"); // Redirect to home page
+        // }, totalRotationTime);
 
-        return () => clearTimeout(redirectTimeout);
+        // return () => clearTimeout(redirectTimeout);
     }
   }, [loading, navigate]);
 

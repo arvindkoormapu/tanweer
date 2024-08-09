@@ -271,3 +271,10 @@ html,
   line-height: 27.26px;
   letter-spacing: -0.01em;
 }
+
+/* Media Query for mobile devices */
+@media (max-width: 800px) {
+  .main-layout {
+    height: calc(100vh - 56px); /* Adjust as needed */
+}
+}
