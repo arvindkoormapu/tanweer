@@ -1,0 +1,156 @@
+.landing-banner {
+    height: calc(100vh - 175px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-banner .image-container {
+    position: absolute;
+    width: 100%;
+}
+
+.landing-banner .image {
+    height: calc(100vh - 175px);
+    width: 100%;
+    object-fit: cover;
+}
+
+.landing-banner .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    bottom: 10%;
+}
+
+.landing-banner .title {
+    font-family: TAN-AESOP;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 57.25px;
+    text-align: center;
+    color: #FFF5D9;
+    text-transform: uppercase;
+}
+
+.landing-banner .button {
+    background-color: #A2441B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #FFF5D9;
+    text-transform: uppercase;
+    padding: 26px 36px;
+    border-radius: 20px;
+    margin: 90px 0px;
+}
+
+.landing-banner .date {
+    font-family: TAN-AESOP;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 39.53px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #FFF5D9;
+}
+
+.landing-banner .caption {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.78px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #FFF5D9;
+    margin-top: 8px;
+}
+
+.middle-tabs {
+    background-color: #FFF5D9;
+    padding: 54px 0px 44px;
+}
+
+.middle-tabs .text {
+    font-family: TAN-AESOP;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+    color: #EFBB6B;
+    text-transform: uppercase;
+}
+
+.middle-tabs .pattern {
+    height: 30px;
+}
+
+.landing .middle-tabs .space {
+    display: flex;
+    padding: 0px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Media Query for mobile devices */
+@media (max-width: 800px) {
+    .landing-banner {
+        height: calc(100vh - 96px);
+    }
+
+    .landing-banner .image {
+        object-position: 32% center;
+        height: calc(100vh - 96px);
+    }
+
+    .landing-banner .title {
+        font-size: 36px;
+        line-height: 49.07px;
+        word-break: normal;
+        width: 50%;
+    }
+
+    .landing-banner .content {
+        justify-content: center;
+        bottom: -3%;
+    }
+
+    .landing-banner .date {
+        font-size: 22px;
+        line-height: 29.99px;
+        letter-spacing: 0.2em;
+    }
+
+    .landing-banner .button {
+        font-size: 12px;
+        line-height: 14.06px;
+        letter-spacing: 0.06em;
+        padding: 12px 26px;
+        border-radius: 10px;
+        margin: 46px 0px;
+    }
+
+    .landing-banner .caption {
+        font-size: 12px;
+        line-height: 14.06px;
+        letter-spacing: 0.2em;
+    }
+
+    .middle-tabs .text {
+        font-size: 0.7rem;
+        line-height: 19.08px;
+    }
+
+    .middle-tabs {
+        padding: 16px 0px 14px;
+    }
+
+    .middle-tabs .pattern {
+        height: 11px;
+    }
+}

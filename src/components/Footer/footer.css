@@ -1,0 +1,207 @@
+.footer {
+    height: 439px;
+    background: #A2441B url('../../images/footer_pattern.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer-row {
+    flex-direction: row;
+    width: 96%;
+    height: 100%
+}
+
+.footer_logo {
+    height: 149px;
+}
+
+.xlogo {
+    height: 31px;
+}
+
+.iglogo {
+    height: 34px;
+}
+
+.padding-top {
+    padding-top: 15px;
+}
+
+.first-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-year {
+    font-family: Roboto;
+    font-size: 19.41px;
+    font-weight: 400;
+    line-height: 22.74px;
+    color: #FFF5D9;
+}
+
+.logoandicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-text-year {
+    padding-top: 61px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+}
+
+.first-text {
+    font-family: TAN-AESOP;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.71px;
+    color: #FFF5D9;
+    text-transform: uppercase;
+}
+
+.subscribe-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    color: #FFF5D9;
+    text-transform: uppercase;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.custom-input {
+    border-radius: 30px;
+    background-color: #FFF5D9;
+    padding-right: 100px;
+    /* Adjust according to the button width */
+    color: #C06F39;
+    padding: 14px 11px;
+}
+
+.custom-input::placeholder {
+    color: #C06F39;
+}
+
+.custom-input:focus,
+.custom-input:hover,
+.custom-input:active {
+    background-color: #FFF5D9;
+    /* Ensure the background remains the same on focus, hover, and active states */
+    border-color: initial;
+    /* Reset border color */
+    box-shadow: none;
+    /* Remove default shadow */
+}
+
+.custom-button {
+    border-radius: 30px;
+    background-color: #BE6F3F;
+    color: #FFF7E0;
+    border: none;
+    position: absolute;
+    right: -0px;
+    /* Adjust according to the overlap */
+    top: 0;
+    height: 100%;
+}
+
+.custom-button:hover,
+.custom-button:focus,
+.custom-button:active {
+    background-color: #BE6F3F;
+    /* Ensure the background remains the same on hover, focus, and active states */
+    color: #FFF7E0;
+    /* Ensure the text color remains the same on hover, focus, and active states */
+    border-color: none;
+    /* Remove any border change */
+    box-shadow: none;
+    /* Remove default shadow */
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 800px) {
+    .footer {
+        height: 100%;
+        padding: 34px 0px;
+    }
+
+    .footer_logo {
+        height: 99px;
+    }
+
+    .xlogo {
+        height: 25px;
+    }
+
+    .iglogo {
+        height: 25px;
+    }
+
+    .padding-top {
+        padding-top: 30px;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0px !important;
+    }
+
+    .first-text {
+        font-size: 18px;
+        line-height: 24.53px;
+    }
+
+    .subscribe-text {
+        font-size: 12px;
+        line-height: 14.06px;
+    }
+
+    .middle-section {
+        margin-top: 26px;
+        border-top: 1px solid #FFF7E0;
+        padding-top: 30px;
+        padding-bottom: 24px;
+        width: 345px;
+    }
+
+    .bottom-section {
+        margin-top: 0px;
+        border-bottom: 1px solid #FFF7E0;
+        padding-top: 5px;
+        padding-bottom: 30px;
+        width: 345px;
+    }
+
+    .custom-input {
+        padding: 8px 11px;
+    }
+
+    .footer-year {
+        font-size: 12px;
+        line-height: 14.06px;
+    }
+
+    .footer-text-year {
+        padding-top: 34px;
+    }
+}
