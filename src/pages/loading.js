@@ -28,7 +28,7 @@ const Loading = () => {
       setLoading(false);
       setTimeout(() => {
         setAnimationClass('zoom-out'); // Trigger zoom-out effect after 4 seconds
-      }, 4500);
+      }, 4000);
     }, 5000);
 
     // Cleanup timeouts on component unmount
@@ -116,28 +116,6 @@ const Loading = () => {
     };
   }, [navigate]);
 
-  // useEffect(() => {
-  //   const audio = new Audio(loadingMusic);
-  //     audio.play();
-  //   if (!loading) {
-  //     const rotations = 0.5;
-  //     const rotationTime = 10; // time in seconds for one rotation
-  //     const totalRotationTime = rotations * rotationTime * 1000; // total time in milliseconds
-
-  //     const redirectTimeout = setTimeout(() => {
-  //       audio.pause();
-  //       audio.currentTime = 0;
-  //       navigate("/home");
-  //     }, totalRotationTime);
-
-  //     return () => {
-  //       audio.pause();
-  //       audio.currentTime = 0;
-  //       clearTimeout(redirectTimeout);
-  //     };
-  //   }
-  // }, [loading, navigate]);
-
   return (
     <Layout className="main-layout">
       <Header className={`header ${isMobile && "header-mobile"}`}>
@@ -152,7 +130,7 @@ const Loading = () => {
           <div
             className={`loading-message ${
               isMobile && "loading-message-mobile"
-            } ${animationClass}`}
+            } ${!loading && "zoom-out"}`}
           >
             {!isMobile ? (
               <span>
@@ -171,7 +149,7 @@ const Loading = () => {
             <Row
               className={`${
                 isMobile ? "rotating-container mobile" : "rotating-container"
-              } ${animationClass}`}
+              } ${!loading && "zoom-in"}`}
               justify="center"
               align="middle"
             >
