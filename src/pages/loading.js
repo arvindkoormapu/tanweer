@@ -6,6 +6,7 @@ import rotatingCircle from "../images/Rotating Circle.png";
 import circleOutline from "../images/Circle Outline.png";
 import tanweerLogoIcon from "../images/Tanweer Logo Icon.png";
 import headerLogo from "../images/logo_white.png";
+import loadingMusic from "../Tibetan Healing Sounds.mp3";
 
 const { Header, Content } = Layout;
 const { Text } = Typography;
@@ -15,6 +16,26 @@ const Loading = () => {
   const [timeLeft, setTimeLeft] = useState({});
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   const navigate = useNavigate();
+
+  const [animationClass, setAnimationClass] = useState('zoom-in');
+
+  useEffect(() => {
+    // Start with a zoom-in effect
+    setAnimationClass('zoom-in');
+
+    // Simulate a 5-second loading period
+    const loadingTimeout = setTimeout(() => {
+      setLoading(false);
+      setTimeout(() => {
+        setAnimationClass('zoom-out'); // Trigger zoom-out effect after 4 seconds
+      }, 4500);
+    }, 5000);
+
+    // Cleanup timeouts on component unmount
+    return () => {
+      clearTimeout(loadingTimeout);
+    };
+  }, []);
 
   useEffect(() => {
     const loadingTimeout = setTimeout(() => {
@@ -48,18 +69,74 @@ const Loading = () => {
   }, [loading]);
 
   useEffect(() => {
-    if (!loading) {
-      const rotations = 2;
-      const rotationTime = 10; // time in seconds for one rotation
-      const totalRotationTime = rotations * rotationTime * 1000; // total time in milliseconds
+    const audio = new Audio(loadingMusic);
 
-        const redirectTimeout = setTimeout(() => {
-          navigate("/home"); // Redirect to home page
-        }, totalRotationTime);
+    // Function to play audio
+    const playAudio = () => {
+      audio.play().catch((error) => {
+        console.error("Audio playback failed:", error);
+      });
+    };
 
-        return () => clearTimeout(redirectTimeout);
-    }
-  }, [loading, navigate]);
+    // Attempt to play immediately
+    playAudio();
+
+    // Add event listener for interaction or visibility change
+    const handleUserInteraction = () => {
+      playAudio();
+      document.removeEventListener("click", handleUserInteraction);
+      document.removeEventListener("keydown", handleUserInteraction);
+      document.removeEventListener("visibilitychange", handleUserInteraction);
+    };
+
+    // Listen for user interactions or visibility change
+    document.addEventListener("click", handleUserInteraction, { once: true });
+    document.addEventListener("keydown", handleUserInteraction, { once: true });
+    document.addEventListener("visibilitychange", handleUserInteraction, {
+      once: true,
+    });
+
+    const rotations = 1;
+    const rotationTime = 10; // time in seconds for one rotation
+    const totalRotationTime = rotations * rotationTime * 1000; // total time in milliseconds
+
+    const redirectTimeout = setTimeout(() => {
+      audio.pause();
+      audio.currentTime = 0;
+      navigate("/home");
+    }, totalRotationTime);
+
+    return () => {
+      audio.pause();
+      audio.currentTime = 0;
+      clearTimeout(redirectTimeout);
+      document.removeEventListener("click", handleUserInteraction);
+      document.removeEventListener("keydown", handleUserInteraction);
+      document.removeEventListener("visibilitychange", handleUserInteraction);
+    };
+  }, [navigate]);
+
+  // useEffect(() => {
+  //   const audio = new Audio(loadingMusic);
+  //     audio.play();
+  //   if (!loading) {
+  //     const rotations = 0.5;
+  //     const rotationTime = 10; // time in seconds for one rotation
+  //     const totalRotationTime = rotations * rotationTime * 1000; // total time in milliseconds
+
+  //     const redirectTimeout = setTimeout(() => {
+  //       audio.pause();
+  //       audio.currentTime = 0;
+  //       navigate("/home");
+  //     }, totalRotationTime);
+
+  //     return () => {
+  //       audio.pause();
+  //       audio.currentTime = 0;
+  //       clearTimeout(redirectTimeout);
+  //     };
+  //   }
+  // }, [loading, navigate]);
 
   return (
     <Layout className="main-layout">
@@ -75,7 +152,7 @@ const Loading = () => {
           <div
             className={`loading-message ${
               isMobile && "loading-message-mobile"
-            }`}
+            } ${animationClass}`}
           >
             {!isMobile ? (
               <span>
@@ -92,9 +169,9 @@ const Loading = () => {
         ) : (
           <>
             <Row
-              className={
+              className={`${
                 isMobile ? "rotating-container mobile" : "rotating-container"
-              }
+              } ${animationClass}`}
               justify="center"
               align="middle"
             >
@@ -105,7 +182,7 @@ const Loading = () => {
                   BREATHE IN
                 </Text>
               </div>
-              <Col className={`center ${isMobile && 'center-mobile'}`}>
+              <Col className={`center ${isMobile && "center-mobile"}`}>
                 <img
                   src={circleOutline}
                   alt="Circle Outline"
@@ -120,7 +197,9 @@ const Loading = () => {
                   <img
                     src={rotatingCircle}
                     alt="Rotating Circle"
-                    className={`rotating-circle ${isMobile && 'rotating-circle-mobile'}`}
+                    className={`rotating-circle ${
+                      isMobile && "rotating-circle-mobile"
+                    }`}
                   />
                 </div>
               </Col>
