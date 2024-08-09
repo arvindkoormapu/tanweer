@@ -50,7 +50,7 @@ const Loading = () => {
   useEffect(() => {
     if (!loading) {
       const rotations = 2;
-      const rotationTime = 40; // time in seconds for one rotation
+      const rotationTime = 10; // time in seconds for one rotation
       const totalRotationTime = rotations * rotationTime * 1000; // total time in milliseconds
 
         const redirectTimeout = setTimeout(() => {
