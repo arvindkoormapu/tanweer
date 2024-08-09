@@ -173,7 +173,7 @@ html,
   /* Center horizontally on the outline */
   transform-origin: center 223.5px;
   /* Rotate around the center of the circle outline */
-  animation: rotate 20s linear infinite;
+  animation: rotate 40s linear infinite;
 }
 
 .rotating-circle-mobile {
