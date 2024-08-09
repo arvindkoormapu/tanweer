@@ -3,11 +3,14 @@
     background: #A2441B url('../../images/footer_pattern.png') no-repeat center center;
     background-size: cover;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-row {
     flex-direction: row;
-    width: 96%;
+    width: 90%;
     height: 100%
 }
 
@@ -29,7 +32,7 @@
 
 .first-col {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -66,7 +69,7 @@
 
 .first-text {
     font-family: TAN-AESOP;
-    font-size: 24px;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 32.71px;
     color: #FFF5D9;
@@ -75,7 +78,7 @@
 
 .subscribe-text {
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 21.09px;
     color: #FFF5D9;
@@ -91,24 +94,23 @@
     border-radius: 30px;
     background-color: #FFF5D9;
     padding-right: 100px;
-    /* Adjust according to the button width */
     color: #C06F39;
     padding: 14px 11px;
+    border: none;
+    padding-right: 140px;
+    padding-left: 26px;
 }
 
-.custom-input::placeholder {
-    color: #C06F39;
+.custom-input input::placeholder {
+    color: #C06F39 !important;
 }
 
 .custom-input:focus,
 .custom-input:hover,
 .custom-input:active {
-    background-color: #FFF5D9;
-    /* Ensure the background remains the same on focus, hover, and active states */
+    background: #FFF5D9;
     border-color: initial;
-    /* Reset border color */
     box-shadow: none;
-    /* Remove default shadow */
 }
 
 .custom-button {
@@ -118,22 +120,18 @@
     border: none;
     position: absolute;
     right: -0px;
-    /* Adjust according to the overlap */
     top: 0;
     height: 100%;
+    padding: 0px 30px;
 }
 
 .custom-button:hover,
 .custom-button:focus,
 .custom-button:active {
     background-color: #BE6F3F;
-    /* Ensure the background remains the same on hover, focus, and active states */
     color: #FFF7E0;
-    /* Ensure the text color remains the same on hover, focus, and active states */
     border-color: none;
-    /* Remove any border change */
     box-shadow: none;
-    /* Remove default shadow */
 }
 
 /* Media Query for mobile devices */

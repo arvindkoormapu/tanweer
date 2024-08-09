@@ -48,6 +48,7 @@
     padding: 26px 36px;
     border-radius: 20px;
     margin: 90px 0px;
+    cursor: pointer;
 }
 
 .landing-banner .date {
@@ -96,6 +97,102 @@
     align-items: center;
 }
 
+.landing-content {
+    height: 100vh;
+    background: #ffebb9 url('../../images/landing-Pattern.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-content .image {
+    width: 90%;
+    border-radius: 100%;
+}
+
+.landing-content .title {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 34px;
+    color: #731D14;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+    display: flex;
+}
+
+.landing-content .paragraph {
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    text-align: left;
+    color: #731D14;
+}
+
+.subscribe-popup {
+    height: 351px;
+    background: #fff5d9 url('../../images/subscribe_pattern.png');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 7px 7px 25px 10px #00000040;
+    border-radius: 20px;
+    bottom: 15%;
+    position: relative;
+    padding: 20px 30px 20px 40px;
+    flex-direction: column;
+}
+
+.subscribe-h1 {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 42.19px;
+    color: #731D14;
+    text-transform: uppercase;
+    margin-top: -32px;
+}
+
+.subscribe-paragraph {
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 25.78px;
+    text-align: left;
+    color: #BF7139;
+    text-transform: uppercase;
+}
+
+.subscribe-popup .custom-input {
+    background-color: #FFEBB9;
+}
+
+.close-button-container {
+    text-align: right;
+    top: -50px;
+    position: relative;
+}
+
+.close-button-image {
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+}
+
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.subscribe-button .container {
+    width: 90%;
+}
 
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
@@ -152,5 +249,102 @@
 
     .middle-tabs .pattern {
         height: 11px;
+    }
+
+    .landing-content {
+        text-align: center;
+        height: 100%;
+        padding: 40px 0px;
+    }
+
+    .landing-content .image {
+        width: 70%;
+    }
+
+    .landing-content .content-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 3rem;
+    }
+
+    .landing-content .title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        margin-top: 34px;
+    }
+
+    .landing-content .paragraph {
+        font-size: 18px;
+        line-height: 24.35px;
+        letter-spacing: 0.01em;
+        text-align: center;
+    }
+
+    .subscribe-popup {
+        bottom: 5%;
+        width: 77%;
+        height: auto;
+        padding: 40px 30px 40px 40px;
+    }
+
+    .close-button-image {
+        height: 18px;
+        width: 18px;
+    }
+
+    .subscribe-h1 {
+        font-size: 1.5rem;
+        line-height: 29.19px;
+        margin-top: 10px;
+    }
+
+    .close-button-container {
+        top: -10px;
+    }
+
+    .subscribe-paragraph {
+        font-size: 0.9rem;
+    }
+
+    .custom-input-mobile {
+        border-radius: 10px;
+        background-color: #FFEBB9;
+        padding-right: 100px;
+        color: #C06F39;
+        padding: 14px 11px;
+        border: none;
+        padding-right: 26px;
+        padding-left: 26px;
+        margin-top: 20px;
+    }
+
+    .custom-input-mobile:focus,
+    .custom-input-mobile:hover,
+    .custom-input-mobile:active {
+        background: #FFEBB9;
+        border-color: initial;
+        box-shadow: none;
+    }
+
+    .custom-button-mobile {
+        border-radius: 10px;
+        background-color: #BE6F3F !important;
+        color: #FFF7E0 !important;
+        border: none;
+        padding: 25px 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .custom-button-mobile:hover,
+    .custom-button-mobile:focus,
+    .custom-button-mobile:active {
+        background-color: #BE6F3F !important;
+        color: #FFF7E0 !important; 
+        border-color: none;
+        box-shadow: none;
     }
 }
