@@ -275,6 +275,6 @@ html,
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
   .main-layout {
-    height: calc(100vh - 64px); /* Adjust as needed */
+    height: calc(100vh - 84px); /* Adjust as needed */
 }
 }
