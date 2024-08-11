@@ -17,26 +17,6 @@ const Loading = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   const navigate = useNavigate();
 
-  const [animationClass, setAnimationClass] = useState('zoom-in');
-
-  useEffect(() => {
-    // Start with a zoom-in effect
-    setAnimationClass('zoom-in');
-
-    // Simulate a 5-second loading period
-    const loadingTimeout = setTimeout(() => {
-      setLoading(false);
-      setTimeout(() => {
-        setAnimationClass('zoom-out'); // Trigger zoom-out effect after 4 seconds
-      }, 4000);
-    }, 5000);
-
-    // Cleanup timeouts on component unmount
-    return () => {
-      clearTimeout(loadingTimeout);
-    };
-  }, []);
-
   useEffect(() => {
     const loadingTimeout = setTimeout(() => {
       setLoading(false);
@@ -130,7 +110,7 @@ const Loading = () => {
           <div
             className={`loading-message ${
               isMobile && "loading-message-mobile"
-            } ${!loading && "zoom-out"}`}
+            } ${loading && "zoom-out"}`}
           >
             {!isMobile ? (
               <span>
@@ -149,7 +129,7 @@ const Loading = () => {
             <Row
               className={`${
                 isMobile ? "rotating-container mobile" : "rotating-container"
-              } ${!loading && "zoom-in"}`}
+              }`}
               justify="center"
               align="middle"
             >

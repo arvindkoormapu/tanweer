@@ -290,7 +290,7 @@ html,
 
 /* Zoom Out */
 .zoom-out {
-  animation: zoomOut 0.5s ease-out forwards;
+  animation: zoomOut 10s ease-out forwards;
 }
 
 @keyframes zoomOut {
