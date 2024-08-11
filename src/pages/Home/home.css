@@ -27,7 +27,7 @@
 
 .landing-banner .title {
     font-family: TAN-AESOP;
-    font-size: 42px;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 57.25px;
     text-align: center;
@@ -38,22 +38,22 @@
 .landing-banner .button {
     background-color: #A2441B;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 23.44px;
     letter-spacing: 0.2em;
     text-align: center;
     color: #FFF5D9;
     text-transform: uppercase;
-    padding: 26px 36px;
+    padding: 1rem 1.9rem;
     border-radius: 20px;
-    margin: 90px 0px;
+    margin: 4rem 0px;
     cursor: pointer;
 }
 
 .landing-banner .date {
     font-family: TAN-AESOP;
-    font-size: 29px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 39.53px;
     letter-spacing: 0.2em;
@@ -63,7 +63,7 @@
 
 .landing-banner .caption {
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 25.78px;
     letter-spacing: 0.2em;
