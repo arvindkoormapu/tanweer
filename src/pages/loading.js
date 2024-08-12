@@ -14,6 +14,8 @@ const { Text } = Typography;
 const Loading = () => {
   const [loading, setLoading] = useState(true);
   const [timeLeft, setTimeLeft] = useState({});
+  const [text, setText] = useState("IN");
+
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   const navigate = useNavigate();
 
@@ -80,9 +82,14 @@ const Loading = () => {
     const rotationTime = 10; // time in seconds for one rotation
     const totalRotationTime = rotations * rotationTime * 1000; // total time in milliseconds
 
+    setTimeout(() => {
+      setText("OUT");
+    }, 7500);
+
     const redirectTimeout = setTimeout(() => {
       audio.pause();
       audio.currentTime = 0;
+      sessionStorage.setItem("loaded", "true");
       navigate("/home");
     }, totalRotationTime);
 
@@ -137,7 +144,7 @@ const Loading = () => {
                 <Text
                   className={`breathe-in ${isMobile && "breathe-in-mobile"}`}
                 >
-                  BREATHE IN
+                  BREATHE {text}
                 </Text>
               </div>
               <Col className={`center ${isMobile && "center-mobile"}`}>

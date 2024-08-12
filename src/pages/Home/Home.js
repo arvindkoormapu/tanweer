@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Layout, Space, Typography, Row, Col, Input, Button } from "antd";
 import { useMediaQuery } from "react-responsive";
 import Header from "../../components/Header/Header";
@@ -8,6 +8,7 @@ import LandingPageImage from "../../images/landing_page_image.png";
 import Path from "../../images/Path 356.png";
 import LandingFirst from "../../images/landing-first.png";
 import CloseButton from "../../images/Close Button.png";
+import { useNavigate } from 'react-router-dom';
 
 const { Content } = Layout;
 const { Text, Paragraph } = Typography;
@@ -16,6 +17,21 @@ const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
   const [subscribePopup, setSubscribePopup] = useState(false);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const handleUnload = (event) => {
+      sessionStorage.removeItem('loaded');
+    };
+
+    window.addEventListener('unload', handleUnload);
+
+    if (sessionStorage.getItem('loaded') !== 'true') {
+      navigate('/loading');
+    }
+
+    return () => window.removeEventListener('unload', handleUnload);
+  }, [navigate]);
 
   const enableSubscribePopup = () => {
     setSubscribePopup(!subscribePopup);
