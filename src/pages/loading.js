@@ -88,7 +88,7 @@ const Loading = () => {
       totalRotationTime = rotations * rotationTime * 750;
       setTimeout(() => {
         setText("OUT");
-      }, 9500);
+      }, 10000);
     }
     if (!isMobile) {
       rotations = 1;
