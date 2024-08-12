@@ -78,28 +78,12 @@ const Loading = () => {
       once: true,
     });
 
-    let rotations;
-    let rotationTime;
-    let totalRotationTime;
-
-    if (isMobile) {
-      rotations = 2;
-      rotationTime = 10;
-      totalRotationTime = rotations * rotationTime * 750;
-      setTimeout(() => {
-        setText("OUT");
-      }, 10000);
-    }
-    if (!isMobile) {
-      rotations = 1;
-      rotationTime = 10;
-      totalRotationTime = rotations * rotationTime * 1000;
-      setTimeout(() => {
-        setText("OUT");
-      }, 7500);
-    }
-
-   
+    const rotations = 1;
+    const rotationTime = 15;
+    const totalRotationTime = rotations * rotationTime * 1000;
+    setTimeout(() => {
+      setText("OUT");
+    }, 10000);
 
     const redirectTimeout = setTimeout(() => {
       audio.pause();

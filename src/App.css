@@ -184,7 +184,7 @@ html,
   margin-left: -21.5px;
   /* Center horizontally on the outline */
   transform-origin: center 145.5px;
-  animation: rotate 20s linear infinite;
+  animation: rotate 10s linear infinite;
 }
 
 @keyframes rotate {
