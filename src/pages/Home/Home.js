@@ -5,14 +5,17 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import "./home.css";
 import LandingPageImage from "../../images/Home/landing_page_image.webp";
+import LandingPageImageMobile from "../../images/Home/landing_page_image_mobile.webp";
 import Path from "../../images/Path 356.png";
 import LandingFirst from "../../images/Home/landing-first.png";
 import CloseButton from "../../images/Close Button.png";
+import usePageContent from "../../hooks/usePageContent";
 
 const { Content } = Layout;
 const { Text, Paragraph } = Typography;
 
 const Home = () => {
+  const { contentText } = usePageContent("home");
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
   const [subscribePopup, setSubscribePopup] = useState(false);
@@ -21,13 +24,15 @@ const Home = () => {
     setSubscribePopup(!subscribePopup);
   };
 
+  if (!contentText) return <p>No content available</p>;
+
   return (
     <Layout className="landing">
       <Header />
       <Content>
         <div className="landing-banner">
           <div className="image-container">
-            <img src={LandingPageImage} alt="icon" className="image" />
+            <img src={isMobile ? LandingPageImageMobile : LandingPageImage} alt="icon" className="image" />
           </div>
           <div className="content">
             {!subscribePopup ? (
@@ -101,21 +106,18 @@ const Home = () => {
             </Col>
             <Col span={isMobile ? 24 : 12} className="content-row">
               <Text className="title">
-                The first-ever <br />
-                Tanweer Festival
+                {contentText.title.split("\n").map((line, index) => (
+                  <React.Fragment key={index}>
+                    {line}
+                    <br />
+                  </React.Fragment>
+                ))}
               </Text>
               <Paragraph className="paragraph">
-                Introducing the inaugural Tanweer Festival, a three-day
-                celebration that transcends language, culture, and borders.
-                Experience a soulful blend of live music, nourishing food, a
-                vibrant marketplace, and inspiring art installations. Engage in
-                workshops that elevate the soul and partake in on-site
-                experiences like stargazing and horse riding, designed to
-                harmonize the body, mind, and spirit.
+                {contentText.paragraph_one}
               </Paragraph>
               <Paragraph className="paragraph">
-                Sign up for the latest updates on our music performances, art
-                installations, workshops, poetry sessions, and more.
+                {contentText.paragraph_two}
               </Paragraph>
             </Col>
           </Row>
