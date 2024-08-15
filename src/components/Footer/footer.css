@@ -20,10 +20,12 @@
 
 .xlogo {
     height: 31px;
+    cursor: pointer;
 }
 
 .iglogo {
     height: 34px;
+    cursor: pointer;
 }
 
 .padding-top {

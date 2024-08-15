@@ -22,8 +22,21 @@ const Footer = () => {
                   alt="icon"
                   className="iglogo"
                   style={{ marginRight: "30px" }}
+                  onClick={() =>
+                    window.open(
+                      "https://www.instagram.com/tanweerfestival/",
+                      "_blank"
+                    )
+                  }
                 />
-                <img src={XLogo} alt="icon" className="xlogo" />
+                <img
+                  src={XLogo}
+                  alt="icon"
+                  className="xlogo"
+                  onClick={() =>
+                    window.open("https://twitter.com/TanweerFestival", "_blank")
+                  }
+                />
               </div>
             </Col>
             {!isMobile && (

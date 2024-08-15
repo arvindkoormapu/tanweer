@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Layout, Space, Typography, Row, Col, Input, Button } from "antd";
 import { useMediaQuery } from "react-responsive";
 import Header from "../../components/Header/Header";
@@ -8,7 +8,6 @@ import LandingPageImage from "../../images/landing_page_image.png";
 import Path from "../../images/Path 356.png";
 import LandingFirst from "../../images/landing-first.png";
 import CloseButton from "../../images/Close Button.png";
-import { useNavigate } from 'react-router-dom';
 
 const { Content } = Layout;
 const { Text, Paragraph } = Typography;
@@ -17,21 +16,6 @@ const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
   const [subscribePopup, setSubscribePopup] = useState(false);
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const handleUnload = (event) => {
-      sessionStorage.removeItem('loaded');
-    };
-
-    window.addEventListener('unload', handleUnload);
-
-    if (sessionStorage.getItem('loaded') !== 'true') {
-      navigate('/loading');
-    }
-
-    return () => window.removeEventListener('unload', handleUnload);
-  }, [navigate]);
 
   const enableSubscribePopup = () => {
     setSubscribePopup(!subscribePopup);
@@ -90,7 +74,9 @@ const Home = () => {
                       className="custom-input-mobile"
                       placeholder="Email Address"
                     />
-                    <Button className="custom-button-mobile" type="primary">Subscribe</Button>
+                    <Button className="custom-button-mobile" type="primary">
+                      Subscribe
+                    </Button>
                   </div>
                 )}
               </div>
@@ -121,15 +107,15 @@ const Home = () => {
               <Paragraph className="paragraph">
                 Introducing the inaugural Tanweer Festival, a three-day
                 celebration that transcends language, culture, and borders.
+                Experience a soulful blend of live music, nourishing food, a
+                vibrant marketplace, and inspiring art installations. Engage in
+                workshops that elevate the soul and partake in on-site
+                experiences like stargazing and horse riding, designed to
+                harmonize the body, mind, and spirit.
               </Paragraph>
               <Paragraph className="paragraph">
-                At Tanweer, we believe that sacred music is a universal
-                bridge—one that connects souls, uplifts spirits, and fosters
-                harmony among diverse communities.
-                <Paragraph className="paragraph"></Paragraph>
-                Sign up for the latest updated on our upcoming concerts, film
-                screenings, art exhibitions, dance workshops, poetry sessions
-                and more
+                Sign up for the latest updates on our music performances, art
+                installations, workshops, poetry sessions, and more.
               </Paragraph>
             </Col>
           </Row>

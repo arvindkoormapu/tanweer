@@ -7,6 +7,7 @@ import circleOutline from "../images/Circle Outline.png";
 import tanweerLogoIcon from "../images/Tanweer Logo Icon.png";
 import headerLogo from "../images/logo_white.png";
 import loadingMusic from "../Tibetan Healing Sounds.mp3";
+import Home from './Home/Home'
 
 const { Header, Content } = Layout;
 const { Text } = Typography;
@@ -14,6 +15,7 @@ const { Text } = Typography;
 const Loading = () => {
   const [loading, setLoading] = useState(true);
   const [timeLeft, setTimeLeft] = useState({});
+  const [showHomePage, setShowHomePage] = useState(false);
   const [text, setText] = useState("IN");
 
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
@@ -89,7 +91,8 @@ const Loading = () => {
       audio.pause();
       audio.currentTime = 0;
       sessionStorage.setItem("loaded", "true");
-      navigate("/home");
+      // navigate("/home");
+      setShowHomePage(true)
     }, totalRotationTime);
 
     return () => {
@@ -103,6 +106,7 @@ const Loading = () => {
   }, [navigate]);
 
   return (
+    !showHomePage ?
     <Layout className="main-layout">
       <Header className={`header ${isMobile && "header-mobile"}`}>
         <img
@@ -280,6 +284,8 @@ const Loading = () => {
         )}
       </Content>
     </Layout>
+    :
+    <Home />
   );
 };
 
