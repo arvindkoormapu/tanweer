@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Layout, Row, Col, Typography } from "antd";
 import { useMediaQuery } from "react-responsive";
-import rotatingCircle from "../images/Rotating Circle.png";
-import circleOutline from "../images/Circle Outline.png";
-import tanweerLogoIcon from "../images/Tanweer Logo Icon.png";
+import rotatingCircle from "../images/Loading/Rotating Circle.png";
+import circleOutline from "../images/Loading/Circle Outline.png";
+import tanweerLogoIcon from "../images/Loading/Tanweer Logo Icon.webp";
 import headerLogo from "../images/logo_white.png";
 import loadingMusic from "../Tibetan Healing Sounds.mp3";
 import Home from './Home/Home'

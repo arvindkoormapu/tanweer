@@ -4,9 +4,9 @@ import { useMediaQuery } from "react-responsive";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import "./home.css";
-import LandingPageImage from "../../images/landing_page_image.png";
+import LandingPageImage from "../../images/Home/landing_page_image.webp";
 import Path from "../../images/Path 356.png";
-import LandingFirst from "../../images/landing-first.png";
+import LandingFirst from "../../images/Home/landing-first.png";
 import CloseButton from "../../images/Close Button.png";
 
 const { Content } = Layout;

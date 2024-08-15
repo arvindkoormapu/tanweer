@@ -99,7 +99,7 @@
 
 .landing-content {
     height: 100vh;
-    background: #ffebb9 url('../../images/landing-Pattern.png') no-repeat center center;
+    background: #ffebb9 url('../../images/Home/landing-Pattern.png') no-repeat center center;
     background-size: cover;
     width: 100%;
     display: flex;
