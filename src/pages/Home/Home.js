@@ -159,61 +159,53 @@ const Home = () => {
           </div>
           <div className="content">
             <Row>
-              <Col>
-                <Row>
-                  <Col span={isMobile ? 24 : 8}>
-                    <img
-                      className="image"
-                      rel="preload"
-                      src={Image20}
-                      alt="Rotating Circle"
+              <Col span={isMobile ? 24 : 9}>
+                <img
+                  className="image"
+                  rel="preload"
+                  src={Image20}
+                  alt="Rotating Circle"
+                />
+              </Col>
+              <Col span={isMobile ? 24 : 15} className="left-content">
+                <div className="left-content-text">
+                  <Text className="h1">{pages.home.activity.title}</Text>
+                  <Paragraph className="para" style={{ marginTop: "1rem" }}>
+                    {pages.home.activity.description}
+                  </Paragraph>
+                  <div className="button-component-wrapper2">
+                    <ButtonComponent
+                      bgColor="#731D14"
+                      textColor="#FFF5D9"
+                      clickAction={enableSubscribePopup}
+                      text="Book now"
                     />
-                  </Col>
-                  <Col span={isMobile ? 24 : 16} className="left-content">
-                    <div className="left-content-text">
-                      <Text className="h1">{pages.home.activity.title}</Text>
-                      <Paragraph className="para" style={{ marginTop: "1rem" }}>
-                        {pages.home.activity.description}
-                      </Paragraph>
-                      <div className="button-component-wrapper2">
-                        <ButtonComponent
-                          bgColor="#731D14"
-                          textColor="#FFF5D9"
-                          clickAction={enableSubscribePopup}
-                          text="Book now"
-                        />
-                      </div>
-                      <Text className="h1">
-                        {pages.home.activity.slider.title}
-                      </Text>
-                    </div>
-                  </Col>
-                </Row>
-                <Row className="slider">
-                  <Col span={isMobile ? 24 : 7}></Col>
-                  <Col span={isMobile ? 24 : 17}>
-                    <Swiper
-                      spaceBetween={180}
-                      slidesPerView={isMobile ? 2 : 4}
-                      centeredSlides={false}
-                      grabCursor={true}
-                      style={{ width: "100%" }}
-                    >
-                      {pages.home.activity.slider.data.map((elm, index) => (
-                        <SwiperSlide key={index}>
-                          <div>
-                            <img
-                              className="slider-image"
-                              rel="preload"
-                              src={require(`../../${elm.image}`)}
-                              alt="Rotating Circle"
-                            />
-                          </div>
-                        </SwiperSlide>
-                      ))}
-                    </Swiper>
-                  </Col>
-                </Row>
+                  </div>
+                  <Text className="h1">{pages.home.activity.slider.title}</Text>
+                </div>
+
+                <div className="slider">
+                  <Swiper
+                    spaceBetween={180}
+                    slidesPerView={isMobile ? 2 : 4}
+                    centeredSlides={false}
+                    grabCursor={true}
+                    style={{ width: "100%" }}
+                  >
+                    {pages.home.activity.slider.data.map((elm, index) => (
+                      <SwiperSlide key={index}>
+                        <div>
+                          <img
+                            className="slider-image"
+                            rel="preload"
+                            src={require(`../../${elm.image}`)}
+                            alt="Rotating Circle"
+                          />
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
               </Col>
             </Row>
           </div>
