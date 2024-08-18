@@ -80,7 +80,7 @@ const Footer = () => {
                 flexDirection: "row",
                 alignItems: "flex-start",
                 marginTop: "74px",
-                justifyContent: "space-evenly",
+                justifyContent: "space-between",
               }}
             >
               {pages.footer.footer_menu_header.map((elm, i) => (
