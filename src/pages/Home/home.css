@@ -422,11 +422,10 @@
     }
 
     .slider {
-        /* display: flex;
-        justify-content: center;
-        position: relative;
-        top: 3%;
-        left: 13%; */
+        margin-left: 27%;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .program-section {
@@ -435,7 +434,7 @@
     }
 
     .activities-section .content {
-        height: calc(100vh - 150px);
+        height: 100%;
     }
 
     .activities-section .button-component-wrapper2 {
