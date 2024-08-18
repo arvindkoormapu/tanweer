@@ -1,19 +1,19 @@
 .top-header {
     background-color: #a2441b;
     width: 100%;
-    height: 60px;
+    /* height: 60px; */
 }
 
 .top-header .space {
     display: flex;
-    padding: 16.5px 30px;
+    padding: 0.8rem 30px;
     justify-content: space-between;
     align-items: center;
 }
 
 .top-header .text {
     font-family: Roboto;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 300;
     line-height: 24.73px;
     text-align: left;
@@ -22,22 +22,39 @@
 }
 
 .top-header .pattern {
-    height: 24px;
+    height: 18px;
 }
 
 .logo-section {
     background-color: #fff5d9;
     width: 100%;
-    padding: 33px 0px;
+    padding: 1.6rem 0px;
 }
 
-.logo-wrapper {
+.header-wrapper {
     width: 90%;
     margin: 0 auto;
 }
 
 .header-logo {
-    height: 46px !important;
+    height: 37px !important;
+    cursor: pointer;
+}
+
+.menu-links-header .links{
+    font-family: Roboto;
+    font-size: 0.9rem;
+    color: #731D14;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0px 18px;
+    z-index: 1;
+    position: relative;
+}
+
+.active-menu{
+    border-bottom: 1px solid #731D14;
+    font-weight: bold;
 }
 
 /* Media Query for mobile devices */

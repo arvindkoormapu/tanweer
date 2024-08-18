@@ -7,7 +7,7 @@ import circleOutline from "../images/Loading/Circle Outline.png";
 import tanweerLogoIcon from "../images/Loading/Tanweer Logo Icon.webp";
 import headerLogo from "../images/logo_white.png";
 import loadingMusic from "../Tibetan Healing Sounds.mp3";
-import Home from './Home/Home'
+import Home from "./Home/Home";
 
 const { Header, Content } = Layout;
 const { Text } = Typography;
@@ -15,7 +15,6 @@ const { Text } = Typography;
 const Loading = () => {
   const [loading, setLoading] = useState(true);
   const [timeLeft, setTimeLeft] = useState({});
-  const [showHomePage, setShowHomePage] = useState(false);
   const [text, setText] = useState("IN");
 
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
@@ -91,8 +90,7 @@ const Loading = () => {
       audio.pause();
       audio.currentTime = 0;
       sessionStorage.setItem("loaded", "true");
-      // navigate("/home");
-      setShowHomePage(true)
+      navigate("/home");
     }, totalRotationTime);
 
     return () => {
@@ -106,10 +104,10 @@ const Loading = () => {
   }, [navigate]);
 
   return (
-    !showHomePage ?
     <Layout className="main-layout">
       <Header className={`header ${isMobile && "header-mobile"}`}>
         <img
+          rel="preload"
           src={headerLogo}
           alt="Header Logo"
           className={`header-logo ${isMobile && "header-logo-mobile"}`}
@@ -152,17 +150,20 @@ const Loading = () => {
               </div>
               <Col className={`center ${isMobile && "center-mobile"}`}>
                 <img
+                  rel="preload"
                   src={circleOutline}
                   alt="Circle Outline"
                   className="circle-outline"
                 />
                 <img
+                  rel="preload"
                   src={tanweerLogoIcon}
                   alt="Tanweer Logo Icon"
                   className="logo-icon"
                 />
                 <div className="orbit">
                   <img
+                    rel="preload"
                     src={rotatingCircle}
                     alt="Rotating Circle"
                     className={`rotating-circle ${
@@ -284,8 +285,6 @@ const Loading = () => {
         )}
       </Content>
     </Layout>
-    :
-    <Home />
   );
 };
 

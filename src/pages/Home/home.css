@@ -1,5 +1,5 @@
 .landing-banner {
-    height: calc(100vh - 175px);
+    height: calc(100vh - 141px);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 .landing-banner .image {
-    height: calc(100vh - 175px);
+    height: calc(100vh - 141px);
     width: 100%;
     object-fit: cover;
 }
@@ -74,12 +74,12 @@
 
 .middle-tabs {
     background-color: #FFF5D9;
-    padding: 54px 0px 44px;
+    padding: 2rem 0px 1.9rem;
 }
 
 .middle-tabs .text {
     font-family: TAN-AESOP;
-    font-size: 48px;
+    font-size: 2rem;
     font-weight: 400;
     text-align: left;
     color: #EFBB6B;
@@ -87,7 +87,7 @@
 }
 
 .middle-tabs .pattern {
-    height: 30px;
+    height: 24px;
 }
 
 .landing .middle-tabs .space {
@@ -108,7 +108,7 @@
 }
 
 .landing-content .image {
-    width: 90%;
+    width: 80%;
     border-radius: 100%;
 }
 
@@ -194,6 +194,55 @@
     width: 90%;
 }
 
+.program-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    flex-direction: column;
+}
+
+.activities-section .content {
+    height: calc(100vh - 50px);
+    background-color: #FFF5D9;
+}
+
+.activities-section .image {
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+.button-component-wrapper {
+    margin: 40px;
+}
+
+.left-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 137px;
+}
+
+.left-content-text {
+    width: 67%;
+    padding-left: 5rem;
+}
+
+.activities-section .button-component-wrapper2 {
+    margin: 40px 0px 80px;
+}
+
+.activities-section .slider-image {
+    width: 280px;
+    border-radius: 20px;
+}
+
+.slider {
+    position: relative;
+    top: -33%;
+}
+
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
     .landing-banner {
@@ -214,7 +263,7 @@
 
     .landing-banner .content {
         justify-content: center;
-        bottom: -3%;
+        bottom: -4%;
     }
 
     .landing-banner .date {
@@ -343,8 +392,52 @@
     .custom-button-mobile:focus,
     .custom-button-mobile:active {
         background-color: #BE6F3F !important;
-        color: #FFF7E0 !important; 
+        color: #FFF7E0 !important;
         border-color: none;
         box-shadow: none;
+    }
+
+    .button-component-wrapper {
+        margin: 50px;
+    }
+
+    .activities-section .image {
+        height: 171px;
+        object-fit: cover;
+        object-position: 50% 71%;
+    }
+
+    .left-content {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .left-content-text {
+        width: 79%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+    .slider {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 3%;
+        left: 13%;
+    }
+
+    .program-section {
+        height: 100% !important;
+        padding: 60px 0px;
+    }
+
+    .activities-section .content {
+        height: calc(100vh - 150px);
+    }
+
+    .activities-section .button-component-wrapper2 {
+        margin: 20px 0px 40px;
     }
 }

@@ -1,0 +1,28 @@
+{
+    "links": [
+        {
+            "title": "About",
+            "link": "/about"
+        },
+        {
+            "title": "Program",
+            "link": "/program"
+        },
+        {
+            "title": "Stay & Activities",
+            "link": "/stay_activities"
+        },
+        {
+            "title": "Festival Passes",
+            "link": "/festival_passes"
+        },
+        {
+            "title": "MERCH",
+            "link": "/merch"
+        }
+    ],
+    "top_section": {
+        "text": "your journey Begins here",
+        "date": "22, 23, 24 NOVEMBER, 2024"
+    }
+}

@@ -1,0 +1,40 @@
+.full-page-drawer {
+    height: 100vh;
+    background: #fff5d9 !important;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.full-page-drawer .close-button-image{
+    margin-bottom: 2rem;
+}
+
+.menu-links .links {
+    font-family: Roboto;
+    font-size: 1.8rem;
+    color: #731D14;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0.5rem 0px;
+    display: inline-block;
+}
+
+.menu-links .links:active {
+    border-bottom: 1px solid #731D14;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .full-page-drawer .ant-drawer-content-wrapper {
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .full-page-drawer .ant-drawer-body {
+        padding: 0;
+    }
+
+    .full-page-drawer .drawer-content {
+        height: 100vh;
+    }
+}

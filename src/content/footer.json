@@ -1,0 +1,45 @@
+{
+    "footer_menu_header": [
+        {
+            "title": "ABOUT \nTanweer",
+            "section": [
+                "Vision",
+                "mission",
+                "Totems",
+                "Sustainability"
+            ]
+        },
+        {
+            "title": "PROGRAM",
+            "section": [
+                "Music",
+                "Workshops",
+                "Art installations"
+            ]
+        },
+        {
+            "title": "STAY \n& ACTIVITIES",
+            "section": [
+                "MLEIHA",
+                "CAMPING",
+                "HOTELS OFFERS"
+            ]
+        },
+        {
+            "title": "Festival \nPasses",
+            "section": []
+        },
+        {
+            "title": "MERCH",
+            "section": []
+        },
+        {
+            "title": "support",
+            "section": [
+                "contact us",
+                "terms of use",
+                "partners"
+            ]
+        }
+    ]
+}

@@ -1,46 +1,56 @@
 import React, { useState } from "react";
 import { Layout, Space, Typography, Row, Col, Input, Button } from "antd";
 import { useMediaQuery } from "react-responsive";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
-import "./home.css";
 import LandingPageImage from "../../images/Home/landing_page_image.webp";
 import LandingPageImageMobile from "../../images/Home/landing_page_image_mobile.webp";
+import PatternIcon from "../../images/Pattern_Icon.png";
 import Path from "../../images/Path 356.png";
 import LandingFirst from "../../images/Home/landing-first.png";
 import CloseButton from "../../images/Close Button.png";
-import usePageContent from "../../hooks/usePageContent";
+import { useData } from "../../hooks/useData";
+import Program from "./Program/Program";
+import ButtonComponent from "../../components/Button/Button";
+import Image20 from "../../images/Home/Image20.webp";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css"; // Import core Swiper styles
+import "swiper/css/navigation";
+import "./home.css";
 
 const { Content } = Layout;
 const { Text, Paragraph } = Typography;
 
 const Home = () => {
-  const { contentText } = usePageContent("home");
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
-
+  const { pages } = useData();
   const [subscribePopup, setSubscribePopup] = useState(false);
 
   const enableSubscribePopup = () => {
     setSubscribePopup(!subscribePopup);
   };
 
-  if (!contentText) return <p>No content available</p>;
-
   return (
     <Layout className="landing">
-      <Header />
       <Content>
         <div className="landing-banner">
           <div className="image-container">
-            <img src={isMobile ? LandingPageImageMobile : LandingPageImage} alt="icon" className="image" />
+            <img
+              src={isMobile ? LandingPageImageMobile : LandingPageImage}
+              alt="icon"
+              className="image"
+            />
           </div>
           <div className="content">
             {!subscribePopup ? (
               <>
-                <Text className="title">your journey Begins here</Text>
-                <Text className="button" onClick={enableSubscribePopup}>
-                  Register your interest
-                </Text>
+                <Text className="title">{pages.home.landing.title}</Text>
+                <div className="button-component-wrapper">
+                  <ButtonComponent
+                    bgColor="#A2441B"
+                    textColor="#FFF5D9"
+                    clickAction={enableSubscribePopup}
+                    text="Register your interest"
+                  />
+                </div>
               </>
             ) : (
               <div className="subscribe-popup">
@@ -86,8 +96,8 @@ const Home = () => {
                 )}
               </div>
             )}
-            <Text className="date">22, 23, 24 NOVEMBER, 2024</Text>
-            <Text className="caption">MLEIHA - SHARJAH - UAE</Text>
+            <Text className="date">{pages.home.landing.date}</Text>
+            <Text className="caption">{pages.home.landing.location}</Text>
           </div>
         </div>
         <div className="middle-tabs">
@@ -106,24 +116,109 @@ const Home = () => {
             </Col>
             <Col span={isMobile ? 24 : 12} className="content-row">
               <Text className="title">
-                {contentText.title.split("\n").map((line, index) => (
-                  <React.Fragment key={index}>
-                    {line}
-                    <br />
-                  </React.Fragment>
-                ))}
+                {pages.home.introduction.title
+                  .split("\n")
+                  .map((line, index) => (
+                    <React.Fragment key={index}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))}
               </Text>
               <Paragraph className="paragraph">
-                {contentText.paragraph_one}
+                {pages.home.introduction.paragraph_one}
               </Paragraph>
               <Paragraph className="paragraph">
-                {contentText.paragraph_two}
+                {pages.home.introduction.paragraph_two}
               </Paragraph>
             </Col>
           </Row>
         </div>
+
+        <div className="main-layout program-section">
+          <Program />
+        </div>
+
+        <div className="activities-section">
+          <div className="top-header">
+            <Space className="space">
+              <img src={PatternIcon} alt="icon" className="pattern" />
+              <Text className="text">{pages.header.top_section.text}</Text>
+              <img src={PatternIcon} alt="icon" className="pattern" />
+              <Text className="text">ACTIVITIES</Text>
+              <img src={PatternIcon} alt="icon" className="pattern" />
+              {!isMobile && (
+                <>
+                  <Text className="text">{pages.header.top_section.text}</Text>
+                  <img src={PatternIcon} alt="icon" className="pattern" />
+                  <Text className="text">ACTIVITIES</Text>
+                  <img src={PatternIcon} alt="icon" className="pattern" />
+                </>
+              )}
+            </Space>
+          </div>
+          <div className="content">
+            <Row>
+              <Col>
+                <Row>
+                  <Col span={isMobile ? 24 : 8}>
+                    <img
+                      className="image"
+                      rel="preload"
+                      src={Image20}
+                      alt="Rotating Circle"
+                    />
+                  </Col>
+                  <Col span={isMobile ? 24 : 16} className="left-content">
+                    <div className="left-content-text">
+                      <Text className="h1">{pages.home.activity.title}</Text>
+                      <Paragraph className="para" style={{ marginTop: "1rem" }}>
+                        {pages.home.activity.description}
+                      </Paragraph>
+                      <div className="button-component-wrapper2">
+                        <ButtonComponent
+                          bgColor="#731D14"
+                          textColor="#FFF5D9"
+                          clickAction={enableSubscribePopup}
+                          text="Book now"
+                        />
+                      </div>
+                      <Text className="h1">
+                        {pages.home.activity.slider.title}
+                      </Text>
+                    </div>
+                  </Col>
+                </Row>
+                <Row className="slider">
+                  <Col span={isMobile ? 24 : 7}></Col>
+                  <Col span={isMobile ? 24 : 17}>
+                    <Swiper
+                      spaceBetween={180}
+                      slidesPerView={isMobile ? 2 : 4}
+                      centeredSlides={false}
+                      grabCursor={true}
+                      style={{ width: "100%" }}
+                    >
+                      {pages.home.activity.slider.data.map((elm, index) => (
+                        <SwiperSlide key={index}>
+                          <div>
+                            <img
+                              className="slider-image"
+                              rel="preload"
+                              src={require(`../../${elm.image}`)}
+                              alt="Rotating Circle"
+                            />
+                          </div>
+                        </SwiperSlide>
+                      ))}
+                    </Swiper>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </div>
+        </div>
       </Content>
-      <Footer />
     </Layout>
   );
 };
