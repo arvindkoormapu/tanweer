@@ -123,8 +123,8 @@ function Programs() {
 
             {isMobile ? (
               <Swiper
-                spaceBetween={2}
-                slidesPerView={isMobile ? 2 : 4}
+                spaceBetween={220}
+                slidesPerView={2}
                 centeredSlides={false}
                 grabCursor={true}
                 style={{ width: "100%", paddingBottom: '10px' }}

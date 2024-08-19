@@ -64,6 +64,10 @@
 
     .artist-wrapper {
         padding: 20px;
-        /* margin: 0px !important; */
+    }
+
+    .art-images{
+        width: 300px;
+        height: 300px;
     }
 }
