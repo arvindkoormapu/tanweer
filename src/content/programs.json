@@ -1,0 +1,84 @@
+{
+    "slides": [
+        {
+            "name": "Sami Yusuf",
+            "date": "22 November 2024",
+            "time": "20:15 PM",
+            "location": "ENLIGHTENED ARENA",
+            "image": "images/Programs/image1.webp"
+        },
+        {
+            "name": "Sami Yusuf",
+            "date": "22 November 2024",
+            "time": "20:15 PM",
+            "location": "ENLIGHTENED ARENA",
+            "image": "images/Programs/image1.webp"
+        },
+        {
+            "name": "Sami Yusuf",
+            "date": "22 November 2024",
+            "time": "20:15 PM",
+            "location": "ENLIGHTENED ARENA",
+            "image": "images/Programs/image1.webp"
+        }
+    ],
+    "dates": [
+        "Friday 22",
+        "Saturday 23",
+        "sunday 24"
+    ],
+    "tabData": [
+        [
+            [
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp"
+            ],
+            [
+                "images/Programs/artist_2.webp",
+                "images/Programs/artist_2.webp",
+                "images/Programs/artist_2.webp",
+                "images/Programs/artist_2.webp"
+            ],
+            [
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp"
+            ]
+        ],
+        [
+            [
+                "images/Programs/artist_2.webp",
+                "images/Programs/artist_2.webp",
+                "images/Programs/artist_2.webp",
+                "images/Programs/artist_2.webp"
+            ],
+            [
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp"
+            ],
+            [
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp",
+                "images/Programs/artist_1.webp"
+            ]
+        ]
+    ],
+    "art": [
+        "images/Programs/art1.webp",
+        "images/Programs/art2.webp",
+        "images/Programs/art1.webp",
+        "images/Programs/art2.webp",
+        "images/Programs/art1.webp",
+        "images/Programs/art2.webp",
+        "images/Programs/art1.webp",
+        "images/Programs/art2.webp",
+        "images/Programs/art1.webp",
+        "images/Programs/art2.webp"
+    ]
+}

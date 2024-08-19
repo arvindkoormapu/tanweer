@@ -7,8 +7,12 @@ import {
 import Loading from "./pages/loading";
 import MainLayout from "./components/Layout/MainLayout";
 import SimpleLayout from "./components/Layout/SimpleLayout";
-import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import ViewProgram from "./pages/ViewProgram";
+import Programs from "./pages/Program";
+
+
 import "./App.css";
 
 const App = () => {
@@ -28,6 +32,22 @@ const App = () => {
           element={
             <MainLayout>
               <About />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/view-program"
+          element={
+            <MainLayout>
+              <ViewProgram />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/programs"
+          element={
+            <MainLayout>
+              <Programs />
             </MainLayout>
           }
         />

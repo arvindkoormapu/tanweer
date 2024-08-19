@@ -8,8 +8,8 @@ import Path from "../../images/Path 356.png";
 import LandingFirst from "../../images/Home/landing-first.png";
 import CloseButton from "../../images/Close Button.png";
 import { useData } from "../../hooks/useData";
-import Program from "./Program/Program";
-import ButtonComponent from "../../components/Button/Button";
+import Program from "./Program";
+import ButtonComponent from "../../components/Button";
 import Image20 from "../../images/Home/Image20.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Import core Swiper styles
@@ -22,6 +22,7 @@ const { Text, Paragraph } = Typography;
 const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   const { pages } = useData();
+
   const [subscribePopup, setSubscribePopup] = useState(false);
 
   const enableSubscribePopup = () => {
@@ -100,6 +101,7 @@ const Home = () => {
             <Text className="caption">{pages.home.landing.location}</Text>
           </div>
         </div>
+        
         <div className="middle-tabs">
           <Space direction="horizontal" size="middle" className="space">
             <Text className="text">music</Text>
@@ -109,6 +111,7 @@ const Home = () => {
             <Text className="text">ARt</Text>
           </Space>
         </div>
+
         <div className="landing-content">
           <Row align="middle" justify="center" style={{ width: "90%" }}>
             <Col span={isMobile ? 24 : 12}>
@@ -194,13 +197,19 @@ const Home = () => {
                   >
                     {pages.home.activity.slider.data.map((elm, index) => (
                       <SwiperSlide key={index}>
-                        <div>
+                        <div
+                          style={{
+                            position: "relative",
+                            display: "inline-block",
+                          }}
+                        >
                           <img
                             className="slider-image"
                             rel="preload"
                             src={require(`../../${elm.image}`)}
                             alt="Rotating Circle"
                           />
+                          <Text className="image-title-slide">{elm.title}</Text>
                         </div>
                       </SwiperSlide>
                     ))}

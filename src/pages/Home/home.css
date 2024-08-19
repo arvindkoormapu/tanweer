@@ -90,7 +90,7 @@
     height: 24px;
 }
 
-.landing .middle-tabs .space {
+.middle-tabs .space {
     display: flex;
     padding: 0px 10%;
     justify-content: space-between;
@@ -242,6 +242,20 @@
     margin-left: -7%;
     width: 107%;
     margin-top: 30px;
+}
+
+.image-title-slide {
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 25.78px;
+    text-align: center;
+    color: #FFF5D9;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;
+    right: 0px;
+    left: 0px;
 }
 
 /* Media Query for mobile devices */

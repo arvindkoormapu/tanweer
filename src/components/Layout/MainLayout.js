@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Header from '../Header/Header';
-import Footer from "../Footer/Footer";
+import Header from '../Header';
+import Footer from "../Footer";
 
-import Drawer from '../Drawer/Drawer';
+import Drawer from '../Drawer';
 
 const MainLayout = ({ children }) => {
   const [isDrawerVisible, setIsDrawerVisible] = useState(false);

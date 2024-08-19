@@ -6,7 +6,7 @@
         },
         {
             "title": "Program",
-            "link": "/program"
+            "link": "/programs"
         },
         {
             "title": "Stay & Activities",
@@ -17,8 +17,8 @@
             "link": "/festival_passes"
         },
         {
-            "title": "MERCH",
-            "link": "/merch"
+            "title": "contact",
+            "link": "/contact"
         }
     ],
     "top_section": {

@@ -7,7 +7,7 @@ import circleOutline from "../images/Loading/Circle Outline.png";
 import tanweerLogoIcon from "../images/Loading/Tanweer Logo Icon.webp";
 import headerLogo from "../images/logo_white.png";
 import loadingMusic from "../Tibetan Healing Sounds.mp3";
-import Home from "./Home/Home";
+import Home from "./Home";
 
 const { Header, Content } = Layout;
 const { Text } = Typography;
