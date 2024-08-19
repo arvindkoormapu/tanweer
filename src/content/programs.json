@@ -70,15 +70,35 @@
         ]
     ],
     "art": [
-        "images/Programs/art1.webp",
-        "images/Programs/art2.webp",
-        "images/Programs/art1.webp",
-        "images/Programs/art2.webp",
-        "images/Programs/art1.webp",
-        "images/Programs/art2.webp",
-        "images/Programs/art1.webp",
-        "images/Programs/art2.webp",
-        "images/Programs/art1.webp",
-        "images/Programs/art2.webp"
+        {
+            "image": "images/Programs/art1.webp",
+            "name": "Khalid Shafar",
+            "caption": "Owned Artworks"
+        },
+        {
+            "image": "images/Programs/art2.webp",
+            "name": "Khalid Shafar",
+            "caption": "Owned Artworks"
+        },
+        {
+            "image": "images/Programs/art1.webp",
+            "name": "Khalid Shafar",
+            "caption": "Owned Artworks"
+        },
+        {
+            "image": "images/Programs/art2.webp",
+            "name": "Khalid Shafar",
+            "caption": "Owned Artworks"
+        },
+        {
+            "image": "images/Programs/art1.webp",
+            "name": "Khalid Shafar",
+            "caption": "Owned Artworks"
+        },
+        {
+            "image": "images/Programs/art2.webp",
+            "name": "Khalid Shafar",
+            "caption": "Owned Artworks"
+        }
     ]
 }

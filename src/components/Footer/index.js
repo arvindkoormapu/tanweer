@@ -73,7 +73,7 @@ const Footer = () => {
               </div>
             )}
           </Space>
-          {!isMobile && (
+          {/* {!isMobile && (
             <Space
               size="large"
               style={{
@@ -105,7 +105,7 @@ const Footer = () => {
                 </div>
               ))}
             </Space>
-          )}
+          )} */}
         </Col>
 
         {isMobile && (
@@ -124,12 +124,12 @@ const Footer = () => {
               </div>
             </Col>
             <Col className="footer-text-year">
-              <Space size="middle" direction="vertical">
+              {/* <Space size="middle" direction="vertical">
                 {pages.footer.footer_menu_header.map((elm, i) => (
                   <Text className="footer-links">{elm.title}</Text>
                 ))}
                 <Text className="footer-links">UNSUSCRIBE</Text>
-              </Space>
+              </Space> */}
 
               <Text className="footer-year">© 2024 Tanweer Festival</Text>
             </Col>

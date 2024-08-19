@@ -1,10 +1,8 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Loading from "./pages/loading";
+import Landing from "./pages/Landing";
+
 import MainLayout from "./components/Layout/MainLayout";
 import SimpleLayout from "./components/Layout/SimpleLayout";
 import Home from "./pages/Home";
@@ -12,14 +10,21 @@ import About from "./pages/About";
 import ViewProgram from "./pages/ViewProgram";
 import Programs from "./pages/Program";
 
-
 import "./App.css";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-      <Route
+        <Route
+          path="/landing"
+          element={
+            <MainLayout>
+              <Landing />
+            </MainLayout>
+          }
+        />
+        <Route
           path="/home"
           element={
             <MainLayout>

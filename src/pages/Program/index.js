@@ -127,7 +127,7 @@ function Programs() {
                 slidesPerView={2}
                 centeredSlides={false}
                 grabCursor={true}
-                style={{ width: "100%", paddingBottom: '10px' }}
+                style={{ width: "100%", paddingBottom: "10px" }}
               >
                 {pages.programs.art.map((elm, index) => (
                   <SwiperSlide key={index}>
@@ -139,8 +139,7 @@ function Programs() {
                     >
                       <img
                         className="art-images"
-                        rel="preload"
-                        src={require(`../../${elm}`)}
+                        src={require(`../../${elm.image}`)}
                         alt="Rotating Circle"
                       />
                     </div>
@@ -152,11 +151,24 @@ function Programs() {
                 <Row key={index}>
                   {chunk.map((elm, idx) => (
                     <Col key={idx} className="p-0" xs={24} sm={12} md={6}>
-                      <img
-                        className="art-images"
-                        src={require(`../../${elm}`)}
-                        alt="icon"
-                      />
+                      <div
+                        style={{
+                          position: "relative",
+                          display: "inline-block",
+                        }}
+                      >
+                        <img
+                          className="art-images"
+                          src={require(`../../${elm.image}`)}
+                          alt="icon"
+                        />
+                        <div
+                          style={{ display: "flex", flexDirection: "column" }}
+                        >
+                          <Text className="name">{elm.name}</Text>
+                          <Text className="caption">{elm.caption}</Text>
+                        </div>
+                      </div>
                     </Col>
                   ))}
                 </Row>
