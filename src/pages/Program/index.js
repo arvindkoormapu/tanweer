@@ -151,19 +151,14 @@ function Programs() {
                 <Row key={index}>
                   {chunk.map((elm, idx) => (
                     <Col key={idx} className="p-0" xs={24} sm={12} md={6}>
-                      <div
-                        style={{
-                          position: "relative",
-                          display: "inline-block",
-                        }}
-                      >
+                      <div className="art-slide">
                         <img
                           className="art-images"
                           src={require(`../../${elm.image}`)}
                           alt="icon"
                         />
                         <div
-                          style={{ display: "flex", flexDirection: "column" }}
+                          className="text-wrapper"
                         >
                           <Text className="name">{elm.name}</Text>
                           <Text className="caption">{elm.caption}</Text>

@@ -3,5 +3,53 @@
         "text": "Music is a sacred, elemental, and dynamic force – a euphoric common language that can elevate and guide us all to something greater and more noble than ourselves. In Arabic, Tanweer means “enlightenment” and I have founded the Tanweer Festival to bring together artists and audiences from around the world that understand the important role music has in unlocking ancient and sacred wisdoms – wisdoms which have the power to enlighten and inspire the world.",
         "caption": "Bodour bint Sultan bin Mohammed Al Qasimi",
         "image": "images/About/image1.webp"
+    },
+    "mission_section": {
+        "first_title": "Festival Mission",
+        "first_deccription1": "By harnessing the transformative power of music, the Tanweer Festival deepens understanding of diverse cultures, heritage, creativity, and wisdom from around the world. Tanweer provides a platform where musical expression can connect different cultures and religions, promoting tolerance, understanding, appreciation, respect, and peace. Where words fail, music speaks!",
+        "first_deccription2": "Each year, the festival explores a new theme, bringing together renowned and upcoming performers to preserve and reimagine sacred music from around the world and showcasing its rich diversity. As the vibrant heart of education and heritage in the UAE, Sharjah serves as the ideal hub for this artistic and cultural exchange.",
+        "second_title": "Totems of Inspiration",
+        "second_deccription": "The totems at Tanweer are symbolic representations of our core values and themes. They serve as guiding pillars that reflect our commitment to cultural preservation, artistic expression, and spiritual enlightenment. ",
+        "image": "images/About/CircleImage.webp"
+    },
+    "mission_section1": [
+        {
+            "image": "images/About/Reverent Icon.webp",
+            "title": "Reverent",
+            "description": "Through sacred sounds, we aim to create a sense of reverence and remembrance for the old ways while also fostering unity and connection among all beings."
+        },
+        {
+            "image": "images/About/Nourishing Icon.webp",
+            "title": "Nourishing",
+            "description": "The festival emphasizes the importance of nourishing the body, mind, and spirit, with a focus on healthy food, self-care, and mindfulness practices."
+        },
+        {
+            "image": "images/About/Transformative Icon.webp",
+            "title": "TRANSFORMATIVE",
+            "description": "The festival has the potential to be a transformative experience for attendees, allowing them to deepen their connection to their cultural roots and explore new ways of being."
+        }
+    ],
+    "sustainable": {
+        "title": "Sustainable Harmony",
+        "description": "At Tanweer, we are deeply committed to sustainability and environmental consciousness in every aspect of our festival. We believe that sustainability is not just a necessity but a responsibility, and we are dedicated to making a positive impact on our community and the planet.",
+        "description2": "Join us and experience the magic of Tanweer while knowing that you are also contributing to a sustainable future. We promise you an unforgettable experience that combines the joy of the festival with the fulfillment of protecting our planet. Together, we can create a better world for everyone.",
+        "slider": [
+            {
+                "image": "images/About/slide1.webp",
+                "title": "Eco-friendly materials",
+                "description": "We require all our vendors to use eco-friendly materials and packaging. By doing so, we ensure that every aspect of the festival contributes to environmental preservation. From food containers to merchandise bags, every item is selected with sustainability in mind."
+            },
+            {
+                "image": "images/About/slide1.webp",
+                "title": "Eco-friendly materials",
+                "description": "We require all our vendors to use eco-friendly materials and packaging. By doing so, we ensure that every aspect of the festival contributes to environmental preservation. From food containers to merchandise bags, every item is selected with sustainability in mind."
+            },
+            {
+                "image": "images/About/slide1.webp",
+                "title": "Eco-friendly materials",
+                "description": "We require all our vendors to use eco-friendly materials and packaging. By doing so, we ensure that every aspect of the festival contributes to environmental preservation. From food containers to merchandise bags, every item is selected with sustainability in mind."
+            }
+        ]
     }
+
 }

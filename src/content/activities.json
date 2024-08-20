@@ -1,0 +1,99 @@
+{
+    "top_banner": {
+        "image": "images/StyleAndActivities/top_banner.webp",
+        "title": "Explore the Timeless Legacy of Mleiha",
+        "description": "Mleiha, a UNESCO-nominated World Heritage Site in Sharjah, is a treasure trove of historical and archaeological significance. This region boasts Bronze Age tombs, pre-Islamic forts, and fascinating artifacts, such as pottery, iron tools, and camel skeletons. The picturesque setting of Mleiha, with its blend of history and natural beauty, provides the perfect backdrop for the Tanweer Festival, enhancing the spiritual and cultural experience for all attendees."
+    },
+    "activities": [
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "Horse Riding",
+            "description": "Embark on a thrilling horse riding adventure across the desert, exploring the mesmerizing beauty of Mleiha.",
+            "price": "AED XXX",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "Horse Riding",
+            "description": "Embark on a thrilling horse riding adventure across the desert, exploring the mesmerizing beauty of Mleiha.",
+            "price": "AED XXX",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "Horse Riding",
+            "description": "Embark on a thrilling horse riding adventure across the desert, exploring the mesmerizing beauty of Mleiha.",
+            "price": "AED XXX",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "Horse Riding",
+            "description": "Embark on a thrilling horse riding adventure across the desert, exploring the mesmerizing beauty of Mleiha.",
+            "price": "AED XXX",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "Horse Riding",
+            "description": "Embark on a thrilling horse riding adventure across the desert, exploring the mesmerizing beauty of Mleiha.",
+            "price": "AED XXX",
+            "link": ""
+        }
+    ],
+    "camping": [
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "Camp Site",
+            "description": "Book a Tent for 2, 4 or 6 persons. Beds, sleeping bags, blankets and pillows not included.",
+            "price": "1 Day AED XXX  |  3 Days AED XXX",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "Camp Site",
+            "description": "Book a Tent for 2, 4 or 6 persons. Beds, sleeping bags, blankets and pillows not included.",
+            "price": "1 Day AED XXX  |  3 Days AED XXX",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "Camp Site",
+            "description": "Pillow-top mattress, fully-furnished and ‘hotel-style comforts’. Shuttle service to the Tanweer Festival site.",
+            "price": "1 Day AED XXX  |  3 Days AED XXX",
+            "link": ""
+        }
+    ],
+    "offer": [
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "MOON RETREAT",
+            "description": "Tucked away among the desert dunes, Moon Retreat presents a glamping experience that is distinguished by its simplicity, adventure and privacy. Perfect for couples and families, Moon Retreat gives you the chance to explore the Mleiha desert by day and spend the evenings star-gazing. This is a great place to refresh your mind and rejuvenate your senses.",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "MOON RETREAT",
+            "description": "Tucked away among the desert dunes, Moon Retreat presents a glamping experience that is distinguished by its simplicity, adventure and privacy. Perfect for couples and families, Moon Retreat gives you the chance to explore the Mleiha desert by day and spend the evenings star-gazing. This is a great place to refresh your mind and rejuvenate your senses.",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "MOON RETREAT",
+            "description": "Tucked away among the desert dunes, Moon Retreat presents a glamping experience that is distinguished by its simplicity, adventure and privacy. Perfect for couples and families, Moon Retreat gives you the chance to explore the Mleiha desert by day and spend the evenings star-gazing. This is a great place to refresh your mind and rejuvenate your senses.",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "MOON RETREAT",
+            "description": "Tucked away among the desert dunes, Moon Retreat presents a glamping experience that is distinguished by its simplicity, adventure and privacy. Perfect for couples and families, Moon Retreat gives you the chance to explore the Mleiha desert by day and spend the evenings star-gazing. This is a great place to refresh your mind and rejuvenate your senses.",
+            "link": ""
+        },
+        {
+            "image":"images/StyleAndActivities/activity1.webp",
+            "title": "MOON RETREAT",
+            "description": "Tucked away among the desert dunes, Moon Retreat presents a glamping experience that is distinguished by its simplicity, adventure and privacy. Perfect for couples and families, Moon Retreat gives you the chance to explore the Mleiha desert by day and spend the evenings star-gazing. This is a great place to refresh your mind and rejuvenate your senses.",
+            "link": ""
+        }
+    ]
+}

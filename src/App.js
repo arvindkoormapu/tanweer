@@ -9,6 +9,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ViewProgram from "./pages/ViewProgram";
 import Programs from "./pages/Program";
+import StyleAndActivities from "./pages/StyleAndActivities";
+import FestivalPass from "./pages/FestivalPass";
+import Contact from "./pages/Contact";
 
 import "./App.css";
 
@@ -53,6 +56,33 @@ const App = () => {
           element={
             <MainLayout>
               <Programs />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/stay_activities"
+          element={
+            <MainLayout>
+              <StyleAndActivities />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/festival_passes"
+          element={
+            <MainLayout>
+              <FestivalPass />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/contact"
+          element={
+            <MainLayout>
+              <Contact />
             </MainLayout>
           }
         />

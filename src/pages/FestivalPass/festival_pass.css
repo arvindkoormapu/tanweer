@@ -1,0 +1,205 @@
+.pass .top_banner {
+    height: calc(50vh - 71px);
+    background: #BE6F3F url('../../images/Tanweer Pattern.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.pass {
+    background: #FEF7E3;
+}
+
+.pass .top_banner .content {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    position: absolute;
+    top: 34%;
+}
+
+.pass .content .title {
+    font-family: TAN-AESOP;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #FEF7E3;
+    text-transform: uppercase;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.pass .content .description {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    color: #FEF7E3;
+}
+
+.top_banner .image {
+    position: absolute;
+    right: 5%;
+    top: 23%;
+    width: 40%;
+}
+
+.top_banner .wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bottom_banner {
+    width: 44%;
+    padding-left: 5%;
+    margin: 5% 0px;
+}
+
+.pass .para {
+    color: #BF7139 !important;
+}
+
+.pass .middle_section {
+    padding: 20px 0px;
+}
+
+.pass .middle_section .h1 {
+    color: #BF7139;
+}
+
+.pass-wrapper {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.pass-wrapper .title {
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #BF7139;
+    text-transform: uppercase;
+    display: block;
+}
+
+.pass-wrapper .caption {
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1rem;
+    color: #BF7139;
+    text-transform: uppercase;
+    display: block;
+}
+
+.pass-wrapper .ticket-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.pass-wrapper .ticket {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.pass-wrapper .price {
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 32.81px;
+    color: #BF7139;
+    margin-bottom: 10px;
+    margin-left: 6px;
+}
+
+.pass-wrapper .des {
+    padding: 30px 0px 50px;
+    display: block;
+}
+
+.ticket .para {
+    padding-left: 6px;
+}
+
+.pass-wrapper .button {
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 23.44px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #FFF5D9;
+    background: #A2441B;
+}
+
+.sold_out {
+    background: #E0AA51;
+    width: 103px;
+    display: block;
+    color: #FFFFFF !important;
+    padding: 0px 10px;
+}
+
+.strick {
+    text-decoration: line-through;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 800px) {
+
+    .pass .top_banner .content{
+        width: 98%;
+        padding-top: 32%;
+        text-align: center;
+        position: relative;
+    }
+
+    .bottom_banner {
+        width: 85%;
+        padding-left: 0;
+        margin: 7.5%;
+    }
+
+    .pass .content .title {
+        font-size: 1.6rem;
+        width: 100%;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .pass-wrapper .title,
+    .pass-wrapper .caption {
+        font-size: 1.2rem;
+    }
+
+    .pass-wrapper .des {
+        padding: 15px 0px 30px;
+    }
+
+    .pass-wrapper .ticket-wrapper {
+        width: 100%;
+    }
+
+    .pass-wrapper .button {
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .pass-wrapper {
+        padding: 20px
+    }
+
+    .pass-wrapper .price {
+        font-size: 1rem;
+    }
+
+}

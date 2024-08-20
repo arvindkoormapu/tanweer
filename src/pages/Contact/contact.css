@@ -1,0 +1,58 @@
+.contact {
+    background: #FFFDF7;
+}
+
+.contact-wrapper {
+    height: calc(100vh - 142px);
+    width: 100%;
+}
+
+
+.contact .contact-wrapper .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+}
+
+.contact .content .title {
+    font-family: TAN-AESOP;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #BF7139;
+    text-transform: uppercase;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.contact .content .description {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    color: #BF7139;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 800px) {
+
+    .contact .contact-wrapper .mobile-view {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact .content .title {
+        font-size: 1.6rem;
+        width: 100%;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .contact .content .description {
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+}

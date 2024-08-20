@@ -1,0 +1,91 @@
+{
+    "top_banner": {
+        "title": "FESTIVAL PASSES 2024",
+        "description": "Passes are exclusively sold online, no passes will be available for sale at the entrance.",
+        "description1": "Passes to Tanweer Festival can be purchased for 1 day or 3 days.",
+        "description2": "All passes include full day access to the entire festival including concerts, well-being workshops and sessions, Transcendent Plaza, Marketplace, Food Courts and Art Installations.",
+        "description3": "Add a camping experience to any pass to experience the nature of the beautiful Mleiha desert while staying close to all the festivities.",
+        "image": "images/pass.webp"
+    },
+    "festival_passes": [
+        {
+            "title": "STANDARD",
+            "caption": "FESTIVAL PASS",
+            "description": "3 day access to all areas in the festival and General Admission of the Main Stage Concerts.",
+            "types": [
+                {
+                    "title": "Early Bird",
+                    "price": "SOLD OUT",
+                    "status": "sold_out",
+                    "link": ""
+                },
+                {
+                    "title": "Regular",
+                    "price": "AED 2,270",
+                    "status": "strick",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "title": "VIP",
+            "caption": "FESTIVAL PASS",
+            "description": "3 day access to all areas in the festival and General Admission of the Main Stage Concerts.",
+            "types": [
+                {
+                    "title": "Early Bird",
+                    "price": "AED 2,270",
+                    "status": "",
+                    "link": ""
+                },
+                {
+                    "title": "Regular",
+                    "price": "AED 2,270",
+                    "status": "strick",
+                    "link": ""
+                }
+            ]
+        }
+    ],
+    "day_passes": [
+        {
+            "title": "STANDARD",
+            "caption": "day PASS",
+            "description": "3 day access to all areas in the festival and General Admission of the Main Stage Concerts.",
+            "types": [
+                {
+                    "title": "Early Bird",
+                    "price": "SOLD OUT",
+                    "status": "",
+                    "link": ""
+                },
+                {
+                    "title": "Regular",
+                    "price": "AED 2,270",
+                    "status": "strick",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "title": "VIP",
+            "caption": "day PASS",
+            "description": "3 day access to all areas in the festival and General Admission of the Main Stage Concerts.",
+            "types": [
+                {
+                    "title": "Early Bird",
+                    "price": "AED 2,270",
+                    "status": "",
+                    "link": ""
+                },
+                {
+                    "title": "Regular",
+                    "price": "AED 2,270",
+                    "status": "",
+                    "link": ""
+                }
+            ]
+        }
+    ],
+    "last_paragraph": "Explore our Stay & Activities page to enrich your experience at the Tanweer Festival, ensuring every moment is infused with meaning and inspiration."
+}
