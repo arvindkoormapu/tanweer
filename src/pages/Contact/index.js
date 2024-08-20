@@ -43,7 +43,7 @@ function Contact() {
               <div
                 style={{
                   paddingTop: "50px",
-                  marginLeft: isMobile ? "10%" : "0px",
+                  marginLeft: !isMobile ? "10%" : "0px",
                   marginBottom: isMobile ? "10%" : "0px",
                 }}
               >
