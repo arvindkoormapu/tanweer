@@ -1,5 +1,7 @@
 .about {
     background: #FFF5D9;
+    width: 100%;
+    overflow: hidden;
 }
 
 .about .menus {

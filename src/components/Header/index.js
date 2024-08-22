@@ -47,7 +47,7 @@ const Header = ({ onMenuClick }) => {
             </div>
           </Col>
           <Col>
-            {/* {isMobile ? (
+            {isMobile ? (
               <img
                 src={HamburguerMenu}
                 alt="Header Logo"
@@ -67,7 +67,7 @@ const Header = ({ onMenuClick }) => {
                   </Text>
                 ))}
               </Space>
-            )} */}
+            )}
           </Col>
         </Row>
       </Col>

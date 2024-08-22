@@ -50,9 +50,9 @@ function FestivalPass() {
           <div className="dark-arrows">
             <Text className="h1">Festival Passes</Text>
           </div>
-          <Row gutter={isMobile ? [0, 30] : [30, 30]}>
+          <Row>
             {pages.pass.festival_passes.map((elm) => (
-              <Col span={isMobile ? 24 : 9}>
+              <Col span={isMobile ? 24 : 9} style={{paddingRight: !isMobile && '30px', paddingBottom: isMobile && '30px'}}>
                 <div className="pass-wrapper">
                   <Text className="title">{elm.title}</Text>
                   <Text className="caption">{elm.caption}</Text>
@@ -78,9 +78,9 @@ function FestivalPass() {
           <div className="dark-arrows" style={{marginTop: '60px'}}>
             <Text className="h1">Day Passes</Text>
           </div>
-          <Row gutter={isMobile ? [0, 30] : [30, 30]}>
+          <Row>
             {pages.pass.day_passes.map((elm) => (
-              <Col span={isMobile ? 24 : 9}>
+              <Col span={isMobile ? 24 : 9} style={{paddingRight: !isMobile && '30px', paddingBottom: isMobile && '30px'}}>
                 <div className="pass-wrapper">
                   <Text className="title">{elm.title}</Text>
                   <Text className="caption">{elm.caption}</Text>
@@ -103,7 +103,7 @@ function FestivalPass() {
             ))}
           </Row>
 
-          <Paragraph className="para" style={{padding: '20px 0px', width: !isMobile && '40%'}}>{pages.pass.last_paragraph}</Paragraph>
+          <Paragraph className="para" style={{padding: !isMobile ? '50px 0px 20px' : '40px 0px 30px', width: !isMobile && '40%'}}>Explore our <b>Stay & Activities</b> page to enrich your experience at the Tanweer Festival, ensuring every moment is infused with meaning and inspiration.</Paragraph>
         </div>
       </Content>
     </Layout>

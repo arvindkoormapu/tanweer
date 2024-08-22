@@ -133,6 +133,10 @@
     padding-right: 43px;
 }
 
+.sustainable-section .last-row {
+    padding-bottom: 80px;
+}
+
 
 /* Media Query for mobile devices */
 @media (max-width: 800px) {

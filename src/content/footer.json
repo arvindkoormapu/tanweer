@@ -3,26 +3,56 @@
         {
             "title": "ABOUT \nTanweer",
             "section": [
-                "Vision",
-                "mission",
-                "Totems",
-                "Sustainability"
+                {
+                    "title": "Vision",
+                    "link": ""
+                },
+                {
+                    "title": "mission",
+                    "link": ""
+                },
+                {
+                    "title": "Totems",
+                    "link": ""
+                },
+                {
+                    "title": "Sustainability",
+                    "link": ""
+                }
             ]
         },
         {
             "title": "PROGRAM",
             "section": [
-                "Music",
-                "Workshops",
-                "Art installations"
+                {
+                    "title": "Music",
+                    "link": ""
+                },
+                {
+                    "title": "Workshops",
+                    "link": ""
+                },
+                {
+                    "title": "Art installations",
+                    "link": ""
+                }
             ]
         },
         {
             "title": "STAY \n& ACTIVITIES",
             "section": [
-                "MLEIHA",
-                "CAMPING",
-                "HOTELS OFFERS"
+                {
+                    "title": "MLEIHA",
+                    "link": ""
+                },
+                {
+                    "title": "CAMPING",
+                    "link": ""
+                },
+                {
+                    "title": "HOTELS OFFERS",
+                    "link": ""
+                }
             ]
         },
         {
@@ -36,9 +66,18 @@
         {
             "title": "support",
             "section": [
-                "contact us",
-                "terms of use",
-                "partners"
+                {
+                    "title": "contact us",
+                    "link": "/contact"
+                },
+                {
+                    "title": "terms of use",
+                    "link": "/terms_privacy"
+                },
+                {
+                    "title": "partners",
+                    "link": "/partners"
+                }
             ]
         }
     ]

@@ -5,14 +5,19 @@ import FooterLogo from "../../images/Tanweer_footer_Logo.png";
 import XLogo from "../../images/X Logo.png";
 import IGLogo from "../../images/IG Logo.png";
 import { useData } from "../../hooks/useData";
+import { useNavigate } from "react-router-dom";
 
 import "./footer.css";
 const { Text } = Typography;
 
 const Footer = () => {
   const { pages } = useData();
-
+  const navigate = useNavigate();
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
+
+  const redirect = (link) => {
+    navigate(link);
+  };
 
   return (
     <div className="footer">
@@ -73,7 +78,7 @@ const Footer = () => {
               </div>
             )}
           </Space>
-          {/* {!isMobile && (
+          {!isMobile && (
             <Space
               size="large"
               style={{
@@ -99,13 +104,13 @@ const Footer = () => {
                     style={{ rowGap: "0px" }}
                   >
                     {elm.section.map((item) => (
-                      <Text className="footer-links-sections">{item}</Text>
+                      <Text className="footer-links-sections" onClick={() => redirect(item.link)}>{item.title}</Text>
                     ))}
                   </Space>
                 </div>
               ))}
             </Space>
-          )} */}
+          )}
         </Col>
 
         {isMobile && (

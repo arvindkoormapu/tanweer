@@ -153,6 +153,7 @@
     text-align: left;
     color: #FFF5D9;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /* Media Query for mobile devices */
