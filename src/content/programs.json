@@ -30,22 +30,24 @@
     "tabData": [
         [
             [
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp"
+                "images/Programs/Anas-Alhalabi.webp",
+                "images/Programs/Julien-Breton.webp",
+                "images/Programs/Ziyad-Sahhab.webp",
+                "images/Programs/Senny-Camara.webp",
+                "images/Programs/Sami-Yusuf.webp"
             ],
             [
-                "images/Programs/artist_2.webp",
-                "images/Programs/artist_2.webp",
-                "images/Programs/artist_2.webp",
-                "images/Programs/artist_2.webp"
+                "images/Programs/Baraka-Blue-and-Shadi-Band-23.webp",
+                "images/Programs/Senny-Camara-Mary-Malifarges.webp",
+                "images/Programs/Constantinople-Rumi.webp",
+                "images/Programs/Anas-Alhalabi-23.webp",
+                "images/Programs/Sandu.webp"
             ],
             [
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp"
+                "images/Programs/Baraka-Blue-and-Shadi-Band-24.webp",
+                "images/Programs/Fadi-Rifaai-and-Sandu.webp",
+                "images/Programs/Ensemble-Noureddine-.webp",
+                "images/Programs/Dhafer-Youssef.webp"
             ]
         ],
         [
@@ -56,16 +58,21 @@
                 "images/Programs/artist_2.webp"
             ],
             [
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp"
+                "images/Programs/Intermodal-Expressive-Arts.webp",
+                "images/Programs/Illumination-and-Geometry.webp",
+                "images/Programs/Anas-Handpan-Orchestra.webp",
+                "images/Programs/Calligraphy-Lighting.webp",
+                "images/Programs/Sema-Whirling.webp",
+                "images/Programs/Calligraphy.webp",
+                "images/Programs/Breathwork.webp"
             ],
             [
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp",
-                "images/Programs/artist_1.webp"
+                "images/Programs/Intermodal-Expressive-Arts-24.webp",
+                "images/Programs/Illumination-and-Geometry-24.webp",
+                "images/Programs/Calligraphy-Lighting-24.webp",
+                "images/Programs/Sound-Immersion.webp",
+                "images/Programs/Calligraphy-24.webp",
+                "images/Programs/Whirling.webp"
             ]
         ]
     ],
@@ -100,5 +107,9 @@
             "name": "Khalid Shafar",
             "caption": "Owned Artworks"
         }
-    ]
+    ],
+    "art_section": {
+        "title": "Immerse in Creative Art",
+        "description": "Discover the creative expressions that bring the Tanweer Festival to life. Our art installations and exhibitions offer a visual feast that complements the musical experience, providing an immersive environment for inspiration and reflection."
+    }
 }

@@ -3,15 +3,14 @@
 }
 
 .contact-wrapper {
-    height: calc(100vh - 142px);
+    /* height: calc(100vh - 142px); */
     width: 100%;
 }
-
 
 .contact .contact-wrapper .content {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 12%;
     margin-right: 10%;
     margin-top: 80px;
 }
@@ -35,6 +34,40 @@
     color: #BF7139;
 }
 
+.faq-section {
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.faq-section .tabs {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.faq-section .tab {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28.13px;
+    color: #731D14 !important;
+    text-transform: uppercase;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.collapsible {
+    border-top: 1px solid #A34411;
+    padding: 12px 6px;
+}
+
+.collapsible .para {
+    width: 50%;
+}
+
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
 
@@ -55,4 +88,30 @@
         font-size: 0.9rem;
         line-height: 1rem;
     }
+
+
+    .faq-section .tab {
+        font-size: 0.9rem;
+        margin-right: 1rem;
+    }
+
+    .collapsible-header {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .collapsible .para {
+        width: 90%;
+    }
+
+    .faq-section {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    .faq-section .swiper-slide {
+        width: auto !important
+    }
+
+
 }

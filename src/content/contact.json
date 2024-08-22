@@ -2,5 +2,169 @@
     "top_banner": {
         "title": "Contact Us",
         "description": "If you have any questions, would like to collaborate, volunteer, or just want to say hello, please connect with us on Social Media."
-    }
+    },
+    "faqs": [
+        {
+            "name": "General",
+            "items": [
+                {
+                    "question": "What is the Tanweer Sacred Music Festival?",
+                    "answer": "The Tanweer Sacred Music Festival is a celebration of ancestral music, wisdom, and crafts from tribal cultures around the world. Our mission is to empower tribal cultures by channeling revenues back to their respective communities so they may keep flourishing. The festival is a platform for showcasing traditional music, crafs, and wisdom and creating unity and connection among people from diverse backgrounds."
+                },
+                {
+                    "question": "Where is the festival held?",
+                    "answer": "The festival is held in Mleiha, Sharjah - United Arab Emirates."
+                },
+                {
+                    "question": "When is the festival held?",
+                    "answer": "The festival is held on 24, 25, and 26 November."
+                },
+                {
+                    "question": "How long does the festival last?",
+                    "answer": "The festival lasts for three days and three nights."
+                },
+                {
+                    "question": "How big is the Tanweer Festival?",
+                    "answer": "The festival is expected to attract 5,000 people per day who are passionate about sacred music, holistic wellness, and mindfulness practices."
+                },
+                {
+                    "question": "What is the age range for attendees?",
+                    "answer": "The festival is open to adults 18 years and above. Children 9 years and below must be accompanied by an adult aged 18 years and above."
+                },
+                {
+                    "question": "Is the Tanweer Festival family-friendly?",
+                    "answer": "Absolutely – kids aged 9 years and above are very welcome but will always require close family supervision"
+                },
+                {
+                    "question": "Are pets allowed at the festival?",
+                    "answer": "For the safety of animals and visitors, pets are not allowed at the festival."
+                }
+            ]
+        },
+        {
+            "name": "Facilities",
+            "items": [
+                {
+                    "question": "Is the festival wheelchair accessible?",
+                    "answer": "The festival is an outdoor event on sand and gravel, which will pose a problem for wheelchair users. While areas like mountain tops and desert dunes are inaccessible, the parking areas, music, holistic modalities, restaurants, toilets, and the marketplace are accessible. We advise wheelchair users to have someone assist them at all times to ensure their safety."
+                },
+                {
+                    "question": "Do you offer help getting to the festival place from the car parks?",
+                    "answer": "In case our main car park is full, there will be a shuttle bus running between the overflow parking and the festival gate. Sharing your ride will help the festival avoid any parking space issues, will contaminate less, and you might make friends on the way. Check the 'Tanweer Shared Rides' Whatsapp Group (link pending) to offer a ride or look for one"
+                },
+                {
+                    "question": "Is there a phone charging station on-site?",
+                    "answer": "Yes, however, they will be in demand. Consider bringing a backup charger and a cable."
+                },
+                {
+                    "question": "Do you have electric car charging points on-site?",
+                    "answer": "Not for our first festival, but we plan to in the future. The festival is in a somewhat remote natural area."
+                }
+            ]
+        },
+        {
+            "name": "Accommodations",
+            "items": [
+                {
+                    "question": "Does the festival provide accommodations?",
+                    "answer": "No, the festival does not provide accommodations. However, we pro have partnered with local hotels and can provide recommendations for lodging. For more information, visit www.tanweerfestival.com/hotels"
+                },
+                {
+                    "question": "Are there camping options available?",
+                    "answer": "Yes, camping is allowed at the festival with your purchase of a one-day or three-day pass."
+                },
+                {
+                    "question": "Can I park my RV at the festival?",
+                    "answer": "Yes, RV parking is available at the festival with your purchase of a one-day or three-day pass."
+                }
+            ]
+        },
+        {
+            "name": "Modalities",
+            "items": [
+                {
+                    "question": "Are the holistic modalities hands-on?",
+                    "answer": "Some modalities are hands-on, while others may be lecture-style. Please check the modalities descriptions for more information. www.tanweerfestival.com/modalities"
+                },
+                {
+                    "question": "What materials are provided for the holistic modalities?",
+                    "answer": "Materials for modalities may be optionally provided by the workshop facilitators. Please check the modalities descriptions for more information. www.tanweerfestival.com/modalities"
+                },
+                {
+                    "question": "Can I attend multiple modalities in one day?",
+                    "answer": "Yes, you can attend multiple modalities in one day. However, some modalities may run in parallel. Please check our schedule for more information. www.tanweerfestival.com/schedule"
+                }
+            ]
+        },
+        {
+            "name": "Marketplace",
+            "items": [
+                {
+                    "question": "What are the Tanweer Market timings?",
+                    "answer": "10 am to 10 pm. However, some stands may decide to close earlier."
+                },
+                {
+                    "question": "Are there any local artisans who sell their products at the market?",
+                    "answer": "Yes"
+                },
+                {
+                    "question": "What types of cras are available at the market?",
+                    "answer": "The Tanweer market offers a wide range of cras, including jewelry, pottery, paintings, woodwork, textiles, and much more."
+                },
+                {
+                    "question": "Do you accept credit/debit cards, or is it cash only?",
+                    "answer": "We ONLY accept digital credit/debit card payments."
+                },
+                {
+                    "question": "Is there parking available for market visitors?",
+                    "answer": "Yes, there are designated parking areas for visitors upon arriving at Tanweer Sacred Music Festival. However, parking availability may vary depending on your tickets and the time of the day, so we recommend arriving early."
+                },
+                {
+                    "question": "Are pets allowed at the market?",
+                    "answer": "While we love animals, visitors are requested not to bring their pets to the market (for safety reasons)."
+                },
+                {
+                    "question": "Are there any special events or promotions happening at the market?",
+                    "answer": "Some of our partners and sponsors may hold activities at our event."
+                },
+                {
+                    "question": "How do I apply to become a vendor at the market?",
+                    "answer": "To apply as a vendor, visit our website and complete the online application form. You will need to provide details about your service and product. For more information, visit www.tanweerfestival.com/support/#contact-us"
+                },
+                {
+                    "question": "Is there an entrance fee to the market?",
+                    "answer": "Yes. For more information visit www.tanweerfestival.com/tickets"
+                },
+                {
+                    "question": "Are there food and beverage options at the marketplace?",
+                    "answer": "Yes, we will be having stalls serving beverages and snacks at our NOURISH areas."
+                },
+                {
+                    "question": "Is the Tanweer market accessible for people with disabilities?",
+                    "answer": "The music, holistic modality, marketplace, restaurant, toilet, and car park areas are accessible; however, the mountain and desert areas are inaccessible and dangerous. We advise that a person accompanies you at all times for your safety."
+                },
+                {
+                    "question": "Can I bring my chair or blanket to sit on?",
+                    "answer": "We advise that each person bring a personal blanket or cushion to sit on. Personal furniture is only allowed in the camping area if you have a one or three-day ticket and camp pass."
+                }
+            ]
+        },
+        {
+            "name": "Food and Drink",
+            "items": [
+                {
+                    "question": "Can I bring my food and drinks to the festival?",
+                    "answer": "For safety reasons, outside food and drinks are not allowed at the festival. In case of any special dietary requirements, you may bring your own dehydrated foods as they won't spoil and are more resilient in warm weather."
+                },
+                {
+                    "question": "Are alcoholic beverages available at the festival?",
+                    "answer": "No, alcoholic beverages are not available at the festival."
+                },
+                {
+                    "question": "Can I bring my water bottle to the festival?",
+                    "answer": "Yes, you can bring your water bottle to the festival. Water refill stations will be available."
+                }
+            ]
+        }
+    ]
 }

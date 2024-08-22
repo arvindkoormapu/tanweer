@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
 import ImageSlider from "../../components/ImageSlider";
 import Path from "../../images/Path 356.png";
-import LandingFirst from "../../images/Home/landing-first.png";
+import Art from "../../images/Programs/art.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Import core Swiper styles
 import "swiper/css/navigation";
@@ -101,11 +101,11 @@ function Programs() {
             <div className="landing-content" style={{ background: "none" }}>
               <Row align="middle" justify="center" style={{ width: "90%" }}>
                 <Col span={isMobile ? 24 : 12}>
-                  <img src={LandingFirst} alt="icon" className="image" />
+                  <img src={Art} alt="icon" className="image" />
                 </Col>
                 <Col span={isMobile ? 24 : 12} className="content-row">
                   <Text className="title">
-                    {pages.home.introduction.title
+                    {pages.programs.art_section.title
                       .split("\n")
                       .map((line, index) => (
                         <React.Fragment key={index}>
@@ -115,7 +115,7 @@ function Programs() {
                       ))}
                   </Text>
                   <Paragraph className="paragraph">
-                    {pages.home.introduction.paragraph_one}
+                    {pages.programs.art_section.description}
                   </Paragraph>
                 </Col>
               </Row>

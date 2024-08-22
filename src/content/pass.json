@@ -9,9 +9,9 @@
     },
     "festival_passes": [
         {
-            "title": "STANDARD",
+            "title": "REGULAR",
             "caption": "FESTIVAL PASS",
-            "description": "3 day access to all areas in the festival and General Admission of the Main Stage Concerts.",
+            "description": "3 day access to all areas in the festival and General Admission of the Main Stage.",
             "types": [
                 {
                     "title": "Early Bird",
@@ -21,7 +21,7 @@
                 },
                 {
                     "title": "Regular",
-                    "price": "AED 2,270",
+                    "price": "AED 1.650",
                     "status": "strick",
                     "link": ""
                 }
@@ -30,17 +30,17 @@
         {
             "title": "VIP",
             "caption": "FESTIVAL PASS",
-            "description": "3 day access to all areas in the festival and General Admission of the Main Stage Concerts.",
+            "description": "3 day access to all areas in the festival and General Admission of the Main Stage.",
             "types": [
                 {
                     "title": "Early Bird",
-                    "price": "AED 2,270",
+                    "price": "AED 2,500",
                     "status": "",
                     "link": ""
                 },
                 {
                     "title": "Regular",
-                    "price": "AED 2,270",
+                    "price": "AED 2,500",
                     "status": "strick",
                     "link": ""
                 }
@@ -49,9 +49,9 @@
     ],
     "day_passes": [
         {
-            "title": "STANDARD",
+            "title": "REGULAR",
             "caption": "day PASS",
-            "description": "3 day access to all areas in the festival and General Admission of the Main Stage Concerts.",
+            "description": "3 day access to all areas in the festival and General Admission of the Main Stage.",
             "types": [
                 {
                     "title": "Early Bird",
@@ -61,8 +61,8 @@
                 },
                 {
                     "title": "Regular",
-                    "price": "AED 2,270",
-                    "status": "strick",
+                    "price": "AED 700",
+                    "status": "",
                     "link": ""
                 }
             ]
@@ -70,18 +70,18 @@
         {
             "title": "VIP",
             "caption": "day PASS",
-            "description": "3 day access to all areas in the festival and General Admission of the Main Stage Concerts.",
+            "description": "3 day access to all areas in the festival and General Admission of the Main Stage.",
             "types": [
                 {
                     "title": "Early Bird",
-                    "price": "AED 2,270",
+                    "price": "AED 1,500",
                     "status": "",
                     "link": ""
                 },
                 {
                     "title": "Regular",
-                    "price": "AED 2,270",
-                    "status": "",
+                    "price": "AED 1,500",
+                    "status": "strick",
                     "link": ""
                 }
             ]

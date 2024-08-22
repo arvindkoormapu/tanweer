@@ -64,6 +64,7 @@
     text-transform: uppercase;
     padding-top: 24px;
     padding-bottom: 40px;
+
 }
 
 .top-drag-slider .description {
@@ -150,6 +151,18 @@
     width: 100%;
 }
 
+.camping_section .description{
+    height: 82px;
+}
+
+.middle_section .top-drag-slider .title {
+    height: 100px;
+}
+
+.bottom_section .description{
+    height: 248px;
+}
+
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
 
@@ -202,5 +215,13 @@
 
     .bottom_section {
         padding: 42px 7.5%;
+    }
+
+    .camping_section .description{
+        height: 123px;
+    }
+
+    .bottom_section .description{
+        height: 352px;
     }
 }

@@ -7,6 +7,7 @@ import programs from "../content/programs.json"
 import activities from "../content/activities.json"
 import pass from "../content/pass.json"
 import contact from "../content/contact.json"
+import terms from "../content/Terms.json"
 
 export const useData = () => {
   return {
@@ -19,7 +20,8 @@ export const useData = () => {
       programs: programs,
       activities: activities,
       pass: pass,
-      contact: contact
+      contact: contact,
+      terms: terms
     },
   };
 };

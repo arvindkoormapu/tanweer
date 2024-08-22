@@ -12,6 +12,8 @@ import Programs from "./pages/Program";
 import StyleAndActivities from "./pages/StyleAndActivities";
 import FestivalPass from "./pages/FestivalPass";
 import Contact from "./pages/Contact";
+import PrivacyTerms from "./pages/PrivacyTerms";
+import Partners from "./pages/Partners";
 
 import "./App.css";
 
@@ -83,6 +85,24 @@ const App = () => {
           element={
             <MainLayout>
               <Contact />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/terms_privacy"
+          element={
+            <MainLayout>
+              <PrivacyTerms />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/partners"
+          element={
+            <MainLayout>
+              <Partners />
             </MainLayout>
           }
         />
