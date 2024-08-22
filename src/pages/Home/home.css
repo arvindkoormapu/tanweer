@@ -454,4 +454,9 @@
     .activities-section .button-component-wrapper2 {
         margin: 20px 0px 40px;
     }
+
+    .landing .activities-section {
+        width: 100%;
+        overflow: hidden;
+    }
 }
