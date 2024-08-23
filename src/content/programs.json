@@ -8,18 +8,18 @@
             "image": "images/Programs/image1.webp"
         },
         {
-            "name": "Sami Yusuf",
+            "name": "workshop",
             "date": "22 November 2024",
             "time": "20:15 PM",
             "location": "ENLIGHTENED ARENA",
-            "image": "images/Programs/image1.webp"
+            "image": "images/workshops.webp"
         },
         {
-            "name": "Sami Yusuf",
+            "name": "Art",
             "date": "22 November 2024",
             "time": "20:15 PM",
             "location": "ENLIGHTENED ARENA",
-            "image": "images/Programs/image1.webp"
+            "image": "images/art.webp"
         }
     ],
     "dates": [
