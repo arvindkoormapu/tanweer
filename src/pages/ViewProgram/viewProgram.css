@@ -77,6 +77,8 @@
     width: 335px;
     height: 182px;
     padding: 4px 0px 10px;
+    object-fit: contain;
+    object-position: left;
 }
 
 /* Media Query for mobile devices */

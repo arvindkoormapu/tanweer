@@ -44,14 +44,14 @@ const Home = () => {
             {!subscribePopup ? (
               <>
                 <Text className="title">{pages.home.landing.title}</Text>
-                <div className="button-component-wrapper">
+                {/* <div className="button-component-wrapper">
                   <ButtonComponent
                     bgColor="#A2441B"
                     textColor="#FFF5D9"
                     clickAction={enableSubscribePopup}
                     text="Register your interest"
                   />
-                </div>
+                </div> */}
               </>
             ) : (
               <div className="subscribe-popup">
@@ -189,8 +189,8 @@ const Home = () => {
 
                 <div className="slider">
                   <Swiper
-                    spaceBetween={180}
-                    slidesPerView={isMobile ? 2 : 4}
+                    spaceBetween={10}
+                    slidesPerView={isMobile ? 2 : 3.3}
                     centeredSlides={false}
                     grabCursor={true}
                     style={{ width: "100%" }}

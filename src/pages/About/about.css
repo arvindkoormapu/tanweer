@@ -1,6 +1,8 @@
 .about .main-layout {
     width: 100%;
-    height: calc(100vh - 142px);
+    /* height: calc(100vh - 142px); */
+    height: 100%;
+    padding-top: 3rem
 }
 
 .intro {
@@ -8,7 +10,7 @@
     margin: 0 auto;
     height: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .intro .text {
@@ -30,7 +32,8 @@
 }
 
 .intro .image1 {
-    width: 95%;
+    width: 100%;
+    height: auto
 }
 
 .mission-image {
@@ -90,6 +93,11 @@
     color: #A2441B !important;
 }
 
+/* .sustainable-section .para {
+    height: 144px;
+    overflow: scroll;
+} */
+
 .about .top-header {
     background: #8A9B65 !important;
 }
@@ -121,8 +129,8 @@
     line-height: 35px;
     color: #A2441B;
     text-transform: uppercase;
-    padding-bottom: 18px;
-    width: 70%;
+    margin-bottom: 18px;
+    width: 90%;
 }
 
 .sustainable-section .bottom-slider .text-wrapper {
@@ -137,6 +145,39 @@
     padding-bottom: 80px;
 }
 
+.sustainable-section .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.sustainable-section .collapsed {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* .swiper-slide {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-wrapper,
+.text-wrapper {
+    flex: 1 1 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+@media (max-width: 1200px) {
+
+    .image-wrapper,
+    .text-wrapper {
+        flex: 1 1 100%;
+    }
+} */
 
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
@@ -172,12 +213,14 @@
         text-align: center;
     }
 
-    .mission-section .para, .sustainable-section .para {
+    .mission-section .para,
+    .sustainable-section .para {
         padding: 0px 8%;
         line-height: 1.2rem;
     }
 
-    .mission-section .top-section .h1, .sustainable-section .h1 {
+    .mission-section .top-section .h1,
+    .sustainable-section .h1 {
         margin-bottom: 20px !important;
     }
 
@@ -203,7 +246,7 @@
         text-align: center;
     }
 
-    .sustainable-section .bottom-slider .title{
+    .sustainable-section .bottom-slider .title {
         width: 100%;
         padding-top: 20px;
     }

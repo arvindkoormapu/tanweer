@@ -29,7 +29,7 @@ html,
   height: 100vh;
   background: #BE6F3F url('./images/Tanweer Pattern.png') no-repeat center center;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
 }
 
 .h1 {

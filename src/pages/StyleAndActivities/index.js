@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-import { Layout, Row, Col, Typography, Space } from "antd";
+import React from "react";
+import { Layout, Row, Col, Typography, Space, Tooltip } from "antd";
 import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
 import PatternIcon from "../../images/Pattern_Icon.png";
@@ -13,7 +13,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./style_and_activities.css";
 const { Content } = Layout;
-const { Text, Paragraph } = Typography;
+const { Text } = Typography;
 
 function StyleAndActivities() {
   const { pages } = useData();
@@ -137,8 +137,13 @@ function StyleAndActivities() {
                         textAlign: isMobile && "center",
                       }}
                     >
-                      <div className="title">{elm.title}</div>
-                      <div className="description">{elm.description}</div>
+                      <Tooltip title={elm.title}>
+                        <div className="title">{elm.title}</div>
+                      </Tooltip>
+                      <Tooltip title={elm.description}>
+                        <div className="description">{elm.description}</div>
+                      </Tooltip>
+
                       <div className="price">{elm.price}</div>
                     </div>
                     <div className="button">Book now</div>
@@ -217,8 +222,12 @@ function StyleAndActivities() {
                           textAlign: isMobile && "center",
                         }}
                       >
-                        <div className="title">{elm.title}</div>
-                        <div className="description">{elm.description}</div>
+                        <Tooltip title={elm.title}>
+                          <div className="title">{elm.title}</div>
+                        </Tooltip>
+                        <Tooltip title={elm.description}>
+                          <div className="description">{elm.description}</div>
+                        </Tooltip>
                         <div className="price">{elm.price}</div>
                       </div>
                       <div className="button">Book now</div>
@@ -305,8 +314,12 @@ function StyleAndActivities() {
                         textAlign: isMobile && "center",
                       }}
                     >
-                      <div className="title">{elm.title}</div>
-                      <div className="description">{elm.description}</div>
+                      <Tooltip title={elm.title}>
+                        <div className="title">{elm.title}</div>
+                      </Tooltip>
+                      <Tooltip title={elm.description}>
+                        <div className="description">{elm.description}</div>
+                      </Tooltip>
                       <div className="price">{elm.price}</div>
                     </div>
                     <div className="button">Book now</div>

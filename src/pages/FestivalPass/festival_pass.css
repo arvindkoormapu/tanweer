@@ -1,8 +1,10 @@
 .pass .top_banner {
-    height: calc(50vh - 71px);
+    /* height: calc(50vh - 71px); */
     background: #BE6F3F url('../../images/Tanweer Pattern.png') no-repeat center center;
     background-size: cover;
     width: 100%;
+    height: 100%;
+    padding: 65px 0px;
 }
 
 .pass {
@@ -13,8 +15,8 @@
     display: flex;
     flex-direction: column;
     width: 28%;
-    position: absolute;
-    top: 34%;
+    /* position: absolute; */
+    /* top: 34%; */
 }
 
 .pass .content .title {
@@ -39,8 +41,8 @@
 .top_banner .image {
     position: absolute;
     right: 5%;
-    top: 23%;
-    width: 40%;
+    top: 178px;
+    width: 36rem;
 }
 
 .top_banner .wrapper {
@@ -95,7 +97,7 @@
 .pass-wrapper .ticket-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .pass-wrapper .ticket {

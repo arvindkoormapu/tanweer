@@ -1,15 +1,22 @@
 import React from "react";
-import { Layout, Space, Row, Col, Typography } from "antd";
+import { Layout, Space, Row, Col, Typography, Popover } from "antd";
 import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
 import ImageSlider from "../../components/ImageSlider";
 import Path from "../../images/Path 356.png";
 import Art from "../../images/Programs/art.webp";
+import Share from "../../images/SHARE ICON.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Import core Swiper styles
 import "swiper/css/navigation";
 import "./program.css";
 import { useState } from "react";
+import {
+  TwitterShareButton,
+  TwitterIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+} from "react-share";
 const { Content } = Layout;
 const { Text, Paragraph } = Typography;
 
@@ -19,12 +26,30 @@ const tabs = [
   { label: "ARt", id: 2 },
 ];
 
+const ShareContent = ({ url, title }) => {
+  return (
+    <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <TwitterShareButton url={url} title={title}>
+        <TwitterIcon size={32} round />
+      </TwitterShareButton>
+      <WhatsappShareButton url={url} title={title} separator=":: ">
+        <WhatsappIcon size={32} round />
+      </WhatsappShareButton>
+    </div>
+  );
+};
+
 function Programs() {
   const { pages } = useData();
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
   const [activeTab, setActiveTab] = useState(0);
   const [activeSubTab, setActiveSubTab] = useState(0);
+
+  const shareUrl = window.location.href;
+  const shareTitle = "Tanweer Festival!"; // Title for sharing
+
+  const popoverContent = <ShareContent url={shareUrl} title={shareTitle} />;
 
   const chunkedArray = (arr, size) => {
     const result = [];
@@ -83,13 +108,32 @@ function Programs() {
               gutter={isMobile ? [20, 20] : [30, 30]}
               className="artist-wrapper"
             >
-              {pages.programs.tabData[activeTab][activeSubTab].map((elm, i) => (
+              {pages.programList[activeTab === 0 ? 'music' : 'workshops'][activeSubTab].programs[0].list.map((elm, i) => (
                 <Col span={isMobile ? 24 : 12}>
                   <img
                     className="artist-program-images"
-                    src={require(`../../${elm}`)}
+                    src={require(`../../${elm.image}`)}
                     alt="icon"
+                    style={{ position: "relative" }}
                   />
+                  <Popover
+                    content={popoverContent}
+                    title="Share this page"
+                    trigger="click"
+                    placement="bottom"
+                  >
+                    <img
+                      style={{
+                        position: "absolute",
+                        bottom: "18px",
+                        right: "36px",
+                        height: "22px",
+                        cursor: 'pointer'
+                      }}
+                      src={Share}
+                      alt="icon"
+                    />
+                  </Popover>
                 </Col>
               ))}
             </Row>
@@ -157,9 +201,7 @@ function Programs() {
                           src={require(`../../${elm.image}`)}
                           alt="icon"
                         />
-                        <div
-                          className="text-wrapper"
-                        >
+                        <div className="text-wrapper">
                           <Text className="name">{elm.name}</Text>
                           <Text className="caption">{elm.caption}</Text>
                         </div>

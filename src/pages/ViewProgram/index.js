@@ -22,7 +22,7 @@ function ViewProgram() {
         {isMobile ? (
           <div>
             <Space style={{ justifyContent: "space-between", width: "86%" }}>
-              {pages.programList.list.map((elm, i) => (
+              {pages.programList.music.map((elm, i) => (
                 <div
                   style={{
                     display: "flex",
@@ -39,11 +39,11 @@ function ViewProgram() {
                 </div>
               ))}
             </Space>
-            <ProgramList data={pages.programList.list[activeIndex].programs} />
+            <ProgramList data={pages.programList.music[activeIndex].programs} />
           </div>
         ) : (
           <Row>
-            {pages.programList.list.map((elm, i) => (
+            {pages.programList.music.map((elm, i) => (
               <Col span={8}>
                 <div
                   style={{

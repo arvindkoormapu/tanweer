@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-import { Layout, Row, Col, Typography, Space } from "antd";
+import React from "react";
+import { Layout, Row, Col, Typography, Space, Tooltip } from "antd";
 import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
 import MissionSlider from "../../components/Slider/AboutSlider";
@@ -223,8 +223,13 @@ function About() {
                     style={{ width: isMobile ? "100%" : "50%" }}
                     className="text-wrapper"
                   >
-                    <div className="title">{elm.title}</div>
-                    <div className="para">{elm.description}</div>
+                    <Tooltip title={elm.title}>
+                      <div className="title">{elm.title}</div>
+                    </Tooltip>
+
+                    <Tooltip title={elm.description}>
+                      <div className="para collapsed">{elm.description}</div>
+                    </Tooltip>
                   </div>
                 </div>
               </SwiperSlide>

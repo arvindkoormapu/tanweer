@@ -1,5 +1,5 @@
 {
-    "list": [
+    "music": [
         {
             "date": "Nov 22",
             "programs": [
@@ -7,129 +7,101 @@
                     "title": "LOCATION ARENA",
                     "list": [
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Anas Alhalabi",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Anas-Alhalabi.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Julien Breton",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Julien-Breton.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Ziyad Sahhab",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Ziyad-Sahhab.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Senny Camara",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Senny-Camara.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Sami Yusuf",
                             "time": "00:00 PM",
-                            "image": ""
-                        }
-                    ]
-                },
-                {
-                    "title": "LOCATION ARENA",
-                    "list": [
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": "images/ProgramList/photo1.webp"
-                        },
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": ""
-                        },
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": ""
-                        },
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": ""
-                        },
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Sami-Yusuf.webp"
                         }
                     ]
                 }
             ]
         },
         {
-            "date": "Nov 22",
+            "date": "Nov 23",
             "programs": [
                 {
                     "title": "LOCATION ARENA",
                     "list": [
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Baraka Blue and Shadi Band",
                             "time": "00:00 PM",
-                            "image": "images/ProgramList/photo1.webp"
+                            "image": "images/Programs/Baraka-Blue-and-Shadi-Band-23.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Senny Camara Mary Malifarges",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Senny-Camara-Mary-Malifarges.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Constantinople Rumi",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Constantinople-Rumi.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Anas Alhalabi",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Anas-Alhalabi-23.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Sandu",
                             "time": "00:00 PM",
-                            "image": ""
-                        }
-                    ]
-                },
-                {
-                    "title": "LOCATION ARENA",
-                    "list": [
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": ""
-                        },
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": ""
-                        },
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": ""
-                        },
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": ""
-                        },
-                        {
-                            "name": "ARTIST NAME",
-                            "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Sandu.webp"
                         }
                     ]
                 }
             ]
         },
+        {
+            "date": "Nov 24",
+            "programs": [
+                {
+                    "title": "LOCATION ARENA",
+                    "list": [
+                        {
+                            "name": "Baraka Blue and Shadi Band",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Baraka-Blue-and-Shadi-Band-24.webp"
+                        },
+                        {
+                            "name": "Fadi Rifaai and Sandu",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Fadi-Rifaai-and-Sandu.webp"
+                        },
+                        {
+                            "name": "Ensemble Noureddine",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Ensemble-Noureddine-.webp"
+                        },
+                        {
+                            "name": "Dhafer Youssef",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Dhafer-Youssef.webp"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "workshops": [
         {
             "date": "Nov 22",
             "programs": [
@@ -137,59 +109,114 @@
                     "title": "LOCATION ARENA",
                     "list": [
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Artist name",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/artist_2.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Artist name",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/artist_2.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Artist name",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/artist_2.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Artist name",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/artist_2.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Artist name",
                             "time": "00:00 PM",
-                            "image": "images/ProgramList/photo1.webp"
+                            "image": "images/Programs/artist_2.webp"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "date": "Nov 23",
+            "programs": [
                 {
                     "title": "LOCATION ARENA",
                     "list": [
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Intermodal Expressive Arts",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Intermodal-Expressive-Arts.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Illumination and Geometry",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Illumination-and-Geometry.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Anas Handpan Orchestra",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Anas-Handpan-Orchestra.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Calligraphy Lighting",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Calligraphy-Lighting.webp"
                         },
                         {
-                            "name": "ARTIST NAME",
+                            "name": "Sema Whirling",
                             "time": "00:00 PM",
-                            "image": ""
+                            "image": "images/Programs/Sema-Whirling.webp"
+                        },
+                        {
+                            "name": "Calligraphy",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Calligraphy.webp"
+                        },
+                        {
+                            "name": "Breathwork",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Breathwork.webp"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "Nov 24",
+            "programs": [
+                {
+                    "title": "LOCATION ARENA",
+                    "list": [
+                        {
+                            "name": "Intermodal Expressive Arts",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Intermodal-Expressive-Arts-24.webp"
+                        },
+                        {
+                            "name": "Illumination and Geometry",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Illumination-and-Geometry-24.webp"
+                        },
+                        {
+                            "name": "Calligraphy Lighting",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Calligraphy-Lighting-24.webp"
+                        },
+                        {
+                            "name": "Sound Immersion",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Sound-Immersion.webp"
+                        },
+                        {
+                            "name": "Calligraphy",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Calligraphy-24.webp"
+                        },
+                        {
+                            "name": "Whirling",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Whirling.webp"
                         }
                     ]
                 }

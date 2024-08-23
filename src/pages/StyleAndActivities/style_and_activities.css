@@ -63,7 +63,7 @@
     color: #731D14;
     text-transform: uppercase;
     padding-top: 24px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -73,7 +73,6 @@
     font-weight: 400;
     line-height: 1.3rem;
     color: #731D14;
-    width: 85%;
     padding-bottom: 20px;
 }
 
@@ -151,15 +150,60 @@
     width: 100%;
 }
 
-.camping_section .description{
+.camping_section .description {
     height: 82px;
 }
 
-.middle_section .top-drag-slider .title {
+/* .middle_section .top-drag-slider .title {
     height: 100px;
+} */
+
+.bottom_section .description {
+    height: 248px;
 }
 
-.bottom_section .description{
+.activity .middle_section .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.activity .middle_section .description {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 103px;
+}
+
+.activity .camping_section .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.activity .camping_section .description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 103px;
+}
+
+.activity .bottom_section .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.activity .bottom_section .description {
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     height: 248px;
 }
 
@@ -217,11 +261,11 @@
         padding: 42px 7.5%;
     }
 
-    .camping_section .description{
+    .camping_section .description {
         height: 123px;
     }
 
-    .bottom_section .description{
+    .bottom_section .description {
         height: 352px;
     }
 }

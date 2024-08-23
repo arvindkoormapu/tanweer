@@ -1,3 +1,9 @@
+.landing .main-layout {
+    height: 100% !important;
+    width: 100% !important;
+    padding: 3rem 0px;
+}
+
 .landing-banner {
     height: calc(100vh - 141px);
     width: 100%;
@@ -22,14 +28,14 @@
     position: relative;
     justify-content: flex-end;
     align-items: center;
-    bottom: 10%;
+    bottom: 35%;
 }
 
 .landing-banner .title {
     font-family: TAN-AESOP;
     font-size: 2rem;
     font-weight: 400;
-    line-height: 57.25px;
+    line-height: 75.25px;
     text-align: center;
     color: #FFF5D9;
     text-transform: uppercase;
@@ -203,13 +209,16 @@
 }
 
 .activities-section .content {
-    height: calc(100vh - 50px);
+    /* height: calc(100vh - 50px); */
+    height: 100%;
     background-color: #FFF5D9;
 }
 
 .activities-section .image {
     width: 100%;
-    height: calc(100vh - 50px);
+    /* height: calc(100vh - 50px); */
+    height: 100%;
+    object-fit: cover;
 }
 
 .button-component-wrapper {
@@ -221,7 +230,7 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 137px;
+    padding: 4rem 0px;
 }
 
 .left-content-text {
@@ -234,8 +243,8 @@
 }
 
 .activities-section .slider-image {
-    width: 280px;
-    border-radius: 20px;
+    width: 100%;
+    border-radius: 1rem;
 }
 
 .slider {
@@ -253,7 +262,7 @@
     color: #FFF5D9;
     text-transform: uppercase;
     position: absolute;
-    top: 45%;
+    top: 39%;
     right: 0px;
     left: 0px;
 }
