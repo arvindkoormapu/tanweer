@@ -66,7 +66,7 @@ function FestivalPass() {
                         <Text className={`price text-uppercase ${item.status}`}>
                           {item.price}
                         </Text>
-                        <Text className="button">get pass now</Text>
+                        <Text className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>get pass now</Text>
                       </div>
                     ))}
                   </div>
@@ -94,7 +94,7 @@ function FestivalPass() {
                         <Text className={`price text-uppercase ${item.status}`}>
                           {item.price}
                         </Text>
-                        <Text className="button">get pass now</Text>
+                        <Text className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>get pass now</Text>
                       </div>
                     ))}
                   </div>

@@ -183,7 +183,7 @@ const Home = () => {
                     <ButtonComponent
                       bgColor="#731D14"
                       textColor="#FFF5D9"
-                      clickAction={() => navigate('/stay_activities')}
+                      clickAction={() => window.open('https://staging.tanweerfestival.com/', '_blank')}
                       text="Book now"
                     />
                   </div>
