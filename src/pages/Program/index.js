@@ -13,10 +13,11 @@ import "./program.css";
 import { useState } from "react";
 import {
   TwitterShareButton,
-  TwitterIcon,
+  XIcon,
   WhatsappShareButton,
   WhatsappIcon,
 } from "react-share";
+import { Helmet } from "react-helmet";
 const { Content } = Layout;
 const { Text, Paragraph } = Typography;
 
@@ -26,11 +27,22 @@ const tabs = [
   { label: "ARt", id: 2 },
 ];
 
-const ShareContent = ({ url, title }) => {
+const ShareContent = ({ url, title, imageUrl }) => {
   return (
     <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <Helmet>
+        <title>{title}</title>
+        <meta property="og:title" content={title} />
+        <meta
+          property="og:description"
+          content="Check out this amazing content!"
+        />
+        <meta property="og:image" content={imageUrl} />
+        <meta property="og:url" content={url} />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <TwitterShareButton url={url} title={title}>
-        <TwitterIcon size={32} round />
+        <XIcon size={32} round />
       </TwitterShareButton>
       <WhatsappShareButton url={url} title={title} separator=":: ">
         <WhatsappIcon size={32} round />
@@ -45,11 +57,6 @@ function Programs() {
 
   const [activeTab, setActiveTab] = useState(0);
   const [activeSubTab, setActiveSubTab] = useState(0);
-
-  const shareUrl = window.location.href;
-  const shareTitle = "Tanweer Festival!"; // Title for sharing
-
-  const popoverContent = <ShareContent url={shareUrl} title={shareTitle} />;
 
   const chunkedArray = (arr, size) => {
     const result = [];
@@ -108,7 +115,9 @@ function Programs() {
               gutter={isMobile ? [20, 20] : [30, 30]}
               className="artist-wrapper"
             >
-              {pages.programList[activeTab === 0 ? 'music' : 'workshops'][activeSubTab].programs[0].list.map((elm, i) => (
+              {pages.programList[activeTab === 0 ? "music" : "workshops"][
+                activeSubTab
+              ].programs[0].list.map((elm, i) => (
                 <Col span={isMobile ? 24 : 12}>
                   <img
                     className="artist-program-images"
@@ -117,8 +126,14 @@ function Programs() {
                     style={{ position: "relative" }}
                   />
                   <Popover
-                    content={popoverContent}
-                    title="Share this page"
+                    content={
+                      <ShareContent
+                        url={`${window.location.href}`}
+                        title={elm.name}
+                        imageUrl={`${window.location.href}/static/media/${elm.image}`}
+                      />
+                    }
+                    title="Share"
                     trigger="click"
                     placement="bottom"
                   >
@@ -128,7 +143,7 @@ function Programs() {
                         bottom: "18px",
                         right: "36px",
                         height: "22px",
-                        cursor: 'pointer'
+                        cursor: "pointer",
                       }}
                       src={Share}
                       alt="icon"
