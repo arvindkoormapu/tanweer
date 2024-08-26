@@ -10,6 +10,7 @@ import loadingMusic from "../Tibetan Healing Sounds.mp3";
 import Landing from "./Landing";
 import HeaderComponent from "../components/Header";
 import Footer from "../components/Footer";
+import Home from "./Home";
 
 const { Header, Content } = Layout;
 const { Text } = Typography;
@@ -294,7 +295,7 @@ const Loading = () => {
   ) : (
     <>
       <HeaderComponent />
-      <Landing />
+      <Home />
       <Footer />
     </>
   );

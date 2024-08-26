@@ -63,7 +63,7 @@
     color: #731D14;
     text-transform: uppercase;
     padding-top: 24px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 
 }
 
@@ -164,9 +164,10 @@
 
 .activity .middle_section .title {
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    height: 109px;
 }
 
 .activity .middle_section .description {
@@ -179,9 +180,10 @@
 
 .activity .camping_section .title {
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    height: 109px;
 }
 
 .activity .camping_section .description {
@@ -194,9 +196,10 @@
 
 .activity .bottom_section .title {
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    height: 109px;
 }
 
 .activity .bottom_section .description {

@@ -126,7 +126,7 @@ function Program() {
       <ButtonComponent
         bgColor="#731D14"
         textColor="#FFF5D9"
-        clickAction={() => navigate('/view-program')}
+        clickAction={() => navigate('/programs')}
         text="VIEW PROGRAM"
       />
     </>

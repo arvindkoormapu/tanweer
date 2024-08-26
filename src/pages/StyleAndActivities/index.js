@@ -146,7 +146,7 @@ function StyleAndActivities() {
 
                       <div className="price">{elm.price}</div>
                     </div>
-                    <div className="button">Book now</div>
+                    <div className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>Book now</div>
                   </div>
                 </div>
               </SwiperSlide>
@@ -207,7 +207,7 @@ function StyleAndActivities() {
               }}
               modules={[Navigation]}
             >
-              {pages.activities.activities.map((elm, index) => (
+              {pages.activities.camping.map((elm, index) => (
                 <SwiperSlide key={index}>
                   <div className="top-drag-slider">
                     <img
@@ -230,7 +230,7 @@ function StyleAndActivities() {
                         </Tooltip>
                         <div className="price">{elm.price}</div>
                       </div>
-                      <div className="button">Book now</div>
+                      <div className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>Book now</div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -257,7 +257,7 @@ function StyleAndActivities() {
                         <div className="description">{elm.description}</div>
                         <div className="price">{elm.price}</div>
                       </div>
-                      <div className="button">Book now</div>
+                      <div className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>Book now</div>
                     </div>
                   </div>
                 </Col>
@@ -322,7 +322,7 @@ function StyleAndActivities() {
                       </Tooltip>
                       <div className="price">{elm.price}</div>
                     </div>
-                    <div className="button">Book now</div>
+                    <div className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>Book now</div>
                   </div>
                 </div>
               </SwiperSlide>

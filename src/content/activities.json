@@ -21,7 +21,7 @@
         },
         {
             "image":"images/StyleAndActivities/Archaeological.webp",
-            "title": "Musem Access",
+            "title": "Mleiha Archaeological Center",
             "description": "Delve into Mleiha's captivating history and uncover the secrets of ancient artifacts and archaeological sites.",
             "price": "AED 25",
             "link": ""
@@ -44,21 +44,21 @@
     "camping": [
         {
             "image":"images/StyleAndActivities/camp.webp",
-            "title": "Camp Site",
+            "title": "Tent space Rental (BYOT)",
             "description": "Camping Area provided, bring your own tent and camping gear",
             "price": "1 Day AED XXX  |  3 Days AED XXX",
             "link": ""
         },
         {
             "image":"images/StyleAndActivities/Standard.webp",
-            "title": "Standard Tent",
+            "title": "Tent rental",
             "description": "Book a Tent for 2, 4 or 6 persons. Beds, sleeping bags, blankets and pillows not included.",
             "price": "1 Day AED XXX  |  3 Days AED XXX",
             "link": ""
         },
         {
-            "image":"images/StyleAndActivities/Luxury.webp",
-            "title": "Glamping Luxury Tent",
+            "image":"images/StyleAndActivities/Glamping.png",
+            "title": "Glamping",
             "description": "Pillow-top mattress, fully-furnished and ‘hotel-style comforts’. Shuttle service to the Tanweer Festival site.",
             "price": "1 Day AED XXX  |  3 Days AED XXX",
             "link": ""
