@@ -130,7 +130,7 @@ function Programs() {
                       <ShareContent
                         url={`${window.location.href}`}
                         title={elm.name}
-                        imageUrl={`${window.location.href}/static/media/${elm.image}`}
+                        imageUrl={`${window.location.origin}/static/media/${elm.image}`}
                       />
                     }
                     title="Share"
