@@ -1,42 +1,40 @@
 import React from "react";
-import { Popover, Button } from "antd";
+import { message, Button } from "antd";
 import {
   TwitterShareButton,
-  TwitterIcon,
+  XIcon,
   WhatsappShareButton,
   WhatsappIcon,
 } from "react-share";
+import { Helmet } from "react-helmet";
+import { CopyOutlined } from "@ant-design/icons";
 
-const ShareComponent = ({ url, title, description }) => {
-  const content = (
+const ShareContent = ({ url, title, imageUrl }) => {
+  const copyLink = () => {
+    window.navigator.clipboard.writeText(window.location.href);
+    message.info("Linked Copied!");
+  };
+
+  return (
     <div style={{ display: "flex", justifyContent: "space-around" }}>
-      {/* Twitter Share Button */}
+      <Helmet>
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content="Amazing content to share!" />
+        <meta property="og:image" content={imageUrl} />
+        <meta property="og:url" content={url} />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <TwitterShareButton url={url} title={title}>
-        <TwitterIcon size={32} round />
+        <XIcon size={32} round />
       </TwitterShareButton>
-
-      {/* WhatsApp Share Button */}
       <WhatsappShareButton url={url} title={title} separator=":: ">
         <WhatsappIcon size={32} round />
       </WhatsappShareButton>
-
-      {/* Twitter Share Button */}
-      <TwitterShareButton url={url} title={title}>
-        <TwitterIcon size={32} round />
-      </TwitterShareButton>
+      <div>
+        <Button type="primary" icon={<CopyOutlined />} onClick={copyLink} />
+      </div>
     </div>
-  );
-
-  return (
-    <Popover
-      content={content}
-      title="Share this page"
-      trigger="click"
-      placement="bottom"
-    >
-      <Button type="primary" icon={<i className="fas fa-share-alt" />} />
-    </Popover>
   );
 };
 
-export default ShareComponent;
+export default ShareContent;

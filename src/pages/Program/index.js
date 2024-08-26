@@ -1,14 +1,5 @@
-import React from "react";
-import {
-  Layout,
-  Space,
-  Row,
-  Col,
-  Typography,
-  Popover,
-  Button,
-  message,
-} from "antd";
+import React, { useState } from "react";
+import { Layout, Space, Row, Col, Typography, Popover } from "antd";
 import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
 import ImageSlider from "../../components/ImageSlider";
@@ -16,18 +7,10 @@ import Path from "../../images/Path 356.png";
 import Art from "../../images/Programs/art.webp";
 import Share from "../../images/SHARE ICON.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css"; // Import core Swiper styles
+import ShareContent from "../../components/Share";
+import "swiper/css";
 import "swiper/css/navigation";
 import "./program.css";
-import { useState } from "react";
-import {
-  TwitterShareButton,
-  XIcon,
-  WhatsappShareButton,
-  WhatsappIcon,
-} from "react-share";
-import { Helmet } from "react-helmet";
-import { CopyOutlined } from "@ant-design/icons";
 
 const { Content } = Layout;
 const { Text, Paragraph } = Typography;
@@ -37,41 +20,6 @@ const tabs = [
   { label: "Workshops", id: 1 },
   { label: "ARt", id: 2 },
 ];
-
-const ShareContent = ({ url, title, imageUrl }) => {
-  const copyLink = () => {
-    window.navigator.clipboard.writeText(window.location.href);
-    message.info("Linked Copied!");
-  };
-
-  return (
-    <div style={{ display: "flex", justifyContent: "space-around" }}>
-      <Helmet>
-        <title>{title}</title>
-        <meta property="og:title" content={title} />
-        <meta
-          property="og:description"
-          content="Check out this amazing content!"
-        />
-        <meta
-          property="og:image"
-          content="https://tanweer-iota.vercel.app/pass.webp"
-        />
-        <meta property="og:url" content={url} />
-        <meta property="og:type" content="article" />
-      </Helmet>
-      <TwitterShareButton url={url} title={title}>
-        <XIcon size={32} round />
-      </TwitterShareButton>
-      <WhatsappShareButton url={url} title={title} separator=":: ">
-        <WhatsappIcon size={32} round />
-      </WhatsappShareButton>
-      <div>
-        <Button type="primary" icon={<CopyOutlined />} onClick={copyLink} />
-      </div>
-    </div>
-  );
-};
 
 function Programs() {
   const { pages } = useData();
