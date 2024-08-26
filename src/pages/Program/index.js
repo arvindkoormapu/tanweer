@@ -38,13 +38,13 @@ const ShareContent = ({ url, title, imageUrl }) => {
           content="Check out this amazing content!"
         />
         <meta property="og:image" content={imageUrl} />
-        <meta property="og:url" content={url} />
+        <meta property="og:url" content={imageUrl} />
         <meta property="og:type" content="article" />
       </Helmet>
-      <TwitterShareButton url={url} title={title}>
+      <TwitterShareButton url={imageUrl} title={title}>
         <XIcon size={32} round />
       </TwitterShareButton>
-      <WhatsappShareButton url={url} title={title} separator=":: ">
+      <WhatsappShareButton url={imageUrl} title={title} separator=":: ">
         <WhatsappIcon size={32} round />
       </WhatsappShareButton>
     </div>
