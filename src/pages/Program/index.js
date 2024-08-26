@@ -40,22 +40,13 @@ const tabs = [
 
 const ShareContent = ({ url, title, imageUrl }) => {
   const copyLink = () => {
+    window.navigator.clipboard.writeText(window.location.href);
     message.info('Linked Copied!');
   };
 
   return (
     <div style={{ display: "flex", justifyContent: "space-around" }}>
-      <Helmet>
-        <title>{title}</title>
-        <meta property="og:title" content={title} />
-        <meta
-          property="og:description"
-          content="Check out this amazing content!"
-        />
-        <meta property="og:image" content={imageUrl} />
-        <meta property="og:url" content={imageUrl} />
-        <meta property="og:type" content="article" />
-      </Helmet>
+      
       <TwitterShareButton url={url} title={title}>
         <XIcon size={32} round />
       </TwitterShareButton>
@@ -89,6 +80,17 @@ function Programs() {
   return (
     <Layout className="about">
       <Content>
+      <Helmet>
+        <title>Arvind</title>
+        <meta property="og:title" content="Arvind" />
+        <meta
+          property="og:description"
+          content="Check out this amazing content!"
+        />
+        <meta property="og:image" content="https://tanweer-iota.vercel.app/pass.webp" />
+        <meta property="og:url" content="https://tanweer-iota.vercel.app/pass.webp" />
+        <meta property="og:type" content="article" />
+      </Helmet>
         <div
           className="floating-button"
           onClick={() =>
