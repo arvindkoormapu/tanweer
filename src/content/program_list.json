@@ -9,27 +9,27 @@
                         {
                             "name": "Sami Yusuf",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Sami-Yusuf.webp"
+                            "image": "/artist_images/Sami-Yusuf.webp"
                         },
                         {
                             "name": "Senny Camara",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Senny-Camara.webp"
+                            "image": "/artist_images/Senny-Camara.webp"
                         },
                         {
                             "name": "Ziyad Sahhab",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Ziyad-Sahhab.webp"
+                            "image": "/artist_images/Ziyad-Sahhab.webp"
                         },
                         {
                             "name": "Julien Breton",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Julien-Breton.webp"
+                            "image": "/artist_images/Julien-Breton.webp"
                         },
                         {
                             "name": "Anas Alhalabi",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Anas-Alhalabi.webp"
+                            "image": "/artist_images/Anas-Alhalabi.webp"
                         }
                     ]
                 }
@@ -44,27 +44,27 @@
                         {
                             "name": "Baraka Blue and Shadi Band",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Baraka-Blue-and-Shadi-Band-23.webp"
+                            "image": "/artist_images/Baraka-Blue-and-Shadi-Band-23.webp"
                         },
                         {
                             "name": "Constantinople Rumi",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Constantinople-Rumi.webp"
+                            "image": "/artist_images/Constantinople-Rumi.webp"
                         },
                         {
                             "name": "Senny Camara Mary Malifarges",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Senny-Camara-Mary-Malifarges.webp"
+                            "image": "/artist_images/Senny-Camara-Mary-Malifarges.webp"
                         },
                         {
                             "name": "Sandu",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Sandu.webp"
+                            "image": "/artist_images/Sandu.webp"
                         },
                         {
                             "name": "Anas Alhalabi",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Anas-Alhalabi-23.webp"
+                            "image": "/artist_images/Anas-Alhalabi-23.webp"
                         }
                     ]
                 }
@@ -79,22 +79,22 @@
                         {
                             "name": "Dhafer Youssef",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Dhafer-Youssef.webp"
+                            "image": "/artist_images/Dhafer-Youssef.webp"
                         },
                         {
                             "name": "Ensemble Noureddine",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Ensemble-Noureddine-.webp"
+                            "image": "/artist_images/Ensemble-Noureddine-.webp"
                         },
                         {
                             "name": "Baraka Blue and Shadi Band",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Baraka-Blue-and-Shadi-Band-24.webp"
+                            "image": "/artist_images/Baraka-Blue-and-Shadi-Band-24.webp"
                         },
                         {
                             "name": "Fadi Rifaai and Sandu",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Fadi-Rifaai-and-Sandu.webp"
+                            "image": "/artist_images/Fadi-Rifaai-and-Sandu.webp"
                         }
                     ]
                 }
@@ -120,37 +120,37 @@
                         {
                             "name": "Intermodal Expressive Arts",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Intermodal-Expressive-Arts.webp"
+                            "image": "/artist_images/Intermodal-Expressive-Arts.webp"
                         },
                         {
                             "name": "Illumination and Geometry",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Illumination-and-Geometry.webp"
+                            "image": "/artist_images/Illumination-and-Geometry.webp"
                         },
                         {
                             "name": "Anas Handpan Orchestra",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Anas-Handpan-Orchestra.webp"
+                            "image": "/artist_images/Anas-Handpan-Orchestra.webp"
                         },
                         {
                             "name": "Calligraphy Lighting",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Calligraphy-Lighting.webp"
+                            "image": "/artist_images/Calligraphy-Lighting.webp"
                         },
                         {
                             "name": "Sema Whirling",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Sema-Whirling.webp"
+                            "image": "/artist_images/Sema-Whirling.webp"
                         },
                         {
                             "name": "Calligraphy",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Calligraphy.webp"
+                            "image": "/artist_images/Calligraphy.webp"
                         },
                         {
                             "name": "Breathwork",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Breathwork.webp"
+                            "image": "/artist_images/Breathwork.webp"
                         }
                     ]
                 }
@@ -165,32 +165,32 @@
                         {
                             "name": "Intermodal Expressive Arts",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Intermodal-Expressive-Arts-24.webp"
+                            "image": "/artist_images/Intermodal-Expressive-Arts-24.webp"
                         },
                         {
                             "name": "Illumination and Geometry",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Illumination-and-Geometry-24.webp"
+                            "image": "/artist_images/Illumination-and-Geometry-24.webp"
                         },
                         {
                             "name": "Calligraphy Lighting",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Calligraphy-Lighting-24.webp"
+                            "image": "/artist_images/Calligraphy-Lighting-24.webp"
                         },
                         {
                             "name": "Sound Immersion",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Sound-Immersion.webp"
+                            "image": "/artist_images/Sound-Immersion.webp"
                         },
                         {
                             "name": "Calligraphy",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Calligraphy-24.webp"
+                            "image": "/artist_images/Calligraphy-24.webp"
                         },
                         {
                             "name": "Whirling",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Whirling.webp"
+                            "image": "/artist_images/Whirling.webp"
                         }
                     ]
                 }

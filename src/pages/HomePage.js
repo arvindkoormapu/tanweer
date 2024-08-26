@@ -10,19 +10,27 @@ import loadingMusic from "../Tibetan Healing Sounds.mp3";
 import Home from "./Home";
 import HeaderComponent from "../components/Header";
 import Footer from "../components/Footer";
+import Drawer from '../components/Drawer';
 
 const { Header, Content } = Layout;
 const { Text } = Typography;
 
 const HomePage = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
+  const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
   const [timeLeft, setTimeLeft] = useState({});
   const [showLanding, setShowLanding] = useState(false);
-
   const [text, setText] = useState("IN");
+  const [isDrawerVisible, setIsDrawerVisible] = useState(false);
 
-  const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
-  const navigate = useNavigate();
+  const showDrawer = () => {
+    setIsDrawerVisible(true);
+  };
+
+  const closeDrawer = () => {
+    setIsDrawerVisible(false);
+  };
 
   useEffect(() => {
     setShowLanding(false);
@@ -97,6 +105,12 @@ const HomePage = () => {
       sessionStorage.setItem("loaded", "true");
       // navigate("/landing");
       setShowLanding(true);
+      audio.pause();
+      audio.currentTime = 0;
+      clearTimeout(redirectTimeout);
+      document.removeEventListener("click", handleUserInteraction);
+      document.removeEventListener("keydown", handleUserInteraction);
+      document.removeEventListener("visibilitychange", handleUserInteraction);
     }, totalRotationTime);
 
     return () => {
@@ -293,8 +307,9 @@ const HomePage = () => {
     </Layout>
   ) : (
     <>
-      <HeaderComponent />
-      <Home />
+      <HeaderComponent onMenuClick={showDrawer} />
+      <Drawer isVisible={isDrawerVisible} onClose={closeDrawer} />
+      <main><Home /></main>
       <Footer />
     </>
   );

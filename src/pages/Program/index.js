@@ -58,7 +58,10 @@ function Programs() {
                 <React.Fragment key={tab.id}>
                   <Text
                     className={`text ${activeTab === index && "active-tab"}`}
-                    onClick={() => setActiveTab(tab.id)}
+                    onClick={() => {
+                      setActiveTab(tab.id);
+                      tab.id === 1 && setActiveSubTab(1)
+                    }}
                   >
                     {tab.label}
                   </Text>
@@ -97,13 +100,11 @@ function Programs() {
               gutter={isMobile ? [20, 20] : [30, 30]}
               className="artist-wrapper"
             >
-              {pages.programList[activeTab === 0 ? "music" : "workshops"][
-                activeSubTab
-              ].programs[0].list.map((elm, i) => (
+              {pages.programList[activeTab === 0 ? "music" : "workshops"][activeSubTab].programs[0].list.map((elm, i) => (
                 <Col span={isMobile ? 24 : 12}>
                   <img
                     className="artist-program-images"
-                    src={require(`../../${elm.image}`)}
+                    src={`${elm.image}`}
                     alt="icon"
                     style={{ position: "relative" }}
                   />
@@ -112,7 +113,7 @@ function Programs() {
                       <ShareContent
                         url={`${window.location.href}`}
                         title={elm.name}
-                        imageUrl={`${window.location.origin}/pass.webp`}
+                        imageUrl={`${window.location.origin}${elm.image}`}
                       />
                     }
                     title="Share"

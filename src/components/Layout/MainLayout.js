@@ -9,7 +9,6 @@ const MainLayout = ({ children }) => {
 
   const showDrawer = () => {
     setIsDrawerVisible(true);
-    console.log('hi')
   };
 
   const closeDrawer = () => {
