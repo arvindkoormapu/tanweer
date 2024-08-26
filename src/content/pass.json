@@ -15,13 +15,13 @@
             "types": [
                 {
                     "title": "Early Bird",
-                    "price": "SOLD OUT",
-                    "status": "sold_out",
+                    "price": "AED 1350",
+                    "status": "",
                     "link": ""
                 },
                 {
                     "title": "Regular",
-                    "price": "AED 1.650",
+                    "price": "AED 1650",
                     "status": "strick",
                     "link": ""
                 }
@@ -34,7 +34,7 @@
             "types": [
                 {
                     "title": "Early Bird",
-                    "price": "AED 2,500",
+                    "price": "AED 2,000",
                     "status": "",
                     "link": ""
                 },
@@ -55,14 +55,14 @@
             "types": [
                 {
                     "title": "Early Bird",
-                    "price": "SOLD OUT",
+                    "price": "AED 600",
                     "status": "",
                     "link": ""
                 },
                 {
                     "title": "Regular",
                     "price": "AED 700",
-                    "status": "",
+                    "status": "strick",
                     "link": ""
                 }
             ]
@@ -74,13 +74,13 @@
             "types": [
                 {
                     "title": "Early Bird",
-                    "price": "AED 1,500",
+                    "price": "AED 900",
                     "status": "",
                     "link": ""
                 },
                 {
                     "title": "Regular",
-                    "price": "AED 1,500",
+                    "price": "AED 1,050",
                     "status": "strick",
                     "link": ""
                 }

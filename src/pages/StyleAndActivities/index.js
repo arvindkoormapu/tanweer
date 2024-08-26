@@ -305,7 +305,7 @@ function StyleAndActivities() {
                   <img
                     src={require(`../../${elm.image}`)}
                     alt={elm.title}
-                    style={{ width: "100%", borderRadius: "20px" }}
+                    style={{ width: "100%", height: '306px', objectFit: 'cover', borderRadius: "20px" }}
                   />
                   <div className="top-slide-text">
                     <div

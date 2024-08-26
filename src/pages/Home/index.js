@@ -12,6 +12,8 @@ import Program from "./Program";
 import ButtonComponent from "../../components/Button";
 import Image20 from "../../images/Home/Image20.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useNavigate } from "react-router-dom";
+
 import "swiper/css"; // Import core Swiper styles
 import "swiper/css/navigation";
 import "./home.css";
@@ -22,6 +24,7 @@ const { Text, Paragraph } = Typography;
 const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   const { pages } = useData();
+  const navigate = useNavigate();
 
   const [subscribePopup, setSubscribePopup] = useState(false);
 
@@ -180,7 +183,7 @@ const Home = () => {
                     <ButtonComponent
                       bgColor="#731D14"
                       textColor="#FFF5D9"
-                      clickAction={enableSubscribePopup}
+                      clickAction={() => navigate('/stay_activities')}
                       text="Book now"
                     />
                   </div>
