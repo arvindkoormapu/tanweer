@@ -107,33 +107,7 @@
             "programs": [
                 {
                     "title": "LOCATION ARENA",
-                    "list": [
-                        {
-                            "name": "Artist name",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/artist_2.webp"
-                        },
-                        {
-                            "name": "Artist name",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/artist_2.webp"
-                        },
-                        {
-                            "name": "Artist name",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/artist_2.webp"
-                        },
-                        {
-                            "name": "Artist name",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/artist_2.webp"
-                        },
-                        {
-                            "name": "Artist name",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/artist_2.webp"
-                        }
-                    ]
+                    "list": []
                 }
             ]
         },

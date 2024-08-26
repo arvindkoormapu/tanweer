@@ -46,7 +46,6 @@ const ShareContent = ({ url, title, imageUrl }) => {
 
   return (
     <div style={{ display: "flex", justifyContent: "space-around" }}>
-      
       <TwitterShareButton url={url} title={title}>
         <XIcon size={32} round />
       </TwitterShareButton>
@@ -130,6 +129,7 @@ function Programs() {
               }}
             >
               {pages.programs.dates.map((elm, i) => (
+                ((activeTab === 0) || (activeTab === 1 && i !== 0)) &&
                 <Text
                   className={`dates-tab ${
                     activeSubTab === i && "active-sub-tab"
@@ -144,9 +144,7 @@ function Programs() {
               gutter={isMobile ? [20, 20] : [30, 30]}
               className="artist-wrapper"
             >
-              {pages.programList[activeTab === 0 ? "music" : "workshops"][
-                activeSubTab
-              ].programs[0].list.map((elm, i) => (
+              {pages.programList[activeTab === 0 ? "music" : "workshops"][activeSubTab].programs[0].list.map((elm, i) => (
                 <Col span={isMobile ? 24 : 12}>
                   <img
                     className="artist-program-images"

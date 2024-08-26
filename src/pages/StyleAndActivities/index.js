@@ -306,7 +306,7 @@ function StyleAndActivities() {
 
         <div className="bottom_section">
           <div className="dark-arrows">
-            <Text className="h1">hotel offers</Text>
+            <Text className="h1">Staycation</Text>
             <div>
               <img
                 src={ArrowLeftLight}
