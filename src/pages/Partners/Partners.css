@@ -21,6 +21,7 @@
     line-height: 1.3rem;
     color: #A2441B;
     display: block;
+    width: 80%;
 }
 
 /* Media Query for mobile devices */
@@ -40,8 +41,8 @@
     .partners .content .description {
         font-size: 0.9rem;
         text-align: center;
-
+        width: 100%;
     }
 
-   
+
 }

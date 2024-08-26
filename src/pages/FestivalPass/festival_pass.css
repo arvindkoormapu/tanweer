@@ -141,6 +141,9 @@
     cursor: pointer;
     color: #FFF5D9;
     background: #A2441B;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .sold_out {

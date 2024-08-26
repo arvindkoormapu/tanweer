@@ -3,7 +3,6 @@ import { Layout, Space, Typography, Row, Col, Input, Button } from "antd";
 import { useMediaQuery } from "react-responsive";
 import LandingPageImage from "../../images/Home/landing_page_image.webp";
 import LandingPageImageMobile from "../../images/Home/landing_page_image_mobile.webp";
-import PatternIcon from "../../images/Pattern_Icon.png";
 import Path from "../../images/Path 356.png";
 import LandingFirst from "../../images/Home/landing-first.png";
 import CloseButton from "../../images/Close Button.png";
@@ -39,14 +38,14 @@ const Home = () => {
             {!subscribePopup ? (
               <>
                 <Text className="title">{pages.home.landing.title}</Text>
-                <div className="button-component-wrapper">
+                {/* <div className="button-component-wrapper">
                   <ButtonComponent
                     bgColor="#A2441B"
                     textColor="#FFF5D9"
                     clickAction={enableSubscribePopup}
                     text="Register your interest"
                   />
-                </div>
+                </div> */}
               </>
             ) : (
               <div className="subscribe-popup">

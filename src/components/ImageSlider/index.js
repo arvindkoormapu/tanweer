@@ -30,8 +30,6 @@ const ImageSlider = ({slides}) => {
           <div className="slide-content">
             <Text className='name'>{slide.name}</Text>
             <Text className='date'>{slide.date}</Text>
-            <Text className='time'>{slide.time}</Text>
-            <Text className='location'>{slide.location}</Text>
           </div>
         </div>
       ))}

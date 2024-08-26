@@ -27,11 +27,22 @@ function PrivacyTerms() {
   return (
     <Layout className="terms">
       <Content>
+        <div
+          className="floating-button"
+          onClick={() =>
+            window.open("https://staging.tanweerfestival.com/", "_blank")
+          }
+        >
+          get passes NOW
+        </div>
         <Row>
           <Col span={isMobile ? 24 : 6} className="style-mobile">
             <Space
               direction="vertical"
-              style={{ marginTop: !isMobile && "10px", alignItems: isMobile && 'center' }}
+              style={{
+                marginTop: !isMobile && "10px",
+                alignItems: isMobile && "center",
+              }}
             >
               {titles.map((title, index) => (
                 <Text className="list-item">{title}</Text>

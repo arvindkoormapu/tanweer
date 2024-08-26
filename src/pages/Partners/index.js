@@ -15,12 +15,12 @@ import Thumbay from "../../images/Partners/Thumbay Logo.png";
 import Municipality from "../../images/Partners/Sharjah Municipality.png";
 import Police from "../../images/Partners/Sharjah Police.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css"; // Import core Swiper styles
+import "swiper/css";
 import "swiper/css/navigation";
 import "./Partners.css";
 
 const { Content } = Layout;
-const { Text, Paragraph } = Typography;
+const { Text } = Typography;
 
 function Partners() {
   const { pages } = useData();
@@ -95,79 +95,39 @@ function Partners() {
             spaceBetween={10} // Minimal space between slides
             slidesPerView={"auto"} // Automatically adjust the slide width
             grabCursor={true} // Enable grabbing cursor for easier sliding
-            style={{ width: "100%", marginTop: '50px' }} // Ensures Swiper takes full width
+            style={{ width: "100%", marginTop: "50px" }} // Ensures Swiper takes full width
           >
             <SwiperSlide>
-              <img
-                src={Emaar}
-                alt="icon"
-                style={{ width: "100%" }}
-              />
+              <img src={Emaar} alt="icon" style={{ width: "100%" }} />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src={Marwan}
-                alt="icon"
-                style={{ height: "76px" }}
-              />
+              <img src={Marwan} alt="icon" style={{ height: "76px" }} />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src={Arada}
-                alt="icon"
-                style={{ height: "43px" }}
-              />
+              <img src={Arada} alt="icon" style={{ height: "43px" }} />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src={Asas}
-                alt="icon"
-                style={{ height: "79px" }}
-              />
+              <img src={Asas} alt="icon" style={{ height: "79px" }} />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src={Invest}
-                alt="icon"
-                style={{ height: "61px" }}
-              />
+              <img src={Invest} alt="icon" style={{ height: "61px" }} />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src={Beeah}
-                alt="icon"
-                style={{ height: "61px" }}
-              />
+              <img src={Beeah} alt="icon" style={{ height: "61px" }} />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src={DU}
-                alt="icon"
-                style={{ height: "50px" }}
-              />
+              <img src={DU} alt="icon" style={{ height: "50px" }} />
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img
-                src={Empost}
-                alt="icon"
-                style={{ height: "76px" }}
-              />
+              <img src={Empost} alt="icon" style={{ height: "76px" }} />
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src={Thumbay}
-                alt="icon"
-                style={{ height: "82px" }}
-              />
+              <img src={Thumbay} alt="icon" style={{ height: "82px" }} />
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img
-                src={Municipality}
-                alt="icon"
-                style={{ height: "106px" }}
-              />
+              <img src={Municipality} alt="icon" style={{ height: "106px" }} />
             </SwiperSlide>
             <SwiperSlide>
               <img src={Police} alt="icon" style={{ height: "103px" }} />

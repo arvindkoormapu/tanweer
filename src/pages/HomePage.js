@@ -7,14 +7,14 @@ import circleOutline from "../images/Loading/Circle Outline.png";
 import tanweerLogoIcon from "../images/Loading/Tanweer Logo Icon.webp";
 import headerLogo from "../images/logo_white.png";
 import loadingMusic from "../Tibetan Healing Sounds.mp3";
-import Landing from "./Landing";
-import HeaderComponent from "../components/LandingHeader";
-import Footer from "../components/LandingFooter";
+import Home from "./Home";
+import HeaderComponent from "../components/Header";
+import Footer from "../components/Footer";
 
 const { Header, Content } = Layout;
 const { Text } = Typography;
 
-const Loading = () => {
+const HomePage = () => {
   const [loading, setLoading] = useState(true);
   const [timeLeft, setTimeLeft] = useState({});
   const [showLanding, setShowLanding] = useState(false);
@@ -294,10 +294,10 @@ const Loading = () => {
   ) : (
     <>
       <HeaderComponent />
-      <Landing />
+      <Home />
       <Footer />
     </>
   );
 };
 
-export default Loading;
+export default HomePage;

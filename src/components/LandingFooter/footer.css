@@ -1,0 +1,241 @@
+.footer {
+    height: 439px;
+    background: #A2441B url('../../images/footer_pattern.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-row {
+    flex-direction: row;
+    width: 90%;
+    height: 100%
+}
+
+.footer_logo {
+    height: 149px;
+}
+
+.xlogo {
+    height: 31px;
+    cursor: pointer;
+}
+
+.iglogo {
+    height: 34px;
+    cursor: pointer;
+}
+
+.padding-top {
+    padding-top: 15px;
+}
+
+.first-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-year {
+    font-family: Roboto;
+    font-size: 19.41px;
+    font-weight: 400;
+    line-height: 22.74px;
+    color: #FFF5D9;
+}
+
+.logoandicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-text-year {
+    padding-top: 61px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+}
+
+.first-text {
+    font-family: TAN-AESOP;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 32.71px;
+    color: #FFF5D9;
+    text-transform: uppercase;
+}
+
+.subscribe-text {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 21.09px;
+    color: #FFF5D9;
+    text-transform: uppercase;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.custom-input {
+    border-radius: 30px;
+    background-color: #FFF5D9;
+    padding-right: 100px;
+    color: #C06F39;
+    padding: 14px 11px;
+    border: none;
+    padding-right: 140px;
+    padding-left: 26px;
+}
+
+.custom-input input::placeholder {
+    color: #C06F39 !important;
+}
+
+.custom-input:focus,
+.custom-input:hover,
+.custom-input:active {
+    background: #FFF5D9;
+    border-color: initial;
+    box-shadow: none;
+}
+
+.custom-button {
+    border-radius: 30px;
+    background-color: #BE6F3F;
+    color: #FFF7E0;
+    border: none;
+    position: absolute;
+    right: -0px;
+    top: 0;
+    height: 100%;
+    padding: 0px 30px;
+}
+
+.custom-button:hover,
+.custom-button:focus,
+.custom-button:active {
+    background-color: #BE6F3F;
+    color: #FFF7E0;
+    border-color: none;
+    box-shadow: none;
+}
+
+.footer-links-header {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 0px;
+    text-align: left;
+    color: #FFF5D9;
+    text-transform: uppercase;
+}
+
+.footer-links-sections {
+    font-family: Roboto;
+    font-size: 0.9rem;
+    line-height: 0px;
+    text-align: left;
+    color: #FFF5D9;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 800px) {
+    .footer {
+        height: 100%;
+        padding: 34px 0px;
+    }
+
+    .footer_logo {
+        height: 99px;
+    }
+
+    .xlogo {
+        height: 25px;
+    }
+
+    .iglogo {
+        height: 25px;
+    }
+
+    .padding-top {
+        padding-top: 30px;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0px !important;
+    }
+
+    .first-text {
+        font-size: 18px;
+        line-height: 24.53px;
+    }
+
+    .subscribe-text {
+        font-size: 12px;
+        line-height: 14.06px;
+    }
+
+    .middle-section {
+        margin-top: 26px;
+        border-top: 1px solid #FFF7E0;
+        padding-top: 30px;
+        padding-bottom: 24px;
+        width: 345px;
+    }
+
+    .bottom-section {
+        margin-top: 0px;
+        border-bottom: 1px solid #FFF7E0;
+        padding-top: 5px;
+        padding-bottom: 30px;
+        width: 345px;
+    }
+
+    .custom-input {
+        padding: 8px 11px;
+    }
+
+    .footer-year {
+        font-size: 12px;
+        line-height: 14.06px;
+        margin-top: 20px;
+    }
+
+    .footer-text-year {
+        padding-top: 34px;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
+
+    .footer-links {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14.06px;
+        text-align: center;
+        color: #FFF7E0;
+        text-transform: uppercase;
+    }
+}

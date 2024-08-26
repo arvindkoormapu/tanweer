@@ -78,15 +78,15 @@
             "link": ""
         },
         {
-            "image": "images/StyleAndActivities/Double tree by hilton.avif",
-            "title": "DoubleTree by Hilton",
-            "description": "DoubleTree by Hilton Sharjah Waterfront Hotel & Residences offers a luxurious stay in Sharjah with stunning views of the Al Majaz Waterfront. The hotel features spacious rooms and apartments, a fitness center, an indoor pool, and dining options catering to various tastes. Its prime location provides easy access to cultural attractions and business districts, making it ideal for both leisure and business travelers.",
-            "link": ""
-        },
-        {
             "image": "images/StyleAndActivities/Moon Retreat.jpg",
             "title": "MOON RETREAT",
             "description": "Tucked away among the desert dunes, Moon Retreat presents a glamping experience that is distinguished by its simplicity, adventure and privacy. Perfect for couples and families, Moon Retreat gives you the chance to explore the Mleiha desert by day and spend the evenings star-gazing. This is a great place to refresh your mind and rejuvenate your senses.",
+            "link": ""
+        },
+        {
+            "image": "images/StyleAndActivities/Double tree by hilton.avif",
+            "title": "DoubleTree by Hilton",
+            "description": "DoubleTree by Hilton Sharjah Waterfront Hotel & Residences offers a luxurious stay in Sharjah with stunning views of the Al Majaz Waterfront. The hotel features spacious rooms and apartments, a fitness center, an indoor pool, and dining options catering to various tastes. Its prime location provides easy access to cultural attractions and business districts, making it ideal for both leisure and business travelers.",
             "link": ""
         }
     ]

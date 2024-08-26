@@ -14,6 +14,8 @@ import FestivalPass from "./pages/FestivalPass";
 import Contact from "./pages/Contact";
 import PrivacyTerms from "./pages/PrivacyTerms";
 import Partners from "./pages/Partners";
+import Images from "./pages/artistImageDisplay";
+import HomePage from "./pages/HomePage";
 
 import "./App.css";
 
@@ -22,11 +24,11 @@ const App = () => {
     <Router>
       <Routes>
         <Route
-          path="/landing"
+          path="/"
           element={
-            <MainLayout>
-              <Landing />
-            </MainLayout>
+            <SimpleLayout>
+              <HomePage />
+            </SimpleLayout>
           }
         />
         <Route
@@ -108,13 +110,23 @@ const App = () => {
         />
 
         <Route
-          path="/"
+          path="/images"
+          element={
+            <MainLayout>
+              <Images />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/landing"
           element={
             <SimpleLayout>
               <Loading />
             </SimpleLayout>
           }
         />
+        
       </Routes>
     </Router>
   );

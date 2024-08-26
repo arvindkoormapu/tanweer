@@ -206,6 +206,26 @@ html,
   animation: rotate 10s linear infinite;
 }
 
+.floating-button {
+  font-family: Roboto;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 23.44px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  color: #FFF5D9;
+  background: #731D14;
+  position: absolute;
+  top: 30vh;
+  right: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 1;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -326,7 +346,18 @@ html,
   }
 }
 
+.ant-popover-title {
+  text-align: center;
+}
 
+.ant-popover-inner-content {
+  display: flex;
+  justify-content: center;
+}
+
+.react-share__ShareButton {
+  padding-right: 20px !important;
+}
 
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
@@ -335,12 +366,19 @@ html,
     /* Adjust as needed */
   }
 
-  .h1{
+  .h1 {
     font-size: 1.4rem;
     line-height: 1.7rem;
   }
 
-  .para{
+  .para {
     font-size: 0.9rem;
+  }
+
+  .floating-button {
+    width: 20%;
+    line-height: 0.7rem;
+    text-align: left;
+    padding: 0.9rem 1.2rem;
   }
 }

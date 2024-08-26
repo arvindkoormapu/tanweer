@@ -7,34 +7,29 @@
                     "title": "LOCATION ARENA",
                     "list": [
                         {
-                            "id": 1,
-                            "name": "Anas Alhalabi",
+                            "name": "Sami Yusuf",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Anas-Alhalabi.webp"
+                            "image": "images/Programs/Sami-Yusuf.webp"
                         },
                         {
-                            "id": 2,
-                            "name": "Julien Breton",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/Julien-Breton.webp"
-                        },
-                        {
-                            "id": 3,
-                            "name": "Ziyad Sahhab",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/Ziyad-Sahhab.webp"
-                        },
-                        {
-                            "id": 4,
                             "name": "Senny Camara",
                             "time": "00:00 PM",
                             "image": "images/Programs/Senny-Camara.webp"
                         },
                         {
-                            "id": 5,
-                            "name": "Sami Yusuf",
+                            "name": "Ziyad Sahhab",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Sami-Yusuf.webp"
+                            "image": "images/Programs/Ziyad-Sahhab.webp"
+                        },
+                        {
+                            "name": "Julien Breton",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Julien-Breton.webp"
+                        },
+                        {
+                            "name": "Anas Alhalabi",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Anas-Alhalabi.webp"
                         }
                     ]
                 }
@@ -52,24 +47,24 @@
                             "image": "images/Programs/Baraka-Blue-and-Shadi-Band-23.webp"
                         },
                         {
-                            "name": "Senny Camara Mary Malifarges",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/Senny-Camara-Mary-Malifarges.webp"
-                        },
-                        {
                             "name": "Constantinople Rumi",
                             "time": "00:00 PM",
                             "image": "images/Programs/Constantinople-Rumi.webp"
                         },
                         {
-                            "name": "Anas Alhalabi",
+                            "name": "Senny Camara Mary Malifarges",
                             "time": "00:00 PM",
-                            "image": "images/Programs/Anas-Alhalabi-23.webp"
+                            "image": "images/Programs/Senny-Camara-Mary-Malifarges.webp"
                         },
                         {
                             "name": "Sandu",
                             "time": "00:00 PM",
                             "image": "images/Programs/Sandu.webp"
+                        },
+                        {
+                            "name": "Anas Alhalabi",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Anas-Alhalabi-23.webp"
                         }
                     ]
                 }
@@ -82,6 +77,16 @@
                     "title": "LOCATION ARENA",
                     "list": [
                         {
+                            "name": "Dhafer Youssef",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Dhafer-Youssef.webp"
+                        },
+                        {
+                            "name": "Ensemble Noureddine",
+                            "time": "00:00 PM",
+                            "image": "images/Programs/Ensemble-Noureddine-.webp"
+                        },
+                        {
                             "name": "Baraka Blue and Shadi Band",
                             "time": "00:00 PM",
                             "image": "images/Programs/Baraka-Blue-and-Shadi-Band-24.webp"
@@ -90,16 +95,6 @@
                             "name": "Fadi Rifaai and Sandu",
                             "time": "00:00 PM",
                             "image": "images/Programs/Fadi-Rifaai-and-Sandu.webp"
-                        },
-                        {
-                            "name": "Ensemble Noureddine",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/Ensemble-Noureddine-.webp"
-                        },
-                        {
-                            "name": "Dhafer Youssef",
-                            "time": "00:00 PM",
-                            "image": "images/Programs/Dhafer-Youssef.webp"
                         }
                     ]
                 }

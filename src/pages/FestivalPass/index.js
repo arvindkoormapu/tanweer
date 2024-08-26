@@ -52,7 +52,13 @@ function FestivalPass() {
           </div>
           <Row>
             {pages.pass.festival_passes.map((elm) => (
-              <Col span={isMobile ? 24 : 9} style={{paddingRight: !isMobile && '30px', paddingBottom: isMobile && '30px'}}>
+              <Col
+                span={isMobile ? 24 : 9}
+                style={{
+                  paddingRight: !isMobile && "30px",
+                  paddingBottom: isMobile && "30px",
+                }}
+              >
                 <div className="pass-wrapper">
                   <Text className="title">{elm.title}</Text>
                   <Text className="caption">{elm.caption}</Text>
@@ -66,21 +72,37 @@ function FestivalPass() {
                         <Text className={`price text-uppercase ${item.status}`}>
                           {item.price}
                         </Text>
-                        <Text className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>get pass now</Text>
                       </div>
                     ))}
                   </div>
+                  <Text
+                    className="button"
+                    onClick={() =>
+                      window.open(
+                        "https://staging.tanweerfestival.com/",
+                        "_blank"
+                      )
+                    }
+                  >
+                    get pass now
+                  </Text>
                 </div>
               </Col>
             ))}
           </Row>
 
-          <div className="dark-arrows" style={{marginTop: '60px'}}>
+          <div className="dark-arrows" style={{ marginTop: "60px" }}>
             <Text className="h1">Day Passes</Text>
           </div>
           <Row>
             {pages.pass.day_passes.map((elm) => (
-              <Col span={isMobile ? 24 : 9} style={{paddingRight: !isMobile && '30px', paddingBottom: isMobile && '30px'}}>
+              <Col
+                span={isMobile ? 24 : 9}
+                style={{
+                  paddingRight: !isMobile && "30px",
+                  paddingBottom: isMobile && "30px",
+                }}
+              >
                 <div className="pass-wrapper">
                   <Text className="title">{elm.title}</Text>
                   <Text className="caption">{elm.caption}</Text>
@@ -94,16 +116,36 @@ function FestivalPass() {
                         <Text className={`price text-uppercase ${item.status}`}>
                           {item.price}
                         </Text>
-                        <Text className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>get pass now</Text>
                       </div>
                     ))}
                   </div>
+                  <Text
+                    className="button"
+                    onClick={() =>
+                      window.open(
+                        "https://staging.tanweerfestival.com/",
+                        "_blank"
+                      )
+                    }
+                  >
+                    get pass now
+                  </Text>
                 </div>
               </Col>
             ))}
           </Row>
 
-          <Paragraph className="para" style={{padding: !isMobile ? '50px 0px 20px' : '40px 0px 30px', width: !isMobile && '40%'}}>Explore our <b>Stay & Activities</b> page to enrich your experience at the Tanweer Festival, ensuring every moment is infused with meaning and inspiration.</Paragraph>
+          <Paragraph
+            className="para"
+            style={{
+              padding: !isMobile ? "50px 0px 20px" : "40px 0px 30px",
+              width: !isMobile && "40%",
+            }}
+          >
+            Explore our <b>Stay & Activities</b> page to enrich your experience
+            at the Tanweer Festival, ensuring every moment is infused with
+            meaning and inspiration.
+          </Paragraph>
         </div>
       </Content>
     </Layout>

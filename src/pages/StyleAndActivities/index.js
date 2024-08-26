@@ -74,6 +74,14 @@ function StyleAndActivities() {
   return (
     <Layout className="activity">
       <Content>
+        <div
+          className="floating-button"
+          onClick={() =>
+            window.open("https://staging.tanweerfestival.com/", "_blank")
+          }
+        >
+          get passes NOW
+        </div>
         <div className="top_banner">
           <div className="image-container">
             <img
@@ -91,7 +99,7 @@ function StyleAndActivities() {
 
         <div className="middle_section">
           <div className="dark-arrows">
-            <Text className="h1">Awaiting Activities</Text>
+            <Text className="h1">On-Site Activities</Text>
             <div>
               <img
                 src={ArrowLeft}
@@ -146,7 +154,17 @@ function StyleAndActivities() {
 
                       <div className="price">{elm.price}</div>
                     </div>
-                    <div className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>Book now</div>
+                    <div
+                      className="button"
+                      onClick={() =>
+                        window.open(
+                          "https://staging.tanweerfestival.com/",
+                          "_blank"
+                        )
+                      }
+                    >
+                      Book now
+                    </div>
                   </div>
                 </div>
               </SwiperSlide>
@@ -230,7 +248,17 @@ function StyleAndActivities() {
                         </Tooltip>
                         <div className="price">{elm.price}</div>
                       </div>
-                      <div className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>Book now</div>
+                      <div
+                        className="button"
+                        onClick={() =>
+                          window.open(
+                            "https://staging.tanweerfestival.com/",
+                            "_blank"
+                          )
+                        }
+                      >
+                        Book now
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -257,7 +285,17 @@ function StyleAndActivities() {
                         <div className="description">{elm.description}</div>
                         <div className="price">{elm.price}</div>
                       </div>
-                      <div className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>Book now</div>
+                      <div
+                        className="button"
+                        onClick={() =>
+                          window.open(
+                            "https://staging.tanweerfestival.com/",
+                            "_blank"
+                          )
+                        }
+                      >
+                        Book now
+                      </div>
                     </div>
                   </div>
                 </Col>
@@ -305,7 +343,12 @@ function StyleAndActivities() {
                   <img
                     src={require(`../../${elm.image}`)}
                     alt={elm.title}
-                    style={{ width: "100%", height: '306px', objectFit: 'cover', borderRadius: "20px" }}
+                    style={{
+                      width: "100%",
+                      height: "306px",
+                      objectFit: "cover",
+                      borderRadius: "20px",
+                    }}
                   />
                   <div className="top-slide-text">
                     <div
@@ -322,7 +365,17 @@ function StyleAndActivities() {
                       </Tooltip>
                       <div className="price">{elm.price}</div>
                     </div>
-                    <div className="button" onClick={() => window.open('https://staging.tanweerfestival.com/', '_blank')}>Book now</div>
+                    <div
+                      className="button"
+                      onClick={() =>
+                        window.open(
+                          "https://staging.tanweerfestival.com/",
+                          "_blank"
+                        )
+                      }
+                    >
+                      Book now
+                    </div>
                   </div>
                 </div>
               </SwiperSlide>

@@ -1,5 +1,14 @@
 import React from "react";
-import { Layout, Space, Row, Col, Typography, Popover } from "antd";
+import {
+  Layout,
+  Space,
+  Row,
+  Col,
+  Typography,
+  Popover,
+  Button,
+  message,
+} from "antd";
 import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
 import ImageSlider from "../../components/ImageSlider";
@@ -18,6 +27,8 @@ import {
   WhatsappIcon,
 } from "react-share";
 import { Helmet } from "react-helmet";
+import { CopyOutlined } from "@ant-design/icons";
+
 const { Content } = Layout;
 const { Text, Paragraph } = Typography;
 
@@ -28,6 +39,10 @@ const tabs = [
 ];
 
 const ShareContent = ({ url, title, imageUrl }) => {
+  const copyLink = () => {
+    message.info('Linked Copied!');
+  };
+
   return (
     <div style={{ display: "flex", justifyContent: "space-around" }}>
       <Helmet>
@@ -41,12 +56,15 @@ const ShareContent = ({ url, title, imageUrl }) => {
         <meta property="og:url" content={imageUrl} />
         <meta property="og:type" content="article" />
       </Helmet>
-      <TwitterShareButton url={imageUrl} title={title}>
+      <TwitterShareButton url={url} title={title}>
         <XIcon size={32} round />
       </TwitterShareButton>
-      <WhatsappShareButton url={imageUrl} title={title} separator=":: ">
+      <WhatsappShareButton url={url} title={title} separator=":: ">
         <WhatsappIcon size={32} round />
       </WhatsappShareButton>
+      <div>
+        <Button type="primary" icon={<CopyOutlined />} onClick={copyLink} />
+      </div>
     </div>
   );
 };
@@ -71,6 +89,15 @@ function Programs() {
   return (
     <Layout className="about">
       <Content>
+        <div
+          className="floating-button"
+          onClick={() =>
+            window.open("https://staging.tanweerfestival.com/", "_blank")
+          }
+        >
+          get passes NOW
+        </div>
+
         <ImageSlider slides={pages.programs.slides} />
         <div className="menus">
           <div className="middle-tabs">
