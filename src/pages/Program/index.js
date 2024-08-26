@@ -41,11 +41,25 @@ const tabs = [
 const ShareContent = ({ url, title, imageUrl }) => {
   const copyLink = () => {
     window.navigator.clipboard.writeText(window.location.href);
-    message.info('Linked Copied!');
+    message.info("Linked Copied!");
   };
 
   return (
     <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <Helmet>
+        <title>{title}</title>
+        <meta property="og:title" content={title} />
+        <meta
+          property="og:description"
+          content="Check out this amazing content!"
+        />
+        <meta
+          property="og:image"
+          content="https://tanweer-iota.vercel.app/pass.webp"
+        />
+        <meta property="og:url" content={url} />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <TwitterShareButton url={url} title={title}>
         <XIcon size={32} round />
       </TwitterShareButton>
@@ -79,17 +93,6 @@ function Programs() {
   return (
     <Layout className="about">
       <Content>
-      <Helmet>
-        <title>Arvind</title>
-        <meta property="og:title" content="Arvind" />
-        <meta
-          property="og:description"
-          content="Check out this amazing content!"
-        />
-        <meta property="og:image" content="https://tanweer-iota.vercel.app/pass.webp" />
-        <meta property="og:url" content="https://tanweer-iota.vercel.app/pass.webp" />
-        <meta property="og:type" content="article" />
-      </Helmet>
         <div
           className="floating-button"
           onClick={() =>
@@ -128,23 +131,27 @@ function Programs() {
                 padding: isMobile ? "0px" : "20px 0px 0px",
               }}
             >
-              {pages.programs.dates.map((elm, i) => (
-                ((activeTab === 0) || (activeTab === 1 && i !== 0)) &&
-                <Text
-                  className={`dates-tab ${
-                    activeSubTab === i && "active-sub-tab"
-                  }`}
-                  onClick={() => setActiveSubTab(i)}
-                >
-                  {elm}
-                </Text>
-              ))}
+              {pages.programs.dates.map(
+                (elm, i) =>
+                  (activeTab === 0 || (activeTab === 1 && i !== 0)) && (
+                    <Text
+                      className={`dates-tab ${
+                        activeSubTab === i && "active-sub-tab"
+                      }`}
+                      onClick={() => setActiveSubTab(i)}
+                    >
+                      {elm}
+                    </Text>
+                  )
+              )}
             </div>
             <Row
               gutter={isMobile ? [20, 20] : [30, 30]}
               className="artist-wrapper"
             >
-              {pages.programList[activeTab === 0 ? "music" : "workshops"][activeSubTab].programs[0].list.map((elm, i) => (
+              {pages.programList[activeTab === 0 ? "music" : "workshops"][
+                activeSubTab
+              ].programs[0].list.map((elm, i) => (
                 <Col span={isMobile ? 24 : 12}>
                   <img
                     className="artist-program-images"
