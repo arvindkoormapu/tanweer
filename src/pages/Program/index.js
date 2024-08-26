@@ -44,7 +44,7 @@ function Programs() {
         <div
           className="floating-button"
           onClick={() =>
-            window.open("https://staging.tanweerfestival.com/", "_blank")
+            window.open("https://tickets.tanweerfestival.com/", "_blank")
           }
         >
           get passes NOW

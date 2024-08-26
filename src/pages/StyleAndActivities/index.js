@@ -77,7 +77,7 @@ function StyleAndActivities() {
         <div
           className="floating-button"
           onClick={() =>
-            window.open("https://staging.tanweerfestival.com/", "_blank")
+            window.open("https://tickets.tanweerfestival.com/", "_blank")
           }
         >
           get passes NOW
@@ -158,7 +158,7 @@ function StyleAndActivities() {
                       className="button"
                       onClick={() =>
                         window.open(
-                          "https://staging.tanweerfestival.com/",
+                          "https://tickets.tanweerfestival.com/",
                           "_blank"
                         )
                       }
@@ -252,7 +252,7 @@ function StyleAndActivities() {
                         className="button"
                         onClick={() =>
                           window.open(
-                            "https://staging.tanweerfestival.com/",
+                            "https://tickets.tanweerfestival.com/",
                             "_blank"
                           )
                         }
@@ -289,7 +289,7 @@ function StyleAndActivities() {
                         className="button"
                         onClick={() =>
                           window.open(
-                            "https://staging.tanweerfestival.com/",
+                            "https://tickets.tanweerfestival.com/",
                             "_blank"
                           )
                         }
@@ -369,7 +369,7 @@ function StyleAndActivities() {
                       className="button"
                       onClick={() =>
                         window.open(
-                          "https://staging.tanweerfestival.com/",
+                          "https://tickets.tanweerfestival.com/",
                           "_blank"
                         )
                       }

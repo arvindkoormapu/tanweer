@@ -79,7 +79,7 @@ function FestivalPass() {
                     className="button"
                     onClick={() =>
                       window.open(
-                        "https://staging.tanweerfestival.com/",
+                        "https://tickets.tanweerfestival.com/",
                         "_blank"
                       )
                     }
@@ -123,7 +123,7 @@ function FestivalPass() {
                     className="button"
                     onClick={() =>
                       window.open(
-                        "https://staging.tanweerfestival.com/",
+                        "https://tickets.tanweerfestival.com/",
                         "_blank"
                       )
                     }
