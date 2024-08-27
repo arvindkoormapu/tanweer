@@ -102,7 +102,15 @@ function Program() {
               }}
             >
               <div className="text-wrapper-program">
-                <Text className="slider-title">{ preloadedImages[(currentIndex + index) % slides.length]?.title}</Text>
+                <Text className="slider-title">
+                  {isMobile
+                    ? preloadedImages[
+                        (currentIndex - 1 + index + slides.length) %
+                          slides.length
+                      ]?.title
+                    : preloadedImages[(currentIndex + index) % slides.length]
+                        ?.title}
+                </Text>
               </div>
             </div>
           ))}
@@ -121,11 +129,11 @@ function Program() {
           className="arrow-right"
         />
       </div>
-      
+
       <ButtonComponent
         bgColor="#731D14"
         textColor="#FFF5D9"
-        clickAction={() => navigate('/programs')}
+        clickAction={() => navigate("/programs")}
         text="VIEW PROGRAM"
       />
     </>
