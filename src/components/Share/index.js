@@ -24,16 +24,16 @@ const ShareContent = ({ url, title, imageUrl }) => {
         <meta property="og:url" content={imageUrl} />
         <meta property="og:type" content="website" />
       </Helmet>
-      <TwitterShareButton url={url} title={title}>
+      <TwitterShareButton url={url} title={title + " \n " + imageUrl + " \n"}>
         <XIcon size={32} round />
       </TwitterShareButton>
       {/* <WhatsappShareButton url={imageUrl} title={<img src={require(`../../${elm.image}`)}>} separator=":: ">
         <WhatsappIcon size={32} round />
       </WhatsappShareButton> */}
 
-<WhatsappShareButton url={url} title={title + ":: " + imageUrl + ":: " }>
-<WhatsappIcon size={32} round />
-</WhatsappShareButton>
+      <WhatsappShareButton url={url} title={title + " \n " + imageUrl + " \n"}>
+        <WhatsappIcon size={32} round />
+      </WhatsappShareButton>
       <div>
         <Button type="primary" icon={<CopyOutlined />} onClick={copyLink} />
       </div>
