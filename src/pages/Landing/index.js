@@ -34,18 +34,18 @@ const Home = () => {
               className="image"
             />
           </div>
-          <div className="content">
+          <div className="content" style={{bottom: !isMobile && '20%'}}>
             {!subscribePopup ? (
               <>
                 <Text className="title">{pages.home.landing.title}</Text>
-                {/* <div className="button-component-wrapper">
+                <div className="button-component-wrapper">
                   <ButtonComponent
                     bgColor="#A2441B"
                     textColor="#FFF5D9"
                     clickAction={enableSubscribePopup}
                     text="Register your interest"
                   />
-                </div> */}
+                </div>
               </>
             ) : (
               <div className="subscribe-popup">
@@ -95,7 +95,7 @@ const Home = () => {
             <Text className="caption">{pages.home.landing.location}</Text>
           </div>
         </div>
-        
+
         <div className="middle-tabs">
           <Space direction="horizontal" size="middle" className="space">
             <Text className="text">music</Text>
@@ -131,7 +131,6 @@ const Home = () => {
             </Col>
           </Row>
         </div>
-        
       </Content>
     </Layout>
   );

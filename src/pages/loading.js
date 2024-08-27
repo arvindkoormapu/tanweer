@@ -97,6 +97,12 @@ const Loading = () => {
       sessionStorage.setItem("loaded", "true");
       // navigate("/landing");
       setShowLanding(true);
+      audio.pause();
+      audio.currentTime = 0;
+      clearTimeout(redirectTimeout);
+      document.removeEventListener("click", handleUserInteraction);
+      document.removeEventListener("keydown", handleUserInteraction);
+      document.removeEventListener("visibilitychange", handleUserInteraction);
     }, totalRotationTime);
 
     return () => {
