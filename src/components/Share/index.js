@@ -16,7 +16,7 @@ const ShareContent = ({ url, title, imageUrl }) => {
   };
 
   const encodedMessage = encodeURIComponent(`${title} - ${"description"}`);
-  const encodedUrl = encodeURIComponent(url);
+  const encodedUrl = encodeURIComponent(imageUrl);
   const whatsappUrl = `https://wa.me/?text=${encodedMessage}%20${encodedUrl}`;
 
   return (
@@ -42,7 +42,7 @@ const ShareContent = ({ url, title, imageUrl }) => {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={"description"} />
         <meta property="og:image" content={imageUrl} />
-        <meta property="og:url" content={url} />
+        <meta property="og:url" content={imageUrl} />
         <meta property="og:type" content="website" />
       </Helmet>
       <div>
