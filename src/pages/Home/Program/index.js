@@ -27,6 +27,7 @@ function Program() {
     const images = slides.map((slide) => {
       const img = new Image();
       img.src = require(`../../../${slide.image}`);
+      img.title = slide.title;
       return img;
     });
     setPreloadedImages(images);
@@ -101,9 +102,7 @@ function Program() {
               }}
             >
               <div className="text-wrapper-program">
-                <Text className="slider-title">{slide.title}</Text>
-                <Text className="slider-date">{slide.time}</Text>
-                <Text className="slider-location">{slide.location}</Text>
+                <Text className="slider-title">{ preloadedImages[(currentIndex + index) % slides.length]?.title}</Text>
               </div>
             </div>
           ))}

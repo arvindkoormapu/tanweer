@@ -12,27 +12,27 @@
     "program": [
         {
             "title": "SAMI YUSUF",
-            "time": "20:15 PM",
-            "location": "ENLIGHTENED ARENA",
-            "image": "images/Home/program/Photo.webp"
+            "image": "images/Home/program/Sami-Yusuf.webp"
         },
         {
-            "title": "LOTFI Bouchnak",
-            "time": "20:15 PM",
-            "location": "ENLIGHTENED ARENA",
-            "image": "images/Home/program/Photo_1.webp"
+            "title": "Senny Camara",
+            "image": "images/Home/program/Senny-Camara.webp"
         },
         {
-            "title": "RUMI REVIVAL",
-            "time": "20:15 PM",
-            "location": "MOON SPACE",
-            "image": "images/Home/program/Photo_2.webp"
+            "title": "Constantinople Rumi",
+            "image": "images/Home/program/Constantinople.webp"
         },
         {
-            "title": "LOTFI Bouchnak",
-            "time": "20:15 PM",
-            "location": "ENLIGHTENED ARENA",
-            "image": "images/Home/program/Photo_1.webp"
+            "title": "Ensemble Khourchid",
+            "image": "images/Home/program/Ensemble-Khourchid.webp"
+        },
+        {
+            "title": "Dhafer Youssef",
+            "image": "images/Home/program/Dhafer-Youssef.webp"
+        },
+        {
+            "title": "Anas Alhalabi",
+            "image": "images/Home/program/Anas-Handpan-Orchestra.webp"
         }
     ],
     "activity": {
