@@ -27,9 +27,13 @@ const ShareContent = ({ url, title, imageUrl }) => {
       <TwitterShareButton url={url} title={title}>
         <XIcon size={32} round />
       </TwitterShareButton>
-      <WhatsappShareButton url={imageUrl} title={title} separator=":: ">
+      {/* <WhatsappShareButton url={imageUrl} title={<img src={require(`../../${elm.image}`)}>} separator=":: ">
         <WhatsappIcon size={32} round />
-      </WhatsappShareButton>
+      </WhatsappShareButton> */}
+
+<WhatsappShareButton url={url} title={title + ":: " + require(`../../${imageUrl}`)}>
+<WhatsappIcon size={32} round />
+</WhatsappShareButton>
       <div>
         <Button type="primary" icon={<CopyOutlined />} onClick={copyLink} />
       </div>
