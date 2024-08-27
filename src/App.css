@@ -218,8 +218,8 @@ html,
   cursor: pointer;
   color: #FFF5D9;
   background: #731D14;
-  position: absolute;
-  top: 30vh;
+  position: fixed;
+  top: 40vh;
   right: 0px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
