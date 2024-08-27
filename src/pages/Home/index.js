@@ -104,7 +104,7 @@ const Home = () => {
             <Text className="caption">{pages.home.landing.location}</Text>
           </div>
         </div>
-        
+
         <div className="middle-tabs">
           <Space direction="horizontal" size="middle" className="space">
             <Text className="text">music</Text>
@@ -116,6 +116,14 @@ const Home = () => {
         </div>
 
         <div className="landing-content">
+          <div
+            className="floating-button"
+            onClick={() =>
+              window.open("https://tickets.tanweerfestival.com/", "_blank")
+            }
+          >
+            get passes NOW
+          </div>
           <Row align="middle" justify="center" style={{ width: "90%" }}>
             <Col span={isMobile ? 24 : 12}>
               <img src={LandingFirst} alt="icon" className="image" />
@@ -183,7 +191,12 @@ const Home = () => {
                     <ButtonComponent
                       bgColor="#731D14"
                       textColor="#FFF5D9"
-                      clickAction={() => window.open('https://tickets.tanweerfestival.com/', '_blank')}
+                      clickAction={() =>
+                        window.open(
+                          "https://tickets.tanweerfestival.com/",
+                          "_blank"
+                        )
+                      }
                       text="Book now"
                     />
                   </div>

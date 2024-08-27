@@ -283,7 +283,16 @@ function StyleAndActivities() {
                       >
                         <div className="title">{elm.title}</div>
                         <div className="description">{elm.description}</div>
-                        <div className="price">{elm.price}</div>
+                        <div className="price">
+                        {elm.price
+                  .split("\n")
+                  .map((line, index) => (
+                    <React.Fragment key={index}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))}
+                        </div>
                       </div>
                       <div
                         className="button"

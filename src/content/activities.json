@@ -46,21 +46,21 @@
             "image": "images/StyleAndActivities/Glamping.png",
             "title": "Glamping",
             "description": "Pillow-top mattress, fully-furnished and ‘hotel-style comforts’. Shuttle service to the Tanweer Festival site.",
-            "price": "1 Day AED XXX  |  3 Days AED XXX",
+            "price": "3 Days TBD \n \n",
             "link": ""
         },
         {
             "image": "images/StyleAndActivities/Standard.webp",
             "title": "Tent rental",
             "description": "Book a Tent for 2, 4 or 6 persons. Beds, sleeping bags, blankets and pillows not included.",
-            "price": "1 Day AED XXX  |  3 Days AED XXX",
+            "price": "2 pax tent rent AED 400 \n4 pax tent rent AED 600 \n6 pax tent rent AED 900",
             "link": ""
         },
         {
             "image": "images/StyleAndActivities/camp.webp",
             "title": "Tent space Rental (BYOT)",
             "description": "Camping Area provided, bring your own tent and camping gear",
-            "price": "1 Day AED XXX  |  3 Days AED XXX",
+            "price": "2 pax tent space rent AED 300 \n4 pax tent space rent AED 450 \n6 pax tent space rent AED 600",
             "link": ""
         }
     ],
