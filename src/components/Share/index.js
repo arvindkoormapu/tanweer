@@ -31,7 +31,7 @@ const ShareContent = ({ url, title, imageUrl }) => {
         <WhatsappIcon size={32} round />
       </WhatsappShareButton> */}
 
-<WhatsappShareButton url={url} title={title + ":: " + require(`../../${imageUrl}`)}>
+<WhatsappShareButton url={url} title={title + ":: " + imageUrl + ":: " }>
 <WhatsappIcon size={32} round />
 </WhatsappShareButton>
       <div>
