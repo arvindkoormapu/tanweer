@@ -8,6 +8,8 @@ import Art from "../../images/Programs/art.webp";
 import Share from "../../images/SHARE ICON.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ShareContent from "../../components/Share";
+import { Helmet } from "react-helmet";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "./program.css";
@@ -40,6 +42,13 @@ function Programs() {
 
   return (
     <Layout className="about">
+      <Helmet>
+        <meta property="og:title" content={"Arvind"} />
+        <meta property="og:description" content="Amazing content to share!" />
+        <meta property="og:image" content={`${window.location.origin}/artist_images/Sami-Yusuf.webp`} />
+        <meta property="og:url" content={`${window.location.href}`} />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <Content>
         <div
           className="floating-button"

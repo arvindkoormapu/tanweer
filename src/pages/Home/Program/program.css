@@ -89,7 +89,7 @@
     }
 
     .slider-title {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-bottom: 10px;
     }
 
@@ -128,6 +128,6 @@
     }
 
     .text-wrapper-program {
-        padding: 20px 60px 10px 10px
+        padding: 20px 0px 10px 10px
     }
 }
