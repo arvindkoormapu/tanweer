@@ -384,6 +384,14 @@ html,
   padding: 0px;
 }
 
+.ant-message-notice-content {
+  padding: 16px !important; 
+  background-color: #fff5d9 !important; 
+  border-radius: 8px !important; 
+  color: #731D14 !important;
+  font-size: 1rem;
+}
+
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
   .main-layout {

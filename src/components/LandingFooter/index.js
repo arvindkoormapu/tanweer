@@ -18,9 +18,21 @@ const Footer = () => {
     setEmail(e.target.value);
   };
 
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
   const handleSubscribe = async (e) => {
     e.preventDefault();
     try {
+      if (!validateEmail(email)) {
+        messageApi.open({
+          type: "error",
+          content: "Please enter a valid email address.",
+        });
+        return;
+      }
       const response = await axios.post(
         "https://connect.mailerlite.com/api/subscribers", // MailerLite API endpoint for adding subscribers
         {

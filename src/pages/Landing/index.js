@@ -40,9 +40,21 @@ const Home = () => {
     setEmail(e.target.value);
   };
 
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
   const handleSubscribe = async (e) => {
     e.preventDefault();
     try {
+      if (!validateEmail(email)) {
+        messageApi.open({
+          type: "error",
+          content: "Please enter a valid email address.",
+        });
+        return;
+      }
       const response = await axios.post(
         "https://connect.mailerlite.com/api/subscribers", // MailerLite API endpoint for adding subscribers
         {
@@ -103,7 +115,13 @@ const Home = () => {
                 />
               </div>
             </>
-            <Modal open={subscribePopup} footer={null} closable={false} getContainer={false} width={isMobile ? "90%" : "50%"} >
+            <Modal
+              open={subscribePopup}
+              footer={null}
+              closable={false}
+              getContainer={false}
+              width={isMobile ? "90%" : "50%"}
+            >
               <div className="subscribe-popup subscribe-popup-head">
                 <div className="close-button-container">
                   <img
