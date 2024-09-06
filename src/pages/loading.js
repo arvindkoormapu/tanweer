@@ -18,7 +18,6 @@ const Loading = () => {
   const [loading, setLoading] = useState(true);
   const [timeLeft, setTimeLeft] = useState({});
   const [showLanding, setShowLanding] = useState(false);
-
   const [text, setText] = useState("IN");
 
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });

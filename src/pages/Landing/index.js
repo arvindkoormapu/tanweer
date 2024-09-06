@@ -1,5 +1,14 @@
 import React, { useState } from "react";
-import { Layout, Space, Typography, Row, Col, Input, Button } from "antd";
+import {
+  Layout,
+  Space,
+  Typography,
+  Row,
+  Col,
+  Input,
+  Button,
+  message,
+} from "antd";
 import { useMediaQuery } from "react-responsive";
 import LandingPageImage from "../../images/Home/landing_page_image.webp";
 import LandingPageImageMobile from "../../images/Home/landing_page_image_mobile.webp";
@@ -9,6 +18,7 @@ import CloseButton from "../../images/Close Button.png";
 import { useData } from "../../hooks/useData";
 import ButtonComponent from "../../components/Button";
 import "../Home/home.css";
+import axios from "axios";
 
 const { Content } = Layout;
 const { Text, Paragraph } = Typography;
@@ -18,13 +28,59 @@ const Home = () => {
   const { pages } = useData();
 
   const [subscribePopup, setSubscribePopup] = useState(false);
+  const [email, setEmail] = useState("");
+  const [messageApi, contextHolder] = message.useMessage();
 
   const enableSubscribePopup = () => {
     setSubscribePopup(!subscribePopup);
   };
 
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post(
+        "https://connect.mailerlite.com/api/subscribers", // MailerLite API endpoint for adding subscribers
+        {
+          email: email,
+          groups: ["131728999121421845"]
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${process.env.REACT_APP_MAILERLITE_API_KEY}`,
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (response.status === 201 || response.status === 200) {
+        messageApi.open({
+          type: "success",
+          content: "Thank you for subscribing!",
+        });
+        setEmail("");
+        setSubscribePopup(!subscribePopup);
+      } else {
+        messageApi.open({
+          type: "error",
+          content: "Something went wrong. Please try again.",
+        });
+      }
+    } catch (error) {
+      console.error("Error subscribing:", error);
+      messageApi.open({
+        type: "error",
+        content: "Error subscribing. Please try again.",
+      });
+    }
+  };
+
   return (
     <Layout className="landing">
+      {contextHolder}
       <Content>
         <div className="landing-banner">
           <div className="image-container">
@@ -34,7 +90,7 @@ const Home = () => {
               className="image"
             />
           </div>
-          <div className="content" style={{bottom: !isMobile && '20%'}}>
+          <div className="content" style={{ bottom: !isMobile && "20%" }}>
             {!subscribePopup ? (
               <>
                 <Text className="title">{pages.home.landing.title}</Text>
@@ -48,7 +104,7 @@ const Home = () => {
                 </div>
               </>
             ) : (
-              <div className="subscribe-popup">
+              <div className="subscribe-popup subscribe-popup-head">
                 <div className="close-button-container">
                   <img
                     onClick={enableSubscribePopup}
@@ -70,8 +126,14 @@ const Home = () => {
                       <Input
                         className="custom-input"
                         placeholder="Email Address"
+                        value={email}
+                        onChange={handleEmailChange}
                         suffix={
-                          <Button className="custom-button" type="primary">
+                          <Button
+                            className="custom-button"
+                            type="primary"
+                            onClick={(e) => handleSubscribe(e)}
+                          >
                             Subscribe
                           </Button>
                         }
@@ -83,8 +145,14 @@ const Home = () => {
                     <Input
                       className="custom-input-mobile"
                       placeholder="Email Address"
+                      value={email}
+                      onChange={handleEmailChange}
                     />
-                    <Button className="custom-button-mobile" type="primary">
+                    <Button
+                      className="custom-button-mobile"
+                      type="primary"
+                      onClick={(e) => handleSubscribe(e)}
+                    >
                       Subscribe
                     </Button>
                   </div>

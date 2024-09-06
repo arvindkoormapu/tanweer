@@ -355,6 +355,20 @@ html,
   justify-content: center;
 }
 
+.subscribe-popup-head .custom-input:focus,
+.subscribe-popup-head .custom-input:hover,
+.subscribe-popup-head .custom-input:active {
+  background: #FFEBB9;
+  border-color: initial;
+  box-shadow: none;
+}
+
+.subscribe-popup-head .custom-button:focus,
+.subscribe-popup-head .custom-button:hover,
+.subscribe-popup-head .custom-button:active {
+  background: #9e4b19 !important;
+}
+
 .react-share__ShareButton {
   padding-right: 20px !important;
 }
