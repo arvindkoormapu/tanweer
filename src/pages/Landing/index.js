@@ -8,6 +8,7 @@ import {
   Input,
   Button,
   message,
+  Modal,
 } from "antd";
 import { useMediaQuery } from "react-responsive";
 import LandingPageImage from "../../images/Home/landing_page_image.webp";
@@ -46,7 +47,7 @@ const Home = () => {
         "https://connect.mailerlite.com/api/subscribers", // MailerLite API endpoint for adding subscribers
         {
           email: email,
-          groups: ["131728999121421845"]
+          groups: ["131728999121421845"],
         },
         {
           headers: {
@@ -91,19 +92,18 @@ const Home = () => {
             />
           </div>
           <div className="content" style={{ bottom: !isMobile && "20%" }}>
-            {!subscribePopup ? (
-              <>
-                <Text className="title">{pages.home.landing.title}</Text>
-                <div className="button-component-wrapper">
-                  <ButtonComponent
-                    bgColor="#A2441B"
-                    textColor="#FFF5D9"
-                    clickAction={enableSubscribePopup}
-                    text="Register your interest"
-                  />
-                </div>
-              </>
-            ) : (
+            <>
+              <Text className="title">{pages.home.landing.title}</Text>
+              <div className="button-component-wrapper">
+                <ButtonComponent
+                  bgColor="#A2441B"
+                  textColor="#FFF5D9"
+                  clickAction={enableSubscribePopup}
+                  text="Register your interest"
+                />
+              </div>
+            </>
+            <Modal open={subscribePopup} footer={null} closable={false} getContainer={false} width={isMobile ? "90%" : "50%"} >
               <div className="subscribe-popup subscribe-popup-head">
                 <div className="close-button-container">
                   <img
@@ -158,7 +158,7 @@ const Home = () => {
                   </div>
                 )}
               </div>
-            )}
+            </Modal>
             <Text className="date">{pages.home.landing.date}</Text>
             <Text className="caption">{pages.home.landing.location}</Text>
           </div>

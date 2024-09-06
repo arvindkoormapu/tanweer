@@ -369,8 +369,19 @@ html,
   background: #9e4b19 !important;
 }
 
+.footer .bottom-section .custom-button:focus,
+.footer .bottom-section .custom-button:hover,
+.footer .bottom-section .custom-button:active {
+  background: #9e4b19 !important;
+}
+
 .react-share__ShareButton {
   padding-right: 20px !important;
+}
+
+.ant-modal .ant-modal-content {
+  background-color: #ffffff00;
+  padding: 0px;
 }
 
 /* Media Query for mobile devices */

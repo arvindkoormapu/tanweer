@@ -357,8 +357,8 @@
     }
 
     .subscribe-popup {
-        bottom: 5%;
-        width: 77%;
+        /* bottom: 25%; */
+        /* width: 77%; */
         height: auto;
         padding: 40px 30px 40px 40px;
     }

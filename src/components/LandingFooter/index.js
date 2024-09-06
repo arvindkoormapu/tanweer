@@ -1,26 +1,64 @@
-import React from "react";
-import { Row, Col, Typography, Input, Button, Space } from "antd";
+import React, { useState } from "react";
+import { Row, Col, Typography, Input, Button, Space, message } from "antd";
 import { useMediaQuery } from "react-responsive";
 import FooterLogo from "../../images/Tanweer_footer_Logo.png";
 import XLogo from "../../images/X Logo.png";
 import IGLogo from "../../images/IG Logo.png";
-import { useData } from "../../hooks/useData";
-import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 import "./footer.css";
 const { Text } = Typography;
 
 const Footer = () => {
-  const { pages } = useData();
-  const navigate = useNavigate();
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
+  const [email, setEmail] = useState("");
+  const [messageApi, contextHolder] = message.useMessage();
 
-  const redirect = (link) => {
-    navigate(link);
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post(
+        "https://connect.mailerlite.com/api/subscribers", // MailerLite API endpoint for adding subscribers
+        {
+          email: email,
+          groups: ["131728999121421845"],
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${process.env.REACT_APP_MAILERLITE_API_KEY}`,
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (response.status === 201 || response.status === 200) {
+        messageApi.open({
+          type: "success",
+          content: "Thank you for subscribing!",
+        });
+        setEmail("");
+      } else {
+        messageApi.open({
+          type: "error",
+          content: "Something went wrong. Please try again.",
+        });
+      }
+    } catch (error) {
+      console.error("Error subscribing:", error);
+      messageApi.open({
+        type: "error",
+        content: "Error subscribing. Please try again.",
+      });
+    }
   };
 
   return (
     <div className="footer">
+      {contextHolder}
       <Row gutter={16} className="footer-row">
         <Col span={isMobile ? 24 : 8} className="first-col">
           <Row align="middle" style={{ flexDirection: "column" }}>
@@ -69,8 +107,14 @@ const Footer = () => {
                 <Input
                   className="custom-input"
                   placeholder="Email Address"
+                  value={email}
+                  onChange={handleEmailChange}
                   suffix={
-                    <Button className="custom-button" type="primary">
+                    <Button
+                      className="custom-button"
+                      type="primary"
+                      onClick={(e) => handleSubscribe(e)}
+                    >
                       Subscribe
                     </Button>
                   }
@@ -78,39 +122,6 @@ const Footer = () => {
               </div>
             )}
           </Space>
-          {/* {!isMobile && (
-            <Space
-              size="large"
-              style={{
-                flexDirection: "row",
-                alignItems: "flex-start",
-                marginTop: "74px",
-                justifyContent: "space-between",
-              }}
-            >
-              {pages.footer.footer_menu_header.map((elm, i) => (
-                <div>
-                  <div style={{ height: "50px" }}>
-                    {elm.title.split("\n").map((line, index) => (
-                      <React.Fragment key={index}>
-                        <Text className="footer-links-header">{line}</Text>
-                        <br />
-                      </React.Fragment>
-                    ))}
-                  </div>
-                  <Space
-                    direction="vertical"
-                    size="small"
-                    style={{ rowGap: "0px" }}
-                  >
-                    {elm.section.map((item) => (
-                      <Text className="footer-links-sections" onClick={() => redirect(item.link)}>{item.title}</Text>
-                    ))}
-                  </Space>
-                </div>
-              ))}
-            </Space>
-          )} */}
         </Col>
 
         {isMobile && (
@@ -120,8 +131,14 @@ const Footer = () => {
                 <Input
                   className="custom-input"
                   placeholder="Email Address"
+                  value={email}
+                  onChange={handleEmailChange}
                   suffix={
-                    <Button className="custom-button" type="primary">
+                    <Button
+                      className="custom-button"
+                      type="primary"
+                      onClick={(e) => handleSubscribe(e)}
+                    >
                       Subscribe
                     </Button>
                   }
@@ -129,13 +146,6 @@ const Footer = () => {
               </div>
             </Col>
             <Col className="footer-text-year">
-              {/* <Space size="middle" direction="vertical">
-                {pages.footer.footer_menu_header.map((elm, i) => (
-                  <Text className="footer-links">{elm.title}</Text>
-                ))}
-                <Text className="footer-links">UNSUSCRIBE</Text>
-              </Space> */}
-
               <Text className="footer-year">© 2024 Tanweer Festival</Text>
             </Col>
           </>
