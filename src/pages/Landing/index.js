@@ -91,6 +91,7 @@ const Home = () => {
           type: "error",
           content: "Something went wrong. Please try again.",
         });
+        setSubscribePopup(!subscribePopup);
       }
     } catch (error) {
       setLoading(false);
@@ -99,6 +100,7 @@ const Home = () => {
         type: "error",
         content: "Error subscribing. Please try again.",
       });
+      setSubscribePopup(!subscribePopup);
     }
   };
 
