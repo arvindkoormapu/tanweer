@@ -50,13 +50,13 @@ const Home = () => {
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
-    setLoading(true)
+    setLoading(true);
     if (inputRef.current) {
       inputRef.current.blur(); // This will dismiss the keyboard on mobile
     }
     try {
       if (!validateEmail(email)) {
-        setLoading(false)
+        setLoading(false);
         messageApi.open({
           type: "error",
           content: "Please enter a valid email address.",
@@ -78,7 +78,7 @@ const Home = () => {
       );
 
       if (response.status === 201 || response.status === 200) {
-        setLoading(false)
+        setLoading(false);
         messageApi.open({
           type: "success",
           content: "Thank you for subscribing!",
@@ -86,14 +86,14 @@ const Home = () => {
         setEmail("");
         setSubscribePopup(!subscribePopup);
       } else {
-        setLoading(false)
+        setLoading(false);
         messageApi.open({
           type: "error",
           content: "Something went wrong. Please try again.",
         });
       }
     } catch (error) {
-      setLoading(false)
+      setLoading(false);
       console.error("Error subscribing:", error);
       messageApi.open({
         type: "error",
@@ -173,7 +173,7 @@ const Home = () => {
                 ) : (
                   <div>
                     <Input
-                    ref={inputRef}
+                      ref={inputRef}
                       className="custom-input-mobile"
                       placeholder="Email Address"
                       value={email}

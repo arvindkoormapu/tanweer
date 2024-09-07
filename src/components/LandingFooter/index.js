@@ -27,13 +27,13 @@ const Footer = () => {
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
-    setLoading(true)
+    setLoading(true);
     if (inputRef.current) {
       inputRef.current.blur(); // This will dismiss the keyboard on mobile
     }
     try {
       if (!validateEmail(email)) {
-        setLoading(false)
+        setLoading(false);
         messageApi.open({
           type: "error",
           content: "Please enter a valid email address.",
@@ -55,14 +55,14 @@ const Footer = () => {
       );
 
       if (response.status === 201 || response.status === 200) {
-        setLoading(false)
+        setLoading(false);
         messageApi.open({
           type: "success",
           content: "Thank you for subscribing!",
         });
         setEmail("");
       } else {
-        setLoading(false)
+        setLoading(false);
         messageApi.open({
           type: "error",
           content: "Something went wrong. Please try again.",
@@ -70,7 +70,7 @@ const Footer = () => {
       }
     } catch (error) {
       console.error("Error subscribing:", error);
-      setLoading(false)
+      setLoading(false);
       messageApi.open({
         type: "error",
         content: "Error subscribing. Please try again.",
@@ -127,6 +127,7 @@ const Footer = () => {
             {!isMobile && (
               <div className="container">
                 <Input
+                  ref={inputRef}
                   className="custom-input"
                   placeholder="Email Address"
                   value={email}
@@ -151,7 +152,7 @@ const Footer = () => {
           <>
             <Col span={24} className="bottom-section">
               <div className="container">
-                <Input
+                {/* <Input
                   ref={inputRef}
                   className="custom-input"
                   placeholder="Email Address"
@@ -167,7 +168,22 @@ const Footer = () => {
                       Subscribe
                     </Button>
                   }
+                /> */}
+                <Input
+                  ref={inputRef} // Attach ref to the input field
+                  className="custom-input"
+                  placeholder="Email Address"
+                  value={email}
+                  onChange={handleEmailChange}
                 />
+                <Button
+                  className="custom-button"
+                  type="primary"
+                  onClick={(e) => handleSubscribe(e)}
+                  style={{ marginLeft: "10px" }} // Optional: Adjust margin
+                >
+                  Subscribe
+                </Button>
               </div>
             </Col>
             <Col className="footer-text-year">
