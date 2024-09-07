@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import {
   Layout,
   Space,
@@ -25,12 +25,15 @@ const { Content } = Layout;
 const { Text, Paragraph } = Typography;
 
 const Home = () => {
+  const inputRef = useRef(null);
+
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   const { pages } = useData();
 
   const [subscribePopup, setSubscribePopup] = useState(false);
   const [email, setEmail] = useState("");
   const [messageApi, contextHolder] = message.useMessage();
+  const [loading, setLoading] = useState(false);
 
   const enableSubscribePopup = () => {
     setSubscribePopup(!subscribePopup);
@@ -47,8 +50,13 @@ const Home = () => {
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
+    setLoading(true)
+    if (inputRef.current) {
+      inputRef.current.blur(); // This will dismiss the keyboard on mobile
+    }
     try {
       if (!validateEmail(email)) {
+        setLoading(false)
         messageApi.open({
           type: "error",
           content: "Please enter a valid email address.",
@@ -70,6 +78,7 @@ const Home = () => {
       );
 
       if (response.status === 201 || response.status === 200) {
+        setLoading(false)
         messageApi.open({
           type: "success",
           content: "Thank you for subscribing!",
@@ -77,12 +86,14 @@ const Home = () => {
         setEmail("");
         setSubscribePopup(!subscribePopup);
       } else {
+        setLoading(false)
         messageApi.open({
           type: "error",
           content: "Something went wrong. Please try again.",
         });
       }
     } catch (error) {
+      setLoading(false)
       console.error("Error subscribing:", error);
       messageApi.open({
         type: "error",
@@ -151,6 +162,7 @@ const Home = () => {
                             className="custom-button"
                             type="primary"
                             onClick={(e) => handleSubscribe(e)}
+                            loading={loading}
                           >
                             Subscribe
                           </Button>
@@ -161,6 +173,7 @@ const Home = () => {
                 ) : (
                   <div>
                     <Input
+                    ref={inputRef}
                       className="custom-input-mobile"
                       placeholder="Email Address"
                       value={email}
@@ -170,6 +183,7 @@ const Home = () => {
                       className="custom-button-mobile"
                       type="primary"
                       onClick={(e) => handleSubscribe(e)}
+                      loading={loading}
                     >
                       Subscribe
                     </Button>

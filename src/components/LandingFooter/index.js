@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Row, Col, Typography, Input, Button, Space, message } from "antd";
 import { useMediaQuery } from "react-responsive";
 import FooterLogo from "../../images/Tanweer_footer_Logo.png";
@@ -10,9 +10,11 @@ import "./footer.css";
 const { Text } = Typography;
 
 const Footer = () => {
+  const inputRef = useRef(null);
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   const [email, setEmail] = useState("");
   const [messageApi, contextHolder] = message.useMessage();
+  const [loading, setLoading] = useState(false);
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -25,8 +27,13 @@ const Footer = () => {
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
+    setLoading(true)
+    if (inputRef.current) {
+      inputRef.current.blur(); // This will dismiss the keyboard on mobile
+    }
     try {
       if (!validateEmail(email)) {
+        setLoading(false)
         messageApi.open({
           type: "error",
           content: "Please enter a valid email address.",
@@ -48,12 +55,14 @@ const Footer = () => {
       );
 
       if (response.status === 201 || response.status === 200) {
+        setLoading(false)
         messageApi.open({
           type: "success",
           content: "Thank you for subscribing!",
         });
         setEmail("");
       } else {
+        setLoading(false)
         messageApi.open({
           type: "error",
           content: "Something went wrong. Please try again.",
@@ -61,6 +70,7 @@ const Footer = () => {
       }
     } catch (error) {
       console.error("Error subscribing:", error);
+      setLoading(false)
       messageApi.open({
         type: "error",
         content: "Error subscribing. Please try again.",
@@ -126,6 +136,7 @@ const Footer = () => {
                       className="custom-button"
                       type="primary"
                       onClick={(e) => handleSubscribe(e)}
+                      loading={loading}
                     >
                       Subscribe
                     </Button>
@@ -141,6 +152,7 @@ const Footer = () => {
             <Col span={24} className="bottom-section">
               <div className="container">
                 <Input
+                  ref={inputRef}
                   className="custom-input"
                   placeholder="Email Address"
                   value={email}
@@ -150,6 +162,7 @@ const Footer = () => {
                       className="custom-button"
                       type="primary"
                       onClick={(e) => handleSubscribe(e)}
+                      loading={loading}
                     >
                       Subscribe
                     </Button>
