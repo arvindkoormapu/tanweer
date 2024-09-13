@@ -11,7 +11,7 @@
         {
             "title": "REGULAR",
             "caption": "FESTIVAL PASS",
-            "description": "3 day access to all areas in the festival and General Admission of the Main Stage.",
+            "description": "Three-day access to all areas in the festival and to the General Admission area of the main stage.",
             "types": [
                 {
                     "title": "Early Bird",
@@ -30,7 +30,7 @@
         {
             "title": "VIP",
             "caption": "FESTIVAL PASS",
-            "description": "3 day access to all areas in the festival and General Admission of the Main Stage.",
+            "description": "Three-day access to all areas in the festival, in addition to access to the VIP Lounge, valet parking, and premium VIP seating at the main stage.",
             "types": [
                 {
                     "title": "Early Bird",
@@ -51,7 +51,7 @@
         {
             "title": "REGULAR",
             "caption": "day PASS",
-            "description": "3 day access to all areas in the festival and General Admission of the Main Stage.",
+            "description": "One-day access to all areas in the festival and to the General Admission area of the main stage.",
             "types": [
                 {
                     "title": "Early Bird",
@@ -70,7 +70,7 @@
         {
             "title": "VIP",
             "caption": "day PASS",
-            "description": "3 day access to all areas in the festival and General Admission of the Main Stage.",
+            "description": "One-day access to all areas in the festival, in addition to access to the VIP Lounge, valet parking, and premium VIP seating at the main stage.",
             "types": [
                 {
                     "title": "Early Bird",

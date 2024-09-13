@@ -49,7 +49,7 @@
                         {
                             "name": "Constantinople Rumi",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Constantinople-Rumi.webp"
+                            "image": "/artist_images/Constantinople.webp"
                         },
                         {
                             "name": "Senny Camara Mary Malifarges",
@@ -118,39 +118,24 @@
                     "title": "LOCATION ARENA",
                     "list": [
                         {
-                            "name": "Intermodal Expressive Arts",
+                            "name": "Breathwork",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Intermodal-Expressive-Arts.webp"
+                            "image": "/artist_images/Breathwork_V4.jpg"
                         },
                         {
-                            "name": "Illumination and Geometry",
+                            "name": "Anas-Handpan-Orchestra",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Illumination-and-Geometry.webp"
-                        },
-                        {
-                            "name": "Anas Handpan Orchestra",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Anas-Handpan-Orchestra.webp"
-                        },
-                        {
-                            "name": "Calligraphy Lighting",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Calligraphy-Lighting.webp"
-                        },
-                        {
-                            "name": "Sema Whirling",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Sema-Whirling.webp"
+                            "image": "/artist_images/Anas-Handpan-Orchestra_V2.jpg"
                         },
                         {
                             "name": "Calligraphy",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Calligraphy.webp"
+                            "image": "/artist_images/Calligraphy_Day1_V2.jpg"
                         },
                         {
-                            "name": "Breathwork",
+                            "name": "Calligraphy Lighting",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Breathwork.webp"
+                            "image": "/artist_images/Calligraphy-Lighting_Day1_V2.jpg"
                         }
                     ]
                 }
@@ -163,34 +148,19 @@
                     "title": "LOCATION ARENA",
                     "list": [
                         {
-                            "name": "Intermodal Expressive Arts",
+                            "name": "Calligraphy",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Intermodal-Expressive-Arts-24.webp"
-                        },
-                        {
-                            "name": "Illumination and Geometry",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Illumination-and-Geometry-24.webp"
+                            "image": "/artist_images/Calligraphy_Day2_V2.jpg"
                         },
                         {
                             "name": "Calligraphy Lighting",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Calligraphy-Lighting-24.webp"
-                        },
-                        {
-                            "name": "Sound Immersion",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Sound-Immersion.webp"
-                        },
-                        {
-                            "name": "Calligraphy",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Calligraphy-24.webp"
+                            "image": "/artist_images/Calligraphy-Lighting_Day2_V2.jpg"
                         },
                         {
                             "name": "Whirling",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Whirling.webp"
+                            "image": "/artist_images/Whirling_V2.jpg"
                         }
                     ]
                 }

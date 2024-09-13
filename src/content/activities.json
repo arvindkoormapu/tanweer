@@ -8,35 +8,42 @@
         {
             "image": "images/StyleAndActivities/Trekking 4.webp",
             "title": "Valley of the Caves",
-            "description": "Discover the geological wonders of Fossil Rock, adorned with marine fossils, offering a glimpse into Earth's ancient past.",
+            "description": "Unearth history in the \"Valley of the Caves Tour.\" Explore Neolithic caves with an expert guide, discovering ancient human artifacts.",
             "price": "AED 95",
             "link": ""
         },
         {
             "image": "images/StyleAndActivities/Star gazing.webp",
             "title": "Moongazing",
-            "description": "Enjoy an enchanting night of moongazing under Mleiha’s expansive sky, embracing the universe and its timeless wonders.",
+            "description": " Gaze at the moon's enchanting beauty through HD telescopes guided by our astronomy experts. Unearth lunar secrets and you may even catch glimpses of Jupiter and Saturn for a celestial adventure like no other.",
             "price": "AED 150",
             "link": ""
         },
         {
             "image": "images/StyleAndActivities/Archaeological.webp",
             "title": "Mleiha Archaeological Center",
-            "description": "Delve into Mleiha's captivating history and uncover the secrets of ancient artifacts and archaeological sites.",
+            "description": "Discover the Mleiha Archaeological Centre in this self-guided experience! Immerse yourself in captivating history, explore ancient artifacts spanning hundreds of thousands of years, and embark on a timeless adventure.",
             "price": "AED 25",
             "link": ""
         },
         {
             "image": "images/StyleAndActivities/activity1.webp",
             "title": "Horse Riding",
-            "description": "Embark on a thrilling horse riding adventure across the desert, exploring the mesmerizing beauty of Mleiha.",
+            "description": "Discover the thrill of a captivating horseback adventure in Mleiha's arena. Unforgettable memories await within this unique experience open to all skill levels.",
             "price": "AED 80",
             "link": ""
         },
         {
             "image": "images/StyleAndActivities/Mleiah archelogical.jpeg",
             "title": "Mleiha Archaeological Tour",
-            "description": "Traverse history, exploring Stone Age caves, ancient forts, and Bronze Age secrets. Unearth the allure of camel graves and Mleiha Fort.",
+            "description": "Embark on an enchanting voyage starting at the archaeological center. Traverse history, exploring Stone Age caves, ancient forts, and Bronze Age secrets. Unearth the allure of camel graves and Mleiha Fort.",
+            "price": "AED 190",
+            "link": ""
+        },
+        {
+            "image": "images/StyleAndActivities/Tandem Paragliding.webp",
+            "title": "Tandem Paragliding",
+            "description": "Experience the thrill of soaring through the sky with our professional pilots at the first and only officially licensed paragliding center in the UAE, capturing unforgettable moments that will stay with you forever.",
             "price": "AED 190",
             "link": ""
         }
@@ -84,9 +91,15 @@
             "link": ""
         },
         {
-            "image": "images/StyleAndActivities/Double tree by hilton.avif",
+            "image": "images/StyleAndActivities/DoubleTree by Hilton.webp",
             "title": "DoubleTree by Hilton",
             "description": "DoubleTree by Hilton Sharjah Waterfront Hotel & Residences offers a luxurious stay in Sharjah with stunning views of the Al Majaz Waterfront. The hotel features spacious rooms and apartments, a fitness center, an indoor pool, and dining options catering to various tastes. Its prime location provides easy access to cultural attractions and business districts, making it ideal for both leisure and business travelers.",
+            "link": ""
+        },
+        {
+            "image": "images/StyleAndActivities/The Chedi Al Bait.jpg",
+            "title": "The Chedi Al Bait",
+            "description": "The Chedi Al Bait, Sharjah, is a luxurious five-star hotel blending Emirati heritage with contemporary elegance. Nestled in the Heart of Sharjah, this 65-key resort preserves the charm of historic manor houses while offering modern comforts. Guests enjoy unparalleled hospitality and traditional Emirati graciousness, making it a standout destination for those seeking cultural authenticity and refined luxury.",
             "link": ""
         }
     ]

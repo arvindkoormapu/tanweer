@@ -315,7 +315,7 @@ function StyleAndActivities() {
 
         <div className="bottom_section">
           <div className="dark-arrows">
-            <Text className="h1">Staycation</Text>
+            <Text className="h1">Make it a staycation</Text>
             <div>
               <img
                 src={ArrowLeftLight}

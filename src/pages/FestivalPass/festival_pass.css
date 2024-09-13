@@ -158,6 +158,14 @@
     text-decoration: line-through;
 }
 
+.pass-wrapper .des{
+    /* display: -webkit-box; */
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 156px;
+}
+
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
 

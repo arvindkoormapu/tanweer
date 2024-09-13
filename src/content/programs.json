@@ -29,34 +29,29 @@
     ],
     "art": [
         {
-            "image": "images/Programs/art1.webp",
-            "name": "Khalid Shafar",
-            "caption": "Owned Artworks"
+            "image": "images/Programs/Karim + Elias (2).jpg",
+            "name": "Karim Elias",
+            "caption": ""
         },
         {
-            "image": "images/Programs/art2.webp",
-            "name": "Khalid Shafar",
-            "caption": "Owned Artworks"
+            "image": "images/Programs/Ahmad Kattan.jpg",
+            "name": "Ahmad Kattan",
+            "caption": ""
         },
         {
-            "image": "images/Programs/art1.webp",
-            "name": "Khalid Shafar",
-            "caption": "Owned Artworks"
+            "image": "images/Programs/Nedaa Elias.jpg",
+            "name": "Nedaa Elias",
+            "caption": ""
         },
         {
-            "image": "images/Programs/art2.webp",
-            "name": "Khalid Shafar",
-            "caption": "Owned Artworks"
+            "image": "images/Programs/Omar Al Gurg.jpg",
+            "name": "Omar Al Gurg",
+            "caption": ""
         },
         {
-            "image": "images/Programs/art1.webp",
-            "name": "Khalid Shafar",
-            "caption": "Owned Artworks"
-        },
-        {
-            "image": "images/Programs/art2.webp",
-            "name": "Khalid Shafar",
-            "caption": "Owned Artworks"
+            "image": "images/Programs/Raghad Al Ahmed (1).jpg",
+            "name": "Raghad Al Ahmed",
+            "caption": ""
         }
     ],
     "art_section": {

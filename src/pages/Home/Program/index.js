@@ -58,7 +58,7 @@ function Program() {
 
   return (
     <>
-      <Text className="title">Tanweer Program</Text>
+      <Text className="title">Tanweer Festival Program</Text>
 
       <div
         style={{

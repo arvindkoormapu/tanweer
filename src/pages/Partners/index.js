@@ -30,9 +30,9 @@ function Partners() {
     <Layout className="partners">
       <Content>
         <div className="content">
-          <Text className="title">{pages.terms.firstSection.title}</Text>
+          <Text className="title">Partners</Text>
           <Text className="description">
-            {pages.terms.firstSection.content.join(" ")}
+          We proudly collaborate with industry leaders who share our vision for excellence, bringing you an unparalleled festival experience.
           </Text>
         </div>
 

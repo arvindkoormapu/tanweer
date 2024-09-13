@@ -174,32 +174,33 @@ function Programs() {
 
             {isMobile ? (
               <Swiper
-                spaceBetween={220}
-                slidesPerView={2}
+                spaceBetween={0}
+                slidesPerView={1.7}
                 centeredSlides={false}
                 grabCursor={true}
                 style={{ width: "100%", paddingBottom: "10px" }}
               >
                 {pages.programs.art.map((elm, index) => (
-                  <SwiperSlide key={index}>
+                  <SwiperSlide key={index} style={{textAlign: 'center', background: '#000'}}>
                     <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                      }}
+                      className="art-slide"
                     >
                       <img
                         className="art-images"
                         src={require(`../../${elm.image}`)}
                         alt="Rotating Circle"
                       />
+                      <div className="text-wrapper">
+                          <Text className="name">{elm.name}</Text>
+                          <Text className="caption">{elm.caption}</Text>
+                        </div>
                     </div>
                   </SwiperSlide>
                 ))}
               </Swiper>
             ) : (
               artChunks.map((chunk, index) => (
-                <Row key={index}>
+                <Row key={index} gutter={0}>
                   {chunk.map((elm, idx) => (
                     <Col key={idx} className="p-0" xs={24} sm={12} md={6}>
                       <div className="art-slide">
@@ -207,6 +208,7 @@ function Programs() {
                           className="art-images"
                           src={require(`../../${elm.image}`)}
                           alt="icon"
+                          style={{width: '306px', height: '175px', objectFit: 'contain', background: '#000'}}
                         />
                         <div className="text-wrapper">
                           <Text className="name">{elm.name}</Text>
