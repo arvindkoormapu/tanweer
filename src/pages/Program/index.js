@@ -208,7 +208,7 @@ function Programs() {
                           className="art-images"
                           src={require(`../../${elm.image}`)}
                           alt="icon"
-                          style={{width: '306px', height: '175px', objectFit: 'contain', background: '#000'}}
+                          style={{width: '100%', height: '175px', objectFit: 'cover', background: '#000'}}
                         />
                         <div className="text-wrapper">
                           <Text className="name">{elm.name}</Text>
