@@ -55,8 +55,9 @@
     line-height: 28.13px;
     color: #731D14 !important;
     text-transform: uppercase;
-    margin-right: 3rem;
+    margin-right: 1rem;
     cursor: pointer;
+    /* word-break: keep-all; */
 }
 
 .collapsible {

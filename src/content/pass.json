@@ -9,7 +9,7 @@
     },
     "festival_passes": [
         {
-            "title": "REGULAR",
+            "title": "General Admission",
             "caption": "FESTIVAL PASS",
             "description": "Three-day access to all areas in the festival and to the General Admission area of the main stage.",
             "types": [
@@ -20,7 +20,7 @@
                     "link": ""
                 },
                 {
-                    "title": "Regular",
+                    "title": "General Admission",
                     "price": "AED 1650",
                     "status": "strick",
                     "link": ""
@@ -39,7 +39,7 @@
                     "link": ""
                 },
                 {
-                    "title": "Regular",
+                    "title": "General Admission",
                     "price": "AED 2,500",
                     "status": "strick",
                     "link": ""
@@ -49,7 +49,7 @@
     ],
     "day_passes": [
         {
-            "title": "REGULAR",
+            "title": "General Admission",
             "caption": "day PASS",
             "description": "One-day access to all areas in the festival and to the General Admission area of the main stage.",
             "types": [
@@ -60,7 +60,7 @@
                     "link": ""
                 },
                 {
-                    "title": "Regular",
+                    "title": "General Admission",
                     "price": "AED 700",
                     "status": "strick",
                     "link": ""
@@ -79,7 +79,7 @@
                     "link": ""
                 },
                 {
-                    "title": "Regular",
+                    "title": "General Admission",
                     "price": "AED 1,050",
                     "status": "strick",
                     "link": ""
@@ -87,5 +87,5 @@
             ]
         }
     ],
-    "last_paragraph": "Explore our Stay & Activities page to enrich your experience at the Tanweer Festival, ensuring every moment is infused with meaning and inspiration."
+    "last_paragraph": "Explore our Stay & Activities page to enrich your experience at Tanweer Festival, ensuring every moment is infused with meaning and inspiration."
 }

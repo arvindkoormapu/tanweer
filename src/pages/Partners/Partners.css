@@ -24,6 +24,19 @@
     width: 80%;
 }
 
+.logo-title {
+    font-family: TAN-AESOP;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #A2441B;
+    text-transform: uppercase;
+}
+
+.tire {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
 

@@ -24,10 +24,26 @@ function Contact() {
     setActiveTab(pages.contact.faqs[0]);
   }, [pages.contact.faqs]);
 
+  const renderAnswer = (answer) => {
+    const parts = answer.split(/<br\s*\/?>/); // Split by <br /> or <br>
+
+    return (
+      <div>
+        {parts.map((part, index) => (
+          <div
+            key={index}
+            style={{ paddingTop: "8px" }}
+            dangerouslySetInnerHTML={{ __html: part }}
+          />
+        ))}
+      </div>
+    );
+  };
+
   return (
     <Layout className="contact">
       <Content>
-      <div
+        <div
           className="floating-button"
           onClick={() =>
             window.open("https://tickets.tanweerfestival.com/", "_blank")
@@ -125,45 +141,33 @@ function Contact() {
               FAQs
             </Text>
           </div>
-          {isMobile ? (
-            <div className="tabs">
-              <Swiper
-                spaceBetween={1}
-                slidesPerView={isMobile ? 'auto' : 4}
-                centeredSlides={false}
-                grabCursor={true}
-                style={{ width: '100%' }}
-              >
-                {pages.contact.faqs.map((elm, index) => (
-                  <SwiperSlide key={index} >
-                    <div>
-                      <Text
-                        onClick={() => setActiveTab(elm)}
-                        className={`tab ${
-                          activeTab?.name === elm.name && "active-tab"
-                        }`}
-                      >
-                        {elm.name}
-                      </Text>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
-          ) : (
-            <Space className="tabs">
+
+          <div className="tabs">
+            <Swiper
+              spaceBetween={10} // Space between slides
+              slidesPerView="auto" // Allow slides to take their content width
+              centeredSlides={false}
+              grabCursor={true}
+              style={{ width: "100%" }}
+            >
               {pages.contact.faqs.map((elm, index) => (
-                <Text
-                  onClick={() => setActiveTab(elm)}
-                  className={`tab ${
-                    activeTab?.name === elm.name && "active-tab"
-                  }`}
+                <SwiperSlide
+                  key={index}
+                  style={{ display: "inline-block", width: "auto" }}
                 >
-                  {elm.name}
-                </Text>
+                  <Text
+                    onClick={() => setActiveTab(elm)}
+                    className={`tab ${
+                      activeTab?.name === elm.name ? "active-tab" : ""
+                    }`}
+                    style={{ whiteSpace: "nowrap" }} // Prevent text wrapping
+                  >
+                    {elm.name}
+                  </Text>
+                </SwiperSlide>
               ))}
-            </Space>
-          )}
+            </Swiper>
+          </div>
 
           {activeTab?.items.map((elm, index) => (
             <div
@@ -175,7 +179,7 @@ function Contact() {
             >
               <Collapsible title={elm.question}>
                 <Paragraph className="para" style={{ color: "#BF7139" }}>
-                  {elm.answer}
+                  {renderAnswer(elm.answer)}
                 </Paragraph>
               </Collapsible>
             </div>

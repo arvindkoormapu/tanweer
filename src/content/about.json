@@ -31,18 +31,18 @@
     ],
     "sustainable": {
         "title": "Sustainable Harmony",
-        "description": "At Tanweer, we are deeply committed to sustainability and environmental consciousness in every aspect of our festival. We believe that sustainability is not just a necessity but a responsibility, and we are dedicated to making a positive impact on our community and the planet",
-        "description2": "Join us and experience the magic of Tanweer while knowing that you are also contributing to a sustainable future. We promise you an unforgettable experience that combines the joy of the festival with the fulfillment of protecting our planet. Together, we can create a better world for everyone.",
+        "description": "At Tanweer Festival, we are deeply committed to implementing sustainable and environmentally consciousness practices in every aspect of our event. We believe that sustainability is a necessity and a responsibility, and we are dedicated to making a positive impact on our community and the planet.",
+        "description2": "Join us and experience the magic of Tanweer Festival while knowing that you are also contributing to a sustainable future. We promise you an unforgettable experience that combines the joy of the festival with the fulfillment of protecting our planet. Together, we can create a better world for everyone.",
         "slider": [
             {
-                "image": "images/About/slide1.webp",
-                "title": "Eco-friendly materials",
+                "image": "images/About/Sustainanlity-2.jpg",
+                "title": "Eco-friendly Materials",
                 "description": "We require all our vendors to use eco-friendly materials and packaging. By doing so, we ensure that every aspect of the festival contributes to environmental preservation. From food containers to merchandise bags, every item is selected with sustainability in mind."
             },
             {
-                "image": "images/About/slide1.webp",
-                "title": "Recycling & Composting Stations",
-                "description": "To minimize waste, we have set up recycling and composting stations throughout the festival. These stations make it easy for attendees to dispose of waste responsibly. Our goal is to inspire others to adopt similar practices, showing that collective action can lead to significant environmental benefits."
+                "image": "images/About/Eco-Management-2.jpg",
+                "title": "Recycling and Waste Management",
+                "description": "To minimize our environmental impact, we have set up recycling and “waste separation bins” throughout the festival. These bins make it easy for attendees to dispose of refuse responsibly, and for our waste management partners to recycle and compost any waste appropriately, offsite. Our goal is to inspire others to adopt similar practices, showing that collective action can lead to significant environmental benefits."
             }
         ]
     }

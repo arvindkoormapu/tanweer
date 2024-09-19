@@ -5,31 +5,35 @@
     },
     "faqs": [
         {
-            "name": "General",
+            "name": "GENERAL INFORMATION",
             "items": [
                 {
-                    "question": "What is the Tanweer Festival?",
-                    "answer": "The Tanweer Festival is a celebration of ancestral music, wisdom, and crafts from tribal cultures around the world. Our mission is to empower tribal cultures by channeling revenues back to their respective communities so they may keep flourishing. The festival is a platform for showcasing traditional music, crafs, and wisdom and creating unity and connection among people from diverse backgrounds."
+                    "question": "What is Tanweer Festival?",
+                    "answer": "With a mission to foster greater understanding through music, art and poetry, Tanweer Festival is a vibrant celebration which marks the beginning of a new chapter in Sharjah's vibrant cultural landscape.<br />The festival deepens understanding of heritage, creativity, and wisdom from around the world, connecting diverse cultures through musical expression and creating a wholesome, enriching and celebratory environment for all who attend.<br />Festival guests can discover workshops, indulge in nourishing culinary delights, explore a vibrant marketplace, and partake in unforgettable experiences that are unprecedented in Sharjah and the region."
                 },
                 {
                     "question": "Where is the festival held?",
-                    "answer": "The festival is held in Mleiha, Sharjah - United Arab Emirates."
+                    "answer": "The festival is held in <a href='https://maps.app.goo.gl/ZmHP3RZJfJTnR3rL8' target='_blank' rel='noopener noreferrer'>Mleiha, Sharjah - United Arab Emirates.</a>"
                 },
                 {
                     "question": "When is the festival held?",
-                    "answer": "The festival is held on 24, 25, and 26 November."
+                    "answer": "The festival is held on 22, 23, and 24 November."
                 },
                 {
                     "question": "How long does the festival last?",
-                    "answer": "The festival lasts for three days and three nights."
+                    "answer": "The festival lasts for three days."
                 },
                 {
-                    "question": "How big is the Tanweer Festival?",
-                    "answer": "The festival is expected to attract 5,000 people per day who are passionate about sacred music, holistic wellness, and mindfulness practices."
+                    "question": "How big is Tanweer Festival?",
+                    "answer": "The festival is expected to attract 2,000 people per day who are passionate about music, art and poetry. "
                 },
                 {
                     "question": "What is the age range for attendees?",
-                    "answer": "The festival is open to adults 18 years and above."
+                    "answer": "To maintain the safety of the festival and its guests, Tanweer Festival and its program are designed specifically attendees aged 18 and above."
+                },
+                {
+                    "question": "Is Tanweer Festival family-friendly?",
+                    "answer": "The festival is best enjoyed by adults, so we kindly ask that those aged 17 and under sit this one out. The environment and activities are tailored for an adult audience."
                 },
                 {
                     "question": "Are pets allowed at the festival?",
@@ -38,23 +42,52 @@
             ]
         },
         {
+            "name": "TICKETS",
+            "items": [
+                {
+                    "question": "How can I purchase tickets?",
+                    "answer": "Tickets can be purchased online. Visit <a href='https://www.tanweerfestival.com' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com*</a> for more information."
+                },
+                {
+                    "question": "What is included in the ticket price?",
+                    "answer": "Visit https://tickets.tanweerfestival.com/* for details."
+                },
+                {
+                    "question": "Are there any discounts available for tickets?",
+                    "answer": "Guests who purchase early-bird tickets can secure discounted rates. Visit https://tickets.tanweerfestival.com/* for more information."
+                },
+                {
+                    "question": "Can I get a refund if I can't attend the festival?",
+                    "answer": "No, all ticket sales are non-refundable."
+                },
+                {
+                    "question": "Can I transfer my ticket to someone else?",
+                    "answer": "No, tickets are non-transferable."
+                },
+                {
+                    "question": "Do I need to bring a printed ticket to the festival?",
+                    "answer": "You can, but you may also show your ticket on your mobile device at the festival entrance. Save paper!"
+                },
+                {
+                    "question": "What happens if it rains during the festival?",
+                    "answer": "Provided it is safe to do so, the festival will go on, come rain or shine. Please bring appropriate clothing and footwear for inclement weather, according to the forecast."
+                }
+            ]
+        },
+        {
             "name": "Facilities",
             "items": [
                 {
                     "question": "Is the festival wheelchair accessible?",
-                    "answer": "The festival is an outdoor event on sand and gravel, which will pose a problem for wheelchair users. While areas like mountain tops and desert dunes are inaccessible, the parking areas, music, holistic modalities, restaurants, toilets, and the marketplace are accessible. We advise wheelchair users to have someone assist them at all times to ensure their safety."
+                    "answer": "The festival is held outdoors on natural terrain, including sand and gravel, which can be difficult for standard wheelchairs. We highly recommend that people of determination bring an all-terrain wheelchair and be accompanied by a responsible adult."
                 },
                 {
-                    "question": "Do you offer help getting to the festival place from the car parks?",
-                    "answer": "In case our main car park is full, there will be a shuttle bus running between the overflow parking and the festival gate. Sharing your ride will help the festival avoid any parking space issues, will contaminate less, and you might make friends on the way. Check the 'Tanweer Shared Rides' Whatsapp Group (link pending) to offer a ride or look for one"
-                },
-                {
-                    "question": "Is there a phone charging station on-site?",
-                    "answer": "Yes, however, they will be in demand. Consider bringing a backup charger and a cable."
+                    "question": "Do you offer help getting to the festival site from the car parks?",
+                    "answer": "Yes, if our main car park is full, a shuttle bus will run between the overflow parking area and the festival gate. We encourage ridesharing to help reduce parking congestion, minimize environmental impact, and make new friends along the way."
                 },
                 {
                     "question": "Do you have electric car charging points on-site?",
-                    "answer": "Not for our first festival, but we plan to in the future. The festival is in a somewhat remote natural area."
+                    "answer": "Not for our first festival, but we plan to in the future. The festival is in a somewhat remote, natural area."
                 }
             ]
         },
@@ -63,32 +96,53 @@
             "items": [
                 {
                     "question": "Does the festival provide accommodations?",
-                    "answer": "No, the festival does not provide accommodations. However, we pro have partnered with local hotels and can provide recommendations for lodging. For more information, visit www.tanweerfestival.com/hotels"
+                    "answer": "The festival does not offer traditional accommodation, but we do have a designated campsite available for those who wish to stay close to the event. Additionally, we've partnered with local hotels and can provide recommendations for lodging. For more information, including campsite details and hotel recommendations, visit www.tanweerfestival.com/stayandactivities*"
                 },
                 {
                     "question": "Are there camping options available?",
-                    "answer": "Yes, camping is allowed at the festival with your purchase of a one-day or three-day pass."
-                },
-                {
-                    "question": "Can I park my RV at the festival?",
-                    "answer": "Yes, RV parking is available at the festival with your purchase of a one-day or three-day pass."
+                    "answer": "Yes, camping is allowed at the festival with your purchase of a festival ticket."
                 }
             ]
         },
         {
-            "name": "Modalities",
+            "name": "PERFORMANCES",
             "items": [
                 {
-                    "question": "Are the holistic modalities hands-on?",
-                    "answer": "Some modalities are hands-on, while others may be lecture-style. Please check the modalities descriptions for more information. www.tanweerfestival.com/modalities"
+                    "question": "Can I bring my own instrument and perform at the festival?",
+                    "answer": "No, only scheduled performers are allowed to perform at the festival."
                 },
                 {
-                    "question": "What materials are provided for the holistic modalities?",
-                    "answer": "Materials for modalities may be optionally provided by the workshop facilitators. Please check the modalities descriptions for more information. www.tanweerfestival.com/modalities"
+                    "question": "Are there any performance restrictions?",
+                    "answer": "Yes, live broadcasting is not allowed during music performances."
                 },
                 {
-                    "question": "Can I attend multiple modalities in one day?",
-                    "answer": "Yes, you can attend multiple modalities in one day. However, some modalities may run in parallel. Please check our schedule for more information. www.tanweerfestival.com/schedule"
+                    "question": "What language are the performances in?",
+                    "answer": "Performances may be in a variety of languages, including English and traditional languages of the performers' cultures."
+                },
+                {
+                    "question": "Will there be translation services available?",
+                    "answer": "No, translation services are not available for performances. Please check with the festival staff for more information."
+                },
+                {
+                    "question": "What kind of music will be on the main stage?",
+                    "answer": "Each day, we are showing a variety of traditional and commercial music by world-famous artists"
+                },
+                {
+                    "question": "How long are the performances for the music artists?",
+                    "answer": "The performance of each artist will range from 1 to 1.5 hours."
+                }
+            ]
+        },
+        {
+            "name": "WORKSHOPS",
+            "items": [
+                {
+                    "question": "Are the workshops hands-on?",
+                    "answer": "Some workshops are hands-on, while others may be lecture-style. Please check the workshop descriptions for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/workshops*</a>"
+                },
+                {
+                    "question": "Can I attend multiple workshops in one day?",
+                    "answer": "Yes, you can attend multiple workshops in one day. Please check our program for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/program*</a>"
                 }
             ]
         },
@@ -96,7 +150,7 @@
             "name": "Marketplace",
             "items": [
                 {
-                    "question": "What are the Tanweer Market timings?",
+                    "question": "What are Tanweer Market timings?",
                     "answer": "10 am to 10 pm. However, some stands may decide to close earlier."
                 },
                 {
@@ -104,44 +158,36 @@
                     "answer": "Yes"
                 },
                 {
-                    "question": "What types of cras are available at the market?",
-                    "answer": "The Tanweer market offers a wide range of cras, including jewelry, pottery, paintings, woodwork, textiles, and much more."
+                    "question": "What types of crafts are available at the market?",
+                    "answer": "Tanweer Festival market offers a wide range of crafts, including jewelry, pottery, paintings, woodwork, textiles, and much more."
                 },
                 {
-                    "question": "Do you accept credit/debit cards, or is it cash only?",
-                    "answer": "We ONLY accept digital credit/debit card payments."
+                    "question": "Does Tanweer Market accept cash?",
+                    "answer": "No. We <b>ONLY</b> accept digital credit/debit card payments."
                 },
                 {
                     "question": "Is there parking available for market visitors?",
-                    "answer": "Yes, there are designated parking areas for visitors upon arriving at Tanweer Sacred Music Festival. However, parking availability may vary depending on your tickets and the time of the day, so we recommend arriving early."
+                    "answer": "Yes, there are designated parking areas for visitors upon arriving at Tanweer Festival. However, parking availability may vary depending on your tickets and the time of the day, so we recommend arriving early."
                 },
                 {
                     "question": "Are pets allowed at the market?",
                     "answer": "While we love animals, visitors are requested not to bring their pets to the market (for safety reasons)."
                 },
                 {
-                    "question": "Are there any special events or promotions happening at the market?",
-                    "answer": "Some of our partners and sponsors may hold activities at our event."
-                },
-                {
                     "question": "How do I apply to become a vendor at the market?",
-                    "answer": "To apply as a vendor, visit our website and complete the online application form. You will need to provide details about your service and product. For more information, visit www.tanweerfestival.com/support/#contact-us"
+                    "answer": "Unfortunately, our vendors have already been selected and we are not currently allocating vendor stands for this year’s event. However, if you are would like to work with us at next year’s event,  please reach out to us via our Instagram account to submit your interest."
                 },
                 {
                     "question": "Is there an entrance fee to the market?",
-                    "answer": "Yes. For more information visit www.tanweerfestival.com/tickets"
+                    "answer": "To access the market, guests must have a festival entry ticket.. For more information visit <a href='https://www.tanweerfestival.com' target='_blank' rel='noopener noreferrer'>https://tickets.tanweerfestival.com/*</a> "
                 },
                 {
                     "question": "Are there food and beverage options at the marketplace?",
-                    "answer": "Yes, we will be having stalls serving beverages and snacks at our NOURISH areas."
-                },
-                {
-                    "question": "Is the Tanweer market accessible for people with disabilities?",
-                    "answer": "The music, holistic modality, marketplace, restaurant, toilet, and car park areas are accessible; however, the mountain and desert areas are inaccessible and dangerous. We advise that a person accompanies you at all times for your safety."
+                    "answer": "Yes, we will be having stalls serving beverages and snacks at our <b>NOURISH</b> area"
                 },
                 {
                     "question": "Can I bring my chair or blanket to sit on?",
-                    "answer": "We advise that each person bring a personal blanket or cushion to sit on. Personal furniture is only allowed in the camping area if you have a one or three-day ticket and camp pass."
+                    "answer": "We advise that each person bring a personal blanket or cushion to sit on. Personal furniture is only allowed in the camping area if you have a ticket and camp pass."
                 }
             ]
         },
@@ -149,7 +195,7 @@
             "name": "Food and Drink",
             "items": [
                 {
-                    "question": "Can I bring my food and drinks to the festival?",
+                    "question": "Can I bring food and drinks into the festival?",
                     "answer": "For safety reasons, outside food and drinks are not allowed at the festival. In case of any special dietary requirements, you may bring your own dehydrated foods as they won't spoil and are more resilient in warm weather."
                 },
                 {
@@ -158,7 +204,60 @@
                 },
                 {
                     "question": "Can I bring my water bottle to the festival?",
-                    "answer": "Yes, you can bring your water bottle to the festival. Water refill stations will be available."
+                    "answer": "Yes, we encourage everyone to bring their own reusable water bottle to the festival. Water refill stations will be available."
+                }
+            ]
+        },
+        {
+            "name": "MISCELLANEOUS",
+            "items": [
+                {
+                    "question": "Is there a schedule of events available?",
+                    "answer": "Yes, the program is posted on our website. For more information visit. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/program*</a>"
+                },
+                {
+                    "question": "Is there a map of the festival grounds available?",
+                    "answer": "Yes, a map of the festival grounds will be available on our website. For more information visit. <a href='https://www.tanweerfestival.com/contact' target='_blank' rel='noopener noreferrer'><www.tanweerfestival.com/map*</a>"
+                },
+                {
+                    "question": "Are there ATMs available at the festival?",
+                    "answer": "No, ATMs will not be available at the festival."
+                },
+                {
+                    "question": "Is there a lost and found at the festival?",
+                    "answer": "Yes, we have a lost and found area at the festival."
+                },
+                {
+                    "question": "Is there a code of conduct for attendees?",
+                    "answer": "Yes, we expect all attendees to behave respectfully and responsibly at the festival. Any behavior that is disruptive or disrespectful to performers, facilitators, or other attendees may result in removal from the festival."
+                },
+                {
+                    "question": "What is the festival's policy on sustainability?",
+                    "answer": "The festival is committed to sustainability and reducing its environmental impact. We encourage attendees to bring their own reusable water bottles and bags and to limit their use of single-use plastics."
+                },
+                {
+                    "question": "Is there a way to give feedback on the festival?",
+                    "answer": "Yes, we welcome feedback on the festival. Please contact us through our Instagram account or speak to festival staff at the event."
+                },
+                {
+                    "question": "Is there a way to get involved with the festival as a volunteer or sponsor?",
+                    "answer": "Yes, we have volunteer and sponsorship opportunities available. Please reach out to us through our Instagram account to learn more"
+                },
+                {
+                    "question": "What if I have additional questions?",
+                    "answer": "Please contact us through our Instagram account; we will gladly help you."
+                },
+                {
+                    "question": "Are there any cultural norms I need to consider as a foreigner visiting the UAE?",
+                    "answer": "There will be diverse people of all ages at the festival. You are a guest, and we expect everyone to be sensitive to each other's space and conduct themselves respectfully."
+                },
+                {
+                    "question": "Are there any cultural norms I need to take into account as a foreign man or woman visiting the UAE?",
+                    "answer": "The UAE is one of the most modern and diverse countries in the world. Tanweer Festival is a family-friendly festival whose aim is to create a safe space for all our visitors. Sexually explicit clothing and nudity are prohibited."
+                },
+                {
+                    "question": "What do I need to bring with me to the festival?",
+                    "answer": "Please travel light, ensure you have the right clothes, and carry an electronic payment method. Some workshops will require comfortable clothes, socks, or a blindfold. Your electronic ticket can be printed or stored on your phone. You might want to bring a bottle of water that you can refill (maybe with a hook in case it doesn’t fit your bag)."
                 }
             ]
         }

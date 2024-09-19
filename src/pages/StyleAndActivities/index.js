@@ -246,7 +246,11 @@ function StyleAndActivities() {
                         <Tooltip title={elm.description}>
                           <div className="description">{elm.description}</div>
                         </Tooltip>
-                        <div className="price">{elm.price}</div>
+                        <div className="checkouttime">{elm.checkout}</div>
+                        <div className="price" dangerouslySetInnerHTML={{ __html: elm.price1 }} />
+                        <div className="price-des">{elm.price1_description}</div>
+                        <div className="price" dangerouslySetInnerHTML={{ __html: elm.price2 }} />
+                        <div className="price-des">{elm.price2_description}</div>
                       </div>
                       <div
                         className="button"
@@ -283,16 +287,11 @@ function StyleAndActivities() {
                       >
                         <div className="title">{elm.title}</div>
                         <div className="description">{elm.description}</div>
-                        <div className="price">
-                        {elm.price
-                  .split("\n")
-                  .map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                        </div>
+                        <div className="checkouttime">{elm.checkout}</div>
+                        <div className="price" dangerouslySetInnerHTML={{ __html: elm.price1 }} />
+                        <div className="price-des">{elm.price1_description}</div>
+                        <div className="price" dangerouslySetInnerHTML={{ __html: elm.price2 }} />
+                        <div className="price-des">{elm.price2_description}</div>
                       </div>
                       <div
                         className="button"

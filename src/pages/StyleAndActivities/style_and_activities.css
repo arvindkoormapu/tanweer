@@ -64,10 +64,10 @@
     text-transform: uppercase;
     padding-top: 24px;
     /* margin-bottom: 40px; */
-
 }
 
-.top-drag-slider .description {
+.top-drag-slider .description,
+.top-drag-slider .checkouttime {
     font-family: Roboto;
     font-size: 1rem;
     font-weight: 400;
@@ -82,6 +82,15 @@
     font-weight: 700;
     line-height: 1.3rem;
     color: #731D14;
+    padding-bottom: 15px;
+}
+
+.top-drag-slider .price-des {
+    font-family: Roboto;
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1rem;
+    color: #BE6F3F;
     padding-bottom: 15px;
 }
 
@@ -115,13 +124,15 @@
     color: #BE6F3F;
 }
 
-.camping_section .top-drag-slider .description {
+.camping_section .top-drag-slider .description,
+.camping_section .top-drag-slider .checkouttime {
     color: #BE6F3F;
 }
 
 .camping_section .top-drag-slider .price {
     color: #BE6F3F;
     font-weight: 400;
+    padding-bottom: 0px;
 }
 
 .camping_section .top-drag-slider .button {
@@ -148,10 +159,6 @@
 .bottom_section .top-drag-slider .button {
     color: #FFF;
     width: 100%;
-}
-
-.camping_section .description {
-    height: 82px;
 }
 
 /* .middle_section .top-drag-slider .title {
@@ -187,11 +194,19 @@
 }
 
 .activity .camping_section .description {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
+    /* display: -webkit-box; */
+    -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    height: 103px;
+    height: 144px;
+}
+
+.activity .camping_section .checkouttime {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 61px;
 }
 
 .activity .bottom_section .title {
@@ -265,7 +280,7 @@
     }
 
     .camping_section .description {
-        height: 123px;
+        height: 180px !important;
     }
 
     .bottom_section .description {

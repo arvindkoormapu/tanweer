@@ -52,22 +52,34 @@
         {
             "image": "images/StyleAndActivities/Glamping.png",
             "title": "Glamping",
-            "description": "Pillow-top mattress, fully-furnished and ‘hotel-style comforts’. Shuttle service to the Tanweer Festival site.",
-            "price": "3 Days TBD \n \n",
+            "description": "A fully furnished, two-person luxury tent, offering ‘hotel-style comforts’, at standard and premium levels. Food and beverages provided.",
+            "checkout": "Check-out time 11:00AM the following day.",
+            "price1": "<b>Glamping Standard:</b> AED 2,500 / night",
+            "price1_description": "(Shared bathroom facilities provided)",
+            "price2": "<b>Glamping Premium:</b> AED 3,100 / night",
+            "price2_description": "(Private bathroom facilities provided)",
             "link": ""
         },
         {
             "image": "images/StyleAndActivities/Standard.webp",
             "title": "Tent rental",
-            "description": "Book a Tent for 2, 4 or 6 persons. Beds, sleeping bags, blankets and pillows not included.",
-            "price": "2 pax tent rent AED 400 \n4 pax tent rent AED 600 \n6 pax tent rent AED 900",
+            "description": "Rent a two-person (4m x4m) or four-person (4m x 8m) tent for the duration of the festival (3 nights. Sleeping bags and pillows will be provided as well as access to communal toilets, showers, running water and waste management.",
+            "checkout": "Check out by 11:00AM on Monday 25th of November.",
+            "price1": "<b>Two-person tent (4m x 4m):</b> AED 1,900",
+            "price1_description": "(3 nights)",
+            "price2": "<b>Four-person tent (4m x 8m):</b> AED 3,100",
+            "price2_description": "(3 nights)",
             "link": ""
         },
         {
             "image": "images/StyleAndActivities/camp.webp",
             "title": "Tent space Rental (BYOT)",
-            "description": "Camping Area provided, bring your own tent and camping gear",
-            "price": "2 pax tent space rent AED 300 \n4 pax tent space rent AED 450 \n6 pax tent space rent AED 600",
+            "description": "Bring your own two-person tent (maximum size 4m x 4m) and personal camping equipment to your dedicated camping pitch. Access to communal toilets, showers, running water and waste management provided.",
+            "checkout": "Check out by 11:00AM on Monday 25th of November.",
+            "price1": "<b>Bring your own tent (4m x 4m two-person):</b> AED 950",
+            "price1_description": "(3 nights)",
+            "price2": "&nbsp;",
+            "price2_description": " ",
             "link": ""
         }
     ],

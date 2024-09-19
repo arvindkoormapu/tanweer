@@ -45,7 +45,10 @@ function Programs() {
       <Helmet>
         <meta property="og:title" content={"Arvind"} />
         <meta property="og:description" content="Amazing content to share!" />
-        <meta property="og:image" content={`${window.location.origin}/artist_images/Sami-Yusuf.webp`} />
+        <meta
+          property="og:image"
+          content={`${window.location.origin}/artist_images/Sami-Yusuf.webp`}
+        />
         <meta property="og:url" content={`${window.location.href}`} />
         <meta property="og:type" content="website" />
       </Helmet>
@@ -69,7 +72,7 @@ function Programs() {
                     className={`text ${activeTab === index && "active-tab"}`}
                     onClick={() => {
                       setActiveTab(tab.id);
-                      tab.id === 1 && setActiveSubTab(1)
+                      tab.id === 1 && setActiveSubTab(1);
                     }}
                   >
                     {tab.label}
@@ -109,7 +112,9 @@ function Programs() {
               gutter={isMobile ? [20, 20] : [30, 30]}
               className="artist-wrapper"
             >
-              {pages.programList[activeTab === 0 ? "music" : "workshops"][activeSubTab].programs[0].list.map((elm, i) => (
+              {pages.programList[activeTab === 0 ? "music" : "workshops"][
+                activeSubTab
+              ].programs[0].list.map((elm, i) => (
                 <Col span={isMobile ? 24 : 12}>
                   <img
                     className="artist-program-images"
@@ -181,19 +186,31 @@ function Programs() {
                 style={{ width: "100%", paddingBottom: "10px" }}
               >
                 {pages.programs.art.map((elm, index) => (
-                  <SwiperSlide key={index} style={{textAlign: 'center', background: '#000'}}>
-                    <div
-                      className="art-slide"
-                    >
-                      <img
-                        className="art-images"
-                        src={require(`../../${elm.image}`)}
-                        alt="Rotating Circle"
-                      />
+                  <SwiperSlide
+                    key={index}
+                    style={{ textAlign: "center", background: "#000" }}
+                  >
+                    <div className="art-slide">
+                      <div
+                        className="image-container"
+                        style={{ width: "100%", height: "100%" }}
+                      >
+                        <img
+                          className="art-images"
+                          src={require(`../../${elm.image}`)}
+                          alt="icon"
+                          style={{
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "cover",
+                            background: "#000",
+                          }}
+                        />
+                      </div>
                       <div className="text-wrapper">
-                          <Text className="name">{elm.name}</Text>
-                          <Text className="caption">{elm.caption}</Text>
-                        </div>
+                        <Text className="name">{elm.name}</Text>
+                        <Text className="caption">{elm.caption}</Text>
+                      </div>
                     </div>
                   </SwiperSlide>
                 ))}
@@ -204,12 +221,22 @@ function Programs() {
                   {chunk.map((elm, idx) => (
                     <Col key={idx} className="p-0" xs={24} sm={12} md={6}>
                       <div className="art-slide">
-                        <img
-                          className="art-images"
-                          src={require(`../../${elm.image}`)}
-                          alt="icon"
-                          style={{width: '100%', height: '175px', objectFit: 'cover', background: '#000'}}
-                        />
+                        <div
+                          className="image-container"
+                          style={{ width: "100%", height: "100%" }}
+                        >
+                          <img
+                            className="art-images"
+                            src={require(`../../${elm.image}`)}
+                            alt="icon"
+                            style={{
+                              width: "100%",
+                              height: "100%",
+                              objectFit: "cover",
+                              background: "#000",
+                            }}
+                          />
+                        </div>
                         <div className="text-wrapper">
                           <Text className="name">{elm.name}</Text>
                           <Text className="caption">{elm.caption}</Text>
