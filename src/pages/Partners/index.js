@@ -7,7 +7,7 @@ import Marwan from "../../images/Partners/Al Marwan Group/Marwan-Group_logo.png"
 import Arada from "../../images/Partners/Arada/Arada_Logo_White_En.png";
 import Tiger from "../../images/Partners/Tiger/Tiger.svg";
 import Asas from "../../images/Partners/Asas/ASAS logo.png";
-import Invest from "../../images/Partners/Invest Bank/invest_ _bank_ _logo___1-01.jpg";
+import Invest from "../../images/Partners/Invest Bank/Invest-Bank-Logo.svg";
 import Beeah from "../../images/Partners/Beeah/Beeah_Master Logo_RGB_Bilingual2048.png";
 import DU from "../../images/Partners/Du/du_Window_Brandmark_Gradient_RGB1.png";
 import Thumbay from "../../images/Partners/Thumbay/Thumbay-Logo_red.png";
@@ -144,7 +144,8 @@ function Partners() {
                     style={{ height: "61px", paddingRight: "50px" }}
                   />
                 </a>
-
+                </Space>
+                <Space size="large" style={{ padding: "10px 0px" }}>
                 <a
                   href="https://www.du.ae/personal"
                   target="_blank"
