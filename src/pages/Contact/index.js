@@ -8,6 +8,7 @@ import XLogo from "../../images/X LogoDark.png";
 import IGLogo from "../../images/IG LogoDark.png";
 import Collapsible from "../../components/Collapsable";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 import "swiper/css"; // Import core Swiper styles
 import "swiper/css/navigation";
 import "./contact.css";
@@ -142,13 +143,20 @@ function Contact() {
             </Text>
           </div>
 
-          <div className="tabs">
+          <div className="tabs" style={{ position: 'relative' }}>
+          <div className="swiper-button-prev" />
+          <div className="swiper-button-next" />
             <Swiper
-              spaceBetween={10} // Space between slides
-              slidesPerView="auto" // Allow slides to take their content width
+              spaceBetween={10} 
+              slidesPerView="auto"
               centeredSlides={false}
               grabCursor={true}
               style={{ width: "100%" }}
+              navigation={{
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              }}
+  modules={[Navigation]} // Include the Navigation module
             >
               {pages.contact.faqs.map((elm, index) => (
                 <SwiperSlide
@@ -160,7 +168,7 @@ function Contact() {
                     className={`tab ${
                       activeTab?.name === elm.name ? "active-tab" : ""
                     }`}
-                    style={{ whiteSpace: "nowrap" }} // Prevent text wrapping
+                    style={{ whiteSpace: "nowrap" }}
                   >
                     {elm.name}
                   </Text>

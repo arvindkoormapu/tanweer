@@ -143,7 +143,7 @@ function FestivalPass() {
             }}
           >
             Explore our <b>Stay & Activities</b> page to enrich your experience
-            at the Tanweer Festival, ensuring every moment is infused with
+            at Tanweer Festival, ensuring every moment is infused with
             meaning and inspiration.
           </Paragraph>
         </div>
