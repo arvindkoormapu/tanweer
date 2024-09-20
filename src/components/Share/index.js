@@ -15,6 +15,24 @@ const ShareContent = ({ url, title, imageUrl }) => {
     message.info("Linked Copied!");
   };
 
+  const InstagramShare = ({ url, title, image }) => {
+    const shareUrl = `https://www.instagram.com/?url=${encodeURIComponent(image)}`;
+    
+  
+    return (
+      <div>
+        {/* Other share buttons */}
+        <a 
+          href={shareUrl} 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <XIcon />
+        </a>
+      </div>
+    );
+  };
+
   return (
     <div style={{ display: "flex", justifyContent: "space-around" }}>
       <Helmet>
@@ -27,13 +45,12 @@ const ShareContent = ({ url, title, imageUrl }) => {
       <TwitterShareButton url={url} title={title + " \n " + imageUrl + " \n"}>
         <XIcon size={32} round />
       </TwitterShareButton>
-      {/* <WhatsappShareButton url={imageUrl} title={<img src={require(`../../${elm.image}`)}>} separator=":: ">
-        <WhatsappIcon size={32} round />
-      </WhatsappShareButton> */}
 
       <WhatsappShareButton url={url} title={title + " \n " + imageUrl + " \n"}>
         <WhatsappIcon size={32} round />
       </WhatsappShareButton>
+
+      <InstagramShare url={url} title={title} image={imageUrl} />
       <div>
         <Button type="primary" icon={<CopyOutlined />} onClick={copyLink} />
       </div>

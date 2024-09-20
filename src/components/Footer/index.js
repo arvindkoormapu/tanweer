@@ -15,8 +15,16 @@ const Footer = () => {
   const navigate = useNavigate();
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const redirect = (link) => {
-    navigate(link);
+    navigate(link, { replace: true });
+    scrollToTop();
   };
 
   return (
@@ -143,7 +151,6 @@ const Footer = () => {
                     {elm.title}
                   </Text>
                 ))}
-                <Text className="footer-links">UNSUSCRIBE</Text>
               </Space>
 
               <Text className="footer-year">© 2024 Tanweer Festival</Text>
