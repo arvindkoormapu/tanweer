@@ -29,7 +29,7 @@ const ImageSlider = ({slides}) => {
           <img src={require(`../../${slide.image}`)} alt={`Slide ${index + 1}`} className="slide-image"  style={{background: '#000'}}/>
           <div className="slide-content">
             <Text className='name'>{slide.name}</Text>
-            <Text className='date'>{slide.date}</Text>
+            {/* <Text className='date'>{slide.date}</Text> */}
           </div>
         </div>
       ))}

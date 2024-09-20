@@ -100,7 +100,7 @@ function StyleAndActivities() {
         <div className="middle_section">
           <div className="dark-arrows">
             <Text className="h1">On-Site Activities</Text>
-            <div>
+            <div style={{zIndex: 1}}>
               <img
                 src={ArrowLeft}
                 alt="image1"
@@ -246,7 +246,7 @@ function StyleAndActivities() {
                         <Tooltip title={elm.description}>
                           <div className="description">{elm.description}</div>
                         </Tooltip>
-                        <div className="checkouttime">{elm.checkout}</div>
+                        {/* <div className="checkouttime">{elm.checkout}</div> */}
                         <div className="price" dangerouslySetInnerHTML={{ __html: elm.price1 }} />
                         <div className="price-des">{elm.price1_description}</div>
                         <div className="price" dangerouslySetInnerHTML={{ __html: elm.price2 }} />
@@ -285,9 +285,13 @@ function StyleAndActivities() {
                           textAlign: isMobile && "center",
                         }}
                       >
-                        <div className="title">{elm.title}</div>
-                        <div className="description">{elm.description}</div>
-                        <div className="checkouttime">{elm.checkout}</div>
+                        <Tooltip title={elm.title}>
+                          <div className="title">{elm.title}</div>
+                        </Tooltip>
+                        <Tooltip title={elm.description}>
+                          <div className="description">{elm.description}</div>
+                        </Tooltip>
+                        {/* <div className="checkouttime">{elm.checkout}</div> */}
                         <div className="price" dangerouslySetInnerHTML={{ __html: elm.price1 }} />
                         <div className="price-des">{elm.price1_description}</div>
                         <div className="price" dangerouslySetInnerHTML={{ __html: elm.price2 }} />

@@ -63,7 +63,7 @@
         {
             "image": "images/StyleAndActivities/Standard.webp",
             "title": "Tent rental",
-            "description": "Rent a two-person (4m x4m) or four-person (4m x 8m) tent for the duration of the festival (3 nights. Sleeping bags and pillows will be provided as well as access to communal toilets, showers, running water and waste management.",
+            "description": "Rent a tent for the duration of the festival.",
             "checkout": "Check out by 11:00AM on Monday 25th of November.",
             "price1": "<b>Two-person tent (4m x 4m):</b> AED 1,900",
             "price1_description": "(3 nights)",
@@ -73,8 +73,8 @@
         },
         {
             "image": "images/StyleAndActivities/camp.webp",
-            "title": "Tent space Rental (BYOT)",
-            "description": "Bring your own two-person tent (maximum size 4m x 4m) and personal camping equipment to your dedicated camping pitch. Access to communal toilets, showers, running water and waste management provided.",
+            "title": "Tent space Rental",
+            "description": "Bring you own tent (BYOT) and personal camping equipment to your dedicated camping pitch. Access to communal toilets, showers, running water and waste management provided.",
             "checkout": "Check out by 11:00AM on Monday 25th of November.",
             "price1": "<b>Bring your own tent (4m x 4m two-person):</b> AED 950",
             "price1_description": "(3 nights)",
@@ -103,15 +103,15 @@
             "link": ""
         },
         {
-            "image": "images/StyleAndActivities/DoubleTree by Hilton.webp",
-            "title": "DoubleTree by Hilton",
-            "description": "DoubleTree by Hilton Sharjah Waterfront Hotel & Residences offers a luxurious stay in Sharjah with stunning views of the Al Majaz Waterfront. The hotel features spacious rooms and apartments, a fitness center, an indoor pool, and dining options catering to various tastes. Its prime location provides easy access to cultural attractions and business districts, making it ideal for both leisure and business travelers.",
-            "link": ""
-        },
-        {
             "image": "images/StyleAndActivities/The Chedi Al Bait.jpg",
             "title": "The Chedi Al Bait",
             "description": "The Chedi Al Bait, Sharjah, is a luxurious five-star hotel blending Emirati heritage with contemporary elegance. Nestled in the Heart of Sharjah, this 65-key resort preserves the charm of historic manor houses while offering modern comforts. Guests enjoy unparalleled hospitality and traditional Emirati graciousness, making it a standout destination for those seeking cultural authenticity and refined luxury.",
+            "link": ""
+        },
+        {
+            "image": "images/StyleAndActivities/DoubleTree by Hilton.webp",
+            "title": "DoubleTree by Hilton",
+            "description": "DoubleTree by Hilton Sharjah Waterfront Hotel & Residences offers a luxurious stay in Sharjah with stunning views of the Al Majaz Waterfront. The hotel features spacious rooms and apartments, a fitness center, an indoor pool, and dining options catering to various tastes. Its prime location provides easy access to cultural attractions and business districts, making it ideal for both leisure and business travelers.",
             "link": ""
         }
     ]

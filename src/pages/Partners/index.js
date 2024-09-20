@@ -25,7 +25,9 @@ import SharjahHeritage from "../../images/Partners/Sharjah Heritage/Sharjah Heri
 import SGMB from "../../images/Partners/SGMB_B/SGMB_B.svg";
 import SharjahRTA from "../../images/Partners/Sharjah RTA/SRTA.png";
 import Shurooq from "../../images/Partners/Shurooq/SHQ_Authority_White.png";
-// import EmiratesAirline from "../../images/Partners/"
+import EmiratesAirline from "../../images/Partners/Emirates/Ek Brand Box Logo-Brand Box.png";
+import HolidayInternational from "../../images/Partners/Hotel-Holiday-International/Hotel-Holiday-International.png";
+import Sheraton from "../../images/Partners/SHERATON/SHERATON-LOGO.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -352,17 +354,44 @@ function Partners() {
             <div className="tire">
               <Text className="logo-title">Airline partner</Text>
               <Space size="large" style={{ padding: "10px 0px" }}>
-                {/* <a
-                href="https://www.emirates.com/in/english/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={EmiratesAirline}
-                  alt="icon"
-                  style={{ height: "82px", paddingRight: "50px" }}
-                />
-              </a> */}
+                <a
+                  href="https://www.emirates.com/in/english/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={EmiratesAirline}
+                    alt="icon"
+                    style={{ height: "82px", paddingRight: "50px" }}
+                  />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">Hotel partners</Text>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://holidayinternational.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={HolidayInternational}
+                    alt="icon"
+                    style={{ height: "82px", paddingRight: "50px" }}
+                  />
+                </a>
+                <a
+                  href="https://sheraton.marriott.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Sheraton}
+                    alt="icon"
+                    style={{ height: "82px", paddingRight: "50px" }}
+                  />
+                </a>
               </Space>
             </div>
           </Space>
@@ -432,11 +461,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Invest}
-                    alt="icon"
-                    style={{ height: "80px" }}
-                  />
+                  <img src={Invest} alt="icon" style={{ height: "80px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -445,11 +470,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Asas}
-                    alt="icon"
-                    style={{ height: "80px" }}
-                  />
+                  <img src={Asas} alt="icon" style={{ height: "80px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -458,11 +479,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Beeah}
-                    alt="icon"
-                    style={{ height: "61px" }}
-                  />
+                  <img src={Beeah} alt="icon" style={{ height: "61px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -471,11 +488,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={DU}
-                    alt="icon"
-                    style={{ height: "50px" }}
-                  />
+                  <img src={DU} alt="icon" style={{ height: "50px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -571,11 +584,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Thumbay}
-                    alt="icon"
-                    style={{ height: "82px" }}
-                  />
+                  <img src={Thumbay} alt="icon" style={{ height: "82px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -584,11 +593,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={SEWA}
-                    alt="icon"
-                    style={{ height: "82px" }}
-                  />
+                  <img src={SEWA} alt="icon" style={{ height: "82px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -650,11 +655,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={SGMB}
-                    alt="icon"
-                    style={{ height: "82px" }}
-                  />
+                  <img src={SGMB} alt="icon" style={{ height: "82px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -663,11 +664,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={SharjahRTA}
-                    alt="icon"
-                    style={{ height: "82px" }}
-                  />
+                  <img src={SharjahRTA} alt="icon" style={{ height: "82px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -676,8 +673,20 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <img src={Shurooq} alt="icon" style={{ height: "82px" }} />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">Airline partner</Text>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.emirates.com/in/english/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
-                    src={Shurooq}
+                    src={EmiratesAirline}
                     alt="icon"
                     style={{ height: "82px" }}
                   />
@@ -685,19 +694,32 @@ function Partners() {
               </Space>
             </div>
             <div className="tire">
-              <Text className="logo-title">Airline partner</Text>
+              <Text className="logo-title">Hotel partners</Text>
               <Space size="large" style={{ padding: "10px 0px" }}>
-                {/* <a
-                href="https://www.emirates.com/in/english/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={EmiratesAirline}
-                  alt="icon"
-                  style={{ height: "82px" }}
-                />
-              </a> */}
+                <a
+                  href="https://holidayinternational.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={HolidayInternational}
+                    alt="icon"
+                    style={{ height: "82px"}}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://sheraton.marriott.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Sheraton}
+                    alt="icon"
+                    style={{ height: "82px"}}
+                  />
+                </a>
               </Space>
             </div>
           </Space>
