@@ -53,7 +53,7 @@ function Partners() {
           <Space
             direction="vertical"
             size="large"
-            style={{ padding: "60px 0px", rowGap: '40px' }}
+            style={{ padding: "60px 0px", rowGap: "40px" }}
           >
             <div className="tire">
               <Text className="logo-title">Alchemy</Text>
@@ -144,8 +144,8 @@ function Partners() {
                     style={{ height: "61px", paddingRight: "50px" }}
                   />
                 </a>
-                </Space>
-                <Space size="large" style={{ padding: "10px 0px" }}>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
                 <a
                   href="https://www.du.ae/personal"
                   target="_blank"
@@ -367,37 +367,340 @@ function Partners() {
             </div>
           </Space>
         ) : (
-          <Swiper
-            spaceBetween={10}
-            slidesPerView={"auto"}
-            grabCursor={true}
-            style={{ width: "100%", marginTop: "50px", textAlign: "center" }}
+          <Space
+            direction="vertical"
+            size="large"
+            style={{ padding: "60px 0px", rowGap: "40px" }}
           >
-            <SwiperSlide>
-              <img src={Emaar} alt="icon" style={{ width: "100%" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Marwan} alt="icon" style={{ height: "76px" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Arada} alt="icon" style={{ height: "43px" }} />
-            </SwiperSlide>
-            {/* <SwiperSlide>
-              <img src={Asas} alt="icon" style={{ height: "79px" }} />
-            </SwiperSlide> */}
-            <SwiperSlide>
-              <img src={Invest} alt="icon" style={{ height: "61px" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Beeah} alt="icon" style={{ height: "61px" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={DU} alt="icon" style={{ height: "50px" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Thumbay} alt="icon" style={{ height: "82px" }} />
-            </SwiperSlide>
-          </Swiper>
+            <div className="tire">
+              <Text className="logo-title">Alchemy</Text>
+              <Space size="large">
+                <a
+                  href="https://www.emaar.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Emaar}
+                    alt="icon"
+                    style={{
+                      height: "65px",
+                      width: "100%",
+                    }}
+                  />
+                </a>
+              </Space>
+              <Space size="large">
+                <a
+                  href="https://almarwangroup.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Marwan} alt="icon" style={{ height: "76px" }} />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">Terra</Text>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://arada.com/en/saro/?utm_source=Search_Google&utm_medium=cpc&utm_campaign=launcing_saro_masaar_phase_7&utm_content=UAE&utm_term=English&keyword__c=arada&network=g&campaignid=16972102965&adgroupid=141499173091&_device=c&gad_source=1&gbraid=0AAAAADAvvXkRgn31L2W9c-lknVBswkdOG&gclid=Cj0KCQjwrp-3BhDgARIsAEWJ6Sw8y_LqZj14rXHHZL6C76phMiD7roqhD7ydZyAaYYD5KO0DaFmYy7kaAnF_EALw_wcB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Arada} alt="icon" style={{ height: "43px" }} />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">Ignis Plus</Text>
+              <Space size="large">
+                <a
+                  href="https://tiger-properties.ae/?utm_term=tiger%20company%20dubai&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=4600842009&hsa_cam=21677395332&hsa_grp=169631334640&hsa_ad=712829782455&hsa_src=g&hsa_tgt=kwd-451664015646&hsa_kw=tiger%20company%20dubai&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gbraid=0AAAAACkmbRdcy-EulfnlhQxThudSA8M23&gclid=Cj0KCQjwrp-3BhDgARIsAEWJ6SyXKvWFR5_Y1lVnbzYim71jhSOBkiAatfK74Ur7GWfXqp02dfilZMIaAtBxEALw_wcB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Tiger} alt="icon" style={{ height: "80px" }} />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">Ignis</Text>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.investbank.ae/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Invest}
+                    alt="icon"
+                    style={{ height: "80px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://asasproperties.ae/en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Asas}
+                    alt="icon"
+                    style={{ height: "80px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.beeahgroup.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Beeah}
+                    alt="icon"
+                    style={{ height: "61px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.du.ae/personal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={DU}
+                    alt="icon"
+                    style={{ height: "50px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://portal.shjmun.gov.ae/en/Pages/Home.aspx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SharjahMunicipality}
+                    alt="icon"
+                    style={{ height: "80px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.visitsharjah.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB_website_URL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SharjahTourism}
+                    alt="icon"
+                    style={{ height: "80px" }}
+                  />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">AER</Text>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.mohamedhilalgroup.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={MohamedHilal}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.sewa.gov.ae/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={EmiratesPost}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.sharjahairport.ae/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SharjahAirport}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">Aqua</Text>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://hardcogroup.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={HardcoBuilding}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">Patron</Text>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://thumbay.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Thumbay}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.sewa.gov.ae/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SEWA}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.orienttravels.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={OrientTravel}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">Value in Kind</Text>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.shjpolice.gov.ae/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SharjahPolice}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://sih.gov.ae/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SharjahHeritage}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+              {/* <a
+                href="https://www.shjcd.gov.ae/EN/pages/default.aspx"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={SharjahCivilDefense}
+                  alt="icon"
+                  style={{ height: "82px" }}
+                />
+              </a> */}
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.sgmb.ae/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SGMB}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.srta.gov.ae/ar-ae/home.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SharjahRTA}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://shurooq.gov.ae/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Shurooq}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
+              </Space>
+            </div>
+            <div className="tire">
+              <Text className="logo-title">Airline partner</Text>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                {/* <a
+                href="https://www.emirates.com/in/english/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={EmiratesAirline}
+                  alt="icon"
+                  style={{ height: "82px" }}
+                />
+              </a> */}
+              </Space>
+            </div>
+          </Space>
         )}
       </Content>
     </Layout>

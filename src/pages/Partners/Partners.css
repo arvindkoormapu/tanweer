@@ -25,10 +25,10 @@
 }
 
 .logo-title {
-    font-family: TAN-AESOP;
-    font-size: 2rem;
+    font-family: Roboto;
+    font-size: 1rem;
     font-weight: 700;
-    color: #A2441B;
+    color: #731D14;
     text-transform: uppercase;
 }
 
@@ -36,8 +36,12 @@
     display: flex;
     flex-direction: column;
 }
+
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
+    .tire {
+        align-items: center;
+    }
 
     .partners {
         background: #FFFDF7;

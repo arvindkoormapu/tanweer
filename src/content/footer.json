@@ -76,5 +76,35 @@
                 }
             ]
         }
+    ],
+    "footer_menu_mobile": [
+        {
+            "title": "ABOUT \nTanweer",
+            "link": "/about"
+        },
+        {
+            "title": "PROGRAM",
+            "link": "/programs"
+        },
+        {
+            "title": "STAY \n& ACTIVITIES",
+            "link": "/stay_activities"
+        },
+        {
+            "title": "Festival \nPasses",
+            "link": "/festival_passes"
+        },
+        {
+            "title": "contact us",
+            "link": "/contact"
+        },
+        {
+            "title": "terms of use",
+            "link": "/terms_privacy"
+        },
+        {
+            "title": "partners",
+            "link": "/partners"
+        }
     ]
 }

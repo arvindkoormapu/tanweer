@@ -104,7 +104,12 @@ const Footer = () => {
                     style={{ rowGap: "0px" }}
                   >
                     {elm.section.map((item) => (
-                      <Text className="footer-links-sections" onClick={() => redirect(item.link)}>{item.title}</Text>
+                      <Text
+                        className="footer-links-sections"
+                        onClick={() => redirect(item.link)}
+                      >
+                        {item.title}
+                      </Text>
                     ))}
                   </Space>
                 </div>
@@ -130,8 +135,13 @@ const Footer = () => {
             </Col>
             <Col className="footer-text-year">
               <Space size="middle" direction="vertical">
-                {pages.footer.footer_menu_header.map((elm, i) => (
-                  <Text className="footer-links">{elm.title}</Text>
+                {pages.footer.footer_menu_mobile.map((elm, i) => (
+                  <Text
+                    className="footer-links"
+                    onClick={() => redirect(elm.link)}
+                  >
+                    {elm.title}
+                  </Text>
                 ))}
                 <Text className="footer-links">UNSUSCRIBE</Text>
               </Space>
