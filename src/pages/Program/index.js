@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Layout, Space, Row, Col, Typography, Popover } from "antd";
+import { Layout, Space, Row, Col, Typography, Popover, Tooltip } from "antd";
 import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
 import ImageSlider from "../../components/ImageSlider";
@@ -219,29 +219,30 @@ function Programs() {
               artChunks.map((chunk, index) => (
                 <Row key={index} gutter={0}>
                   {chunk.map((elm, idx) => (
-                    <Col key={idx} className="p-0" xs={24} sm={12} md={6}>
-                      <div className="art-slide">
-                        <div
-                          className="image-container"
-                          style={{ width: "100%", height: "100%" }}
-                        >
-                          <img
-                            className="art-images"
-                            src={require(`../../${elm.image}`)}
-                            alt="icon"
-                            style={{
-                              width: "100%",
-                              height: "100%",
-                              objectFit: "cover",
-                              background: "#000",
-                            }}
-                          />
+                    <Col key={idx} className="p-0" xs={24} sm={12} md={5}>
+                      <Tooltip title={elm.caption}>
+                        <div className="art-slide">
+                          <div
+                            className="image-container"
+                            style={{ width: "100%", height: "100%" }}
+                          >
+                            <img
+                              className="art-images"
+                              src={require(`../../${elm.image}`)}
+                              alt="icon"
+                              style={{
+                                width: "100%",
+                                height: "100%",
+                                objectFit: "cover",
+                                background: "#000",
+                              }}
+                            />
+                          </div>
+                          <div className="text-wrapper">
+                            <Text className="name">{elm.name}</Text>
+                          </div>
                         </div>
-                        <div className="text-wrapper">
-                          <Text className="name">{elm.name}</Text>
-                          <Text className="caption">{elm.caption}</Text>
-                        </div>
-                      </div>
+                      </Tooltip>
                     </Col>
                   ))}
                 </Row>

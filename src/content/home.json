@@ -33,6 +33,10 @@
         {
             "title": "Abi Sampa & Rushil Ranjan",
             "image": "images/Home/program/ABI&RUSHIL.png"
+        },
+        {
+            "title": "Kamal Musallam & Journeys of Light",
+            "image": "images/Home/program/JourneysofLight Arch.png"
         }
     ],
     "activity": {
@@ -55,7 +59,7 @@
                 },
                 {
                     "title": "Camping",
-                    "image": "images/Home/camping.png"
+                    "image": "images/Home/camping.jpg"
                 }
             ]
         }

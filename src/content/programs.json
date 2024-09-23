@@ -30,47 +30,77 @@
     "art": [
         {
             "image": "images/Programs/KarimElias.jpg",
-            "name": "Karim Elias",
-            "caption": ""
+            "name": "Karim + Elias",
+            "caption": [
+                "Karim + Elias: Desert Relics, 2024.",
+                "© Courtesy the artists. This artwork was",
+                "commissioned for the Tanweer Festival Art",
+                "Collection."
+            ]
         },
         {
             "image": "images/Programs/Ahmad Kattan.jpg",
             "name": "Ahmad Kattan",
-            "caption": ""
+            "caption": [
+                "Ahmed Kattan: Infinite Majlis, 2024.",
+                "© Courtesy the artist. This artwork was commissioned for the 1971 – Design Space Collection."
+            ]
         },
         {
             "image": "images/Programs/Nedaa Elias.jpg",
             "name": "Nedaa Elias",
-            "caption": ""
+            "caption": [
+                "Nedaa Elias: Gate of Wisdom, 2024.",
+                "© Courtesy the artists. This artwork was",
+                "commissioned for the Tanweer Festival Art",
+                "Collection."
+            ]
         },
         {
             "image": "images/Programs/Omar Al Gurg.jpg",
             "name": "Omar Al Gurg",
-            "caption": ""
+            "caption": [
+                "Omar Al Gurg: NU, 2021.",
+                "© Courtesy the artist. This artwork was commissioned for the 1971 – Design Space Collection in collaboration with the Sharjah Islamic Arts Festival 2021."
+            ]
         },
         {
             "image": "images/Programs/Raghad Al Ahmed (1).jpg",
             "name": "Raghad Al Ahmed",
-            "caption": ""
+            "caption": [
+                "Raghad Al Ahmad: The Night of Power (Laylatul Qadr), detail, 2023.",
+                "© Courtesy the artist. This artwork was commissioned for the 1971 – Design Space Collection in collaboration with the Sharjah Islamic Arts Festival 2023."
+            ]
         },
         {
             "image": "images/Programs/Khalid Shafar.jpg",
             "name": "Khalid Shafar",
-            "caption": ""
+            "caption": [
+                "Khalid Shafar: Palm Oasis, 2024.",
+                "© Courtesy the artist. This artwork was commissioned for Maraya Art Centre in 2013 and redesigned on the occasion of the Tanweer Festival."
+            ]
         },
         {
             "image": "images/Programs/Zeinab Al Hashemi.jpg",
             "name": "Zeinab Al Hashemi",
-            "caption": ""
+            "caption": [
+                "Zeinab Alhashemi: Toroid, 2024.",
+                "© Courtesy the artist. This artwork was commissioned for the Tanweer Festival Art Collection"
+            ]
         },
         {
             "image": "images/Programs/Azza Al Qubaisi.jpg",
             "name": "Azza Al Qubaisi",
-            "caption": ""
+            "caption": [
+                "Azza Al Qubaisi: Rumi’s Path, 2024.",
+                "© Courtesy the artist. This artwork was",
+                "commissioned for the Tanweer Festival Art",
+                "Collection."
+            ]
         }
     ],
     "art_section": {
         "title": "Immerse in Creative Art",
-        "description": "Discover the creative expressions that bring the Tanweer Festival to life. Our art installations and exhibitions offer a visual feast that complements the musical experience, providing an immersive environment for inspiration and reflection."
+        "description": "Discover the creative expressions that bring Tanweer Festival to life. Our art installations and exhibitions offer a visual feast that complements the musical experience, providing an immersive environment for inspiration and reflection."
     }
 }

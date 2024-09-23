@@ -197,7 +197,7 @@ const Home = () => {
                           "_blank"
                         )
                       }
-                      text="Book now"
+                      text="Tickets available soon"
                     />
                   </div>
                   <Text className="h1">{pages.home.activity.slider.title}</Text>

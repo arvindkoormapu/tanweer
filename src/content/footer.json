@@ -5,19 +5,19 @@
             "section": [
                 {
                     "title": "Vision",
-                    "link": ""
+                    "link": "/about"
                 },
                 {
                     "title": "mission",
-                    "link": ""
+                    "link": "/about"
                 },
                 {
                     "title": "Totems",
-                    "link": ""
+                    "link": "/about"
                 },
                 {
                     "title": "Sustainability",
-                    "link": ""
+                    "link": "/about"
                 }
             ]
         },
@@ -26,15 +26,15 @@
             "section": [
                 {
                     "title": "Music",
-                    "link": ""
+                    "link": "/programs"
                 },
                 {
                     "title": "Workshops",
-                    "link": ""
+                    "link": "/programs"
                 },
                 {
                     "title": "Art installations",
-                    "link": ""
+                    "link": "/programs"
                 }
             ]
         },
@@ -43,15 +43,15 @@
             "section": [
                 {
                     "title": "MLEIHA",
-                    "link": ""
+                    "link": "/stayandactivities"
                 },
                 {
                     "title": "CAMPING",
-                    "link": ""
+                    "link": "/stayandactivities"
                 },
                 {
                     "title": "HOTELS OFFERS",
-                    "link": ""
+                    "link": "/stayandactivities"
                 }
             ]
         },
