@@ -16,6 +16,7 @@ import PrivacyTerms from "./pages/PrivacyTerms";
 import Partners from "./pages/Partners";
 import Images from "./pages/artistImageDisplay";
 import HomePage from "./pages/HomePage";
+import FestivalPassCountdown from "./pages/festivalPassCountdown"
 
 import "./App.css";
 
@@ -65,7 +66,7 @@ const App = () => {
         />
 
         <Route
-          path="/stay_activities"
+          path="/stayandactivities"
           element={
             <MainLayout>
               <StyleAndActivities />
@@ -77,7 +78,7 @@ const App = () => {
           path="/festival_passes"
           element={
             <MainLayout>
-              <FestivalPass />
+              <FestivalPassCountdown />
             </MainLayout>
           }
         />

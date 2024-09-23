@@ -42,14 +42,9 @@
                     "title": "LOCATION ARENA",
                     "list": [
                         {
-                            "name": "Baraka Blue",
+                            "name": "In the Footsteps of Rumi",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Performance posters/23 November/Baraka-Blue_V2.jpg"
-                        },
-                        {
-                            "name": "Farima Berenji",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Performance posters/23 November/Farima Berenji.jpg"
+                            "image": "/artist_images/Performance posters/23 November/In-the-Footsteps-of-Rumi_V2 (1).jpg"
                         },
                         {
                             "name": "Senny Camara Mary Malifarges",
@@ -62,6 +57,16 @@
                             "image": "/artist_images/Performance posters/23 November/Hassan-Hakmoun-23-V2.jpg"
                         },
                         {
+                            "name": "Baraka Blue",
+                            "time": "00:00 PM",
+                            "image": "/artist_images/Performance posters/23 November/Baraka-Blue_V2.jpg"
+                        },
+                        {
+                            "name": "Farima Berenji",
+                            "time": "00:00 PM",
+                            "image": "/artist_images/Performance posters/23 November/Farima Berenji.jpg"
+                        },
+                        {
                             "name": "Heritage Band Al Aahaal",
                             "time": "00:00 PM",
                             "image": "/artist_images/Performance posters/23 November/Heritage Band Al Aahaal V1.jpg"
@@ -70,11 +75,6 @@
                             "name": "Heritage Band Noban",
                             "time": "00:00 PM",
                             "image": "/artist_images/Performance posters/23 November/Heritage Band Noban V1 copy.jpg"
-                        },
-                        {
-                            "name": "In the Footsteps of Rumi",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Performance posters/23 November/In-the-Footsteps-of-Rumi_V2 (1).jpg"
                         },
                         {
                             "name": "Shadi's Band",
@@ -117,9 +117,9 @@
                             "image": "/artist_images/Performance posters/24 November/Baraka Blue_V2.jpg"
                         },
                         {
-                            "name": "Fadi Rifaai and Sandu & Zahi Saba",
+                            "name": "Nujoom Al Ghanem",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Performance posters/24 November/Fadi Rifaai and Sandu & Zahi Saba_V3.jpg"
+                            "image": "/artist_images/Performance posters/24 November/Nujoom-Al-Ghanem.jpg"
                         },
                         {
                             "name": "Hassan Hakmoun",
@@ -142,9 +142,9 @@
                             "image": "/artist_images/Performance posters/24 November/Heritage-Band-Al-Liwah-V1.jpg"
                         },
                         {
-                            "name": "Nujoom Al Ghanem",
+                            "name": "Fadi Rifaai and Sandu & Zahi Saba",
                             "time": "00:00 PM",
-                            "image": "/artist_images/Performance posters/24 November/Nujoom-Al-Ghanem.jpg"
+                            "image": "/artist_images/Performance posters/24 November/Fadi Rifaai and Sandu & Zahi Saba_V3.jpg"
                         },
                         {
                             "name": "Sandu",
@@ -193,14 +193,14 @@
                             "image": "/artist_images/Workshop Posters-V2/November 23/Illumination-and-Geometry_V3_Nov23.jpg"
                         },
                         {
-                            "name": "Calligraphy Lighting",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Workshop Posters-V2/November 23/Calligraphy Lighting_V2_Nov23.jpg"
-                        },
-                        {
                             "name": "Sema Whirling",
                             "time": "00:00 PM",
                             "image": "/artist_images/Workshop Posters-V2/November 23/Sema Whirling_V2.jpg"
+                        },
+                        {
+                            "name": "Calligraphy Lighting",
+                            "time": "00:00 PM",
+                            "image": "/artist_images/Workshop Posters-V2/November 23/Calligraphy Lighting_V2_Nov23.jpg"
                         }
                     ]
                 }
@@ -218,6 +218,11 @@
                             "image": "/artist_images/Workshop Posters-V2/November 24/Sound Immersion_V3.jpg"
                         },
                         {
+                            "name": "Whirling",
+                            "time": "00:00 PM",
+                            "image": "/artist_images/Workshop Posters-V2/November 24/Whirling_V2.jpg"
+                        },
+                        {
                             "name": "Illumination and Geometry",
                             "time": "00:00 PM",
                             "image": "/artist_images/Workshop Posters-V2/November 24/Illumination-and-Geometry_V3_Nov24.jpg"
@@ -231,11 +236,6 @@
                             "name": "Calligraphy Lighting",
                             "time": "00:00 PM",
                             "image": "/artist_images/Workshop Posters-V2/November 24/Calligraphy Lighting_V2_Nov24.jpg"
-                        },
-                        {
-                            "name": "Whirling",
-                            "time": "00:00 PM",
-                            "image": "/artist_images/Workshop Posters-V2/November 24/Whirling_V2.jpg"
                         }
                     ]
                 }

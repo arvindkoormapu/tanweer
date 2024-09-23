@@ -42,39 +42,6 @@
             ]
         },
         {
-            "name": "TICKETS",
-            "items": [
-                {
-                    "question": "How can I purchase tickets?",
-                    "answer": "Tickets can be purchased online. Visit <a href='https://www.tanweerfestival.com' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com*</a> for more information."
-                },
-                {
-                    "question": "What is included in the ticket price?",
-                    "answer": "Visit https://tickets.tanweerfestival.com/* for details."
-                },
-                {
-                    "question": "Are there any discounts available for tickets?",
-                    "answer": "Guests who purchase early-bird tickets can secure discounted rates. Visit https://tickets.tanweerfestival.com/* for more information."
-                },
-                {
-                    "question": "Can I get a refund if I can't attend the festival?",
-                    "answer": "No, all ticket sales are non-refundable."
-                },
-                {
-                    "question": "Can I transfer my ticket to someone else?",
-                    "answer": "No, tickets are non-transferable."
-                },
-                {
-                    "question": "Do I need to bring a printed ticket to the festival?",
-                    "answer": "You can, but you may also show your ticket on your mobile device at the festival entrance. Save paper!"
-                },
-                {
-                    "question": "What happens if it rains during the festival?",
-                    "answer": "Provided it is safe to do so, the festival will go on, come rain or shine. Please bring appropriate clothing and footwear for inclement weather, according to the forecast."
-                }
-            ]
-        },
-        {
             "name": "Facilities",
             "items": [
                 {
@@ -96,7 +63,7 @@
             "items": [
                 {
                     "question": "Does the festival provide accommodations?",
-                    "answer": "The festival does not offer traditional accommodation, but we do have a designated campsite available for those who wish to stay close to the event. Additionally, we've partnered with local hotels and can provide recommendations for lodging. For more information, including campsite details and hotel recommendations, visit www.tanweerfestival.com/stayandactivities*"
+                    "answer": "The festival does not offer traditional accommodation, but we do have a designated campsite available for those who wish to stay close to the event. Additionally, we've partnered with local hotels and can provide recommendations for lodging. For more information, including campsite details and hotel recommendations, visit <a href='https://www.tanweerfestival.com/stayandactivities' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/stayandactivities*</a>."
                 },
                 {
                     "question": "Are there camping options available?",
@@ -125,7 +92,7 @@
                 },
                 {
                     "question": "What kind of music will be on the main stage?",
-                    "answer": "Each day, we are showing a variety of traditional and commercial music by world-famous artists"
+                    "answer": "Each day, we are showing a variety of traditional and commercial music by world-famous artists."
                 },
                 {
                     "question": "How long are the performances for the music artists?",
@@ -138,11 +105,11 @@
             "items": [
                 {
                     "question": "Are the workshops hands-on?",
-                    "answer": "Some workshops are hands-on, while others may be lecture-style. Please check the workshop descriptions for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/workshops*</a>"
+                    "answer": "Some workshops are hands-on, while others may be lecture-style. Please check the workshop descriptions for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/workshops*</a>."
                 },
                 {
                     "question": "Can I attend multiple workshops in one day?",
-                    "answer": "Yes, you can attend multiple workshops in one day. Please check our program for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/program*</a>"
+                    "answer": "Yes, you can attend multiple workshops in one day. Please check our program for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/programs*</a>."
                 }
             ]
         },
@@ -155,7 +122,7 @@
                 },
                 {
                     "question": "Are there any local artisans who sell their products at the market?",
-                    "answer": "Yes"
+                    "answer": "Yes."
                 },
                 {
                     "question": "What types of crafts are available at the market?",
@@ -179,11 +146,11 @@
                 },
                 {
                     "question": "Is there an entrance fee to the market?",
-                    "answer": "To access the market, guests must have a festival entry ticket.. For more information visit <a href='https://www.tanweerfestival.com' target='_blank' rel='noopener noreferrer'>https://tickets.tanweerfestival.com/*</a> "
+                    "answer": "To access the market, guests must have a festival entry ticket.. For more information visit <a href='https://www.tanweerfestival.com' target='_blank' rel='noopener noreferrer'>https://tickets.tanweerfestival.com/*</a>. "
                 },
                 {
                     "question": "Are there food and beverage options at the marketplace?",
-                    "answer": "Yes, we will be having stalls serving beverages and snacks at our <b>NOURISH</b> area"
+                    "answer": "Yes, we will be having stalls serving beverages and snacks at our <b>NOURISH</b> area."
                 },
                 {
                     "question": "Can I bring my chair or blanket to sit on?",
@@ -213,11 +180,7 @@
             "items": [
                 {
                     "question": "Is there a schedule of events available?",
-                    "answer": "Yes, the program is posted on our website. For more information visit. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/program*</a>"
-                },
-                {
-                    "question": "Is there a map of the festival grounds available?",
-                    "answer": "Yes, a map of the festival grounds will be available on our website. For more information visit. <a href='https://www.tanweerfestival.com/contact' target='_blank' rel='noopener noreferrer'><www.tanweerfestival.com/map*</a>"
+                    "answer": "Yes, the program is posted on our website. For more information visit. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/programs*</a>."
                 },
                 {
                     "question": "Are there ATMs available at the festival?",
@@ -241,7 +204,7 @@
                 },
                 {
                     "question": "Is there a way to get involved with the festival as a volunteer or sponsor?",
-                    "answer": "Yes, we have volunteer and sponsorship opportunities available. Please reach out to us through our Instagram account to learn more"
+                    "answer": "Yes, we have volunteer and sponsorship opportunities available. Please reach out to us through our Instagram account to learn more."
                 },
                 {
                     "question": "What if I have additional questions?",

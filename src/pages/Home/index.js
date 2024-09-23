@@ -46,7 +46,7 @@ const Home = () => {
           <div className="content">
             {!subscribePopup ? (
               <>
-                <Text className="title">{pages.home.landing.title}</Text>
+                <Text className="title" style={{marginTop: isMobile ? '100px' : "0px"}}>{pages.home.landing.title}</Text>
                 {/* <div className="button-component-wrapper">
                   <ButtonComponent
                     bgColor="#A2441B"
@@ -100,7 +100,7 @@ const Home = () => {
                 )}
               </div>
             )}
-            <Text className="date">{pages.home.landing.date}</Text>
+            <Text className="date" style={{marginTop: isMobile ? '90px' : "0px"}}>{pages.home.landing.date}</Text>
             <Text className="caption">{pages.home.landing.location}</Text>
           </div>
         </div>

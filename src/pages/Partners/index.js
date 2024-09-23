@@ -28,7 +28,7 @@ import Shurooq from "../../images/Partners/Shurooq/SHQ_Authority_White.png";
 import EmiratesAirline from "../../images/Partners/Emirates/Ek Brand Box Logo-Brand Box.png";
 import HolidayInternational from "../../images/Partners/Hotel-Holiday-International/Hotel-Holiday-International.png";
 import Sheraton from "../../images/Partners/SHERATON/SHERATON-LOGO.png";
-import { Swiper, SwiperSlide } from "swiper/react";
+import DoubleTree from "../../images/Partners/SHJAW_DUAL_BLUE_RGB.png";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Partners.css";
@@ -392,6 +392,17 @@ function Partners() {
                     style={{ height: "82px", paddingRight: "50px" }}
                   />
                 </a>
+                <a
+                  href="https://www.hilton.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={DoubleTree}
+                    alt="icon"
+                    style={{ height: "82px", paddingRight: "50px" }}
+                  />
+                </a>
               </Space>
             </div>
           </Space>
@@ -704,7 +715,7 @@ function Partners() {
                   <img
                     src={HolidayInternational}
                     alt="icon"
-                    style={{ height: "82px"}}
+                    style={{ height: "82px" }}
                   />
                 </a>
               </Space>
@@ -714,11 +725,16 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Sheraton}
-                    alt="icon"
-                    style={{ height: "82px"}}
-                  />
+                  <img src={Sheraton} alt="icon" style={{ height: "82px" }} />
+                </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.hilton.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={DoubleTree} alt="icon" style={{ height: "82px" }} />
                 </a>
               </Space>
             </div>

@@ -163,7 +163,7 @@ function StyleAndActivities() {
                         )
                       }
                     >
-                      Book now
+                      Tickets available soon 
                     </div>
                   </div>
                 </div>
@@ -261,7 +261,7 @@ function StyleAndActivities() {
                           )
                         }
                       >
-                        Book now
+                        Tickets available soon 
                       </div>
                     </div>
                   </div>
@@ -306,7 +306,7 @@ function StyleAndActivities() {
                           )
                         }
                       >
-                        Book now
+                        Tickets available soon 
                       </div>
                     </div>
                   </div>
@@ -349,7 +349,7 @@ function StyleAndActivities() {
             }}
             modules={[Navigation]}
           >
-            {pages.activities.offer.map((elm, index) => (
+            {pages.activities.staycation.map((elm, index) => (
               <SwiperSlide key={index}>
                 <div className="top-drag-slider">
                   <img
@@ -386,7 +386,7 @@ function StyleAndActivities() {
                         )
                       }
                     >
-                      Book now
+                      Tickets available soon 
                     </div>
                   </div>
                 </div>
