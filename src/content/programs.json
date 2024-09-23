@@ -39,11 +39,11 @@
             ]
         },
         {
-            "image": "images/Programs/Ahmad Kattan.jpeg",
+            "image": "images/Programs/Ahmad Kattan.jpg",
             "name": "Ahmad Kattan",
             "caption": [
-                "Ahmad Kattan: La Mutanah: An Infinite Majlis, 2024. Diameter: 3 m. ",
-                "CNC - cut solid wood. Intellectual property and copyrights © Ahmad Kattan. All rights reserved. This artwork was commissioned for the 1971 – Design Space Collection."
+                "Ahmed Kattan: Infinite Majlis, 2024",
+                "© Courtesy the artist. This artwork was commissioned for the 1971 – Design Space Collection"
             ]
         },
         {
@@ -81,6 +81,24 @@
             ]
         },
         {
+            "image": "images/Programs/Azza Al Qubaisi.jpg",
+            "name": "Azza Al Qubaisi",
+            "caption": [
+                "Azza Al Qubaisi: Rumi’s Path, 2024.",
+                "© Courtesy the artist. This artwork was",
+                "commissioned for the Tanweer Festival Art",
+                "Collection."
+            ]
+        },
+        {
+            "image": "images/Programs/Patricia Millns.jpeg",
+            "name": "Patricia Millns",
+            "caption": [
+                "Patricia Millns: star circle, 2024.",
+                "© Courtesy the artist. This artwork was commissioned for the Tanweer Festival Art Collection"
+            ]
+        },
+        {
             "image": "images/Programs/Zeinab Al Hashemi.jpg",
             "name": "Zeinab Al Hashemi",
             "caption": [
@@ -89,13 +107,11 @@
             ]
         },
         {
-            "image": "images/Programs/Azza Al Qubaisi.jpg",
-            "name": "Azza Al Qubaisi",
+            "image": "images/Programs/Rabab Tantawy.jpg",
+            "name": "Rabab Tantawy",
             "caption": [
-                "Azza Al Qubaisi: Rumi’s Path, 2024.",
-                "© Courtesy the artist. This artwork was",
-                "commissioned for the Tanweer Festival Art",
-                "Collection."
+                "Patricia Millns: star circle, 2024.",
+                "© Courtesy the artist. This artwork was commissioned for the Tanweer Festival Art Collection"
             ]
         }
     ],
