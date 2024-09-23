@@ -80,7 +80,7 @@ function PrivacyTerms() {
           </Col>
         </Row>
         <Row>
-          <Col span={isMobile ? 24 : 12}>
+          <Col span={isMobile ? 24 : 24}>
             <div className="content">
               <Text className="title">{pages.terms.fourthSection.title}</Text>
               <Text className="description">
@@ -89,7 +89,7 @@ function PrivacyTerms() {
             </div>
             <div className="border"></div>
           </Col>
-          <Col span={isMobile ? 24 : 12}>
+          {/* <Col span={isMobile ? 24 : 12}>
             <div className="content">
               <Text className="title">{pages.terms.fifthSection.title}</Text>
               <Text className="description">
@@ -97,9 +97,9 @@ function PrivacyTerms() {
               </Text>
             </div>
             <div className="border"></div>
-          </Col>
+          </Col> */}
         </Row>
-        <Row>
+        {/* <Row>
           <Col span={24} style={{ paddingBottom: "80px" }}>
             <div className="content">
               <Text className="title">{pages.terms.sixSection.title}</Text>
@@ -108,7 +108,7 @@ function PrivacyTerms() {
               </Text>
             </div>
           </Col>
-        </Row>
+        </Row> */}
       </Content>
     </Layout>
   );

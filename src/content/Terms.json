@@ -1,51 +1,37 @@
 {
-    "firstSection": {
-      "title": "Your Privacy Choices",
-      "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id rhoncus velit, vel elementum tellus. Donec et nisi est. Duis odio elit, commodo in enim eget, ecitur rutrum ante. Morbi bibendum orci odio, faucibus viverra erat placerat ullamcorper",
-        " Pellentesque luctus et diam eu viverra. Curabitur in neque at magna ecitur interdum. Vivamus mattis ullamcorper vestibulum. Morbi non velit dignissim, varius libero a, sollicitudin ipsum. Quisque fringilla convallis est et mollis. Fusce venenatis, massa in suscipit ullamcorper, odio nisl vulputate arcu, et vulputate lacus diam ut augue. Suspendisse vel posuere sem. Suspendisse a elit diam. Fusce at dignissim dolor. Nullam gravida iaculis ex vel lobortis. Etiam et neque nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ac dolor ac nunc molestie porttitor. Phasellus gravida cursus ligula at dapibus. Aliquam vestibulum, nunc a dictum semper, libero elit ullamcorper ipsum, euismod ornare augue nunc sed elit.",
-        "Aliquam ac mi nec erat rhoncus laoreet."
-      ]
-    },
-    "secondSection": {
-      "title": "Privacy Policy",
-      "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id rhoncus velit, vel elementum tellus. Donec et nisi est. Duis odio elit, commodo in enim eget, ecitur rutrum ante. Morbi bibendum orci odio, faucibus viverra erat placerat ullamcorper",
-        " Pellentesque luctus et diam eu viverra. Curabitur in neque at magna ecitur interdum. Vivamus mattis ullamcorper vestibulum. Morbi non velit dignissim, varius libero a, sollicitudin ipsum. Quisque fringilla convallis est et mollis. Fusce venenatis, massa in suscipit ullamcorper, odio nisl vulputate arcu, et vulputate lacus diam ut augue. Suspendisse vel posuere sem. Suspendisse a elit diam. Fusce at dignissim dolor. Nullam gravida iaculis ex vel lobortis. Etiam et neque nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ac dolor ac nunc molestie porttitor. Phasellus gravida cursus ligula at dapibus. Aliquam vestibulum, nunc a dictum semper, libero elit ullamcorper ipsum, euismod ornare augue nunc sed elit.",
-        "Aliquam ac mi nec erat rhoncus laoreet."
-      ]
-    },
-    "thirdSection": {
-      "title": "Terms of Use",
-      "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id rhoncus velit, vel elementum tellus. Donec et nisi est. Duis odio elit, commodo in enim eget, ecitur rutrum ante. Morbi bibendum orci odio, faucibus viverra erat placerat ullamcorper",
-        " Pellentesque luctus et diam eu viverra. Curabitur in neque at magna ecitur interdum. Vivamus mattis ullamcorper vestibulum. Morbi non velit dignissim, varius libero a, sollicitudin ipsum. Quisque fringilla convallis est et mollis. Fusce venenatis, massa in suscipit ullamcorper, odio nisl vulputate arcu, et vulputate lacus diam ut augue. Suspendisse vel posuere sem. Suspendisse a elit diam. Fusce at dignissim dolor. Nullam gravida iaculis ex vel lobortis. Etiam et neque nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ac dolor ac nunc molestie porttitor. Phasellus gravida cursus ligula at dapibus. Aliquam vestibulum, nunc a dictum semper, libero elit ullamcorper ipsum, euismod ornare augue nunc sed elit.",
-        "Aliquam ac mi nec erat rhoncus laoreet."
-      ]
-    },
-    "fourthSection": {
-      "title": "Web Accessibility",
-      "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id rhoncus velit, vel elementum tellus. Donec et nisi est. Duis odio elit, commodo in enim eget, ecitur rutrum ante. Morbi bibendum orci odio, faucibus viverra erat placerat ullamcorper",
-        " Pellentesque luctus et diam eu viverra. Curabitur in neque at magna ecitur interdum. Vivamus mattis ullamcorper vestibulum. Morbi non velit dignissim, varius libero a, sollicitudin ipsum. Quisque fringilla convallis est et mollis. Fusce venenatis, massa in suscipit ullamcorper, odio nisl vulputate arcu, et vulputate lacus diam ut augue. Suspendisse vel posuere sem. Suspendisse a elit diam. Fusce at dignissim dolor. Nullam gravida iaculis ex vel lobortis. Etiam et neque nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ac dolor ac nunc molestie porttitor. Phasellus gravida cursus ligula at dapibus. Aliquam vestibulum, nunc a dictum semper, libero elit ullamcorper ipsum, euismod ornare augue nunc sed elit.",
-        "Aliquam ac mi nec erat rhoncus laoreet."
-      ]
-    },
-    "fifthSection": {
-      "title": "Wristband Terms of Use",
-      "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id rhoncus velit, vel elementum tellus. Donec et nisi est. Duis odio elit, commodo in enim eget, ecitur rutrum ante. Morbi bibendum orci odio, faucibus viverra erat placerat ullamcorper",
-        " Pellentesque luctus et diam eu viverra. Curabitur in neque at magna ecitur interdum. Vivamus mattis ullamcorper vestibulum. Morbi non velit dignissim, varius libero a, sollicitudin ipsum. Quisque fringilla convallis est et mollis. Fusce venenatis, massa in suscipit ullamcorper, odio nisl vulputate arcu, et vulputate lacus diam ut augue. Suspendisse vel posuere sem. Suspendisse a elit diam. Fusce at dignissim dolor. Nullam gravida iaculis ex vel lobortis. Etiam et neque nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ac dolor ac nunc molestie porttitor. Phasellus gravida cursus ligula at dapibus. Aliquam vestibulum, nunc a dictum semper, libero elit ullamcorper ipsum, euismod ornare augue nunc sed elit.",
-        "Aliquam ac mi nec erat rhoncus laoreet."
-      ]
-    },
-    "sixSection": {
-      "title": "Accessibility",
-      "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id rhoncus velit, vel elementum tellus. Donec et nisi est. Duis odio elit, commodo in enim eget, ecitur rutrum ante. Morbi bibendum orci odio, faucibus viverra erat placerat ullamcorper",
-        " Pellentesque luctus et diam eu viverra. Curabitur in neque at magna ecitur interdum. Vivamus mattis ullamcorper vestibulum. Morbi non velit dignissim, varius libero a, sollicitudin ipsum. Quisque fringilla convallis est et mollis. Fusce venenatis, massa in suscipit ullamcorper, odio nisl vulputate arcu, et vulputate lacus diam ut augue. Suspendisse vel posuere sem. Suspendisse a elit diam. Fusce at dignissim dolor. Nullam gravida iaculis ex vel lobortis. Etiam et neque nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ac dolor ac nunc molestie porttitor. Phasellus gravida cursus ligula at dapibus. Aliquam vestibulum, nunc a dictum semper, libero elit ullamcorper ipsum, euismod ornare augue nunc sed elit.",
-        "Aliquam ac mi nec erat rhoncus laoreet."
-      ]
-    }
+  "firstSection": {
+    "title": "Your Privacy Choices",
+    "content": [
+      "We may collect or obtain User Information about you eithbut er directly from you or in the course of our relationship with you. For example: when you make your Information public (e.g., if you make a public post about us on social media); when you download, install or use any of our Services; we may also receive User Information about you from third parties (e.g., our affiliate partners.); and we may also create User Information about you, such as records of your interactions with us. Experience Sharjah is not responsible for Personal Information you volunteer about yourself in public areas of the Services. This Policy does not cover the practices of third parties who may provide information about you to the Tanweer Festival."
+    ]
+  },
+  "secondSection": {
+    "title": "Privacy Policy",
+    "content": [
+      "Privacy is important to us, and we value that trust for letting your information shared with us. We are committed to protecting and safeguarding any personal data you give to us and we act in our customers' interest and are transparent about the processing of your data.",
+      "This Privacy Statement applies to any kind of information we collect through these platforms or other means connected to these platforms.  It also explains how we may process your information.",
+      "This Policy may be amended or updated from time to time, so please check it regularly for updates.",
+      "We may share your User Information with our partners such as your name, email, or other identifiers. Our partners may also: (i) collect information directly from your device, such as your IP address, device ID, advertising ID, and information about your browser or operating system; (ii) combine User Information about you received from us with information about you from other sites or services; and (iii) place or recognize a unique cookie on your browser."
+    ]
+  },
+  "thirdSection": {
+    "title": "Terms of Use",
+    "content": [
+      "On your accessing of the Platform, we may process the following categories of information about you, such as:",
+      "Personal details: your username or log in details; e-mail id; contact number(s);",
+      "Booking information: which includes information about your travel, bookings, co-passengers, travel preferences, etc.",
+      "Demographic information: gender; age/date of birth; nationality;",
+      "Location information: location data that describes the precise geographic location of your device (“Precise Location Data”);",
+      "Purchase and payment details: records of travel services purchases and prices; invoice records; payment records; payment method; cardholder or accountholder name; payment amount; and payment date;",
+      "the information that may be requested or gathered while you visit, access or use the Booking Platform; and",
+      "We may also Process information about you from your use of our Services (e.g., the type of device you are using, I.P address, the internet service provider, etc)"
+    ]
+  },
+  "fourthSection": {
+    "title": "Web Accessibility",
+    "content": [
+      "We have implemented reasonable technical and organizational security measures to protect your User Information. Please ensure that any Personal Information that you send to us is sent securely. However, we cannot guarantee there will not be a breach, and we are not responsible for any breach of security or the actions of any third parties.",
+      "Because the internet is an open system, the transmission of information via the internet is not completely secure. Although we will implement reasonable measures to protect your information, we cannot guarantee the security of your data transmitted to us using the internet. Any such transmission is at your own risk and you are responsible for ensuring that any Personal Information that you send to us are sent securely."
+    ]
   }
-  
+}
