@@ -369,12 +369,17 @@ function Partners() {
                     style={{ height: "82px", paddingRight: "50px" }}
                   />
                 </a>
-
-                <img
-                  src={MalihaMunicipality}
-                  alt="icon"
-                  style={{ height: "82px", paddingRight: "50px" }}
-                />
+                <a
+                  href="https://malihamun.shj.ae/en/home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={MalihaMunicipality}
+                    alt="icon"
+                    style={{ height: "82px", paddingRight: "50px" }}
+                  />
+                </a>
               </Space>
             </div>
             <div className="tire">
@@ -728,11 +733,17 @@ function Partners() {
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
-                <img
-                  src={MalihaMunicipality}
-                  alt="icon"
-                  style={{ height: "82px" }}
-                />
+                <a
+                  href="https://malihamun.shj.ae/en/home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={MalihaMunicipality}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
+                </a>
               </Space>
             </div>
 

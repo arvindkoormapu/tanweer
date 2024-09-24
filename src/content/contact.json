@@ -25,7 +25,7 @@
                 },
                 {
                     "question": "How big is Tanweer Festival?",
-                    "answer": "The festival is expected to attract 2,000 people per day who are passionate about music, art and poetry. "
+                    "answer": "The festival is expected to attract 2,500 people per day who are passionate about music, art and poetry. "
                 },
                 {
                     "question": "What is the age range for attendees?",
@@ -55,6 +55,10 @@
                 {
                     "question": "Do you have electric car charging points on-site?",
                     "answer": "Not for our first festival, but we plan to in the future. The festival is in a somewhat remote, natural area."
+                },
+                {
+                    "question": "Is there parking available for market visitors?",
+                    "answer": "Yes, there are designated parking areas for visitors upon arriving at Tanweer Festival. However, parking availability may vary depending on your tickets and the time of the day, so we recommend arriving early."
                 }
             ]
         },
@@ -88,7 +92,7 @@
                 },
                 {
                     "question": "Will there be translation services available?",
-                    "answer": "No, translation services are not available for performances. Please check with the festival staff for more information."
+                    "answer": "No, translation services are not available for performances."
                 },
                 {
                     "question": "What kind of music will be on the main stage?",
@@ -105,7 +109,7 @@
             "items": [
                 {
                     "question": "Are the workshops hands-on?",
-                    "answer": "Some workshops are hands-on, while others may be lecture-style. Please check the workshop descriptions for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/workshops</a>."
+                    "answer": "Some workshops are hands-on, while others may be lecture-style. Please check the workshop descriptions for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/programs</a>."
                 },
                 {
                     "question": "Can I attend multiple workshops in one day?",
@@ -133,20 +137,8 @@
                     "answer": "No. We <b>ONLY</b> accept digital credit/debit card payments."
                 },
                 {
-                    "question": "Is there parking available for market visitors?",
-                    "answer": "Yes, there are designated parking areas for visitors upon arriving at Tanweer Festival. However, parking availability may vary depending on your tickets and the time of the day, so we recommend arriving early."
-                },
-                {
-                    "question": "Are pets allowed at the market?",
-                    "answer": "While we love animals, visitors are requested not to bring their pets to the market (for safety reasons)."
-                },
-                {
                     "question": "How do I apply to become a vendor at the market?",
                     "answer": "Unfortunately, our vendors have already been selected and we are not currently allocating vendor stands for this year’s event. However, if you are would like to work with us at next year’s event,  please reach out to us via our Instagram account to submit your interest."
-                },
-                {
-                    "question": "Is there an entrance fee to the market?",
-                    "answer": "To access the market, guests must have a festival entry ticket.. For more information visit <a href='https://www.tanweerfestival.com' target='_blank' rel='noopener noreferrer'>https://tickets.tanweerfestival.com/</a>. "
                 },
                 {
                     "question": "Are there food and beverage options at the marketplace?",
