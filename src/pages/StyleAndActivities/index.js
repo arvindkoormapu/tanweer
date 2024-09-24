@@ -156,12 +156,13 @@ function StyleAndActivities() {
                     </div>
                     <div
                       className="button"
-                      onClick={() =>
-                        window.open(
-                          "https://tickets.tanweerfestival.com/",
-                          "_blank"
-                        )
-                      }
+                      style={{cursor: 'default'}}
+                      // onClick={() =>
+                      //   window.open(
+                      //     "https://tickets.tanweerfestival.com/",
+                      //     "_blank"
+                      //   )
+                      // }
                     >
                       Tickets available soon 
                     </div>
@@ -254,12 +255,13 @@ function StyleAndActivities() {
                       </div>
                       <div
                         className="button"
-                        onClick={() =>
-                          window.open(
-                            "https://tickets.tanweerfestival.com/",
-                            "_blank"
-                          )
-                        }
+                        style={{cursor: 'default'}}
+                        // onClick={() =>
+                        //   window.open(
+                        //     "https://tickets.tanweerfestival.com/",
+                        //     "_blank"
+                        //   )
+                        // }
                       >
                         Tickets available soon 
                       </div>
@@ -301,12 +303,13 @@ function StyleAndActivities() {
                       </div>
                       <div
                         className="button"
-                        onClick={() =>
-                          window.open(
-                            "https://tickets.tanweerfestival.com/",
-                            "_blank"
-                          )
-                        }
+                        style={{cursor: 'default'}}
+                        // onClick={() =>
+                        //   window.open(
+                        //     "https://tickets.tanweerfestival.com/",
+                        //     "_blank"
+                        //   )
+                        // }
                       >
                         Tickets available soon 
                       </div>
@@ -381,12 +384,13 @@ function StyleAndActivities() {
                     </div>
                     <div
                       className="button"
-                      onClick={() =>
-                        window.open(
-                          "https://tickets.tanweerfestival.com/",
-                          "_blank"
-                        )
-                      }
+                      style={{cursor: 'default'}}
+                      // onClick={() =>
+                      //   window.open(
+                      //     "https://tickets.tanweerfestival.com/",
+                      //     "_blank"
+                      //   )
+                      // }
                     >
                       Tickets available soon 
                     </div>

@@ -46,7 +46,12 @@ const Home = () => {
           <div className="content">
             {!subscribePopup ? (
               <>
-                <Text className="title" style={{marginTop: isMobile ? '100px' : "0px"}}>{pages.home.landing.title}</Text>
+                <Text
+                  className="title"
+                  style={{ marginTop: isMobile ? "100px" : "0px" }}
+                >
+                  {pages.home.landing.title}
+                </Text>
                 {/* <div className="button-component-wrapper">
                   <ButtonComponent
                     bgColor="#A2441B"
@@ -100,7 +105,12 @@ const Home = () => {
                 )}
               </div>
             )}
-            <Text className="date" style={{marginTop: isMobile ? '90px' : "0px"}}>{pages.home.landing.date}</Text>
+            <Text
+              className="date"
+              style={{ marginTop: isMobile ? "90px" : "0px" }}
+            >
+              {pages.home.landing.date}
+            </Text>
             <Text className="caption">{pages.home.landing.location}</Text>
           </div>
         </div>
@@ -188,17 +198,25 @@ const Home = () => {
                     {pages.home.activity.description}
                   </Paragraph>
                   <div className="button-component-wrapper2">
-                    <ButtonComponent
+                    {/* <ButtonComponent
+                    style={{cursor: 'default'}}
                       bgColor="#731D14"
                       textColor="#FFF5D9"
-                      clickAction={() =>
-                        window.open(
-                          "https://tickets.tanweerfestival.com/",
-                          "_blank"
-                        )
-                      }
+                      // clickAction={() =>
+                      //   window.open(
+                      //     "https://tickets.tanweerfestival.com/",
+                      //     "_blank"
+                      //   )
+                      // }
                       text="Tickets available soon"
-                    />
+                    /> */}
+
+                    <Text
+                      style={{ backgroundColor: "#731D14", color: "#FFF5D9", cursor: 'default' }}
+                      className="customised-button"
+                    >
+                      Tickets available soon
+                    </Text>
                   </div>
                   <Text className="h1">{pages.home.activity.slider.title}</Text>
                 </div>

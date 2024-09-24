@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Layout, Row, Col, Typography, Space } from "antd";
 import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
@@ -55,15 +55,21 @@ function Contact() {
         <div className="contact-wrapper">
           {isMobile && (
             <Col span={24}>
-              <img
-                src={MapImage}
-                alt="icon"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                }}
-              />
+              <a
+                href="https://g.co/kgs/ZbsGYqq"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={MapImage}
+                  alt="icon"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                />
+              </a>
             </Col>
           )}
           <Row>
@@ -105,15 +111,21 @@ function Contact() {
             </Col>
             {!isMobile && (
               <Col span={14}>
-                <img
-                  src={MapImage}
-                  alt="icon"
-                  style={{
-                    width: "100%",
-                    height: "calc(100vh - 142px)",
-                    objectFit: "cover",
-                  }}
-                />
+                <a
+                  href="https://g.co/kgs/ZbsGYqq"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={MapImage}
+                    alt="icon"
+                    style={{
+                      width: "100%",
+                      height: "calc(100vh - 142px)",
+                      objectFit: "cover",
+                    }}
+                  />
+                </a>
               </Col>
             )}
           </Row>
@@ -143,20 +155,20 @@ function Contact() {
             </Text>
           </div>
 
-          <div className="tabs" style={{ position: 'relative' }}>
-          <div className="swiper-button-prev" />
-          <div className="swiper-button-next" />
+          <div className="tabs" style={{ position: "relative" }}>
+            <div className="swiper-button-prev" />
+            <div className="swiper-button-next" />
             <Swiper
-              spaceBetween={10} 
+              spaceBetween={10}
               slidesPerView="auto"
               centeredSlides={false}
               grabCursor={true}
               style={{ width: "100%" }}
               navigation={{
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
               }}
-  modules={[Navigation]} // Include the Navigation module
+              modules={[Navigation]} // Include the Navigation module
             >
               {pages.contact.faqs.map((elm, index) => (
                 <SwiperSlide

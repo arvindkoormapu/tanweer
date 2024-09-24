@@ -267,6 +267,22 @@
     left: 0px;
 }
 
+.tickets-available-soon-button {
+    font-family: Roboto;
+    /* font-size: 0.9rem; */
+    font-size: 0.6rem;
+    font-weight: 500;
+    line-height: 23.44px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #FFF5D9;
+    background: #731D14;
+}
+
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
     .landing-banner {
