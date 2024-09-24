@@ -116,14 +116,14 @@ const Home = () => {
         </div>
 
         <div className="landing-content">
-          <div
+          {/* <div
             className="floating-button"
             onClick={() =>
               window.open("https://tickets.tanweerfestival.com/", "_blank")
             }
           >
             get passes NOW
-          </div>
+          </div> */}
           <Row align="middle" justify="center" style={{ width: "90%" }}>
             <Col span={isMobile ? 24 : 12}>
               <img src={LandingFirst} alt="icon" className="image" />
