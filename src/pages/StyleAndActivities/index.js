@@ -231,7 +231,7 @@ function StyleAndActivities() {
                     <img
                       src={require(`../../${elm.image}`)}
                       alt={elm.title}
-                      style={{ width: "100%", borderRadius: "20px" }}
+                      style={{ width: "100%", borderRadius: "20px", aspectRatio: '16/11' }}
                     />
                     <div className="top-slide-text">
                       <div
@@ -276,7 +276,7 @@ function StyleAndActivities() {
                     <img
                       src={require(`../../${elm.image}`)}
                       alt={elm.title}
-                      style={{ width: "100%", borderRadius: "20px" }}
+                      style={{ width: "100%", borderRadius: "20px", aspectRatio: '16/11' }}
                     />
                     <div className="top-slide-text">
                       <div
@@ -292,10 +292,12 @@ function StyleAndActivities() {
                           <div className="description">{elm.description}</div>
                         </Tooltip>
                         {/* <div className="checkouttime">{elm.checkout}</div> */}
+                        <div style={{minHeight: '108px'}}>
                         <div className="price" dangerouslySetInnerHTML={{ __html: elm.price1 }} />
                         <div className="price-des">{elm.price1_description}</div>
                         <div className="price" dangerouslySetInnerHTML={{ __html: elm.price2 }} />
                         <div className="price-des">{elm.price2_description}</div>
+                        </div>
                       </div>
                       <div
                         className="button"

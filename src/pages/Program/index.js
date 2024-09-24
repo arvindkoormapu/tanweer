@@ -220,7 +220,7 @@ function Programs() {
                 <Row key={index} gutter={0}>
                   {chunk.map((elm, idx) => (
                     <Col key={idx} className="p-0" xs={24} sm={12} md={5}>
-                      <Tooltip title={elm.caption}>
+                      <Tooltip title={<span dangerouslySetInnerHTML={{ __html: elm.caption.join('<br />') }} />} arrow>
                         <div className="art-slide">
                           <div
                             className="image-container"

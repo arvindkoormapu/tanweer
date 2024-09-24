@@ -63,7 +63,7 @@
             "items": [
                 {
                     "question": "Does the festival provide accommodations?",
-                    "answer": "The festival does not offer traditional accommodation, but we do have a designated campsite available for those who wish to stay close to the event. Additionally, we've partnered with local hotels and can provide recommendations for lodging. For more information, including campsite details and hotel recommendations, visit <a href='https://www.tanweerfestival.com/stayandactivities' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/stayandactivities*</a>."
+                    "answer": "The festival does not offer traditional accommodation, but we do have a designated campsite available for those who wish to stay close to the event. Additionally, we've partnered with local hotels and can provide recommendations for lodging. For more information, including campsite details and hotel recommendations, visit <a href='https://www.tanweerfestival.com/stayandactivities' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/stayandactivities</a>."
                 },
                 {
                     "question": "Are there camping options available?",
@@ -105,11 +105,11 @@
             "items": [
                 {
                     "question": "Are the workshops hands-on?",
-                    "answer": "Some workshops are hands-on, while others may be lecture-style. Please check the workshop descriptions for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/workshops*</a>."
+                    "answer": "Some workshops are hands-on, while others may be lecture-style. Please check the workshop descriptions for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/workshops</a>."
                 },
                 {
                     "question": "Can I attend multiple workshops in one day?",
-                    "answer": "Yes, you can attend multiple workshops in one day. Please check our program for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/programs*</a>."
+                    "answer": "Yes, you can attend multiple workshops in one day. Please check our program for more information. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/programs</a>."
                 }
             ]
         },
@@ -146,7 +146,7 @@
                 },
                 {
                     "question": "Is there an entrance fee to the market?",
-                    "answer": "To access the market, guests must have a festival entry ticket.. For more information visit <a href='https://www.tanweerfestival.com' target='_blank' rel='noopener noreferrer'>https://tickets.tanweerfestival.com/*</a>. "
+                    "answer": "To access the market, guests must have a festival entry ticket.. For more information visit <a href='https://www.tanweerfestival.com' target='_blank' rel='noopener noreferrer'>https://tickets.tanweerfestival.com/</a>. "
                 },
                 {
                     "question": "Are there food and beverage options at the marketplace?",
@@ -180,7 +180,7 @@
             "items": [
                 {
                     "question": "Is there a schedule of events available?",
-                    "answer": "Yes, the program is posted on our website. For more information visit. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/programs*</a>."
+                    "answer": "Yes, the program is posted on our website. For more information visit. <a href='https://www.tanweerfestival.com/programs' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com/programs</a>."
                 },
                 {
                     "question": "Are there ATMs available at the festival?",
