@@ -32,6 +32,7 @@ import DoubleTree from "../../images/Partners/SHJAW_DUAL_BLUE_RGB.png";
 import SIRTIP from "../../images/Partners/SIRTIP.png";
 import Masdar from "../../images/Partners/MASDAR.png";
 import CivilDefense from "../../images/Partners/Civil-Defense.png";
+import MalihaMunicipality from "../../images/Partners/Maliha-Municipality.png";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Partners.css";
@@ -368,6 +369,12 @@ function Partners() {
                     style={{ height: "82px", paddingRight: "50px" }}
                   />
                 </a>
+
+                <img
+                  src={MalihaMunicipality}
+                  alt="icon"
+                  style={{ height: "82px", paddingRight: "50px" }}
+                />
               </Space>
             </div>
             <div className="tire">
@@ -719,6 +726,13 @@ function Partners() {
                 >
                   <img src={Shurooq} alt="icon" style={{ height: "82px" }} />
                 </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <img
+                  src={MalihaMunicipality}
+                  alt="icon"
+                  style={{ height: "82px" }}
+                />
               </Space>
             </div>
 
