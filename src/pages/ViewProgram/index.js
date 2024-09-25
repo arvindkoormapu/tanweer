@@ -713,7 +713,7 @@ function ViewProgram() {
     <section className="view-programs">
       <div className="container">
         <div className="content">
-          <Text className="title">Partners</Text>
+          <Text className="title">Programs</Text>
         </div>
         <ul className="day-list">
           {days.map((day, index) => (
