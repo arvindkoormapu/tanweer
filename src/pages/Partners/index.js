@@ -96,7 +96,18 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Arada} alt="icon" style={{ height: "43px" }} />
+                  <img src={Arada} alt="icon" style={{ height: "43px", paddingRight: "50px" }} />
+                </a>
+                <a
+                  href="https://shurooq.gov.ae/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Shurooq}
+                    alt="icon"
+                    style={{ height: "82px" }}
+                  />
                 </a>
               </Space>
             </div>
@@ -147,7 +158,7 @@ function Partners() {
                   <img
                     src={Beeah}
                     alt="icon"
-                    style={{ height: "61px", paddingRight: "50px" }}
+                    style={{ height: "75px", paddingRight: "50px" }}
                   />
                 </a>
               </Space>
@@ -160,7 +171,7 @@ function Partners() {
                   <img
                     src={DU}
                     alt="icon"
-                    style={{ height: "50px", paddingRight: "50px" }}
+                    style={{ height: "75px", paddingRight: "50px" }}
                   />
                 </a>
 
@@ -358,17 +369,7 @@ function Partners() {
                     style={{ height: "82px", paddingRight: "50px" }}
                   />
                 </a>
-                <a
-                  href="https://shurooq.gov.ae/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={Shurooq}
-                    alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
-                  />
-                </a>
+                
                 <a
                   href="https://malihamun.shj.ae/en/home"
                   target="_blank"
@@ -482,6 +483,15 @@ function Partners() {
                   <img src={Arada} alt="icon" style={{ height: "43px" }} />
                 </a>
               </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://shurooq.gov.ae/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Shurooq} alt="icon" style={{ height: "82px" }} />
+                </a>
+              </Space>
             </div>
             <div className="tire">
               <Text className="logo-title">Ignis Plus</Text>
@@ -521,7 +531,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Beeah} alt="icon" style={{ height: "61px" }} />
+                  <img src={Beeah} alt="icon" style={{ height: "75px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -530,7 +540,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={DU} alt="icon" style={{ height: "50px" }} />
+                  <img src={DU} alt="icon" style={{ height: "75px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -721,15 +731,6 @@ function Partners() {
                   rel="noopener noreferrer"
                 >
                   <img src={SharjahRTA} alt="icon" style={{ height: "82px" }} />
-                </a>
-              </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
-                <a
-                  href="https://shurooq.gov.ae/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={Shurooq} alt="icon" style={{ height: "82px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
