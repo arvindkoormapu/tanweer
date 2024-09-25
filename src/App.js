@@ -49,7 +49,7 @@ const App = () => {
           }
         />
         <Route
-          path="/view-program"
+          path="/view-programs"
           element={
             <MainLayout>
               <ViewProgram />

@@ -130,12 +130,12 @@ function Program() {
         />
       </div>
 
-      {/* <ButtonComponent
+      <ButtonComponent
         bgColor="#731D14"
         textColor="#FFF5D9"
-        clickAction={() => navigate("/programs")}
+        clickAction={() => navigate("/view-programs")}
         text="VIEW PROGRAM"
-      /> */}
+      />
     </>
   );
 }
