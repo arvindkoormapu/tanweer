@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Typography } from "antd";
 import SennyCamara from "../../images/ProgramList/assets/SennyCamara.png";
 import maryMalifarges from "../../images/ProgramList/assets/Mary Malifarges.png";
@@ -414,7 +414,6 @@ function ViewProgram() {
     window.innerWidth <= 768 ? 150 / 30 : 150 / 30
   );
   let marginOffset = 0;
-
   useEffect(() => {
     const handleResize = () => {
       setHeightPerMinute(window.innerWidth <= 768 ? 150 / 30 : 150 / 30);
@@ -470,7 +469,6 @@ function ViewProgram() {
 
     return groupedEvents;
   };
-
   // Helper function to check if two events overlap
   const doEventsOverlap = (event1, event2) => {
     const convertTo24Hour = (time) => {
@@ -524,17 +522,25 @@ function ViewProgram() {
     return duration * heightPerMinute;
   };
 
-  const calculateImageSize = (startTime, endTime) => {
+  const calculateImageSize = useCallback((startTime, endTime) => {
     const duration = calculateDuration(startTime, endTime); // Calculate duration in minutes
 
     if (window.innerWidth <= 768) {
       return 40;
+    } else if (
+      window.innerWidth <= 1440 &&
+      window.innerWidth >= 1280 &&
+      duration >= 60
+    ) {
+      return 130;
+    } else if (window.innerWidth <= 1280 && duration >= 60) {
+      return 100;
     }
 
     // Use dynamic size for larger screens
     const imageSize = duration >= 60 ? 160 : (duration / 60) * 160; // Proportional size for events < 1 hour
     return imageSize;
-  };
+  }, []);
 
   const renderEventData = (day) => {
     let currentOlap = 0;
@@ -695,7 +701,6 @@ function ViewProgram() {
       </>
     );
   };
-
   const days = [...new Set(eventsData.map((event) => event.date))];
   const [activeTab, setActiveTab] = useState(0);
 
