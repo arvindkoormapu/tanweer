@@ -97,7 +97,7 @@ function Partners() {
                     src={Arada}
                     alt="icon"
                     style={{
-                      height: "150px",
+                      height: "200px",
                     }}
                   />
                 </a>
@@ -106,7 +106,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Shurooq} alt="icon" style={{ height: "150px" }} />
+                  <img src={Shurooq} alt="icon" style={{ height: "200px" }} />
                 </a>
               </Space>
             </div>
