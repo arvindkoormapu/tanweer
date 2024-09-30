@@ -2,36 +2,35 @@ import React from "react";
 import { Layout, Typography, Space } from "antd";
 import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
-import Emaar from "../../images/Partners/Emaar/EMAAR LOGO-English.png";
-import Marwan from "../../images/Partners/Al Marwan Group/Marwan-Group_logo.png";
-import Arada from "../../images/Partners/Arada/Arada_Logo_White_En.png";
-import Tiger from "../../images/Partners/Tiger/Tiger.svg";
-import Asas from "../../images/Partners/Asas/ASAS logo.png";
-import Invest from "../../images/Partners/Invest Bank/Invest-Bank-Logo.svg";
-import Beeah from "../../images/Partners/Beeah/Beeah_Master Logo_RGB_Bilingual2048.png";
-import DU from "../../images/Partners/Du/du_Window_Brandmark_Gradient_RGB1.png";
-import Thumbay from "../../images/Partners/Thumbay/Thumbay-Logo_red.png";
-import SEWA from "../../images/Partners/SEWA/2024 SEWA logo.png";
-import OrientTravel from "../../images/Partners/OrientTravel/OrientTravel.svg";
-import MohamedHilal from "../../images/Partners/Mohammad Hilal/MH_Logo.png";
+import Emaar from "../../images/Partners/EMAAR.png";
+import Marwan from "../../images/Partners/AL MARWAN.png";
+import Arada from "../../images/Partners/ARADA.png";
+import Tiger from "../../images/Partners/TIGER.png";
+import Asas from "../../images/Partners/ASAS.png";
+import Invest from "../../images/Partners/Invest-Bank.png";
+import Beeah from "../../images/Partners/BEEAH.png";
+import DU from "../../images/Partners/du.png";
+import Thumbay from "../../images/Partners/THUMBAY.png";
+import SEWA from "../../images/Partners/SEWA.png";
+import OrientTravel from "../../images/Partners/OrientTravel.png";
+import MohamedHilal from "../../images/Partners/Mohammad Hilal.png";
 import EmiratesPost from "../../images/Partners/Empost Logo.png";
 import SharjahMunicipality from "../../images/Partners/Sharjah Municipality.png";
-import SharjahAirport from "../../images/Partners/Sharjah Airport/NEW Sharjah Airport Logo.png";
-import SharjahTourism from "../../images/Partners/SCTDA/SCTDA.png";
-import HardcoBuilding from "../../images/Partners/HARDCO/HARDCO-LOGO.svg";
+import SharjahAirport from "../../images/Partners/Sharjah Airport.png";
+import SharjahTourism from "../../images/Partners/SCTDA.png";
+import HardcoBuilding from "../../images/Partners/HARDCO.png";
 import SharjahPolice from "../../images/Partners/Sharjah Police.png";
-import SharjahHeritage from "../../images/Partners/Sharjah Heritage/Sharjah Heritage.svg";
-// import SharjahCivilDefense from "../../images/Partners/SGMB_B/SGMB_B.png";
-import SGMB from "../../images/Partners/SGMB_B/SGMB_B.svg";
-import SharjahRTA from "../../images/Partners/Sharjah RTA/SRTA.png";
-import Shurooq from "../../images/Partners/Shurooq/SHQ_Authority_White.png";
-import EmiratesAirline from "../../images/Partners/Emirates/Ek Brand Box Logo-Brand Box.png";
-import HolidayInternational from "../../images/Partners/Hotel-Holiday-International/Hotel-Holiday-International.png";
-import Sheraton from "../../images/Partners/SHERATON/SHERATON-LOGO.png";
+import SharjahHeritage from "../../images/Partners/SIH.png";
+import SGMB from "../../images/Partners/SGMB_B.png";
+import SharjahRTA from "../../images/Partners/Sharjah RTA.png";
+import Shurooq from "../../images/Partners/Shurooq.png";
+import EmiratesAirline from "../../images/Partners/Emirates.png";
+import HolidayInternational from "../../images/Partners/Hotel-Holiday-International.png";
+import Sheraton from "../../images/Partners/Sheraton.png";
 import DoubleTree from "../../images/Partners/SHJAW_DUAL_BLUE_RGB.png";
 import SIRTIP from "../../images/Partners/SIRTIP.png";
 import Masdar from "../../images/Partners/MASDAR.png";
-import CivilDefense from "../../images/Partners/Civil-Defense.png";
+import CivilDefense from "../../images/Partners/Civil Defense.png";
 import MalihaMunicipality from "../../images/Partners/Maliha-Municipality.png";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -73,9 +72,7 @@ function Partners() {
                     src={Emaar}
                     alt="icon"
                     style={{
-                      height: "65px",
-                      width: "100%",
-                      paddingRight: "100px",
+                      height: "150px",
                     }}
                   />
                 </a>
@@ -84,7 +81,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Marwan} alt="icon" style={{ height: "76px" }} />
+                  <img src={Marwan} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
@@ -96,18 +93,20 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Arada} alt="icon" style={{ height: "43px", paddingRight: "50px" }} />
+                  <img
+                    src={Arada}
+                    alt="icon"
+                    style={{
+                      height: "150px",
+                    }}
+                  />
                 </a>
                 <a
                   href="https://shurooq.gov.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Shurooq}
-                    alt="icon"
-                    style={{ height: "82px" }}
-                  />
+                  <img src={Shurooq} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
@@ -119,7 +118,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Tiger} alt="icon" style={{ height: "80px" }} />
+                  <img src={Tiger} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
@@ -131,11 +130,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Invest}
-                    alt="icon"
-                    style={{ height: "80px", paddingRight: "50px" }}
-                  />
+                  <img src={Invest} alt="icon" style={{ height: "150px" }} />
                 </a>
 
                 <a
@@ -143,11 +138,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Asas}
-                    alt="icon"
-                    style={{ height: "80px", paddingRight: "50px" }}
-                  />
+                  <img src={Asas} alt="icon" style={{ height: "150px" }} />
                 </a>
 
                 <a
@@ -155,11 +146,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Beeah}
-                    alt="icon"
-                    style={{ height: "75px", paddingRight: "50px" }}
-                  />
+                  <img src={Beeah} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -168,11 +155,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={DU}
-                    alt="icon"
-                    style={{ height: "75px", paddingRight: "50px" }}
-                  />
+                  <img src={DU} alt="icon" style={{ height: "150px" }} />
                 </a>
 
                 <a
@@ -183,7 +166,7 @@ function Partners() {
                   <img
                     src={SharjahMunicipality}
                     alt="icon"
-                    style={{ height: "80px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
                 <a
@@ -194,22 +177,24 @@ function Partners() {
                   <img
                     src={SharjahTourism}
                     alt="icon"
-                    style={{ height: "80px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
+              </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
                 <a
                   href="https://lp.srtip.ae/start-your-business/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={SIRTIP} alt="icon" style={{ height: "80px" }} />
+                  <img src={SIRTIP} alt="icon" style={{ height: "150px" }} />
                 </a>
                 <a
                   href="https://masdarcity.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Masdar} alt="icon" style={{ height: "80px" }} />
+                  <img src={Masdar} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
@@ -224,7 +209,7 @@ function Partners() {
                   <img
                     src={MohamedHilal}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
 
@@ -236,7 +221,7 @@ function Partners() {
                   <img
                     src={EmiratesPost}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
 
@@ -248,7 +233,7 @@ function Partners() {
                   <img
                     src={SharjahAirport}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
@@ -264,7 +249,7 @@ function Partners() {
                   <img
                     src={HardcoBuilding}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
@@ -277,11 +262,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Thumbay}
-                    alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
-                  />
+                  <img src={Thumbay} alt="icon" style={{ height: "150px" }} />
                 </a>
 
                 <a
@@ -289,11 +270,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={SEWA}
-                    alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
-                  />
+                  <img src={SEWA} alt="icon" style={{ height: "150px" }} />
                 </a>
 
                 <a
@@ -304,7 +281,7 @@ function Partners() {
                   <img
                     src={OrientTravel}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
@@ -320,7 +297,7 @@ function Partners() {
                   <img
                     src={SharjahPolice}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
                 <a
@@ -331,7 +308,7 @@ function Partners() {
                   <img
                     src={SharjahHeritage}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
                 <a
@@ -342,7 +319,7 @@ function Partners() {
                   <img
                     src={CivilDefense}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
                 <a
@@ -350,11 +327,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={SGMB}
-                    alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
-                  />
+                  <img src={SGMB} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
@@ -366,10 +339,10 @@ function Partners() {
                   <img
                     src={SharjahRTA}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
-                
+
                 <a
                   href="https://malihamun.shj.ae/en/home"
                   target="_blank"
@@ -378,7 +351,7 @@ function Partners() {
                   <img
                     src={MalihaMunicipality}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
@@ -394,7 +367,7 @@ function Partners() {
                   <img
                     src={EmiratesAirline}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
@@ -410,7 +383,7 @@ function Partners() {
                   <img
                     src={HolidayInternational}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
                 <a
@@ -418,11 +391,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={Sheraton}
-                    alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
-                  />
+                  <img src={Sheraton} alt="icon" style={{ height: "150px" }} />
                 </a>
                 <a
                   href="https://www.hilton.com/"
@@ -432,7 +401,7 @@ function Partners() {
                   <img
                     src={DoubleTree}
                     alt="icon"
-                    style={{ height: "82px", paddingRight: "50px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
@@ -456,8 +425,7 @@ function Partners() {
                     src={Emaar}
                     alt="icon"
                     style={{
-                      height: "65px",
-                      width: "100%",
+                      height: "150px",
                     }}
                   />
                 </a>
@@ -468,28 +436,28 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Marwan} alt="icon" style={{ height: "76px" }} />
+                  <img src={Marwan} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
             <div className="tire">
               <Text className="logo-title">Terra</Text>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://arada.com/en/saro/?utm_source=Search_Google&utm_medium=cpc&utm_campaign=launcing_saro_masaar_phase_7&utm_content=UAE&utm_term=English&keyword__c=arada&network=g&campaignid=16972102965&adgroupid=141499173091&_device=c&gad_source=1&gbraid=0AAAAADAvvXkRgn31L2W9c-lknVBswkdOG&gclid=Cj0KCQjwrp-3BhDgARIsAEWJ6Sw8y_LqZj14rXHHZL6C76phMiD7roqhD7ydZyAaYYD5KO0DaFmYy7kaAnF_EALw_wcB"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Arada} alt="icon" style={{ height: "43px" }} />
+                  <img src={Arada} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://shurooq.gov.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Shurooq} alt="icon" style={{ height: "82px" }} />
+                  <img src={Shurooq} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
@@ -501,49 +469,49 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Tiger} alt="icon" style={{ height: "80px" }} />
+                  <img src={Tiger} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
             <div className="tire">
               <Text className="logo-title">Ignis</Text>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.investbank.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Invest} alt="icon" style={{ height: "80px" }} />
+                  <img src={Invest} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://asasproperties.ae/en"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Asas} alt="icon" style={{ height: "80px" }} />
+                  <img src={Asas} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.beeahgroup.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Beeah} alt="icon" style={{ height: "75px" }} />
+                  <img src={Beeah} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.du.ae/personal"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={DU} alt="icon" style={{ height: "75px" }} />
+                  <img src={DU} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://portal.shjmun.gov.ae/en/Pages/Home.aspx"
                   target="_blank"
@@ -552,11 +520,11 @@ function Partners() {
                   <img
                     src={SharjahMunicipality}
                     alt="icon"
-                    style={{ height: "80px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.visitsharjah.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB_website_URL"
                   target="_blank"
@@ -565,32 +533,32 @@ function Partners() {
                   <img
                     src={SharjahTourism}
                     alt="icon"
-                    style={{ height: "80px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://lp.srtip.ae/start-your-business/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={SIRTIP} alt="icon" style={{ height: "80px" }} />
+                  <img src={SIRTIP} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://masdarcity.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Masdar} alt="icon" style={{ height: "80px" }} />
+                  <img src={Masdar} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
             <div className="tire">
               <Text className="logo-title">AER</Text>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.mohamedhilalgroup.com/"
                   target="_blank"
@@ -599,11 +567,11 @@ function Partners() {
                   <img
                     src={MohamedHilal}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.sewa.gov.ae/en/"
                   target="_blank"
@@ -612,11 +580,11 @@ function Partners() {
                   <img
                     src={EmiratesPost}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.sharjahairport.ae/en/"
                   target="_blank"
@@ -625,14 +593,14 @@ function Partners() {
                   <img
                     src={SharjahAirport}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
             </div>
             <div className="tire">
               <Text className="logo-title">Aqua</Text>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://hardcogroup.com/"
                   target="_blank"
@@ -641,32 +609,32 @@ function Partners() {
                   <img
                     src={HardcoBuilding}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
             </div>
             <div className="tire">
               <Text className="logo-title">Patron</Text>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://thumbay.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Thumbay} alt="icon" style={{ height: "82px" }} />
+                  <img src={Thumbay} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.sewa.gov.ae/en/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={SEWA} alt="icon" style={{ height: "82px" }} />
+                  <img src={SEWA} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.orienttravels.com/"
                   target="_blank"
@@ -675,14 +643,14 @@ function Partners() {
                   <img
                     src={OrientTravel}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
             </div>
             <div className="tire">
               <Text className="logo-title">Value in Kind</Text>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.shjpolice.gov.ae/"
                   target="_blank"
@@ -691,11 +659,11 @@ function Partners() {
                   <img
                     src={SharjahPolice}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://sih.gov.ae/en/"
                   target="_blank"
@@ -704,7 +672,7 @@ function Partners() {
                   <img
                     src={SharjahHeritage}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
@@ -713,27 +681,35 @@ function Partners() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={CivilDefense} alt="icon" style={{ height: "82px" }} />
+                <img
+                  src={CivilDefense}
+                  alt="icon"
+                  style={{ height: "150px" }}
+                />
               </a>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.sgmb.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={SGMB} alt="icon" style={{ height: "82px" }} />
+                  <img src={SGMB} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.srta.gov.ae/ar-ae/home.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={SharjahRTA} alt="icon" style={{ height: "82px" }} />
+                  <img
+                    src={SharjahRTA}
+                    alt="icon"
+                    style={{ height: "150px" }}
+                  />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://malihamun.shj.ae/en/home"
                   target="_blank"
@@ -742,7 +718,7 @@ function Partners() {
                   <img
                     src={MalihaMunicipality}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
@@ -750,7 +726,7 @@ function Partners() {
 
             <div className="tire">
               <Text className="logo-title">Airline partner</Text>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.emirates.com/in/english/"
                   target="_blank"
@@ -759,14 +735,14 @@ function Partners() {
                   <img
                     src={EmiratesAirline}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
             </div>
             <div className="tire">
               <Text className="logo-title">Hotel partners</Text>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://holidayinternational.com/"
                   target="_blank"
@@ -775,26 +751,30 @@ function Partners() {
                   <img
                     src={HolidayInternational}
                     alt="icon"
-                    style={{ height: "82px" }}
+                    style={{ height: "150px" }}
                   />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://sheraton.marriott.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Sheraton} alt="icon" style={{ height: "82px" }} />
+                  <img src={Sheraton} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large" style={{ padding: "10px 0px" }}>
+              <Space size="large">
                 <a
                   href="https://www.hilton.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={DoubleTree} alt="icon" style={{ height: "82px" }} />
+                  <img
+                    src={DoubleTree}
+                    alt="icon"
+                    style={{ height: "150px" }}
+                  />
                 </a>
               </Space>
             </div>
