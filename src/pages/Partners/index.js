@@ -72,7 +72,7 @@ function Partners() {
                     src={Emaar}
                     alt="icon"
                     style={{
-                      height: "150px",
+                      height: "200px",
                     }}
                   />
                 </a>
@@ -81,7 +81,7 @@ function Partners() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={Marwan} alt="icon" style={{ height: "150px" }} />
+                  <img src={Marwan} alt="icon" style={{ height: "200px" }} />
                 </a>
               </Space>
             </div>
