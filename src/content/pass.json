@@ -30,7 +30,7 @@
         {
             "title": "VIP",
             "caption": "FESTIVAL PASS",
-            "description": "Three-day access to all areas in the festival, in addition to access to the VIP Lounge, valet parking, and premium VIP seating at the main stage.",
+            "description": "Three-day access to all areas in the festival, in addition to access to the VIP Lounge, access to Shurooq VIP lounge, VIP parking and premium VIP seating at the main stage.",
             "types": [
                 {
                     "title": "Early Bird",
@@ -70,7 +70,7 @@
         {
             "title": "VIP",
             "caption": "day PASS",
-            "description": "One-day access to all areas in the festival, in addition to access to the VIP Lounge, valet parking, and premium VIP seating at the main stage.",
+            "description": "One-day access to all areas in the festival, in addition to access to the VIP Lounge, access to Shurooq VIP Lounge, VIP parking and premium VIP seating at the main stage.",
             "types": [
                 {
                     "title": "Early Bird",
