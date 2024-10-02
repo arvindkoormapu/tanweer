@@ -65,9 +65,9 @@
             "title": "Tent rental",
             "description": "Rent a tent for the duration of the festival.",
             "checkout": "Check out by 11:00AM on Monday 25th of November.",
-            "price1": "<b>Two-person tent (4m x 4m)</b> ",
+            "price1": "<b>Two-person tent (4m x 4m): 400</b> ",
             "price1_description": "(3 nights)",
-            "price2": "<b>Four-person tent (4m x 8m)</b> ",
+            "price2": "<b>Four-person tent (4m x 8m): 600</b> ",
             "price2_description": "(3 nights)",
             "link": ""
         },
@@ -76,7 +76,7 @@
             "title": "Tent space Rental",
             "description": "Bring you own tent (BYOT) and personal camping equipment to your dedicated camping pitch. Access to communal toilets, showers, running water and waste management provided.",
             "checkout": "Check out by 11:00AM on Monday 25th of November.",
-            "price1": "<b>Bring your own tent (4m x 4m two-person)</b>",
+            "price1": "<b>Bring your own tent (4m x 4m two-person): 300</b>",
             "price1_description": "(3 nights)",
             "price2": "&nbsp;",
             "price2_description": " ",
@@ -88,43 +88,43 @@
             "image": "images/StyleAndActivities/Al Badayer Retreat.jpg",
             "title": "AL BADAYER RETREAT",
             "description": "Al Badayer recreates the experience of life as an ancient traveler along the Silk Road. This culturally stimulating stay is enhanced by the spellbinding sunrises and sunsets over the vast dunes",
-            "link": ""
+            "link": "https://tickets.tanweerfestival.com/"
         },
         {
             "image": "images/StyleAndActivities/Al Faya.jpg",
             "title": "Faya Retreat",
             "description": "Al Faya Retreat is a luxurious desert escape in Sharjah, offering a unique blend of Bedouin-inspired hospitality and modern amenities. Nestled among the dunes, the retreat features five elegantly designed rooms, a hands-free spa, a saltwater pool, and opportunities for stargazing. Perfect for those seeking tranquility and cultural immersion in the heart of the desert.",
-            "link": ""
+            "link": "https://tickets.tanweerfestival.com/"
         },
         {
             "image": "images/StyleAndActivities/Moon Retreat.jpg",
             "title": "MOON RETREAT",
             "description": "Tucked away among the desert dunes, Moon Retreat presents a glamping experience that is distinguished by its simplicity, adventure and privacy. Perfect for couples and families, Moon Retreat gives you the chance to explore the Mleiha desert by day and spend the evenings star-gazing. This is a great place to refresh your mind and rejuvenate your senses.",
-            "link": ""
+            "link": "https://tickets.tanweerfestival.com/"
         },
         {
             "image": "images/StyleAndActivities/The Chedi Al Bait.jpg",
             "title": "The Chedi Al Bait",
             "description": "The Chedi Al Bait, Sharjah, is a luxurious five-star hotel blending Emirati heritage with contemporary elegance. Nestled in the Heart of Sharjah, this 65-key resort preserves the charm of historic manor houses while offering modern comforts. Guests enjoy unparalleled hospitality and traditional Emirati graciousness, making it a standout destination for those seeking cultural authenticity and refined luxury.",
-            "link": ""
+            "link": "https://tickets.tanweerfestival.com/"
         },
         {
             "image": "images/StyleAndActivities/DoubleTree by Hilton.webp",
             "title": "DoubleTree by Hilton",
             "description": "DoubleTree by Hilton Sharjah Waterfront Hotel & Residences offers a luxurious stay in Sharjah with stunning views of the Al Majaz Waterfront. The hotel features spacious rooms and apartments, a fitness center, an indoor pool, and dining options catering to various tastes. Its prime location provides easy access to cultural attractions and business districts, making it ideal for both leisure and business travelers.",
-            "link": ""
+            "link": "https://www.hilton.com/en/attend-my-event/shjawdi-905-17628e2a-e379-4a04-9f11-c747a0699ab6/"
         },
         {
             "image": "images/StyleAndActivities/HHI Ariel view.jpg",
             "title": "Hotel Holiday International",
             "description": "A perfect blend of Arabian hospitality, comfort, and luxury. Overlooking Sharjah’s beautiful Khalid Lagoon and Al Majaz Waterfront, the hotel is conveniently located just 20 minutes from both Sharjah and Dubai airports and less than 5 minutes from the nearby Sharjah Central Souk and shopping malls.",
-            "link": ""
+            "link": "https://tickets.tanweerfestival.com/"
         },
         {
             "image": "images/StyleAndActivities/sheraton.jpg",
             "title": "Sheraton",
             "description": "Whether for an extended vacation or a short seaside getaway, the Sheraton Sharjah Beach Resort & Spa is a premier 5-star retreat featuring luxury rooms and private suites with city and sea views, elegant dining outlets showcasing a range of delicious cuisines, the Shine Spa with holistic Thai and oriental hammam treatments, alongside exceptional beachfront leisure, and recreation facilities.",
-            "link": ""
+            "link": "https://www.marriott.com/event-reservations/reservation-link.mi?id=1726573448833&key=CORP&guestreslink2=true"
         }
     ]
 }

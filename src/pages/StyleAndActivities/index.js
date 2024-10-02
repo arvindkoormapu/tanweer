@@ -71,17 +71,22 @@ function StyleAndActivities() {
     }
   };
 
+  const handleEmailClick = () => {
+    // This will open the user's default email client with a new draft to the specified email
+    window.location.href = "mailto:hazem.anees@snhgroups.com";
+  };
+
   return (
     <Layout className="activity">
       <Content>
-        {/* <div
+        <div
           className="floating-button"
           onClick={() =>
             window.open("https://tickets.tanweerfestival.com/", "_blank")
           }
         >
           get passes NOW
-        </div> */}
+        </div>
         <div className="top_banner">
           <div className="image-container">
             <img
@@ -100,7 +105,7 @@ function StyleAndActivities() {
         <div className="middle_section">
           <div className="dark-arrows">
             <Text className="h1">On-Site Activities</Text>
-            <div style={{zIndex: 1}}>
+            <div style={{ zIndex: 1 }}>
               <img
                 src={ArrowLeft}
                 alt="image1"
@@ -156,15 +161,15 @@ function StyleAndActivities() {
                     </div>
                     <div
                       className="button"
-                      style={{cursor: 'default'}}
-                      // onClick={() =>
-                      //   window.open(
-                      //     "https://tickets.tanweerfestival.com/",
-                      //     "_blank"
-                      //   )
-                      // }
+                      style={{ cursor: "pointer" }}
+                      onClick={() =>
+                        window.open(
+                          "https://tickets.tanweerfestival.com/",
+                          "_blank"
+                        )
+                      }
                     >
-                      Tickets available soon 
+                      Book Now
                     </div>
                   </div>
                 </div>
@@ -232,7 +237,11 @@ function StyleAndActivities() {
                     <img
                       src={require(`../../${elm.image}`)}
                       alt={elm.title}
-                      style={{ width: "100%", borderRadius: "20px", aspectRatio: '16/11' }}
+                      style={{
+                        width: "100%",
+                        borderRadius: "20px",
+                        aspectRatio: "16/11",
+                      }}
                     />
                     <div className="top-slide-text">
                       <div
@@ -248,22 +257,32 @@ function StyleAndActivities() {
                           <div className="description">{elm.description}</div>
                         </Tooltip>
                         {/* <div className="checkouttime">{elm.checkout}</div> */}
-                        <div className="price" dangerouslySetInnerHTML={{ __html: elm.price1 }} />
-                        <div className="price-des">{elm.price1_description}</div>
-                        <div className="price" dangerouslySetInnerHTML={{ __html: elm.price2 }} />
-                        <div className="price-des">{elm.price2_description}</div>
+                        <div
+                          className="price"
+                          dangerouslySetInnerHTML={{ __html: elm.price1 }}
+                        />
+                        <div className="price-des">
+                          {elm.price1_description}
+                        </div>
+                        <div
+                          className="price"
+                          dangerouslySetInnerHTML={{ __html: elm.price2 }}
+                        />
+                        <div className="price-des">
+                          {elm.price2_description}
+                        </div>
                       </div>
                       <div
                         className="button"
-                        style={{cursor: 'default'}}
-                        // onClick={() =>
-                        //   window.open(
-                        //     "https://tickets.tanweerfestival.com/",
-                        //     "_blank"
-                        //   )
-                        // }
+                        style={{ cursor: "pointer" }}
+                        onClick={() =>
+                          window.open(
+                            "https://tickets.tanweerfestival.com/",
+                            "_blank"
+                          )
+                        }
                       >
-                        Tickets available soon 
+                        Book Now
                       </div>
                     </div>
                   </div>
@@ -278,7 +297,11 @@ function StyleAndActivities() {
                     <img
                       src={require(`../../${elm.image}`)}
                       alt={elm.title}
-                      style={{ width: "100%", borderRadius: "20px", aspectRatio: '16/11' }}
+                      style={{
+                        width: "100%",
+                        borderRadius: "20px",
+                        aspectRatio: "16/11",
+                      }}
                     />
                     <div className="top-slide-text">
                       <div
@@ -294,24 +317,34 @@ function StyleAndActivities() {
                           <div className="description">{elm.description}</div>
                         </Tooltip>
                         {/* <div className="checkouttime">{elm.checkout}</div> */}
-                        <div style={{minHeight: '108px'}}>
-                        <div className="price" dangerouslySetInnerHTML={{ __html: elm.price1 }} />
-                        <div className="price-des">{elm.price1_description}</div>
-                        <div className="price" dangerouslySetInnerHTML={{ __html: elm.price2 }} />
-                        <div className="price-des">{elm.price2_description}</div>
+                        <div style={{ minHeight: "108px" }}>
+                          <div
+                            className="price"
+                            dangerouslySetInnerHTML={{ __html: elm.price1 }}
+                          />
+                          <div className="price-des">
+                            {elm.price1_description}
+                          </div>
+                          <div
+                            className="price"
+                            dangerouslySetInnerHTML={{ __html: elm.price2 }}
+                          />
+                          <div className="price-des">
+                            {elm.price2_description}
+                          </div>
                         </div>
                       </div>
                       <div
                         className="button"
-                        style={{cursor: 'default'}}
-                        // onClick={() =>
-                        //   window.open(
-                        //     "https://tickets.tanweerfestival.com/",
-                        //     "_blank"
-                        //   )
-                        // }
+                        style={{ cursor: "pointer" }}
+                        onClick={() =>
+                          window.open(
+                            "https://tickets.tanweerfestival.com/",
+                            "_blank"
+                          )
+                        }
                       >
-                        Tickets available soon 
+                        Book Now
                       </div>
                     </div>
                   </div>
@@ -382,18 +415,23 @@ function StyleAndActivities() {
                       </Tooltip>
                       <div className="price">{elm.price}</div>
                     </div>
-                    <div
-                      className="button"
-                      style={{cursor: 'default'}}
-                      // onClick={() =>
-                      //   window.open(
-                      //     "https://tickets.tanweerfestival.com/",
-                      //     "_blank"
-                      //   )
-                      // }
-                    >
-                      Tickets available soon 
-                    </div>
+                    {elm.title === "Hotel Holiday International" ? (
+                      <div
+                        className="button"
+                        style={{ cursor: "pointer" }}
+                        onClick={() => handleEmailClick()}
+                      >
+                        Book Now
+                      </div>
+                    ) : (
+                      <div
+                        className="button"
+                        style={{ cursor: "pointer" }}
+                        onClick={() => window.open(elm.link, "_blank")}
+                      >
+                        Book Now
+                      </div>
+                    )}
                   </div>
                 </div>
               </SwiperSlide>

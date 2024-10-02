@@ -78,7 +78,7 @@ const App = () => {
           path="/festival_passes"
           element={
             <MainLayout>
-              <FestivalPassCountdown />
+              <FestivalPass />
             </MainLayout>
           }
         />

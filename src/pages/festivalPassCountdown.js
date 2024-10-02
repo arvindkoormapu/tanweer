@@ -10,7 +10,7 @@ const FestivalPassCountdown = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
   useEffect(() => {
-    const targetDate = new Date("2024-10-02T13:00:00"); // Set your target date here
+    const targetDate = new Date("2024-10-02T14:00:00"); // Set your target date here
     const interval = setInterval(() => {
       const now = new Date();
       const difference = targetDate - now;

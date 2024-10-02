@@ -45,6 +45,14 @@ function Partners() {
 
   return (
     <Layout className="partners">
+      <div
+        className="floating-button"
+        onClick={() =>
+          window.open("https://tickets.tanweerfestival.com/", "_blank")
+        }
+      >
+        get passes NOW
+      </div>
       <Content>
         <div className="content">
           <Text className="title">Partners</Text>

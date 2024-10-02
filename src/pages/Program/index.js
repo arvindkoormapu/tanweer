@@ -53,14 +53,14 @@ function Programs() {
         <meta property="og:type" content="website" />
       </Helmet>
       <Content>
-        {/* <div
+        <div
           className="floating-button"
           onClick={() =>
             window.open("https://tickets.tanweerfestival.com/", "_blank")
           }
         >
           get passes NOW
-        </div> */}
+        </div>
 
         <ImageSlider slides={pages.programs.slides} />
         <div className="menus">

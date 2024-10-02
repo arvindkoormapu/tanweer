@@ -42,6 +42,39 @@
             ]
         },
         {
+            "name": "TICKETS",
+            "items": [
+                {
+                    "question": "How can I purchase tickets?",
+                    "answer": "Tickets can be purchased online. Visit <a href='https://www.tanweerfestival.com' target='_blank' rel='noopener noreferrer'>www.tanweerfestival.com*</a> for more information."
+                },
+                {
+                    "question": "What is included in the ticket price?",
+                    "answer": "Visit https://tickets.tanweerfestival.com/* for details."
+                },
+                {
+                    "question": "Are there any discounts available for tickets?",
+                    "answer": "Guests who purchase early-bird tickets can secure discounted rates. Visit https://tickets.tanweerfestival.com/* for more information."
+                },
+                {
+                    "question": "Can I get a refund if I can't attend the festival?",
+                    "answer": "No, all ticket sales are non-refundable."
+                },
+                {
+                    "question": "Can I transfer my ticket to someone else?",
+                    "answer": "No, tickets are non-transferable."
+                },
+                {
+                    "question": "Do I need to bring a printed ticket to the festival?",
+                    "answer": "You can, but you may also show your ticket on your mobile device at the festival entrance. Save paper!"
+                },
+                {
+                    "question": "What happens if it rains during the festival?",
+                    "answer": "Provided it is safe to do so, the festival will go on, come rain or shine. Please bring appropriate clothing and footwear for inclement weather, according to the forecast."
+                }
+            ]
+        },
+        {
             "name": "Facilities",
             "items": [
                 {

@@ -44,14 +44,14 @@ function Contact() {
   return (
     <Layout className="contact">
       <Content>
-        {/* <div
+        <div
           className="floating-button"
           onClick={() =>
             window.open("https://tickets.tanweerfestival.com/", "_blank")
           }
         >
           get passes NOW
-        </div> */}
+        </div>
         <div className="contact-wrapper">
           {isMobile && (
             <Col span={24}>
