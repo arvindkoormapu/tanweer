@@ -139,7 +139,7 @@ const Footer = () => {
             <div style={{ display: "flex", flexDirection: "column" }}>
               <Text className="first-text">Be the first to know</Text>
               <Text className="subscribe-text">
-                SUSCRIBE TO RECEIVE OUR LATEST NEWS
+              Subscribe TO RECEIVE OUR LATEST NEWS
               </Text>
             </div>
             {!isMobile && (

@@ -7,7 +7,7 @@
     "introduction": {
         "title": "The first-ever \nTanweer Festival",
         "paragraph_one": "Introducing the inaugural Tanweer Festival, a three-day celebration that transcends language, culture, and borders. Experience a soulful blend of live music, nourishing food, a vibrant marketplace, and inspiring art installations. Engage in workshops that elevate the soul, and partake in on-site experiences like stargazing, horse riding, and other activities that nurture a holistic sense of well-being.",
-        "paragraph_two": "Sign up for the latest updates on our music performances, art installations, workshops, poetry sessions, and more."
+        "paragraph_two": ""
     },
     "program": [
         {
@@ -43,23 +43,27 @@
         "title": "book your experience",
         "description": "Embark on a range of adventures during the inaugural Tanweer Festival. From thrills and excitement to relaxation and rejuvenation, there’s something for everyone. ",
         "slider": {
-            "title": "Enjoy tanweer activities",
+            "title": "Explore Tanweer Offerings",
             "data": [
                 {
                     "title": "Nature activities",
-                    "image": "images/Home/slide1.webp"
+                    "image": "images/Home/slide1.webp",
+                    "link": "/stayandactivities"
                 },
                 {
                     "title": "hotels",
-                    "image": "images/Home/slide2.webp"
+                    "image": "images/Home/slide2.webp",
+                    "link": "/stayandactivities"
                 },
                 {
                     "title": "Festival Passes",
-                    "image": "images/Home/pass.png"
+                    "image": "images/Home/pass.png",
+                    "link": "/festival_passes"
                 },
                 {
                     "title": "Camping",
-                    "image": "images/Home/camping.jpg"
+                    "image": "images/Home/camping.jpg",
+                    "link": "/stayandactivities"
                 }
             ]
         }

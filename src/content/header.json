@@ -2,23 +2,33 @@
     "links": [
         {
             "title": "About",
-            "link": "/about"
+            "link": "/about",
+            "sub-menu":[]
         },
         {
             "title": "Program",
-            "link": "/programs"
+            "link": "/programs",
+            "sub-menu":[
+                {
+                    "title": "Schedule",
+                    "link": "/view-programs"
+                }
+            ]
         },
         {
             "title": "Stay & Activities",
-            "link": "/stayandactivities"
+            "link": "/stayandactivities",
+            "sub-menu":[]
         },
         {
             "title": "Festival Passes",
-            "link": "/festival_passes"
+            "link": "/festival_passes",
+            "sub-menu":[]
         },
         {
             "title": "contact",
-            "link": "/contact"
+            "link": "/contact",
+            "sub-menu":[]
         }
     ],
     "top_section": {

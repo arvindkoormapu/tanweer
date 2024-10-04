@@ -16,20 +16,22 @@ import PrivacyTerms from "./pages/PrivacyTerms";
 import Partners from "./pages/Partners";
 import Images from "./pages/artistImageDisplay";
 import HomePage from "./pages/HomePage";
-import FestivalPassCountdown from "./pages/festivalPassCountdown"
+import FestivalPassCountdown from "./pages/festivalPassCountdown";
+import useGtm from './hooks/useGtm';
 
 import "./App.css";
 
 const App = () => {
   return (
     <Router>
+      <PageTracker />
       <Routes>
         <Route
           path="/"
           element={
-            <SimpleLayout>
-              <HomePage />
-            </SimpleLayout>
+            <MainLayout>
+              <Home />
+            </MainLayout>
           }
         />
         <Route
@@ -131,6 +133,11 @@ const App = () => {
       </Routes>
     </Router>
   );
+};
+
+const PageTracker = () => {
+  useGtm(); 
+  return null;
 };
 
 export default App;

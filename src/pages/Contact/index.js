@@ -56,7 +56,7 @@ function Contact() {
           {isMobile && (
             <Col span={24}>
               <a
-                href="https://g.co/kgs/ZbsGYqq"
+                href="https://www.google.com/maps/place/Tanweer+Festival/@25.1113052,55.8323698,15z/data=!4m2!3m1!1s0x0:0xaab6e30a6fbbbc09?sa=X&ved=1t:2428&ictx=111"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -112,7 +112,7 @@ function Contact() {
             {!isMobile && (
               <Col span={14}>
                 <a
-                  href="https://g.co/kgs/ZbsGYqq"
+                  href="https://www.google.com/maps/place/Tanweer+Festival/@25.1113052,55.8323698,15z/data=!4m2!3m1!1s0x0:0xaab6e30a6fbbbc09?sa=X&ved=1t:2428&ictx=111"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

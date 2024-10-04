@@ -30,17 +30,45 @@ const FullPageDrawer = ({ isVisible, onClose }) => {
             className="close-button-image"
           />
           {pages.header.links.map((elm, i) => (
-            <Text
-              className={`links ${
-                location.pathname === elm.link ? "active-menu" : ""
-              }`}
-              onClick={() => {
-                navigate(elm.link);
-                onClose();
-              }}
-            >
-              {elm.title}
-            </Text>
+            <>
+              <Text
+                className={`links ${
+                  location.pathname === elm.link ? "active-menu" : ""
+                }`}
+                onClick={() => {
+                  navigate(elm.link);
+                  onClose();
+                }}
+              >
+                {elm.title}
+              </Text>
+              {elm["sub-menu"] && elm["sub-menu"].length > 0 && (
+                <div
+                  style={{
+                    textTransform: "uppercase",
+                    cursor: "pointer",
+                    display: "inline-block",
+                  }}
+                >
+                  {elm["sub-menu"].map((subElm) => (
+                    <Text
+                      style={{
+                        fontFamily: "Roboto",
+                        fontSize: "1.8rem",
+                        color: "#731D14",
+                        cursor: "pointer",
+                      }}
+                      onClick={() => {
+                        navigate(subElm.link);
+                        onClose();
+                      }}
+                    >
+                      {subElm.title}
+                    </Text>
+                  ))}
+                </div>
+              )}
+            </>
           ))}
         </Space>
       </Drawer>

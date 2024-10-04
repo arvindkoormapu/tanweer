@@ -32,6 +32,7 @@ import SIRTIP from "../../images/Partners/SIRTIP.png";
 import Masdar from "../../images/Partners/MASDAR.png";
 import CivilDefense from "../../images/Partners/Civil Defense.png";
 import MalihaMunicipality from "../../images/Partners/Maliha-Municipality.png";
+import SharjahBroadcastingAuthority from "../../images/Partners/Sharjah-Broadcasting-Authority.png"
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Partners.css";
@@ -362,6 +363,19 @@ function Partners() {
                     style={{ height: "150px" }}
                   />
                 </a>
+
+                <a
+                  href="https://maraya.sba.net.ae/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SharjahBroadcastingAuthority}
+                    alt="icon"
+                    style={{ height: "150px" }}
+                  />
+                </a>
+                
               </Space>
             </div>
             <div className="tire">
@@ -730,6 +744,20 @@ function Partners() {
                   />
                 </a>
               </Space>
+              <Space size="large">
+                <a
+                  href="https://maraya.sba.net.ae"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={SharjahBroadcastingAuthority}
+                    alt="icon"
+                    style={{ height: "150px" }}
+                  />
+                </a>
+              </Space>
+              
             </div>
 
             <div className="tire">

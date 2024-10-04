@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { Row, Col, Typography, Space } from "antd";
 import { useMediaQuery } from "react-responsive";
 import PatternIcon from "../../images/Pattern_Icon.png";
@@ -15,9 +16,18 @@ const Header = ({ onMenuClick }) => {
   const location = useLocation();
 
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
+  const [visibleSubMenu, setVisibleSubMenu] = useState(null);
 
   const redirect = (link) => {
     navigate(link);
+  };
+
+  const handleMouseEnter = (index) => {
+    setVisibleSubMenu(index);
+  };
+
+  const handleMouseLeave = () => {
+    setVisibleSubMenu(null);
   };
 
   return (
@@ -57,14 +67,30 @@ const Header = ({ onMenuClick }) => {
             ) : (
               <Space className="menu-links-header">
                 {pages.header.links.map((elm, i) => (
+                  <div 
+                  className={`menu-item ${location.pathname === elm.link ? "active-menu" : ""}`}
+                  onMouseEnter={() => handleMouseEnter(i)}
+                  onMouseLeave={handleMouseLeave}
+                >
                   <Text
-                    className={`links ${
-                      location.pathname === elm.link ? "active-menu" : ""
-                    }`}
+                    className={`links `}
                     onClick={() => redirect(elm.link)}
                   >
                     {elm.title}
                   </Text>
+                  {visibleSubMenu === i && elm['sub-menu'] && elm['sub-menu'].length > 0 && (
+                    <div className="sub-menu">
+                      {elm['sub-menu'].map((subElm) => (
+                        <Text
+                          className={`sub-link ${location.pathname === subElm.link ? "active-sub-menu" : ""}`}
+                          onClick={() => redirect(subElm.link)}
+                        >
+                          {subElm.title}
+                        </Text>
+                      ))}
+                    </div>
+                  )}
+                  </div>
                 ))}
               </Space>
             )}

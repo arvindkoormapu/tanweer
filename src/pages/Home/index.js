@@ -32,6 +32,18 @@ const Home = () => {
     setSubscribePopup(!subscribePopup);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const redirect = (link) => {
+    navigate(link, { replace: true });
+    scrollToTop();
+  };
+
   return (
     <Layout className="landing">
       <Content>
@@ -229,6 +241,7 @@ const Home = () => {
                             position: "relative",
                             display: "inline-block",
                           }}
+                          onClick={() => redirect(elm.link)}
                         >
                           <img
                             className="slider-image"

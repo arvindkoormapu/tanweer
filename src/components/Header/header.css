@@ -47,7 +47,7 @@
     color: #731D14;
     text-transform: uppercase;
     cursor: pointer;
-    margin: 0px 18px;
+    margin: 0px !important;
     z-index: 1;
     position: relative;
 }
@@ -56,6 +56,33 @@
     border-bottom: 1px solid #731D14;
     font-weight: bold;
 }
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #a2441b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .menu-item {
+    position: relative;
+    display: inline-block;
+    margin: 0px 18px;
+  }
+
+  .menu-item:hover .sub-menu {
+    display: block;
+  }
+  
+ .sub-link {
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    color: #fff5d9;
+    cursor: pointer;
+  }
 
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
