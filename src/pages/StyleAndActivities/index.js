@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Row, Col, Typography, Space, Tooltip } from "antd";
+import { Layout, Row, Col, Typography, Space, Tooltip, Card } from "antd";
 import { useMediaQuery } from "react-responsive";
 import { useData } from "../../hooks/useData";
 import PatternIcon from "../../images/Pattern_Icon.png";
@@ -7,8 +7,11 @@ import ArrowLeft from "../../images/StyleAndActivities/arrowLDark.webp";
 import ArrowRight from "../../images/StyleAndActivities/arrowRDark.webp";
 import ArrowLeftLight from "../../images/StyleAndActivities/arrowlLight.webp";
 import ArrowRightLight from "../../images/StyleAndActivities/arrowRlight.webp";
+import SliderArrowLeft from "../../images/StyleAndActivities/button left.png";
+import SliderArrowRight from "../../images/StyleAndActivities/button right.png";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "./style_and_activities.css";
@@ -22,6 +25,7 @@ function StyleAndActivities() {
   let swiperInstance = null;
   let swiperInstanceCamp = null;
   let swiperInstanceOffer = null;
+  let swiperInstanceMarketplace = null;
 
   const onSwiper = (swiper) => {
     swiperInstance = swiper; // Store the Swiper instance
@@ -33,6 +37,10 @@ function StyleAndActivities() {
 
   const onSwiperOffer = (swiper) => {
     swiperInstanceOffer = swiper; // Store the Swiper instance
+  };
+
+  const onSwiperMarketplace = (swiper) => {
+    swiperInstanceMarketplace = swiper; // Store the Swiper instance
   };
 
   const goToPrevious = () => {
@@ -50,6 +58,18 @@ function StyleAndActivities() {
   const goToPreviousOffer = () => {
     if (swiperInstanceOffer) {
       swiperInstanceOffer.slidePrev();
+    }
+  };
+
+  const goToPreviousMarketplace = () => {
+    if (swiperInstanceMarketplace) {
+      swiperInstanceMarketplace.slidePrev();
+    }
+  };
+
+  const goToNextMarketplace = () => {
+    if (swiperInstanceMarketplace) {
+      swiperInstanceMarketplace.slideNext();
     }
   };
 
@@ -176,6 +196,317 @@ function StyleAndActivities() {
               </SwiperSlide>
             ))}
           </Swiper>
+        </div>
+
+        <div className="top-header">
+          <Space className="space">
+            <img src={PatternIcon} alt="icon" className="pattern" />
+            <Text className="text">{pages.header.top_section.text}</Text>
+            <img src={PatternIcon} alt="icon" className="pattern" />
+            <Text className="text">ACTIVITIES</Text>
+            <img src={PatternIcon} alt="icon" className="pattern" />
+            {!isMobile && (
+              <>
+                <Text className="text">{pages.header.top_section.text}</Text>
+                <img src={PatternIcon} alt="icon" className="pattern" />
+                <Text className="text">ACTIVITIES</Text>
+                <img src={PatternIcon} alt="icon" className="pattern" />
+              </>
+            )}
+          </Space>
+        </div>
+
+        <div className="main-layout" style={{ height: "100%" }}>
+          <div className="marketplace">
+            <Text className="h1" style={{ color: "#FFF5D9" }}>
+              {pages.activities.marketplace_section.title}
+            </Text>
+            <div
+              className="description"
+              style={{
+                fontFamily: "Roboto",
+                fontSize: isMobile ? "16px" : "22px",
+                fontWeight: "400",
+                lineHeight: isMobile ? "20px" : "29.77px",
+                textAlign: "left",
+                color: "#FFF5D9",
+                paddingTop: "18px",
+                width: isMobile ? "100%" : "60%",
+              }}
+            >
+              {pages.activities.marketplace_section.description}
+            </div>
+            <div
+              style={{
+                borderRadius: "20px",
+                background: "#FFF5D9",
+                width: "100%",
+                height: "548px",
+                marginTop: "40px",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  width: "100%",
+                  padding: "73px 0px",
+                }}
+              >
+                <div
+                  className="swiper-button-prev-marketplace"
+                  style={{
+                    display: isMobile ? "none" : "flex",
+                    flex: isMobile ? "0 0 0" : "0 0 10%",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <img
+                    src={SliderArrowLeft}
+                    alt="image1"
+                    onClick={goToPreviousMarketplace}
+                    style={{ height: "44px", cursor: "pointer" }}
+                  />
+                </div>
+                <div style={{ flex: isMobile ? "0 0 100%" : "0 0 80%", overflow: "hidden" }}>
+                  <Swiper
+                    modules={[Navigation]}
+                    spaceBetween={30}
+                    slidesPerView={isMobile ? 1 : 3}
+                    onSwiper={onSwiperMarketplace}
+                    className="mySwiper"
+                    style={{ width: "100%" }}
+                  >
+                    {pages.activities.marketplace_section.marketplace.map(
+                      (slide, index) => (
+                        <SwiperSlide key={index}>
+                          <div
+                            style={{
+                              display: "flex",
+                              flexDirection: "column",
+                              padding: "16px",
+                              alignItems: isMobile ? "center" : "flex-start",
+                            }}
+                          >
+                            <img
+                              src={require(`../../${slide.image}`)}
+                              alt={slide.title}
+                              style={{
+                                width: "100%",
+                                height: "220px",
+                                objectFit: "contain",
+                                objectPosition: isMobile ? "center" : "left",
+                                paddingBottom: "20px",
+                                borderBottom: "2px solid #731D14",
+                              }}
+                              className="mb-4"
+                            />
+                            <Text
+                              style={{
+                                
+                                fontFamily: "Roboto",
+                                fontSize: "24px",
+                                fontWeight: "700",
+                                lineHeight: "36px",
+                                color: "#731D14",
+                                paddingTop: "16px",
+                                textAlign: isMobile ? "center" : "left",
+                              }}
+                            >
+                              {slide.title}
+                            </Text>
+                            <Text
+                              style={{
+                                fontFamily: "Roboto",
+                                fontSize: "16px",
+                                fontWeight: "400",
+                                lineHeight: "24px",
+                                color: "#8B4513",
+                                textAlign: isMobile ? "center" : "left",
+                              }}
+                            >
+                              {slide.description}
+                            </Text>
+                          </div>
+                        </SwiperSlide>
+                      )
+                    )}
+                  </Swiper>
+                </div>
+                <div
+                  className="swiper-button-next-marketplace"
+                  style={{
+                    flex: isMobile ? "0 0 0" : "0 0 10%",
+                    display: isMobile ? "none" : "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <img
+                    src={SliderArrowRight}
+                    alt="image1"
+                    onClick={goToNextMarketplace}
+                    style={{ height: "44px", cursor: "pointer" }}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="camping_section">
+          <Text className="h1" style={{ color: "#A2441B" }}>
+            {pages.activities.nourishing_station_section.title}
+          </Text>
+          <div
+            className="description"
+            style={{
+              fontFamily: "Roboto",
+              fontSize: isMobile ? "16px" : "22px",
+              fontWeight: "400",
+              lineHeight: isMobile ? "20px" : "29.77px",
+              textAlign: "left",
+              color: "#A2441B",
+              paddingTop: "18px",
+              width: isMobile ? "100%" : "60%",
+            }}
+          >
+            {pages.activities.nourishing_station_section.description}
+          </div>
+          <div
+            style={{
+              borderRadius: "20px",
+              width: "100%",
+              marginTop: "40px",
+            }}
+          >
+            {isMobile ? (
+              <Swiper
+                slidesPerView={1}
+                spaceBetween={16}
+                style={{ paddingBottom: "24px" }}
+              >
+                {pages.activities.nourishing_station_section.stations.map(
+                  (station, index) => (
+                    <SwiperSlide key={index}>
+                      <Card
+                        style={{
+                          width: "100%",
+                          marginBottom: "16px",
+                          background: "none",
+                          border: "none",
+                        }}
+                        cover={
+                          <img
+                            alt={station.title}
+                            src={require(`../../${station.image}`)}
+                            style={{
+                              width: "100%",
+                              height: "200px",
+                              objectFit: "cover",
+                              borderRadius: "20px",
+                              boxShadow: "0px 4px 4px 0px #00000040",
+                              objectPosition: "center",
+                            }}
+                          />
+                        }
+                      >
+                        <Card.Meta
+                          title={
+                            <span style={{
+                              fontFamily: "Roboto",
+                              fontSize: "24px",
+                              fontWeight: "700",
+                              lineHeight: "36px",
+                              color: "#A2441B",
+                              paddingTop: "16px",
+                              textAlign: "center",
+                              display: "block",
+                            }}>
+                              {station.title}
+                            </span>
+                          }
+                          description={
+                            <span style={{
+                              fontFamily: "Roboto",
+                              fontSize: "16px",
+                              fontWeight: "400",
+                              lineHeight: "24px",
+                              color: "#A2441B",
+                              textAlign: "center",
+                              display: "block",
+                            }}>
+                              {station.description}
+                            </span>
+                          }
+                        />
+                      </Card>
+                    </SwiperSlide>
+                  )
+                )}
+              </Swiper>
+            ) : (
+              <Row gutter={[16, 16]}>
+                {pages.activities.nourishing_station_section.stations.map(
+                  (station, index) => (
+                    <Col span={8} key={index}>
+                      <Card
+                        style={{
+                          width: "100%",
+                          marginBottom: "16px",
+                          background: "none",
+                          border: "none",
+                        }}
+                        cover={
+                          <img
+                            alt={station.title}
+                            src={require(`../../${station.image}`)}
+                            style={{
+                              width: "100%",
+                              height: "200px",
+                              objectFit: "cover",
+                              borderRadius: "20px",
+                              boxShadow: "0px 4px 4px 0px #00000040",
+                            }}
+                          />
+                        }
+                      >
+                        <Card.Meta
+                          title={
+                            <span
+                              style={{
+                                fontFamily: "Roboto",
+                                fontSize: "24px",
+                                fontWeight: "700",
+                                lineHeight: "36px",
+                                color: "#A2441B",
+                                paddingTop: "16px",
+                              }}
+                            >
+                              {station.title}
+                            </span>
+                          }
+                          description={
+                            <span
+                              style={{
+                                fontFamily: "Roboto",
+                                fontSize: "16px",
+                                fontWeight: "400",
+                                lineHeight: "24px",
+                                color: "#A2441B",
+                              }}
+                            >
+                              {station.description}
+                            </span>
+                          }
+                        />
+                      </Card>
+                    </Col>
+                  )
+                )}
+              </Row>
+            )}
+          </div>
         </div>
 
         <div className="top-header">

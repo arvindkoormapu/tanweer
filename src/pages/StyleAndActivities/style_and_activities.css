@@ -225,6 +225,12 @@
     height: 248px;
 }
 
+.activity .main-layout .marketplace {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 82px 0px;
+}
+
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
 

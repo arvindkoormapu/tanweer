@@ -11,6 +11,7 @@ import { useData } from "../../hooks/useData";
 import Program from "./Program";
 import ButtonComponent from "../../components/Button";
 import Image20 from "../../images/Home/Image20.webp";
+import Rumi from "../../images/Home/rumi.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useNavigate } from "react-router-dom";
 
@@ -126,6 +127,26 @@ const Home = () => {
             <Text className="caption">{pages.home.landing.location}</Text>
           </div>
         </div>
+
+        {/* <div
+          className="landing-rummy-container"
+          style={{
+            display: "flex",
+            width: "100%",
+            flexDirection: isMobile ? "column" : "row",
+          }}
+        >
+          <div className="rummy-block" style={{ flex: 1 }}>
+            add
+          </div>
+          <div className="rummy-block" style={{ flex: 1 }}>
+            <img
+              src={Rumi} // Replace with your image source
+              alt="icon"
+              style={{ width: "100%" }}
+            />
+          </div>
+        </div> */}
 
         <div className="middle-tabs">
           <Space direction="horizontal" size="middle" className="space">

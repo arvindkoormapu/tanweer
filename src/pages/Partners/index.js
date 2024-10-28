@@ -33,6 +33,7 @@ import Masdar from "../../images/Partners/MASDAR.png";
 import CivilDefense from "../../images/Partners/Civil Defense.png";
 import MalihaMunicipality from "../../images/Partners/Maliha-Municipality.png";
 import SharjahBroadcastingAuthority from "../../images/Partners/Sharjah-Broadcasting-Authority.png"
+import Mishmashi from "../../images/Partners/Maison-Mishmashi.png"
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Partners.css";
@@ -204,6 +205,13 @@ function Partners() {
                   rel="noopener noreferrer"
                 >
                   <img src={Masdar} alt="icon" style={{ height: "150px" }} />
+                </a>
+                <a
+                  href="https://mishmashi.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Mishmashi} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
@@ -575,6 +583,15 @@ function Partners() {
                   rel="noopener noreferrer"
                 >
                   <img src={Masdar} alt="icon" style={{ height: "150px" }} />
+                </a>
+              </Space>
+              <Space size="large">
+                <a
+                  href="https://mishmashi.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Mishmashi} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>

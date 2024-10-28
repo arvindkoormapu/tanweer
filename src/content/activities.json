@@ -126,5 +126,174 @@
             "description": "Whether for an extended vacation or a short seaside getaway, the Sheraton Sharjah Beach Resort & Spa is a premier 5-star retreat featuring luxury rooms and private suites with city and sea views, elegant dining outlets showcasing a range of delicious cuisines, the Shine Spa with holistic Thai and oriental hammam treatments, alongside exceptional beachfront leisure, and recreation facilities.",
             "link": "https://www.marriott.com/event-reservations/reservation-link.mi?id=1726573448833&key=CORP&guestreslink2=true"
         }
-    ]
+    ],
+    "marketplace_section": {
+        "title": "Explore Market Place",
+        "description": "Discover a curated selection of unique shops at the Market Place, each offering something special for you to explore. ",
+        "marketplace": [
+            {
+                "image": "images/StyleAndActivities/Logos/Zhenabia/Nisan_Erg�n_logo-zhenabia copy 2.png",
+                "title": "ZHENABIA",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": "https://zhenabia.com/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Shamanic/Ilya_Arutyunov_Logo.jpg",
+                "title": "SHAMANIC BOUTIQUE",
+                "description": "Explore handcrafted musical instruments inspired by traditional culture and wellbeing.",
+                "link": "https://shamanic.ae/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Tanweer Festival/Tanweer-Logo-V.png",
+                "title": "TANWEER MERCH",
+                "description": "Shop eco-friendly water bottles, yoga mats, meditation mats, and more for your mindful journey.",
+                "link": ""
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Maison Etherique/Maison_Etherique_Maison-Etherique-logo.png",
+                "title": "MAISON ETHERIQUE",
+                "description": "",
+                "link": "https://www.maisonetherique.com/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nature Hedonist/Ekaterina_Yeltsova_2.png",
+                "title": "NATUREHEDONIST & WILD FABRIK",
+                "description": "",
+                "link": "https://naturehedonist.com/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Desert Rose/PNG/Asset 1@4x-8.png",
+                "title": "DESERT ROSE",
+                "description": "",
+                "link": "https://naturehedonist.com/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Desert Rose/PNG/Asset 1@4x-8.png",
+                "title": "KHALTAT",
+                "description": "",
+                "link": "https://www.mhgboutique.com/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Tamashee Logo/Tamashee_Footwear_Foot Logo.png",
+                "title": "TAMASHEE",
+                "description": "",
+                "link": "https://tamashee.com/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Tamashee Logo/Tamashee_Footwear_Foot Logo.png",
+                "title": "ART CULTURE",
+                "description": "",
+                "link": "https://mangobeat.ae/"
+            }, 
+            {
+                "image": "images/StyleAndActivities/Logos/Holistic Culture Logo/Mona _Abu Aisha _Artboard 46.png",
+                "title": "HOLISTIC CULTURE",
+                "description": "",
+                "link": "https://theholisticculture.com/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/The Soul Alchemy/The Soul _Alchemy_TSA Logo PNG.png",
+                "title": "SOUL ALCHEMY",
+                "description": "",
+                "link": "https://soulalchemy.ae/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/The Soul Alchemy/The Soul _Alchemy_TSA Logo PNG.png",
+                "title": "DARCHI",
+                "description": "",
+                "link": "https://darchishop.com/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Ashyaa/Noura_Alshamsi_Simple Logo Black.png",
+                "title": "ASHYAA",
+                "description": "",
+                "link": "https://www.instagram.com/ashyaauae/?hl=en"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Ashyaa/Noura_Alshamsi_Simple Logo Black.png",
+                "title": "GSHAAR",
+                "description": "",
+                "link": "https://gsharstore.ae/"
+            }
+        ]
+    },
+    "nourishing_station_section": {
+        "title": "Nourishing Station",
+        "description": "Enjoy your dining experience at the Nourish Zone, offering fresh, locally-sourced ingredients and diverse, mindful cuisine options to nourish both body and soul.",
+        "stations": [
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Shababeek 1.JPG",
+                "title": "Shababeek",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": "https://eatsee.menu/shababeek"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Ushna 1.png",
+                "title": "Ushna",
+                "description": "Explore handcrafted musical instruments inspired by traditional culture and wellbeing.",
+                "link": "https://ushna.ae/ushna-sharjah/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Link by Mara.JPG",
+                "title": "Link by Mara",
+                "description": "Shop eco-friendly water bottles, yoga mats, meditation mats, and more for your mindful journey.",
+                "link": "https://www.maralounge.com/ "
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Caya 2.jpg",
+                "title": "Caya",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": ""
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Fen 1.jpeg",
+                "title": "Fen",
+                "description": "Explore handcrafted musical instruments inspired by traditional culture and wellbeing.",
+                "link": ""
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Abayomi.jpeg",
+                "title": "Abayomi",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": ""
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Al Bareed 2.JPG",
+                "title": "Boost",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": "https://www.boostjuice.ae/en/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Mavia 1.jpg",
+                "title": "Mavia",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": ""
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Al Bareed 1.JPG",
+                "title": "Al Bareed Cafe ",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": "bo.discovershurooq.ae"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Paperfig.jpg",
+                "title": "Paper Fig",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": "https://www.paperfig.ae/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Project Chaiwala.png",
+                "title": "Project Chaiwala",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": "https://projectchaiwala.com/"
+            },
+            {
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Moqadalshay.JPEG",
+                "title": "Moqadalshay",
+                "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
+                "link": ""
+            }
+              
+        ]
+    }
 }

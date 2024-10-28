@@ -1,35 +1,37 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Typography } from "antd";
-import SennyCamara from "../../images/ProgramList/assets/SennyCamara.png";
-import maryMalifarges from "../../images/ProgramList/assets/Mary Malifarges.png";
-import HandPanwithAnas from "../../images/ProgramList/assets/handPan.png";
-import AnasHandPan from "../../images/ProgramList/assets/ANSHandpan.png";
-import CalligaraphyImage from "../../images/ProgramList/assets/CalliGraphy.png";
-import PoetryByNujoom from "../../images/ProgramList/assets/PoetryByBujoom.png";
-import HasanHakmoun from "../../images/ProgramList/assets/Hassanhakmoun.png";
-import Illumination from "../../images/ProgramList/assets/Illumination.png";
-import SanduImage from "../../images/ProgramList/assets/Sandu.png";
-import Seemawirling from "../../images/ProgramList/assets/Sema Whirling.png";
-import BarakaBand from "../../images/ProgramList/assets/BarakaBlue&ShadiBand.png";
-import HeritagebandNadba from "../../images/ProgramList/assets/Heritage band - Al Nadba-Fri Nov 22 at 615 Main Stage.png";
-import HeritageBandAahaal from "../../images/ProgramList/assets/Heritage band - Al Aahaal-Sat Nov 23 at 330 pm Tree of Life.png";
-import HeritageBandNoban from "../../images/ProgramList/assets/Heritage band - Noban-Sat Nov 23 at 515 pm Marketplace.png";
-import HeritageBandWeliyah from "../../images/ProgramList/assets/Heritage band - Al Wailyyah-Sun Nov 24 at 400 pm Tree of Life.png";
-import HeritageBandLiwah from "../../images/ProgramList/assets/Heritage band - Al Liwah-Sun Nov 24 at 530 pm Marketplace.png";
-import HeritageBandMalad from "../../images/ProgramList/assets/Heritage band - Al Malad-Sun Nov 24 at 700 pm Main Stage.png";
+import Ensemble from "../../images/ProgramList/assets/Ensemble Khourchid_.png";
 import JorneyImage from "../../images/ProgramList/assets/Journey of Light.png";
 import Bodour from "../../images/ProgramList/assets/Bodour Al Qasimi_.png";
-import Ziyad from "../../images/ProgramList/assets/Rumi’s Ziyad Sahab.png";
-import JulienBreton from "../../images/ProgramList/assets/Calligraphy lighting Workshop with Julien Breton.png";
-import SamiYusuf from "../../images/ProgramList/assets/Sami Yusuf (1).png";
-import Constantinople from "../../images/ProgramList/assets/Constantinople & Ghalia Benali.png";
-import Farima from "../../images/ProgramList/assets/Farima Berenji (1).png";
-import RushilQawali from "../../images/ProgramList/assets/AbiSampaRushilOrchestralQawwali.png";
-import Soundimmersion from "../../images/ProgramList/assets/Layer 2.png";
-import FadiRifaai from "../../images/ProgramList/assets/Fadi Rifaai.png";
-import Ensemble from "../../images/ProgramList/assets/Ensemble Khourchid_.png";
+
+// new imports
+import RushilQawali from "../../images/ProgramList/assets/Abi Sampa and Rushil Ranjan.png";
+import HandPanwithAnas from "../../images/ProgramList/assets/Anas Alhalabi.png";
+import AnasHandPan from "../../images/ProgramList/assets/Anas-Handpan-Orchestra_V2.png";
+import BarakaBand from "../../images/ProgramList/assets/Baraka Blue and Shadi Band_V2_Nov23.png";
+import WalidAboulnaga from "../../images/ProgramList/assets/Breathwork_V4.png";
+import CalligaraphyImage from "../../images/ProgramList/assets/Calligraphy_V2_Nov24.png";
+import JulienBreton from "../../images/ProgramList/assets/Calligraphy Lighting_V2_Nov24.png";
 import DhaferYousef from "../../images/ProgramList/assets/Dhafer Youssef.png";
-import WalidAboulnaga from "../../images/ProgramList/assets/Walid Aboulnaga.png";
+import FadiRifaai from "../../images/ProgramList/assets/Fadi Rifaai and Sandu & Zahi Saba_V3.png";
+import Farima from "../../images/ProgramList/assets/Farima Berenji.png";
+import HasanHakmoun from "../../images/ProgramList/assets/Hassan Hakmoun 24 V2.png";
+import HeritageBandAahaal from "../../images/ProgramList/assets/Heritage Band Al Aahaal V1.png";
+import HeritageBandLiwah from "../../images/ProgramList/assets/Heritage Band Al Liwah V1.png";
+import HeritageBandMalad from "../../images/ProgramList/assets/Heritage Band Al Malad V1.png";
+import HeritagebandNadba from "../../images/ProgramList/assets/Heritage Band Al Nadba V1.png";
+import HeritageBandWeliyah from "../../images/ProgramList/assets/Heritage Band Al Waliyah V1.png";
+import HeritageBandNoban from "../../images/ProgramList/assets/Heritage Band Noban V1.png";
+import Illumination from "../../images/ProgramList/assets/Illumination-and-Geometry_V3_Nov23.png";
+import PoetryByNujoom from "../../images/ProgramList/assets/Nujoom Al Ghanem.png";
+import SamiYusuf from "../../images/ProgramList/assets/Sami-Yusuf.png";
+import SanduImage from "../../images/ProgramList/assets/Sandu.png";
+import Seemawirling from "../../images/ProgramList/assets/Sema Whirling_V2.png";
+import maryMalifarges from "../../images/ProgramList/assets/Senny Camara Mary Malifarges_V2.png";
+import SennyCamara from "../../images/ProgramList/assets/Senny Camara.png";
+import Soundimmersion from "../../images/ProgramList/assets/Sound Immersion_V2.png";
+import Ziyad from "../../images/ProgramList/assets/Ziyad Sahhab Julien Breton.png";
+import Constantinople from "../../images/ProgramList/assets/In the Footsteps of Rumi_V2.png";
 
 import "./viewProgram.css";
 
@@ -61,7 +63,7 @@ const eventsData = [
     endTime: "08:30 PM",
     title: "Rumi’s Ziyad Sahab & Alifmotion Light Calligraphy by Julien Bruton",
     location: "Main Stage",
-    images: [Ziyad, JulienBreton],
+    images: [Ziyad /*, JulienBreton*/],
     position: "left",
   },
   {
@@ -187,7 +189,7 @@ const eventsData = [
     endTime: "05:00 PM",
     title: "Senny Camara & Art performer Mary Malifarges",
     location: "Tree of Life",
-    images: [SennyCamara, maryMalifarges],
+    images: [/*SennyCamara,*/ maryMalifarges],
     position: "left",
   },
   {
@@ -221,7 +223,7 @@ const eventsData = [
     date: "2024-11-23",
     startTime: "07:00 PM",
     endTime: "08:00 PM",
-    title: "Constantinople & Ghalia Benali",
+    title: "In the Footsteps of Rumi - Constantinople & Ghalia Benali",
     location: "Main Stage",
     images: [Constantinople],
     position: "left",
@@ -366,7 +368,7 @@ const eventsData = [
     date: "2024-11-24",
     startTime: "06:00 PM",
     endTime: "07:00 PM",
-    title: "Fadi Rifaai, Zahi and Sandu",
+    title: "Sufi Sound Journey - Fadi Rifaai, Zahi and Sandu",
     location: "Tree of Life",
     images: [FadiRifaai],
     position: "left",
@@ -408,71 +410,74 @@ const eventsData = [
     position: "left",
   },
 ];
-
 function ViewProgram() {
   const [heightPerMinute, setHeightPerMinute] = useState(
     window.innerWidth <= 768 ? 150 / 30 : 150 / 30
   );
   let marginOffset = 0;
+
   useEffect(() => {
     const handleResize = () => {
-      setHeightPerMinute(window.innerWidth <= 768 ? 150 / 30 : 150 / 30);
+      if (window.innerWidth <= 768) {
+        setHeightPerMinute(100 / 30); // Set height per minute for small screens
+      } else {
+        setHeightPerMinute(150 / 30); // Set height per minute for larger screens (example)
+      }
     };
 
+    // Add event listener for resize
     window.addEventListener("resize", handleResize);
 
-    // Call handleResize once to set initial value on load or when screen is resized
+    // Call the function once initially to set the correct value based on screen size
     handleResize();
 
-    // Cleanup event listener on component unmount
+    // Cleanup listener on unmount
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-  const timeToMinutes = (time) => {
-    const [hour, minutePart] = time.split(":");
-    const minutes = parseInt(minutePart.substr(0, 2), 10);
-    const isPM = minutePart.includes("PM");
-    let hours = parseInt(hour, 10);
-    if (isPM && hours !== 12) hours += 12;
-    if (!isPM && hours === 12) hours = 0; // Midnight correction for 12:00 AM
-    return hours * 60 + minutes;
-  };
+  // const timeToMinutes = (time) => {
+  //   const [hour, minutePart] = time.split(':');
+  //   const minutes = parseInt(minutePart.substr(0, 2), 10);
+  //   const isPM = minutePart.includes('PM');
+  //   let hours = parseInt(hour, 10);
+  //   if (isPM && hours !== 12) hours += 12;
+  //   if (!isPM && hours === 12) hours = 0; // Midnight correction for 12:00 AM
+  //   return hours * 60 + minutes;
+  // };
 
-  const groupEventsByTime = (events) => {
-    const groupedEvents = [];
-    events.forEach((event) => {
-      const eventStart = timeToMinutes(event.startTime);
-      const eventEnd = timeToMinutes(event.endTime);
+  // const groupEventsByTime = (events) => {
+  //   const groupedEvents = [];
+  //   events.forEach(event => {
+  //     const eventStart = timeToMinutes(event.startTime);
+  //     const eventEnd = timeToMinutes(event.endTime);
 
-      // Check if this event overlaps with any existing group
-      let foundGroup = false;
-      for (const group of groupedEvents) {
-        const groupStart = timeToMinutes(group[0].startTime);
-        const groupEnd = timeToMinutes(group[group.length - 1].endTime);
+  //     // Check if this event overlaps with any existing group
+  //     let foundGroup = false;
+  //     for (const group of groupedEvents) {
+  //       const groupStart = timeToMinutes(group[0].startTime);
+  //       const groupEnd = timeToMinutes(group[group.length - 1].endTime);
 
-        if (
-          (eventStart >= groupStart && eventStart < groupEnd) ||
-          (eventEnd > groupStart && eventEnd <= groupEnd)
-        ) {
-          group.push(event); // Add to the existing group
-          foundGroup = true;
-          break;
-        }
-      }
+  //       if ((eventStart >= groupStart && eventStart < groupEnd) || (eventEnd > groupStart && eventEnd <= groupEnd)) {
+  //         group.push(event); // Add to the existing group
+  //         foundGroup = true;
+  //         break;
+  //       }
+  //     }
 
-      if (!foundGroup) {
-        groupedEvents.push([event]); // Start a new group if no overlap found
-      }
-    });
+  //     if (!foundGroup) {
+  //       groupedEvents.push([event]); // Start a new group if no overlap found
+  //     }
+  //   });
 
-    return groupedEvents;
-  };
+  //   return groupedEvents;
+  // };
   // Helper function to check if two events overlap
+
   const doEventsOverlap = (event1, event2) => {
     const convertTo24Hour = (time) => {
-      const [hour, minute, period] = time.split(/[:\s]/);
+      const [hour, minute, period] = time?.split(/[:\s]/);
       let hours = parseInt(hour);
       if (period === "PM" && hours !== 12) {
         hours += 12;
@@ -565,7 +570,7 @@ function ViewProgram() {
       return timeToMinutes(a.startTime) - timeToMinutes(b.startTime);
     });
 
-    console.log(groupEventsByTime(sortedEvents));
+    // console.log(groupEventsByTime(sortedEvents));
     // Render the sorted events with calculated gaps between them
     marginOffset = 0;
     const renderEventDataElements = [];
@@ -674,13 +679,14 @@ function ViewProgram() {
       <>
         {event.images &&
           event.images.length &&
-          event.images.map((image) => {
+          event.images.map((image, index) => {
             return (
               <div
+                key={index + 22}
                 className="event-img-wrap"
                 style={{
                   width: `${imageSize}px`,
-                  height: `${imageSize}px`,
+                  height: "auto",
                 }}
               >
                 <img
@@ -688,7 +694,7 @@ function ViewProgram() {
                   alt={event.title}
                   style={{
                     width: `${imageSize}px`,
-                    height: `${imageSize}px`,
+                    height: "auto",
                   }}
                 />
               </div>
@@ -707,8 +713,6 @@ function ViewProgram() {
   // Ensure that days are in the correct format before converting them
   // const dates = days.map((day) => new Date(Date.parse(day)).toDateString());
   const dates = days.map((day) => new Date(day + "T00:00:00").toDateString());
-
-  console.log({ dates, activeTab, days });
 
   const handleTabClick = (index) => {
     setActiveTab(index);

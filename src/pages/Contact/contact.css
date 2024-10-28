@@ -69,8 +69,8 @@
     width: 50%;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+.contact .swiper-button-prev,
+.contact .swiper-button-next {
   position: absolute;
   top: 50%; /* Center vertically */
   transform: translateY(50%); /* Adjust to center */
@@ -81,31 +81,31 @@
   height: 20px; /* Height of the button */
 }
 
-.swiper-button-prev {
+.contact .swiper-button-prev {
   left: -20px; /* Position to the left */
 }
 
-.swiper-button-next {
+.contact .swiper-button-next {
   right: -20px; /* Position to the right */
 }
 
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+.contact .swiper-button-next:after, .contact .swiper-rtl .contact .swiper-button-prev:after {
     font-size: 20px !important;
     color: #731d14 !important;
 }
 
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+.contact .swiper-button-prev:after, .contact .swiper-rtl .contact .swiper-button-next:after{
     font-size: 20px !important;
     color: #731d14 !important;
 }
 
 /* Media Query for mobile devices */
 @media (max-width: 800px) {
-    .swiper-button-prev {
+    .contact .swiper-button-prev {
         left: -20px; /* Position to the left */
       }
       
-      .swiper-button-next {
+      .contact .swiper-button-next {
         right: -20px; /* Position to the right */
       }
     .contact .contact-wrapper .mobile-view {
