@@ -26,6 +26,7 @@ function StyleAndActivities() {
   let swiperInstanceCamp = null;
   let swiperInstanceOffer = null;
   let swiperInstanceMarketplace = null;
+  let swiperInstanceNourishing = null
 
   const onSwiper = (swiper) => {
     swiperInstance = swiper; // Store the Swiper instance
@@ -41,6 +42,10 @@ function StyleAndActivities() {
 
   const onSwiperMarketplace = (swiper) => {
     swiperInstanceMarketplace = swiper; // Store the Swiper instance
+  };
+
+  const onSwiperNourishing = (swiper) => {
+    swiperInstanceNourishing = swiper; // Store the Swiper instance
   };
 
   const goToPrevious = () => {
@@ -70,6 +75,18 @@ function StyleAndActivities() {
   const goToNextMarketplace = () => {
     if (swiperInstanceMarketplace) {
       swiperInstanceMarketplace.slideNext();
+    }
+  };
+
+  const goToPreviousNourishing = () => {
+    if (swiperInstanceNourishing) {
+      swiperInstanceNourishing.slidePrev();
+    }
+  };
+
+  const goToNextNourishing = () => {
+    if (swiperInstanceNourishing) {
+      swiperInstanceNourishing.slideNext();
     }
   };
 
@@ -218,9 +235,41 @@ function StyleAndActivities() {
 
         <div className="main-layout" style={{ height: "100%" }}>
           <div className="marketplace">
-            <Text className="h1" style={{ color: "#FFF5D9" }}>
-              {pages.activities.marketplace_section.title}
-            </Text>
+            {isMobile ? (
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "baseline",
+                }}
+              >
+                <Text className="h1" style={{ color: "#FFF5D9" }}>
+                  {pages.activities.marketplace_section.title}
+                </Text>
+                <div>
+                  <img
+                    src={ArrowLeftLight}
+                    alt="image1"
+                    onClick={goToPreviousMarketplace}
+                    style={{
+                      height: "18px",
+                      paddingRight: "10px",
+                      cursor: "pointer",
+                    }}
+                  />
+                  <img
+                    src={ArrowRightLight}
+                    alt="image1"
+                    onClick={goToNextMarketplace}
+                    style={{ height: "18px", cursor: "pointer" }}
+                  />
+                </div>
+              </div>
+            ) : (
+              <Text className="h1" style={{ color: "#FFF5D9" }}>
+                {pages.activities.marketplace_section.title}
+              </Text>
+            )}
             <div
               className="description"
               style={{
@@ -269,7 +318,12 @@ function StyleAndActivities() {
                     style={{ height: "44px", cursor: "pointer" }}
                   />
                 </div>
-                <div style={{ flex: isMobile ? "0 0 100%" : "0 0 80%", overflow: "hidden" }}>
+                <div
+                  style={{
+                    flex: isMobile ? "0 0 100%" : "0 0 80%",
+                    overflow: "hidden",
+                  }}
+                >
                   <Swiper
                     modules={[Navigation]}
                     spaceBetween={30}
@@ -304,7 +358,6 @@ function StyleAndActivities() {
                             />
                             <Text
                               style={{
-                                
                                 fontFamily: "Roboto",
                                 fontSize: "24px",
                                 fontWeight: "700",
@@ -315,18 +368,6 @@ function StyleAndActivities() {
                               }}
                             >
                               {slide.title}
-                            </Text>
-                            <Text
-                              style={{
-                                fontFamily: "Roboto",
-                                fontSize: "16px",
-                                fontWeight: "400",
-                                lineHeight: "24px",
-                                color: "#8B4513",
-                                textAlign: isMobile ? "center" : "left",
-                              }}
-                            >
-                              {slide.description}
                             </Text>
                           </div>
                         </SwiperSlide>
@@ -355,9 +396,41 @@ function StyleAndActivities() {
           </div>
         </div>
         <div className="camping_section">
-          <Text className="h1" style={{ color: "#A2441B" }}>
-            {pages.activities.nourishing_station_section.title}
-          </Text>
+          {isMobile ? (
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "baseline",
+              }}
+            >
+              <Text className="h1">
+                {pages.activities.nourishing_station_section.title}
+              </Text>
+              <div>
+                <img
+                  src={ArrowLeft}
+                  alt="image1"
+                  onClick={goToPreviousNourishing}
+                  style={{
+                    height: "18px",
+                    paddingRight: "10px",
+                    cursor: "pointer",
+                  }}
+                />
+                <img
+                  src={ArrowRight}
+                  alt="image1"
+                  onClick={goToNextNourishing}
+                  style={{ height: "18px", cursor: "pointer" }}
+                />
+              </div>
+            </div>
+          ) : (
+            <Text className="h1">
+              {pages.activities.nourishing_station_section.title}
+            </Text>
+          )}
           <div
             className="description"
             style={{
@@ -385,6 +458,8 @@ function StyleAndActivities() {
                 slidesPerView={1}
                 spaceBetween={16}
                 style={{ paddingBottom: "24px" }}
+                onSwiper={onSwiperNourishing}
+                modules={[Navigation]}
               >
                 {pages.activities.nourishing_station_section.stations.map(
                   (station, index) => (
@@ -413,30 +488,19 @@ function StyleAndActivities() {
                       >
                         <Card.Meta
                           title={
-                            <span style={{
-                              fontFamily: "Roboto",
-                              fontSize: "24px",
-                              fontWeight: "700",
-                              lineHeight: "36px",
-                              color: "#A2441B",
-                              paddingTop: "16px",
-                              textAlign: "center",
-                              display: "block",
-                            }}>
+                            <span
+                              style={{
+                                fontFamily: "Roboto",
+                                fontSize: "24px",
+                                fontWeight: "700",
+                                lineHeight: "36px",
+                                color: "#A2441B",
+                                paddingTop: "16px",
+                                textAlign: "center",
+                                display: "block",
+                              }}
+                            >
                               {station.title}
-                            </span>
-                          }
-                          description={
-                            <span style={{
-                              fontFamily: "Roboto",
-                              fontSize: "16px",
-                              fontWeight: "400",
-                              lineHeight: "24px",
-                              color: "#A2441B",
-                              textAlign: "center",
-                              display: "block",
-                            }}>
-                              {station.description}
                             </span>
                           }
                         />
@@ -486,19 +550,7 @@ function StyleAndActivities() {
                               {station.title}
                             </span>
                           }
-                          description={
-                            <span
-                              style={{
-                                fontFamily: "Roboto",
-                                fontSize: "16px",
-                                fontWeight: "400",
-                                lineHeight: "24px",
-                                color: "#A2441B",
-                              }}
-                            >
-                              {station.description}
-                            </span>
-                          }
+                         
                         />
                       </Card>
                     </Col>

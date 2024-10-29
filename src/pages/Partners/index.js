@@ -34,6 +34,8 @@ import CivilDefense from "../../images/Partners/Civil Defense.png";
 import MalihaMunicipality from "../../images/Partners/Maliha-Municipality.png";
 import SharjahBroadcastingAuthority from "../../images/Partners/Sharjah-Broadcasting-Authority.png"
 import Mishmashi from "../../images/Partners/Maison-Mishmashi.png"
+import BARJEEL from "../../images/Partners/BARJEEL.png"
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Partners.css";
@@ -200,7 +202,7 @@ function Partners() {
                   <img src={SIRTIP} alt="icon" style={{ height: "150px" }} />
                 </a>
                 <a
-                  href="https://masdarcity.ae/"
+                  href="https://masdar.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -265,6 +267,17 @@ function Partners() {
                 >
                   <img
                     src={HardcoBuilding}
+                    alt="icon"
+                    style={{ height: "150px" }}
+                  />
+                </a>
+                <a
+                  href="https://www.barjeelartfoundation.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={BARJEEL}
                     alt="icon"
                     style={{ height: "150px" }}
                   />
@@ -578,7 +591,7 @@ function Partners() {
               </Space>
               <Space size="large">
                 <a
-                  href="https://masdarcity.ae/"
+                  href="https://masdar.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -647,6 +660,19 @@ function Partners() {
                 >
                   <img
                     src={HardcoBuilding}
+                    alt="icon"
+                    style={{ height: "150px" }}
+                  />
+                </a>
+              </Space>
+              <Space size="large">
+                <a
+                  href="https://www.barjeelartfoundation.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={BARJEEL}
                     alt="icon"
                     style={{ height: "150px" }}
                   />
