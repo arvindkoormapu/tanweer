@@ -129,7 +129,7 @@
     ],
     "marketplace_section": {
         "title": "Explore Market Place",
-        "description": "Discover a curated selection of unique shops at the Market Place, each offering something special for you to explore. ",
+        "description": "Immerse yourself in the Marketplace, where you can find upcycled treasures crafted from reclaimed and natural materials from local and international brands. Dive into a world of eco-conscious shopping, where innovation meets sustainability!",
         "marketplace": [
             {
                 "image": "images/StyleAndActivities/Logos/Zhenabia/Nisan_Erg�n_logo-zhenabia copy 2.png",
@@ -168,7 +168,7 @@
                 "link": "https://naturehedonist.com/"
             },
             {
-                "image": "images/StyleAndActivities/Logos/Desert Rose/PNG/Asset 1@4x-8.png",
+                "image": "images/StyleAndActivities/Logos/Khaltat/KHALTAT LOGO.png",
                 "title": "KHALTAT",
                 "description": "",
                 "link": "https://www.mhgboutique.com/"
@@ -198,7 +198,7 @@
                 "link": "https://soulalchemy.ae/"
             },
             {
-                "image": "images/StyleAndActivities/Logos/The Soul Alchemy/The Soul _Alchemy_TSA Logo PNG.png",
+                "image": "images/StyleAndActivities/Logos/Darchi/Hind_Bitouche_Black logo - no background.png",
                 "title": "DARCHI",
                 "description": "",
                 "link": "https://darchishop.com/"
@@ -258,13 +258,13 @@
                 "link": ""
             },
             {
-                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Al Bareed 2.JPG",
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Boost.jpg",
                 "title": "Boost",
                 "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
                 "link": "https://www.boostjuice.ae/en/"
             },
             {
-                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Mavia 1.jpg",
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Mavia 1.png",
                 "title": "Mavia",
                 "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
                 "link": ""

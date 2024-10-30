@@ -477,7 +477,7 @@ function StyleAndActivities() {
                             src={require(`../../${station.image}`)}
                             style={{
                               width: "100%",
-                              height: "200px",
+                              height: "250px",
                               objectFit: "cover",
                               borderRadius: "20px",
                               boxShadow: "0px 4px 4px 0px #00000040",
@@ -527,7 +527,7 @@ function StyleAndActivities() {
                             src={require(`../../${station.image}`)}
                             style={{
                               width: "100%",
-                              height: "200px",
+                              height: "250px",
                               objectFit: "cover",
                               borderRadius: "20px",
                               boxShadow: "0px 4px 4px 0px #00000040",
