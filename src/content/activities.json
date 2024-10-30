@@ -128,7 +128,7 @@
         }
     ],
     "marketplace_section": {
-        "title": "Explore Market Place",
+        "title": "Explore Marketplace",
         "description": "Immerse yourself in the Marketplace, where you can find upcycled treasures crafted from reclaimed and natural materials from local and international brands. Dive into a world of eco-conscious shopping, where innovation meets sustainability!",
         "marketplace": [
             {
@@ -180,8 +180,8 @@
                 "link": "https://tamashee.com/"
             },
             {
-                "image": "images/StyleAndActivities/Logos/Tamashee Logo/Tamashee_Footwear_Foot Logo.png",
-                "title": "ART CULTURE",
+                "image": "images/StyleAndActivities/Logos/Charles_Jabbour_logo.png",
+                "title": "MANGO BEAT",
                 "description": "",
                 "link": "https://mangobeat.ae/"
             }, 
