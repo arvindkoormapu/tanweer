@@ -11,7 +11,18 @@
         {
             "title": "General Admission",
             "caption": "FESTIVAL PASS",
-            "description": "Three-day access to all areas in the festival and to the General Admission area of the main stage.",
+            "description": "Three days of music, creativity, and endless inspiration.",
+            "points": [
+                "3-day access to the festival",
+                "30+ live performances to fill your day with music, rhythm, and energy",
+                "Creative expression sessions in calligraphy, illumination, and sacred geometry design",
+                "Breathwork, Sufi whirling, and handpan workshops",
+                "Art tours and installations that inspire wonder",
+                "Organic food to fuel the vibe",
+                "A marketplace with handcrafted products, instruments, and sustainable goods",
+                "Amenities and facilities",
+                "The best part: three days with an amazing community of like-minded people."
+            ],
             "types": [
                 {
                     "title": "Early Bird",
@@ -20,7 +31,7 @@
                     "link": ""
                 },
                 {
-                    "title": "General Admission",
+                    "title": "Regular",
                     "price": "AED 1650",
                     "status": "strick",
                     "link": ""
@@ -28,9 +39,17 @@
             ]
         },
         {
-            "title": "VIP",
+            "title": "Mleiha Bracelet",
             "caption": "FESTIVAL PASS",
-            "description": "Three-day access to all areas in the festival, in addition to access to Shurooq VIP lounge, VIP parking and premium VIP seating at the main stage.",
+            "description": "Three days of music, creativity, and endless inspiration.",
+            "points": [
+                "All benefits of the festival pass plus:",
+                "Shurooq Lounge access, including F&B and refreshments",
+                "Reserved parking",
+                "Access to the premium seating of the main stage, first come, first serve",
+                "Access to Mleiha Archaeological Centre",
+                "Moon gazing experience"
+            ],
             "types": [
                 {
                     "title": "Early Bird",
@@ -39,8 +58,122 @@
                     "link": ""
                 },
                 {
-                    "title": "General Admission",
+                    "title": "Regular",
                     "price": "AED 2,500",
+                    "status": "strick",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "title": "General Admission",
+            "caption": "Together Pass",
+            "description": "BRING A FRIEND AND DOUBLE THE EXPERIENCE, A festival experience is better shared. This pass gives you and a partner access to three days of music, creativity, and unforgettable moments.",
+            "points": [
+                "Access to all three days of the festival for two people.",
+                "30+ live performances, workshops, and sessions specified in the agenda.",
+                "Twice the fun in creative sessions like calligraphy, illumination, and sacred geometry design.",
+                "Breathwork, Sufi whirling, and handpan workshops.",
+                "Art tours and installations that inspire wonder.",
+                "Organic food to fuel the vibe.",
+                "A marketplace with handcrafted products, instruments, and sustainable goods",
+                "Amenities and facilities",
+                "Most importantly, three days with someone who vibes with you and other awesome humans."
+            ],
+            "types": [
+                {
+                    "title": "Early Bird",
+                    "price": "AED 1,800",
+                    "status": "",
+                    "link": ""
+                },
+                {
+                    "title": "Regular",
+                    "price": "AED 2,100",
+                    "status": "strick",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "title": "Mleiha Bracelet",
+            "caption": "Together Pass",
+            "description": "BRING A FRIEND AND DOUBLE THE EXPERIENCE, A festival experience is better shared. This pass gives you and a partner access to three days of music, creativity, and unforgettable moments.",
+            "points": [
+                "All benefits of the general admission pass plus:",
+                "Shurooq Lounge access, including F&B and refreshments",
+                "Reserved parking",
+                "Access to the Mleiha premium seating of the main stage, first come, first serve",
+                "Access to Mleiha Archaeological Centre",
+                "Moon gazing experience"
+            ],
+            "types": [
+                {
+                    "title": "Early Bird",
+                    "price": "AED 2,700",
+                    "status": "",
+                    "link": ""
+                },
+                {
+                    "title": "Regular",
+                    "price": "AED 3,500",
+                    "status": "strick",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "title": "General Admission",
+            "caption": "Group Pass",
+            "description": "FOR 5 PEOPLE, Three days of music, creativity, and endless inspiration.",
+            "points": [
+                "Access to all three days of the festival for five people.",
+                "30+ live performances to fill your day with music, rhythm, and energy.",
+                "Creative expression sessions in calligraphy, illumination, and sacred geometry design.",
+                "Breathwork, Sufi whirling, and handpan workshops.",
+                "Art tours and installations that inspire wonder.",
+                "Organic food to fuel the vibe.",
+                "A marketplace with handcrafted products, instruments, and sustainable goods",
+                "Amenities and facilities",
+                "The best part: three days with an amazing community of like-minded people."
+            ],
+            "types": [
+                {
+                    "title": "Early Bird",
+                    "price": "AED 4,500",
+                    "status": "",
+                    "link": ""
+                },
+                {
+                    "title": "Regular",
+                    "price": "AED 5,100",
+                    "status": "strick",
+                    "link": ""
+                }
+            ]
+        },
+        {
+            "title": "Mleiha Bracelet",
+            "caption": "Group Pass",
+            "description": "FOR 5 PEOPLE, Three days of music, creativity, and endless inspiration.",
+            "points": [
+                "All benefits of the general admission pass plus:",
+                "Shurooq Lounge access, including F&B and refreshments",
+                "Reserved parking",
+                "Access to the Mleiha premium seating of the main stage, first come, first serve",
+                "Access to Mleiha Archaeological Centre",
+                "Moon gazing experience"
+            ],
+            "types": [
+                {
+                    "title": "Early Bird",
+                    "price": "AED 7,500",
+                    "status": "",
+                    "link": ""
+                },
+                {
+                    "title": "Regular",
+                    "price": "AED 8,000",
                     "status": "strick",
                     "link": ""
                 }
@@ -51,7 +184,18 @@
         {
             "title": "General Admission",
             "caption": "day PASS",
-            "description": "One-day access to all areas in the festival and to the General Admission area of the main stage.",
+            "description": "A full day of music, creativity, and all the good vibes you can handle.",
+            "points": [
+                "One-day access to the festival",
+                "Live performances to fill your day with music, rhythm, and energy (specified in the schedule)",
+                "Creative expression sessions in calligraphy, illumination, and sacred geometry design",
+                "Breathwork, Sufi whirling, and handpan workshops",
+                "Art tours and installations that inspire wonder",
+                "Organic food to fuel the vibe",
+                "A marketplace with handcrafted products, instruments, and sustainable goods",
+                "Amenities and facilities",
+                "Most importantly, great like-minded people"
+            ],
             "types": [
                 {
                     "title": "Early Bird",
@@ -60,7 +204,7 @@
                     "link": ""
                 },
                 {
-                    "title": "General Admission",
+                    "title": "Regular",
                     "price": "AED 700",
                     "status": "strick",
                     "link": ""
@@ -68,9 +212,15 @@
             ]
         },
         {
-            "title": "VIP",
+            "title": "Mleiha Bracelet",
             "caption": "day PASS",
-            "description": "One-day access to all areas in the festival, in addition to access to Shurooq VIP lounge, VIP parking and premium VIP seating at the main stage.",
+            "description": "A full day of music, creativity, and all the good vibes you can handle",
+            "points":[
+                "All benefits of the general admission pass plus:",
+                "Shurooq Lounge access, including F&B and refreshments",
+                "Reserved parking",
+                "Access to the Mleiha premium seating of the main stage, first come, first serve"
+            ],
             "types": [
                 {
                     "title": "Early Bird",
@@ -79,7 +229,7 @@
                     "link": ""
                 },
                 {
-                    "title": "General Admission",
+                    "title": "Regular",
                     "price": "AED 1,050",
                     "status": "strick",
                     "link": ""

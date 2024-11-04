@@ -165,7 +165,7 @@
                 "image": "images/StyleAndActivities/Logos/Desert Rose/PNG/Asset 1@4x-8.png",
                 "title": "DESERT ROSE",
                 "description": "",
-                "link": "https://naturehedonist.com/"
+                "link": ""
             },
             {
                 "image": "images/StyleAndActivities/Logos/Khaltat/KHALTAT LOGO.png",
@@ -218,7 +218,7 @@
         ]
     },
     "nourishing_station_section": {
-        "title": "Nourishing Station",
+        "title": "Nourish",
         "description": "Enjoy your dining experience at the Nourish Zone, offering fresh, locally-sourced ingredients and diverse, mindful cuisine options to nourish both body and soul.",
         "stations": [
             {
@@ -270,7 +270,7 @@
                 "link": ""
             },
             {
-                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Al Bareed 1.JPG",
+                "image": "images/StyleAndActivities/Logos/Nourish Vendors/Al Bareed 2.JPG",
                 "title": "Al Bareed Cafe ",
                 "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
                 "link": "bo.discovershurooq.ae"

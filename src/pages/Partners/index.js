@@ -14,7 +14,7 @@ import Thumbay from "../../images/Partners/THUMBAY.png";
 import SEWA from "../../images/Partners/SEWA.png";
 import OrientTravel from "../../images/Partners/OrientTravel.png";
 import MohamedHilal from "../../images/Partners/Mohammad Hilal.png";
-import EmiratesPost from "../../images/Partners/Empost Logo.png";
+import EmiratesPost from "../../images/Partners/7X.png";
 import SharjahMunicipality from "../../images/Partners/Sharjah Municipality.png";
 import SharjahAirport from "../../images/Partners/Sharjah Airport.png";
 import SharjahTourism from "../../images/Partners/SCTDA.png";

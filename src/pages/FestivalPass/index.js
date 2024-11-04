@@ -50,19 +50,34 @@ function FestivalPass() {
           <div className="dark-arrows">
             <Text className="h1">Festival Passes</Text>
           </div>
-          <Row>
-            {pages.pass.festival_passes.map((elm) => (
+          <Row gutter={[0, 30]}>
+            {pages.pass.festival_passes.map((elm, index) => (
               <Col
                 span={isMobile ? 24 : 9}
                 style={{
                   paddingRight: !isMobile && "30px",
-                  paddingBottom: isMobile && "30px",
+                  paddingBottom: isMobile ? "30px" : "0",
+                  marginBottom: index % 3 === 2 && isMobile ? "30px" : "0",
                 }}
               >
                 <div className="pass-wrapper">
                   <Text className="title">{elm.title}</Text>
                   <Text className="caption">{elm.caption}</Text>
-                  <Text className="para des">{elm.description}</Text>
+                  <Text
+                    className="para des"
+                    style={{ paddingBottom: "0 !important" }}
+                  >
+                    {elm.description}
+                  </Text>
+                  {elm.points.length ? (
+                    <ul className="points-wrapper">
+                      {elm.points.map((point, idx) => (
+                        <li className="point" key={idx}>
+                          {point}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : null}
                   <div className="ticket-wrapper">
                     {elm.types.map((item) => (
                       <div className="ticket">
@@ -107,6 +122,15 @@ function FestivalPass() {
                   <Text className="title">{elm.title}</Text>
                   <Text className="caption">{elm.caption}</Text>
                   <Text className="para des">{elm.description}</Text>
+                  {elm.points.length ? (
+                    <ul className="points-wrapper">
+                      {elm.points.map((point, idx) => (
+                        <li className="point" key={idx}>
+                          {point}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : null}
                   <div className="ticket-wrapper">
                     {elm.types.map((item) => (
                       <div className="ticket">
@@ -143,8 +167,8 @@ function FestivalPass() {
             }}
           >
             Explore our <b>Stay & Activities</b> page to enrich your experience
-            at Tanweer Festival, ensuring every moment is infused with
-            meaning and inspiration.
+            at Tanweer Festival, ensuring every moment is infused with meaning
+            and inspiration.
           </Paragraph>
         </div>
       </Content>
