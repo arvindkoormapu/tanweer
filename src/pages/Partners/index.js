@@ -233,7 +233,7 @@ function Partners() {
                 </a>
 
                 <a
-                  href="https://www.sewa.gov.ae/en/"
+                  href="https://www.7x.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -625,7 +625,7 @@ function Partners() {
               </Space>
               <Space size="large">
                 <a
-                  href="https://www.sewa.gov.ae/en/"
+                  href="https://www.7x.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

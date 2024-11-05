@@ -26,7 +26,7 @@ function StyleAndActivities() {
   let swiperInstanceCamp = null;
   let swiperInstanceOffer = null;
   let swiperInstanceMarketplace = null;
-  let swiperInstanceNourishing = null
+  let swiperInstanceNourishing = null;
 
   const onSwiper = (swiper) => {
     swiperInstance = swiper; // Store the Swiper instance
@@ -336,11 +336,13 @@ function StyleAndActivities() {
                       (slide, index) => (
                         <SwiperSlide key={index}>
                           <div
+                            onClick={() => window.open(slide.link, "_blank")}
                             style={{
                               display: "flex",
                               flexDirection: "column",
                               padding: "16px",
                               alignItems: isMobile ? "center" : "flex-start",
+                              cursor: "pointer",
                             }}
                           >
                             <img
@@ -465,11 +467,13 @@ function StyleAndActivities() {
                   (station, index) => (
                     <SwiperSlide key={index}>
                       <Card
+                        onClick={() => window.open(station.link, "_blank")}
                         style={{
                           width: "100%",
                           marginBottom: "16px",
                           background: "none",
                           border: "none",
+                          cursor: "pointer",
                         }}
                         cover={
                           <img
@@ -515,11 +519,13 @@ function StyleAndActivities() {
                   (station, index) => (
                     <Col span={8} key={index}>
                       <Card
+                        onClick={() => window.open(station.link, "_blank")}
                         style={{
                           width: "100%",
                           marginBottom: "16px",
                           background: "none",
                           border: "none",
+                          cursor: "pointer",
                         }}
                         cover={
                           <img
@@ -550,7 +556,6 @@ function StyleAndActivities() {
                               {station.title}
                             </span>
                           }
-                         
                         />
                       </Card>
                     </Col>
