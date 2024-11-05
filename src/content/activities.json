@@ -162,12 +162,6 @@
                 "link": "https://naturehedonist.com/"
             },
             {
-                "image": "images/StyleAndActivities/Logos/Desert Rose/PNG/Asset 1@4x-8.png",
-                "title": "DESERT ROSE",
-                "description": "",
-                "link": ""
-            },
-            {
                 "image": "images/StyleAndActivities/Logos/Khaltat/KHALTAT LOGO.png",
                 "title": "KHALTAT",
                 "description": "",
@@ -243,19 +237,19 @@
                 "image": "images/StyleAndActivities/Logos/Nourish Vendors/Caya 2.jpg",
                 "title": "Caya",
                 "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
-                "link": ""
+                "link": "https://www.instagram.com/cayauae/?hl=en"
             },
             {
                 "image": "images/StyleAndActivities/Logos/Nourish Vendors/Fen 1.jpeg",
                 "title": "Fen",
                 "description": "Explore handcrafted musical instruments inspired by traditional culture and wellbeing.",
-                "link": ""
+                "link": "https://www.instagram.com/fenrestaurant/?hl=en"
             },
             {
                 "image": "images/StyleAndActivities/Logos/Nourish Vendors/Abayomi.jpeg",
                 "title": "Abayomi",
                 "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
-                "link": ""
+                "link": "https://www.instagram.com/abayomi_uae/?hl=en"
             },
             {
                 "image": "images/StyleAndActivities/Logos/Nourish Vendors/Boost.jpg",
@@ -267,7 +261,7 @@
                 "image": "images/StyleAndActivities/Logos/Nourish Vendors/Mavia 1.png",
                 "title": "Mavia",
                 "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
-                "link": ""
+                "link": "https://www.instagram.com/mavia_alfaya/"
             },
             {
                 "image": "images/StyleAndActivities/Logos/Nourish Vendors/Al Bareed 2.JPG",
@@ -291,7 +285,7 @@
                 "image": "images/StyleAndActivities/Logos/Nourish Vendors/Moqadalshay.JPEG",
                 "title": "Moqadalshay",
                 "description": "Discover elegantly crafted garments made from natural materials, using Turkish traditional handmade dyeing techniques.",
-                "link": ""
+                "link": "https://www.instagram.com/moqadalshay/"
             }
               
         ]
