@@ -300,6 +300,7 @@ function StyleAndActivities() {
                   alignItems: "center",
                   width: "100%",
                   padding: "73px 0px",
+                  height: "100%"
                 }}
               >
                 <div
@@ -354,11 +355,11 @@ function StyleAndActivities() {
                                 objectFit: "contain",
                                 objectPosition: isMobile ? "center" : "left",
                                 paddingBottom: "20px",
-                                borderBottom: "2px solid #731D14",
+                                // borderBottom: "2px solid #731D14",
                               }}
                               className="mb-4"
                             />
-                            <Text
+                            {/* <Text
                               style={{
                                 fontFamily: "Roboto",
                                 fontSize: "24px",
@@ -370,7 +371,7 @@ function StyleAndActivities() {
                               }}
                             >
                               {slide.title}
-                            </Text>
+                            </Text> */}
                           </div>
                         </SwiperSlide>
                       )
