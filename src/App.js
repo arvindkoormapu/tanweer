@@ -68,7 +68,7 @@ const App = () => {
         />
 
         <Route
-          path="/stayandactivities"
+          path="/experiences"
           element={
             <MainLayout>
               <StyleAndActivities />
