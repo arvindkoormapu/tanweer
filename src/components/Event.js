@@ -4,11 +4,13 @@ import ArrowLeft from "../images/StyleAndActivities/arrowLDark.webp";
 import ArrowRight from "../images/StyleAndActivities/arrowRDark.webp";
 import ButtonComponent from "../components/Button";
 import { useNavigate } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 
 const { Text, Title } = Typography;
 
 const EventSlider = ({ events }) => {
   const navigate = useNavigate();
+  const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -40,11 +42,11 @@ const EventSlider = ({ events }) => {
     <div
       style={{
         background: "#EFBB6B",
-        height: "578px",
+        height: isMobile ? "100%" : "578px",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: "0px",
+        padding: isMobile ? "60px 0px" : "0px",
         position: "relative", // For positioning the arrows
       }}
     >
@@ -98,7 +100,7 @@ const EventSlider = ({ events }) => {
           borderRadius: "20px",
           width: "90%",
           margin: "0 auto",
-          height: "453px",
+          height: isMobile ? "100%" : "453px",
           overflow: "hidden", // Ensures children don't overflow
         }}
       >
@@ -135,7 +137,7 @@ const EventSlider = ({ events }) => {
                 style={{
                   color: "#731D14",
                   fontFamily: "TAN-AESOP",
-                  fontSize: "1.8rem",
+                  fontSize: "1.3rem",
                   fontWeight: "400",
                   lineHeight: "2.5rem",
                   textAlign: "left",
@@ -166,24 +168,23 @@ const EventSlider = ({ events }) => {
                   color: "#731D14",
                   display: "block",
                   fontFamily: "Roboto",
-                  fontSize: "1.2rem",
+                  fontSize: "1rem",
                   fontWeight: "400",
-                  lineHeight: "29.77px",
-                //   paddingTop: "29px",
+                  //   paddingTop: "29px",
                   paddingBottom: "27px",
                 }}
               >
                 {currentEvent.body}
               </Text>
               <div className="button-component-wrapper2">
-                    <ButtonComponent
-                      style={{ cursor: "pointer" }}
-                      bgColor="#731D14"
-                      textColor="#FFF5D9"
-                      clickAction={() => redirect(`/event/${currentEvent.id}`)}
-                      text="Learn more"
-                    />
-                  </div>
+                <ButtonComponent
+                  style={{ cursor: "pointer" }}
+                  bgColor="#731D14"
+                  textColor="#FFF5D9"
+                  clickAction={() => redirect(`/event/${currentEvent.id}`)}
+                  text="Learn more"
+                />
+              </div>
             </Card>
           </Col>
           {/* Image Content */}
@@ -202,7 +203,7 @@ const EventSlider = ({ events }) => {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover", // Ensures the image fills the container proportionally
-                  borderRadius: "12px",
+                  borderRadius: "20px",
                 }}
               />
             </div>
