@@ -56,19 +56,44 @@ function Event() {
             {/* Text Content */}
             <Col xs={24} md={12}>
               <div style={{ padding: "10px" }}>
-                {pages.home.events[id].detailedBody.map((paragraph, index) => (
-                  <Text
-                    key={index}
-                    style={{
-                      display: "block",
-                      marginBottom: "10px",
-                      lineHeight: "1.8",
-                      color: "#731D14",
-                    }}
-                  >
-                    {paragraph}
-                  </Text>
-                ))}
+                {pages.home.events[id].detailedBody.map((item, index) =>
+                  typeof item === "string" ? (
+                    <Text
+                      key={index}
+                      style={{
+                        display: "block",
+                        marginBottom: "10px",
+                        lineHeight: "1.8",
+                        color: "#731D14",
+                      }}
+                    >
+                      {item}
+                    </Text>
+                  ) : (
+                    <Text
+                      key={index}
+                      style={{
+                        display: "block",
+                        marginBottom: "10px",
+                        lineHeight: "1.8",
+                        color: "#731D14",
+                      }}
+                    >
+                      {item.text}{" "}
+                      <a
+                        href={`https://${item.link}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          color: "#731D14",
+                          textDecoration: "underline",
+                        }}
+                      >
+                        {item.link}
+                      </a>
+                    </Text>
+                  )
+                )}
               </div>
             </Col>
             <Col xs={24} md={12} style={{ padding: "0px", height: "100%" }}>
