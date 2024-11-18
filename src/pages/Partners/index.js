@@ -35,7 +35,7 @@ import MalihaMunicipality from "../../images/Partners/Maliha-Municipality.png";
 import SharjahBroadcastingAuthority from "../../images/Partners/Sharjah-Broadcasting-Authority.png"
 import Mishmashi from "../../images/Partners/Maison-Mishmashi.png"
 import BARJEEL from "../../images/Partners/BARJEEL.png"
-
+import Zulal from "../../images/Partners/Zulal.png"
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Partners.css";
@@ -52,7 +52,7 @@ function Partners() {
       <div
         className="floating-button"
         onClick={() =>
-          window.open("https://tickets.tanweerfestival.com/", "_blank")
+          window.open("https://experience.tanweerfestival.com/", "_blank")
         }
       >
         get passes NOW
@@ -101,7 +101,7 @@ function Partners() {
               <Text className="logo-title">Terra</Text>
               <Space size="large" style={{ padding: "10px 0px" }}>
                 <a
-                  href="https://arada.com/en/saro/?utm_source=Search_Google&utm_medium=cpc&utm_campaign=launcing_saro_masaar_phase_7&utm_content=UAE&utm_term=English&keyword__c=arada&network=g&campaignid=16972102965&adgroupid=141499173091&_device=c&gad_source=1&gbraid=0AAAAADAvvXkRgn31L2W9c-lknVBswkdOG&gclid=Cj0KCQjwrp-3BhDgARIsAEWJ6Sw8y_LqZj14rXHHZL6C76phMiD7roqhD7ydZyAaYYD5KO0DaFmYy7kaAnF_EALw_wcB"
+                  href="https://arada.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -131,6 +131,13 @@ function Partners() {
                   rel="noopener noreferrer"
                 >
                   <img src={Tiger} alt="icon" style={{ height: "150px" }} />
+                </a>
+                <a
+                  href="https://www.du.ae/personal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={DU} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
@@ -163,14 +170,6 @@ function Partners() {
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
                 <a
-                  href="https://www.du.ae/personal"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={DU} alt="icon" style={{ height: "150px" }} />
-                </a>
-
-                <a
                   href="https://portal.shjmun.gov.ae/en/Pages/Home.aspx"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -195,7 +194,7 @@ function Partners() {
               </Space>
               <Space size="large" style={{ padding: "10px 0px" }}>
                 <a
-                  href="https://lp.srtip.ae/start-your-business/"
+                  href="https://srtip.ae"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -208,13 +207,7 @@ function Partners() {
                 >
                   <img src={Masdar} alt="icon" style={{ height: "150px" }} />
                 </a>
-                <a
-                  href="https://mishmashi.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={Mishmashi} alt="icon" style={{ height: "150px" }} />
-                </a>
+                
               </Space>
             </div>
             <div className="tire">
@@ -386,7 +379,7 @@ function Partners() {
                 </a>
 
                 <a
-                  href="https://maraya.sba.net.ae/"
+                  href="https://www.sba.net.ae/about"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -396,8 +389,27 @@ function Partners() {
                     style={{ height: "150px" }}
                   />
                 </a>
-                
+                <a
+                  href="https://mishmashi.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Mishmashi} alt="icon" style={{ height: "150px" }} />
+                </a>
               </Space>
+              <Space size="large" style={{ padding: "10px 0px" }}>
+                <a
+                  href="https://www.zulal.ae/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={Zulal}
+                    alt="icon"
+                    style={{ height: "150px" }}
+                  />
+                </a>
+                </Space>
             </div>
             <div className="tire">
               <Text className="logo-title">Airline partner</Text>
@@ -487,7 +499,7 @@ function Partners() {
               <Text className="logo-title">Terra</Text>
               <Space size="large">
                 <a
-                  href="https://arada.com/en/saro/?utm_source=Search_Google&utm_medium=cpc&utm_campaign=launcing_saro_masaar_phase_7&utm_content=UAE&utm_term=English&keyword__c=arada&network=g&campaignid=16972102965&adgroupid=141499173091&_device=c&gad_source=1&gbraid=0AAAAADAvvXkRgn31L2W9c-lknVBswkdOG&gclid=Cj0KCQjwrp-3BhDgARIsAEWJ6Sw8y_LqZj14rXHHZL6C76phMiD7roqhD7ydZyAaYYD5KO0DaFmYy7kaAnF_EALw_wcB"
+                  href="https://arada.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -513,6 +525,15 @@ function Partners() {
                   rel="noopener noreferrer"
                 >
                   <img src={Tiger} alt="icon" style={{ height: "150px" }} />
+                </a>
+              </Space>
+              <Space size="large">
+                <a
+                  href="https://www.du.ae/personal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={DU} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
             </div>
@@ -545,15 +566,7 @@ function Partners() {
                   <img src={Beeah} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large">
-                <a
-                  href="https://www.du.ae/personal"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={DU} alt="icon" style={{ height: "150px" }} />
-                </a>
-              </Space>
+              
               <Space size="large">
                 <a
                   href="https://portal.shjmun.gov.ae/en/Pages/Home.aspx"
@@ -582,7 +595,7 @@ function Partners() {
               </Space>
               <Space size="large">
                 <a
-                  href="https://lp.srtip.ae/start-your-business/"
+                  href="https://srtip.ae"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -598,15 +611,7 @@ function Partners() {
                   <img src={Masdar} alt="icon" style={{ height: "150px" }} />
                 </a>
               </Space>
-              <Space size="large">
-                <a
-                  href="https://mishmashi.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={Mishmashi} alt="icon" style={{ height: "150px" }} />
-                </a>
-              </Space>
+              
             </div>
             <div className="tire">
               <Text className="logo-title">AER</Text>
@@ -789,7 +794,7 @@ function Partners() {
               </Space>
               <Space size="large">
                 <a
-                  href="https://maraya.sba.net.ae"
+                  href="https://www.sba.net.ae/about"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -800,7 +805,24 @@ function Partners() {
                   />
                 </a>
               </Space>
-              
+              <Space size="large">
+                <a
+                  href="https://mishmashi.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Mishmashi} alt="icon" style={{ height: "150px" }} />
+                </a>
+              </Space>
+              <Space size="large">
+                <a
+                  href="https://www.zulal.ae/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Zulal} alt="icon" style={{ height: "150px" }} />
+                </a>
+              </Space>
             </div>
 
             <div className="tire">

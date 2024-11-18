@@ -1,4 +1,4 @@
-import React, {useRef, useState} from "react";
+import React, { useRef, useState } from "react";
 import { Row, Col, Typography, Input, Button, Space, message } from "antd";
 import { useMediaQuery } from "react-responsive";
 import FooterLogo from "../../images/Tanweer_footer_Logo.png";
@@ -29,8 +29,13 @@ const Footer = () => {
   };
 
   const redirect = (link) => {
-    navigate(link, { replace: true });
-    scrollToTop();
+    if (link === "/festival_passes") {
+      window.location.href = "https://experience.tanweerfestival.com";
+      scrollToTop();
+    } else {
+      navigate(link, { replace: true });
+      scrollToTop();
+    }
   };
 
   const handleEmailChange = (e) => {
@@ -46,7 +51,7 @@ const Footer = () => {
     e.preventDefault();
     setLoading(true);
     if (inputRef.current) {
-      inputRef.current.blur(); 
+      inputRef.current.blur();
     }
     try {
       if (!validateEmail(email)) {
@@ -58,7 +63,7 @@ const Footer = () => {
         return;
       }
       const response = await axios.post(
-        "https://connect.mailerlite.com/api/subscribers", 
+        "https://connect.mailerlite.com/api/subscribers",
         {
           email: email,
           groups: ["131728999121421845"],
@@ -94,7 +99,6 @@ const Footer = () => {
       });
     }
   };
-
 
   return (
     <div className="footer">
@@ -139,7 +143,7 @@ const Footer = () => {
             <div style={{ display: "flex", flexDirection: "column" }}>
               <Text className="first-text">Be the first to know</Text>
               <Text className="subscribe-text">
-              Subscribe TO RECEIVE OUR LATEST NEWS
+                Subscribe TO RECEIVE OUR LATEST NEWS
               </Text>
             </div>
             {!isMobile && (
@@ -208,8 +212,8 @@ const Footer = () => {
           <>
             <Col span={24} className="bottom-section">
               <div className="container">
-              <Input
-                  ref={inputRef} 
+                <Input
+                  ref={inputRef}
                   className="custom-input"
                   placeholder="Email Address"
                   value={email}
@@ -219,7 +223,7 @@ const Footer = () => {
                   className="custom-button"
                   type="primary"
                   onClick={(e) => handleSubscribe(e)}
-                  style={{ marginLeft: "10px" }} 
+                  style={{ marginLeft: "10px" }}
                   loading={loading}
                 >
                   Subscribe

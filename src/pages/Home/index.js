@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Layout, Space, Typography, Row, Col, Input, Button } from "antd";
+import { Layout, Space, Typography, Row, Col, Input, Button, Card } from "antd";
 import { useMediaQuery } from "react-responsive";
 import LandingPageImage from "../../images/Home/landing_page_image.webp";
 import LandingPageImageMobile from "../../images/Home/landing_page_image_mobile.webp";
@@ -14,13 +14,13 @@ import Image20 from "../../images/Home/Image20.webp";
 import Rumi from "../../images/Home/rumi.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useNavigate } from "react-router-dom";
-
+import Event from "../../components/Event"
 import "swiper/css"; // Import core Swiper styles
 import "swiper/css/navigation";
 import "./home.css";
 
 const { Content } = Layout;
-const { Text, Paragraph } = Typography;
+const { Text, Paragraph, Title } = Typography;
 
 const Home = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
@@ -128,23 +128,30 @@ const Home = () => {
           </div>
         </div>
 
+        <Event events={pages.home.events}/>
+
         {/* <div
           className="landing-rummy-container"
           style={{
-            display: "flex",
             width: "100%",
-            flexDirection: isMobile ? "column" : "row",
+            background: "#EFBB6B",
+            height: "578px",
           }}
         >
-          <div className="rummy-block" style={{ flex: 1 }}>
-            add
-          </div>
-          <div className="rummy-block" style={{ flex: 1 }}>
-            <img
-              src={Rumi} // Replace with your image source
-              alt="icon"
-              style={{ width: "100%" }}
-            />
+          <div
+            style={{
+              background: "#FFF5D9",
+              borderRadius: "20px",
+              display: "flex",
+              flexDirection: isMobile ? "column" : "row",
+            }}
+          >
+            <div className="rummy-block" style={{ flex: 1 }}>
+              add
+            </div>
+            <div className="rummy-block" style={{ flex: 1 }}>
+              <img src={Rumi} alt="icon" style={{ width: "100%" }} />
+            </div>
           </div>
         </div> */}
 
@@ -162,7 +169,7 @@ const Home = () => {
           <div
             className="floating-button"
             onClick={() =>
-              window.open("https://tickets.tanweerfestival.com/", "_blank")
+              window.open("https://experience.tanweerfestival.com/", "_blank")
             }
           >
             get passes NOW

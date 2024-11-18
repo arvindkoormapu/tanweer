@@ -17,7 +17,8 @@ import Partners from "./pages/Partners";
 import Images from "./pages/artistImageDisplay";
 import HomePage from "./pages/HomePage";
 import FestivalPassCountdown from "./pages/festivalPassCountdown";
-import useGtm from './hooks/useGtm';
+import useGtm from "./hooks/useGtm";
+import Event from "./pages/Event/event";
 
 import "./App.css";
 
@@ -76,14 +77,14 @@ const App = () => {
           }
         />
 
-        <Route
+        {/* <Route
           path="/festival_passes"
           element={
             <MainLayout>
               <FestivalPass />
             </MainLayout>
           }
-        />
+        /> */}
 
         <Route
           path="/contact"
@@ -129,14 +130,22 @@ const App = () => {
             </SimpleLayout>
           }
         />
-        
+
+        <Route
+          path="/event/:id"
+          element={
+            <MainLayout>
+              <Event />
+            </MainLayout>
+          }
+        />
       </Routes>
     </Router>
   );
 };
 
 const PageTracker = () => {
-  useGtm(); 
+  useGtm();
   return null;
 };
 

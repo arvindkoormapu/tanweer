@@ -12,6 +12,17 @@ const FullPageDrawer = ({ isVisible, onClose }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
+
+  const redirect = (link) => {
+    if (link === "/festival_passes") {
+      window.location.href = "https://experience.tanweerfestival.com";
+      onClose();
+    } else {
+      navigate(link);
+      onClose();
+    }
+  };
+
   return (
     <div>
       <Drawer
@@ -35,10 +46,7 @@ const FullPageDrawer = ({ isVisible, onClose }) => {
                 className={`links ${
                   location.pathname === elm.link ? "active-menu" : ""
                 }`}
-                onClick={() => {
-                  navigate(elm.link);
-                  onClose();
-                }}
+                onClick={() => redirect(elm.link)} 
               >
                 {elm.title}
               </Text>
