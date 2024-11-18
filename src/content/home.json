@@ -70,7 +70,7 @@
     },
     "events": [
         {
-            "id": 0,
+            "id": "Rumi",
             "title": "Rumi: 750 Years of Absence...Eight Centuries of Presence",
             "date": "18 November 2024 – 14 February 2025",
             "body": "Step into the mystical world of Jalal Al Din Al Rumi where we honour one of history's greatest mystics and poets.",
@@ -79,15 +79,11 @@
             "detailedBody": [
                 "Welcome to Rumi: 750 Years of Absence... Eight Centuries of Presence, an exhibition that invites you to step into the soul of one of history's most revered poets and mystics. Here, amidst rare manuscripts and exquisite artefacts, we embark on a journey through Rumi's transformative years, exploring the rich tapestry of love, enlightenment, and the universal truths that bind us all.",
                 "Running for three months, this exhibition will guide you through the three pivotal phases of Rumi's life that shaped him: his formative years, his period of deep enlightenment, and the enduring legacy he left behind. At the heart of this exhibition lies a treasure trove of rare miniatures, books, and artefacts that aim to paint a vivid picture of Rumi’s life and his era.",
-                "Join us in this immersive experience, where the spirit of Rumi's teachings comes alive, inviting you to reflect on the profound wisdom that continues to inspire seekers of truth and beauty across the globe.",
-                {
-                    "text": "For more information, visit:",
-                    "link": "www.houseofwisdom.ae/rumi"
-                }
+                "Join us in this immersive experience, where the spirit of Rumi's teachings comes alive, inviting you to reflect on the profound wisdom that continues to inspire seekers of truth and beauty across the globe."
             ]
         },
         {
-            "id": 1,
+            "id": "Art",
             "title": "Prototypes for Permanence. Tanweer Festival Art Commissions Off–Site",
             "date": "20 November, 2024 – 3 April, 2025 ",
             "body": "This exhibition showcases the process of creation of Tanweer Festival Art Commissions – from the very first sketch to the final prototype before an artwork is fabricated.",

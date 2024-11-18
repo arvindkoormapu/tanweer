@@ -12,6 +12,8 @@ function Event() {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   const { id } = useParams();
 
+  const event = pages.home.events.find((e) => e.id === id);
+
   return (
     <Layout className="activity">
       <Content>
@@ -26,13 +28,13 @@ function Event() {
         <div className="top_banner">
           <div className="image-container">
             <img
-              src={require(`../../${pages.home.events[id].banner}`)}
+              src={require(`../../${event.banner}`)}
               alt="icon"
             />
           </div>
           <div className="content">
-            <Text className="title">{pages.home.events[id].title}</Text>
-            <Text className="description">{pages.home.events[id].date}</Text>
+            <Text className="title">{event.title}</Text>
+            <Text className="description">{event.date}</Text>
           </div>
         </div>
 
@@ -56,7 +58,7 @@ function Event() {
             {/* Text Content */}
             <Col xs={24} md={12}>
               <div style={{ padding: "10px" }}>
-                {pages.home.events[id].detailedBody.map((item, index) =>
+                {event.detailedBody.map((item, index) =>
                   typeof item === "string" ? (
                     <Text
                       key={index}
@@ -105,7 +107,7 @@ function Event() {
                 }}
               >
                 <img
-                  src={require(`../../${pages.home.events[id].image}`)}
+                  src={require(`../../${event.image}`)}
                   style={{
                     width: "100%",
                     height: "100%",
