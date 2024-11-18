@@ -51,7 +51,7 @@ const EventSlider = ({ events }) => {
       }}
     >
       {/* Arrows */}
-      <div
+      {/* <div
         style={{
           position: "absolute",
           top: "15px",
@@ -92,7 +92,7 @@ const EventSlider = ({ events }) => {
             style={{ height: "18px", cursor: "pointer" }}
           />
         </div>
-      </div>
+      </div> */}
 
       <div
         style={{
