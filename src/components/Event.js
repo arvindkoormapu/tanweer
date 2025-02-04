@@ -130,7 +130,7 @@ const EventSlider = ({ events }) => {
                   textAlign: "left",
                 }}
               >
-                THE YEAR OF RUMI EVENTS
+                {/* THE YEAR OF RUMI EVENTS */}
               </Text>
               <Title
                 level={1}
@@ -176,7 +176,7 @@ const EventSlider = ({ events }) => {
               >
                 {currentEvent.body}
               </Text>
-              <div className="button-component-wrapper2">
+              {/* <div className="button-component-wrapper2">
                 <ButtonComponent
                   style={{ cursor: "pointer" }}
                   bgColor="#731D14"
@@ -184,7 +184,7 @@ const EventSlider = ({ events }) => {
                   clickAction={() => redirect(`/event/${currentEvent.id}`)}
                   text="Learn more"
                 />
-              </div>
+              </div> */}
             </Card>
           </Col>
           {/* Image Content */}

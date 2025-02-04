@@ -25,7 +25,7 @@ import "./App.css";
 const App = () => {
   return (
     <Router>
-      <PageTracker />
+      {/* <PageTracker /> */}
       <Routes>
         <Route
           path="/"
@@ -35,7 +35,7 @@ const App = () => {
             </MainLayout>
           }
         />
-        <Route
+        {/* <Route
           path="/home"
           element={
             <MainLayout>
@@ -75,7 +75,7 @@ const App = () => {
               <StyleAndActivities />
             </MainLayout>
           }
-        />
+        /> */}
 
         {/* <Route
           path="/festival_passes"
@@ -86,7 +86,7 @@ const App = () => {
           }
         /> */}
 
-        <Route
+        {/* <Route
           path="/contact"
           element={
             <MainLayout>
@@ -138,7 +138,7 @@ const App = () => {
               <Event />
             </MainLayout>
           }
-        />
+        /> */}
       </Routes>
     </Router>
   );

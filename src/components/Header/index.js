@@ -34,7 +34,7 @@ const Header = ({ onMenuClick }) => {
 
   return (
     <Row style={{ flexDirection: "column" }}>
-      <Col className="top-header">
+      {/* <Col className="top-header">
         <Space className="space">
           <img src={PatternIcon} alt="icon" className="pattern" />
           <Text className="text">{pages.header.top_section.text}</Text>
@@ -50,7 +50,7 @@ const Header = ({ onMenuClick }) => {
             </>
           )}
         </Space>
-      </Col>
+      </Col> */}
       <Col className="logo-section">
         <Row justify="space-between" align="middle" className="header-wrapper">
           <Col>
@@ -64,15 +64,15 @@ const Header = ({ onMenuClick }) => {
             </div>
           </Col>
           <Col>
-            {isMobile ? (
+            {/* {isMobile ? (
               <img
                 src={HamburguerMenu}
                 alt="Header Logo"
                 style={{ width: "30px", height: "18px" }}
                 onClick={onMenuClick}
               />
-            ) : (
-              <Space className="menu-links-header">
+            ) : ( */}
+              {/* <Space className="menu-links-header">
                 {pages.header.links.map((elm, i) => (
                   <div
                     className={`menu-item ${
@@ -107,8 +107,8 @@ const Header = ({ onMenuClick }) => {
                       )}
                   </div>
                 ))}
-              </Space>
-            )}
+              </Space> */}
+            {/* )} */}
           </Col>
         </Row>
       </Col>

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Layout, Space, Typography, Row, Col, Input, Button, Card } from "antd";
 import { useMediaQuery } from "react-responsive";
-import LandingPageImage from "../../images/Home/landing_page_image.webp";
+import LandingPageImage from "../../images/PopUp_1920x1080px.jpg";
 import LandingPageImageMobile from "../../images/Home/landing_page_image_mobile.webp";
 import PatternIcon from "../../images/Pattern_Icon.png";
 import Path from "../../images/Path 356.png";
-import LandingFirst from "../../images/Home/landing-first.png";
+import LandingFirst from "../../images/Circular.png";
 import CloseButton from "../../images/Close Button.png";
 import { useData } from "../../hooks/useData";
 import Program from "./Program";
@@ -51,7 +51,7 @@ const Home = () => {
         <div className="landing-banner">
           <div className="image-container">
             <img
-              src={isMobile ? LandingPageImageMobile : LandingPageImage}
+              src={LandingPageImage}
               alt="icon"
               className="image"
             />
@@ -59,12 +59,12 @@ const Home = () => {
           <div className="content">
             {!subscribePopup ? (
               <>
-                <Text
+                {/* <Text
                   className="title"
                   style={{ marginTop: isMobile ? "100px" : "0px" }}
                 >
                   {pages.home.landing.title}
-                </Text>
+                </Text> */}
                 {/* <div className="button-component-wrapper">
                   <ButtonComponent
                     bgColor="#A2441B"
@@ -120,11 +120,12 @@ const Home = () => {
             )}
             <Text
               className="date"
-              style={{ marginTop: isMobile ? "90px" : "0px" }}
+              style={{ marginTop: isMobile ? "90px" : "0px", width: "70%" }}
             >
               {pages.home.landing.date}
             </Text>
-            <Text className="caption">{pages.home.landing.location}</Text>
+            <Text className="caption" style={{width: '50%'}}>- Rumi</Text>
+            <Text className="caption" style={{width: '50%'}}>{pages.home.landing.location}</Text>
           </div>
         </div>
 
@@ -166,14 +167,14 @@ const Home = () => {
         </div>
 
         <div className="landing-content">
-          <div
+          {/* <div
             className="floating-button"
             onClick={() =>
               window.open("https://experience.tanweerfestival.com/", "_blank")
             }
           >
             get passes NOW
-          </div>
+          </div> */}
           <Row align="middle" justify="center" style={{ width: "90%" }}>
             <Col span={isMobile ? 24 : 12}>
               <img src={LandingFirst} alt="icon" className="image" />
@@ -199,11 +200,11 @@ const Home = () => {
           </Row>
         </div>
 
-        <div className="main-layout program-section">
+        {/* <div className="main-layout program-section">
           <Program />
-        </div>
+        </div> */}
 
-        <div className="activities-section">
+        {/* <div className="activities-section">
           <div className="top-header">
             <Space className="space">
               <img src={PatternIcon} alt="icon" className="pattern" />
@@ -286,7 +287,7 @@ const Home = () => {
               </Col>
             </Row>
           </div>
-        </div>
+        </div> */}
       </Content>
     </Layout>
   );
