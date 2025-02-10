@@ -17,10 +17,10 @@ const App = () => {
           element={
             <MainLayout>
               <Home />
+        <a href="/2024/#/">View 2024 Archive</a>
             </MainLayout>
           }
         />
-        <Route path="/2024/*" element={<Archive2024 />} />
       </Routes>
     </Router>
   );
@@ -30,10 +30,5 @@ const PageTracker = () => {
   useGtm();
   return null;
 };
-
-function Archive2024() {
-  window.location.href = "/2024/index.html"; // Redirect to the archived site
-  return null;
-}
 
 export default App;
