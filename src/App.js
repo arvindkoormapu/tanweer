@@ -24,7 +24,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/2024">
       <PageTracker />
       <Routes>
         <Route
