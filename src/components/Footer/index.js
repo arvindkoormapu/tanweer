@@ -133,7 +133,7 @@ const Footer = () => {
             </Col>
             {!isMobile && (
               <Col className="footer-text-year">
-                <Text className="footer-year">© 2024 Tanweer Festival</Text>
+                <Text className="footer-year">© 2025 Tanweer Festival</Text>
               </Col>
             )}
           </Row>
@@ -168,7 +168,7 @@ const Footer = () => {
               </div>
             )}
           </Space>
-          {/* {!isMobile && (
+          {!isMobile && (
             <Space
               size="large"
               style={{
@@ -178,34 +178,29 @@ const Footer = () => {
                 justifyContent: "space-between",
               }}
             >
-              {pages.footer.footer_menu_header.map((elm, i) => (
                 <div>
                   <div style={{ height: "50px" }}>
-                    {elm.title.split("\n").map((line, index) => (
-                      <React.Fragment key={index}>
-                        <Text className="footer-links-header">{line}</Text>
+                      <React.Fragment>
+                        <Text className="footer-links-header">Archive</Text>
                         <br />
                       </React.Fragment>
-                    ))}
                   </div>
                   <Space
                     direction="vertical"
                     size="small"
                     style={{ rowGap: "0px" }}
                   >
-                    {elm.section.map((item) => (
+                    
                       <Text
                         className="footer-links-sections"
-                        onClick={() => redirect(item.link)}
+                        onClick={() => redirect("/2024")}
                       >
-                        {item.title}
+                        2024
                       </Text>
-                    ))}
                   </Space>
                 </div>
-              ))}
             </Space>
-          )} */}
+          )}
         </Col>
 
         {isMobile && (
@@ -241,8 +236,8 @@ const Footer = () => {
                   </Text>
                 ))}
               </Space> */}
-
-              <Text className="footer-year">© 2024 Tanweer Festival</Text>
+<a href="/2024">View 2024 Archive</a>
+              <Text className="footer-year">© 2025 Tanweer Festival</Text>
             </Col>
           </>
         )}
