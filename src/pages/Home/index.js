@@ -124,7 +124,7 @@ const Home = () => {
             >
               {pages.home.landing.date}
             </Text>
-            <Text className="caption" style={{width: '50%'}}>- Rumi</Text>
+            <Text className="caption" style={{width: '50%', paddingBottom: 20}}>- Rumi</Text>
             <Text className="caption" style={{width: '50%'}}>{pages.home.landing.location}</Text>
           </div>
         </div>
@@ -194,7 +194,9 @@ const Home = () => {
                 {pages.home.introduction.paragraph_one}
               </Paragraph>
               <Paragraph className="paragraph">
-                {pages.home.introduction.paragraph_two}
+                <div
+            dangerouslySetInnerHTML={{ __html: pages.home.introduction.paragraph_two }}
+          />
               </Paragraph>
             </Col>
           </Row>

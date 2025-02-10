@@ -236,7 +236,7 @@ const Footer = () => {
                   </Text>
                 ))}
               </Space> */}
-<a href="/2024">View 2024 Archive</a>
+{/* <a href="/2024">View 2024 Archive</a> */}
               <Text className="footer-year">© 2025 Tanweer Festival</Text>
             </Col>
           </>
