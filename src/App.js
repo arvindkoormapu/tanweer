@@ -20,7 +20,7 @@ const App = () => {
             </MainLayout>
           }
         />
-        <Route path="/2040/*" element={<Archive2040 />} />
+        <Route path="/2024/*" element={<Archive2024 />} />
       </Routes>
     </Router>
   );
@@ -31,7 +31,7 @@ const PageTracker = () => {
   return null;
 };
 
-function Archive2040() {
+function Archive2024() {
   window.location.href = "/2024/index.html"; // Redirect to the archived site
   return null;
 }
