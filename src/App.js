@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Loading from "./pages/loading";
 import Landing from "./pages/Landing";
 
@@ -24,7 +24,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Router basename="/2024">
+    <Router>
       <PageTracker />
       <Routes>
         <Route
