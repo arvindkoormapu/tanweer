@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Row, Col, Card, Typography } from "antd";
-import ArrowLeft from "../images/StyleAndActivities/arrowLDark.webp";
-import ArrowRight from "../images/StyleAndActivities/arrowRDark.webp";
 import ButtonComponent from "../components/Button";
 import { useNavigate } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
