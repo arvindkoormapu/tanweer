@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/2024/static/css/main.e931c67e.css",
-    "main.js": "/2024/static/js/main.16b33ebe.js",
+    "main.js": "/2024/static/js/main.ef327c66.js",
     "static/js/453.f9d837a0.chunk.js": "/2024/static/js/453.f9d837a0.chunk.js",
     "static/media/Tibetan Healing Sounds.mp3": "/2024/static/media/Tibetan Healing Sounds.fb556883a3fdcc2ac84d.mp3",
     "static/media/Moqadalshay.JPEG": "/2024/static/media/Moqadalshay.ec927d3f92018032c8f0.JPEG",
@@ -250,11 +250,11 @@
     "static/media/arrowRlight.webp": "/2024/static/media/arrowRlight.c6f898c4b81275fc474d.webp",
     "static/media/arrowlLight.webp": "/2024/static/media/arrowlLight.f703eef9097b0cd9ec8a.webp",
     "main.e931c67e.css.map": "/2024/static/css/main.e931c67e.css.map",
-    "main.16b33ebe.js.map": "/2024/static/js/main.16b33ebe.js.map",
+    "main.ef327c66.js.map": "/2024/static/js/main.ef327c66.js.map",
     "453.f9d837a0.chunk.js.map": "/2024/static/js/453.f9d837a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e931c67e.css",
-    "static/js/main.16b33ebe.js"
+    "static/js/main.ef327c66.js"
   ]
 }
