@@ -4,8 +4,6 @@ import { useMediaQuery } from "react-responsive";
 import FooterLogo from "../../images/Tanweer_footer_Logo.png";
 import XLogo from "../../images/X Logo.png";
 import IGLogo from "../../images/IG Logo.png";
-import { useData } from "../../hooks/useData";
-import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 import "./footer.css";
@@ -14,8 +12,6 @@ const { Text } = Typography;
 const Footer = () => {
   const inputRef = useRef(null);
 
-  const { pages } = useData();
-  const navigate = useNavigate();
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
   const [email, setEmail] = useState("");
   const [messageApi, contextHolder] = message.useMessage();
@@ -29,13 +25,8 @@ const Footer = () => {
   };
 
   const redirect = (link) => {
-    if (link === "/festival_passes") {
-      window.location.href = "https://experience.tanweerfestival.com";
-      scrollToTop();
-    } else {
-      navigate(link, { replace: true });
-      scrollToTop();
-    }
+    window.location.href = "https://tanweerfestival.com/2024";
+    scrollToTop();
   };
 
   const handleEmailChange = (e) => {
@@ -168,7 +159,7 @@ const Footer = () => {
               </div>
             )}
           </Space>
-          {/* {!isMobile && (
+          {!isMobile && (
             <Space
               size="large"
               style={{
@@ -178,29 +169,29 @@ const Footer = () => {
                 justifyContent: "space-between",
               }}
             >
-                <div>
-                  <div style={{ height: "50px" }}>
-                      <React.Fragment>
-                        <Text className="footer-links-header">Archive</Text>
-                        <br />
-                      </React.Fragment>
-                  </div>
-                  <Space
-                    direction="vertical"
-                    size="small"
-                    style={{ rowGap: "0px" }}
-                  >
-                    
-                      <Text
-                        className="footer-links-sections"
-                        onClick={() => redirect("/2024")}
-                      >
-                        2024
-                      </Text>
-                  </Space>
+              <div>
+                <div style={{ height: "50px" }}>
+                  <React.Fragment>
+                    <Text className="footer-links-header">Archive</Text>
+                    <br />
+                  </React.Fragment>
                 </div>
+                <Space
+                  direction="vertical"
+                  size="small"
+                  style={{ rowGap: "0px" }}
+                >
+
+                  <Text
+                    className="footer-links-sections"
+                    onClick={() => redirect("/2024")}
+                  >
+                    2024
+                  </Text>
+                </Space>
+              </div>
             </Space>
-          )} */}
+          )}
         </Col>
 
         {isMobile && (
@@ -236,7 +227,14 @@ const Footer = () => {
                   </Text>
                 ))}
               </Space> */}
-{/* <a href="/2024">View 2024 Archive</a> */}
+              <Space size="middle" direction="vertical">
+                <Text
+                  className="footer-links"
+                  onClick={() => redirect("/2024")}
+                >
+                  View 2024 Archive
+                </Text>
+              </Space>
               <Text className="footer-year">© 2025 Tanweer Festival</Text>
             </Col>
           </>
