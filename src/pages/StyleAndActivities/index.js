@@ -116,14 +116,14 @@ function StyleAndActivities() {
   return (
     <Layout className="activity">
       <Content>
-        <div
+        {/* <div
           className="floating-button"
           onClick={() =>
             window.open("https://experience.tanweerfestival.com/", "_blank")
           }
         >
           get passes NOW
-        </div>
+        </div> */}
         <div className="top_banner">
           <div className="image-container">
             <img
@@ -196,7 +196,7 @@ function StyleAndActivities() {
 
                       <div className="price">{elm.price}</div>
                     </div>
-                    <div
+                    {/* <div
                       className="button"
                       style={{ cursor: "pointer" }}
                       onClick={() =>
@@ -207,7 +207,7 @@ function StyleAndActivities() {
                       }
                     >
                       Book Now
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </SwiperSlide>
@@ -661,7 +661,7 @@ function StyleAndActivities() {
                           {elm.price2_description}
                         </div>
                       </div>
-                      <div
+                      {/* <div
                         className="button"
                         style={{ cursor: "pointer" }}
                         onClick={() =>
@@ -672,7 +672,7 @@ function StyleAndActivities() {
                         }
                       >
                         Book Now
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </SwiperSlide>
@@ -723,7 +723,7 @@ function StyleAndActivities() {
                           </div>
                         </div>
                       </div>
-                      <div
+                      {/* <div
                         className="button"
                         style={{ cursor: "pointer" }}
                         onClick={() =>
@@ -734,7 +734,7 @@ function StyleAndActivities() {
                         }
                       >
                         Book Now
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </Col>
@@ -804,7 +804,7 @@ function StyleAndActivities() {
                       </Tooltip>
                       <div className="price">{elm.price}</div>
                     </div>
-                    {elm.title === "Hotel Holiday International" ? (
+                    {/* {elm.title === "Hotel Holiday International" ? (
                       <div
                         className="button"
                         style={{ cursor: "pointer" }}
@@ -820,7 +820,7 @@ function StyleAndActivities() {
                       >
                         Book Now
                       </div>
-                    )}
+                    )} */}
                   </div>
                 </div>
               </SwiperSlide>

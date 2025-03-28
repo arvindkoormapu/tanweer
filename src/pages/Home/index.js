@@ -166,14 +166,14 @@ const Home = () => {
         </div>
 
         <div className="landing-content">
-          <div
+          {/* <div
             className="floating-button"
             onClick={() =>
               window.open("https://experience.tanweerfestival.com/", "_blank")
             }
           >
             get passes NOW
-          </div>
+          </div> */}
           <Row align="middle" justify="center" style={{ width: "90%" }}>
             <Col span={isMobile ? 24 : 12}>
               <img src={LandingFirst} alt="icon" className="image" />
@@ -238,7 +238,7 @@ const Home = () => {
                     {pages.home.activity.description}
                   </Paragraph>
                   <div className="button-component-wrapper2">
-                    <ButtonComponent
+                    {/* <ButtonComponent
                       style={{ cursor: "pointer" }}
                       bgColor="#731D14"
                       textColor="#FFF5D9"
@@ -249,7 +249,7 @@ const Home = () => {
                         )
                       }
                       text="Book Now"
-                    />
+                    /> */}
                   </div>
                   <Text className="h1">{pages.home.activity.slider.title}</Text>
                 </div>

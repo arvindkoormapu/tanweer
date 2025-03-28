@@ -27,14 +27,14 @@ function PrivacyTerms() {
   return (
     <Layout className="terms">
       <Content>
-        <div
+        {/* <div
           className="floating-button"
           onClick={() =>
             window.open("https://experience.tanweerfestival.com/", "_blank")
           }
         >
           get passes NOW
-        </div>
+        </div> */}
         <Row>
           <Col span={isMobile ? 24 : 6} className="style-mobile">
             <Space

@@ -17,14 +17,14 @@ function Event() {
   return (
     <Layout className="activity">
       <Content>
-        <div
+        {/* <div
           className="floating-button"
           onClick={() =>
             window.open("https://experience.tanweerfestival.com/", "_blank")
           }
         >
           get passes NOW
-        </div>
+        </div> */}
         <div className="top_banner">
           <div className="image-container">
             <img

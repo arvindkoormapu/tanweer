@@ -731,7 +731,7 @@ function ViewProgram() {
               className={`day-list-item ${activeTab === index ? "active" : ""}`}
             >
               <a
-                href={`#day${index + 1}`}
+                href={`view-programs#day${index + 1}`}
                 className="day-link"
                 onClick={() => handleTabClick(index)}
               >

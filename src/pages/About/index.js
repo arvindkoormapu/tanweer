@@ -39,14 +39,14 @@ function About() {
   return (
     <Layout className="about">
       <Content>
-        <div
+        {/* <div
           className="floating-button"
           onClick={() =>
             window.open("https://experience.tanweerfestival.com/", "_blank")
           }
         >
           get passes NOW
-        </div>
+        </div> */}
 
         <div className="main-layout">
           <Row className="intro">
