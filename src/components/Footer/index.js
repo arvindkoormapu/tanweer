@@ -168,7 +168,7 @@ const Footer = () => {
               </div>
             )}
           </Space>
-          {!isMobile && (
+          {/* {!isMobile && (
             <Space
               size="large"
               style={{
@@ -200,7 +200,7 @@ const Footer = () => {
                   </Space>
                 </div>
             </Space>
-          )}
+          )} */}
         </Col>
 
         {isMobile && (

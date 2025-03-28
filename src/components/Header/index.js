@@ -59,7 +59,7 @@ const Header = ({ onMenuClick }) => {
                 src={headerLogo}
                 alt="Header Logo"
                 className="header-logo"
-                onClick={() => redirect("/home")}
+                onClick={() => redirect("/")}
               />
             </div>
           </Col>
