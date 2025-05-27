@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8ec42159.css",
-    "main.js": "/static/js/main.356d8607.js",
+    "main.js": "/static/js/main.00ca91cb.js",
     "static/js/453.f9d837a0.chunk.js": "/static/js/453.f9d837a0.chunk.js",
     "static/media/Tibetan Healing Sounds.mp3": "/static/media/Tibetan Healing Sounds.fb556883a3fdcc2ac84d.mp3",
     "static/media/pass.png": "/static/media/pass.6da5b06615a0d006441f.png",
@@ -84,11 +84,11 @@
     "static/media/arrowR.webp": "/static/media/arrowR.1a21ed772fbd8f6ef3fe.webp",
     "static/media/arrowL.webp": "/static/media/arrowL.c244a7e26f529d66932d.webp",
     "main.8ec42159.css.map": "/static/css/main.8ec42159.css.map",
-    "main.356d8607.js.map": "/static/js/main.356d8607.js.map",
+    "main.00ca91cb.js.map": "/static/js/main.00ca91cb.js.map",
     "453.f9d837a0.chunk.js.map": "/static/js/453.f9d837a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ec42159.css",
-    "static/js/main.356d8607.js"
+    "static/js/main.00ca91cb.js"
   ]
 }

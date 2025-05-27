@@ -129,7 +129,7 @@ const Home = () => {
           </div>
         </div>
 
-        <Event events={pages.home.events}/>
+        {/* <Event events={pages.home.events}/> */}
 
         {/* <div
           className="landing-rummy-container"
